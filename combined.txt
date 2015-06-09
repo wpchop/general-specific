@@ -1,0 +1,894 @@
+0	d064j_AP900131-0200	12	"Thousands of queue-hardened Soviets on Wednesday cheerfully lined up to get a taste of ``gamburgers,'' ``chizburgers'' and ``Filay-o-feesh'' sandwiches as McDonald's opened in the land of Lenin for the first time."	-1	0.317371	0.682629	spec	5	0	5	0
+1	d064j_AP900131-0200	13	"The world's largest version of the landmark American fast-food chain rang up 30,000 meals on 27 cash registers, breaking the opening-day record for McDonald's worldwide, officials said."	-1	0.167303	0.832697	spec	5	0	5	0
+2	d064j_AP900131-0200	14	"The Soviets, bundled in fur coats and hats, seemed unfazed, lining up before dawn outside the 700-seat restaurant, the first of 20 planned across the Soviet Union."	-1	0.281015	0.718985	spec	5	0	5	0
+3	d064j_AP900131-0200	15	"The crush of customers was so intense the company stayed open until midnight, two hours later than planned."	1	0.727263	0.272737	gen	3	3	2	0
+4	d064j_AP900131-0200	16	"``I only waited an hour and I think they served thousands before me,'' said a happy middle-aged woman who works at an aluminum plant."	-1	0.437878	0.562122	spec	2	2	2	0
+5	d064j_AP900131-0200	17	"``And it was only 10 rubles for all this,'' she said."	1	0.999999	6.83314e-07	gen	4	4	1	0
+6	d064j_AP900131-0200	18	"``I'm taking it back for the girls at the factory to try''."	1	0.599496	0.400504	gen	5	5	0	0
+7	d064j_AP900131-0200	19	"Big Macs were priced at 3.75 rubles and double cheeseburgers at 3 rubles _ about two hours' pay for a starting McDonald's staffer or the average Soviet, but much cheaper than other private restaurants that have sprung up recently."	-1	0.119003	0.880997	spec	5	0	5	0
+8	d064j_AP900131-0200	20	"The official exchange rate is $1.59 per ruble but foreign visitors can buy rubles for 16 cents each, about what the currency is worth on the black market."	-1	0.299724	0.700276	spec	5	0	5	0
+9	d064j_AP900131-0200	21	"Half the day's sales were donated to the Soviet Children's Fund, which provides medical care and assistance to orphans and disadvantaged children, Gary Reinblatt, senior vice president of McDonald's Canada, said from Toronto."	-1	0.162246	0.837754	spec	5	0	5	0
+10	d064j_AP900131-0200	22	"The restaurant, built by the company in a joint venture with the city of Moscow that began 14 years ago, brought to 52 the number of countries where McDonald's operates."	-1	0.210043	0.789957	spec	5	0	5	0
+11	d064j_AP900131-0200	23	"The previous opening-day record for sales was in Budapest, company officials said."	1	0.641334	0.358666	gen	4	4	1	0
+12	d064j_AP900131-0200	24	"Besides its restaurants in the United States, the leading number of McDonald's are in Canada and Japan, the officials said."	1	0.598381	0.401619	spec	4	1	4	0
+13	d064j_AP900131-0200	25	"Soviets got a first-hand look at such alien concepts as efficiency and fast, friendly service."	1	0.708511	0.291489	gen	3	3	2	0
+14	d064j_AP900131-0200	26	"Normally dour citizens broke into grins as they caught the infectious cheerful mood from youthful Soviet staffers hired for their ability to smile and work hard."	1	0.579624	0.420376	spec	4	1	4	0
+15	d064j_AP900131-0200	27	"Accordions played folk songs and women in traditional costumes danced with cartoon characters, including Mickey Mouse and Baba Yaga, a witch of Russian fairy tales."	-1	0.451577	0.548423	spec	5	0	5	0
+16	d064j_AP900131-0200	28	"One Muscovite, accustomed to clerks who snarl if they say anything at all, asked for a straw and was startled when a smiling young Soviet woman found him one and popped it straight into his drink."	-1	0.165187	0.834813	spec	3	1	3	1
+17	d064j_AP900131-0200	29	"For most customers, it was their first experience with a hamburger."	1	0.711805	0.288195	spec	3	2	3	0
+18	d064j_AP900131-0200	30	"Sandwiches were served in the familiar bag marked with the golden arches, but were packed in wrappers bearing Cyrillic letters, approximating ``gamburger''."	1	0.547377	0.452623	spec	4	1	4	0
+19	d064j_AP900131-0200	31	"They tried them one-handed."	1	0.770281	0.229719	gen	4	4	1	0
+20	d064j_AP900131-0200	32	"They picked their sandwiches apart to examine the contents."	1	0.687209	0.312791	gen	5	5	0	0
+21	d064j_AP900131-0200	33	"One young woman finally squashed her ``Beeg Mak'' to fit her lips around it."	-1	0.300346	0.699654	gen	3	3	2	0
+22	d064j_AP900131-0200	34	"``It tasted great''! a 14-year-old boy said."	1	0.775344	0.224656	gen	3	3	2	0
+23	d064j_AP900131-0200	35	"``It's a lot different from a stolovaya,'' he continued with a smile, referring to the much cheaper but run-down dirty cafeterias that slop rice and fat or boiled sausage."	1	0.560796	0.439204	gen	3	3	2	0
+24	d064j_AP900131-0200	36	"Under the sign of the golden arches, accented by the Soviet hammer-and-sickle flag, hundreds lined up for the long-awaited grand opening at 10 a.m. on Pushkin Square, reaching out excitedly for McDonald's flags and pins as the hamburger chain's army fulfilled the Soviet penchant for souvenirs with Western logos."	-1	0.0668868	0.933113	spec	5	0	5	0
+25	d064j_AP900131-0200	37	"Publicity-conscious managers had the staff shout ``Good morning, America''! in English and Russian, for an American TV network."	-1	0.294559	0.705441	spec	3	1	3	1
+26	d064j_AP900131-0200	38	"McDonald's of Canada Chairman George Cohon, the man behind the deal, said many people were buying multiple orders and the restaurant served 15,000 to 20,000 people in just the first five hours of operation."	-1	0.0658214	0.934179	spec	5	0	5	0
+27	d064j_AP900131-0200	39	"The restaurant limited purchases to 10 Big Macs per customer in hopes of preventing burger-scalping."	-1	0.411714	0.588286	spec	3	2	3	0
+28	d064j_AP900131-0200	40	"McDonald's built its own factory, including bakery, dairy, meat-processing plant and even potato storage yard, to provide its own guaranteed supplies in a country where up to 25 percent of the harvest rots en route to the consumer."	-1	0.0776546	0.922345	spec	4	1	4	0
+29	d064j_AP900131-0200	41	"One McDonald's associate said the company wound up importing wooden crates from Finland for storing potatoes because ``when they went to build crates, they found there was no wood, and no nails."	-1	0.396632	0.603368	spec	5	0	5	0
+30	d064j_AP900131-0200	42	"They found you need a permit to buy nails.''"	1	0.825379	0.174621	gen	3	3	2	0
+31	d072f_AP901019-0072	10	"For the New York Philharmonic, it was supposed to be a night of Beethoven and Shostakovich."	-1	0.412992	0.587008	gen	3	3	2	0
+32	d072f_AP901019-0072	11	"The fates made it a night of Leonard Bernstein."	1	0.598941	0.401059	gen	3	3	1	1
+33	d072f_AP901019-0072	12	"The official catalog of his works says Bernstein led 74 orchestras."	-1	0.42609	0.57391	spec	3	2	3	0
+34	d072f_AP901019-0072	13	"But this was HIS orchestra, and the musicians came to pay tribute to THEIR laureate conductor, who led them through 1,244 concerts during his 47-year association with the Philharmonic."	-1	0.210973	0.789027	spec	5	0	5	0
+35	d072f_AP901019-0072	14	"They let his music do the talking."	1	0.739188	0.260812	gen	5	5	0	0
+36	d072f_AP901019-0072	15	"``Tonight's concert is not an evening in which we want to dwell on the passing of a giant, but rather what he has left us,'' guest conductor Leonard Slatkin told the audience at Avery Fisher Hall on Thursday night."	-1	0.101441	0.898559	gen	3	3	2	0
+37	d072f_AP901019-0072	16	"So four nights after Bernstein's death at age 72, Beethoven's ``Violin Concerto'' became Bernstein's ``Serenade for Solo Violin, String Orchestra, Harp and Percussion'' (1954); Shostakovich's ``Symphony No. 4'' became Bernstein's ``Symphony No. 1 (Jeremiah),'' written in 1942."	-1	0.000515034	0.999485	spec	5	0	5	0
+38	d072f_AP901019-0072	17	"Also added were his ``Chichester Psalms'' (1965) and his overture to ``Candide'' (1956)."	-1	0.186728	0.813272	spec	4	1	4	0
+39	d072f_AP901019-0072	18	"The substitute Bernstein program was being repeated Friday night, Saturday and Tuesday."	-1	0.360024	0.639976	spec	4	1	4	0
+40	d072f_AP901019-0072	19	"It was an extraordinary concert."	1	0.808557	0.191443	gen	5	5	0	0
+41	d072f_AP901019-0072	20	"There weren't many smiling faces among the audience or musicians."	1	0.75459	0.24541	gen	5	5	0	0
+42	d072f_AP901019-0072	21	"Slatkin's brief introductory comments, followed by the whimsical ``Candide,'' broke some of the tension."	1	0.58053	0.41947	gen	4	4	1	0
+43	d072f_AP901019-0072	22	"Then came the eclectic ``Serenade,'' which Bernstein's program notes says is supposed to be based on Plato's ``Symposium''."	-1	0.452863	0.547137	spec	4	1	4	0
+44	d072f_AP901019-0072	23	"It begins with a lyrical praise of the Eros, the god of love."	1	0.685891	0.314109	spec	4	1	4	0
+45	d072f_AP901019-0072	24	"The piece is sometimes jocular, sometimes melancholy, sometimes assaulting and sometimes hedonistic."	1	0.877847	0.122153	gen	5	5	0	0
+46	d072f_AP901019-0072	25	"It ends in drunken revelry, an intrusion of jazz - as if Bernstein was looking down from heaven and telling the audience, ``It's O.K. to smile tonight''."	-1	0.282195	0.717805	gen	3	3	2	0
+47	d072f_AP901019-0072	26	"The soloist - concertmaster Glenn Dicterow - played with much agility, especially through the difficult double stops and especially considering the lack of preparation time."	1	0.554945	0.445055	spec	5	0	5	0
+48	d072f_AP901019-0072	27	"The mourning returned after intermission, but not without optimism."	1	0.80585	0.19415	gen	5	5	0	0
+49	d072f_AP901019-0072	28	"``Jeremiah'' begins with suspenseful strings, followed by a cantorial French horn, a melodic return to the strings and then a prophetic blaring of brass."	-1	0.470813	0.529187	spec	4	1	4	0
+50	d072f_AP901019-0072	29	"The second movement continues the point-counterpoint of brass versus strings (Jeremiah versus the corrupt priests, with Nebuchadnezzar looming on the horizon)."	-1	0.40025	0.59975	spec	5	0	5	0
+51	d072f_AP901019-0072	30	"In the third movement, Jerusalem has fallen to the Babylonian king."	1	0.52339	0.47661	spec	4	1	4	0
+52	d072f_AP901019-0072	31	"Judea is exiled."	1	0.758687	0.241313	spec	3	2	3	0
+53	d072f_AP901019-0072	32	"Jeremiah weeps."	1	0.767087	0.232913	gen	4	4	0	1
+54	d072f_AP901019-0072	33	"``How she sits desolate - ``The city once so full of people - ``She is become as a widow''."	1	0.716664	0.283336	gen	4	4	1	0
+55	d072f_AP901019-0072	34	"During her chanting of the prophet's ``Lamentations,'' mezzo-soprano Wendy White had to wipe a tear from her eye."	-1	0.337479	0.662521	spec	3	1	3	1
+56	d072f_AP901019-0072	35	"S did members of the audience."	1	0.688488	0.311512	gen	3	3	2	0
+57	d072f_AP901019-0072	36	"Last on the program was another Hebraic elegy, ``Chichester Psalms''."	-1	0.33087	0.66913	spec	5	0	5	0
+58	d072f_AP901019-0072	37	"The New York Choral Artists and a boy soloist joined the orchestra."	-1	0.342815	0.657185	gen	3	3	2	0
+59	d072f_AP901019-0072	38	"Two harpists dominated the center of the crowded stage."	-1	0.498136	0.501864	gen	4	4	1	0
+60	d072f_AP901019-0072	39	"``Awake, psaltery and harp''! the choir begins in Hebrew."	-1	0.193763	0.806237	gen	4	4	1	0
+61	d072f_AP901019-0072	40	"``I will rouse the dawn''."	1	0.945677	0.0543231	gen	5	5	0	0
+62	d072f_AP901019-0072	41	"In the second movement an angelic 8th-grader, Evan Weber, sings King David's 23rd Psalm, ``The Lord is my shepherd, I shall not want''."	-1	0.153027	0.846973	spec	5	0	5	0
+63	d072f_AP901019-0072	42	"After he finishes, the men's chorus bellows: ``Why do the nations rage''?"	1	0.632048	0.367952	gen	3	3	2	0
+64	d072f_AP901019-0072	43	"The piece, however, ends in a Mahlerian motif and chorus declaring a message Bernstein had sought for society: ``Behold how good, ``And how pleasant it is, ``For brethren to dwell ``Together in unity''."	-1	0.37898	0.62102	spec	3	2	3	0
+65	d072f_AP901019-0072	44	"To emphasize the point after the final note, Slatkin suspended his hands for several long moments of silence."	-1	0.461591	0.538409	spec	3	2	3	0
+66	d072f_AP901019-0072	45	"Then came the cascade of applause."	1	0.794354	0.205646	gen	5	5	0	0
+67	d072f_AP901019-0072	46	"For Leonard Bernstein ."	1	0.744802	0.255198	gen	3	3	1	1
+68	d085d_AP890922-0007	13	"Hurricane Hugo struck South Carolina with renewed fury Thursday after thousands of coastal residents in southeastern states grabbed what they could carry and fled inland on jammed highways."	-1	0.446055	0.553945	spec	4	0	4	1
+69	d085d_AP890922-0007	14	"``This is a disaster staring us right in the eye,'' Mayor Joseph P. Riley Jr. said from his City Hall command post in Charleston, where the hurricane downed power lines, snapped trees and caused utility transformers to explode."	-1	0.129002	0.870998	spec	5	0	5	0
+70	d085d_AP890922-0007	15	"``All we can do now is pray and hope all the precautions we have taken have been sufficient,'' Riley said as Hugo's eye bore in on the city."	-1	0.443502	0.556498	spec	3	2	3	0
+71	d085d_AP890922-0007	16	"``I just hope and pray we can get through this without any loss of life''."	1	0.823179	0.176821	gen	5	5	0	0
+72	d085d_AP890922-0007	17	"By midnight, 119 mph winds were reported in Charleston."	-1	0.148759	0.851241	spec	5	0	5	0
+73	d085d_AP890922-0007	18	"The roof cracked at City Hall, a 188-year-old brick building that has withstood several hurricanes, and torrents of water poured into the paneled council chamber."	-1	0.265938	0.734062	spec	5	0	5	0
+74	d085d_AP890922-0007	19	"Phone and electric service to the command post was knocked out."	1	0.614422	0.385578	spec	3	2	3	0
+75	d085d_AP890922-0007	20	"Hurricane-force winds first hit the coast by 9:15 p.m. EDT, and about three hours later the eye of the storm passed over the Isle of Palms just east of Charleston, said Bob Sheets, director of the National Hurricane Center in Coral Gables, Fla."	-1	0.0884973	0.911503	spec	5	0	5	0
+76	d085d_AP890922-0007	21	"The eye was about 10 miles across and top winds were still at 135 mph. Hugo was expected to turn gradually to the north, causing severe flooding as it moved up the East Coast."	-1	0.14336	0.85664	spec	5	0	5	0
+77	d085d_AP890922-0007	22	"The storm posed a 19 percent chance of hitting New York City and a 16 percent chance of hitting Boston before Sunday night, the hurricane center said."	-1	0.0715843	0.928416	spec	5	0	5	0
+78	d085d_AP890922-0007	23	"As Hugo neared the coast, roads from Hilton Head to Myrtle Beach, 200 miles north, were nearly empty, as were the boarded-up resort towns themselves."	-1	0.289513	0.710487	spec	5	0	5	0
+79	d085d_AP890922-0007	24	"Power lines and trees were downed in some spots and water flooded roads."	1	0.599532	0.400468	gen	4	4	1	0
+80	d085d_AP890922-0007	25	"Stop lights and neon lights were knocked out in Myrtle Beach."	-1	0.41438	0.58562	gen	3	3	2	0
+81	d085d_AP890922-0007	26	"``One eyewitness said `It's like a light show,''' said Amy Garrison, a reporter at WKZQ AM-FM in Myrtle Beach."	-1	0.129962	0.870038	gen	3	3	1	1
+82	d085d_AP890922-0007	27	"In Charleston, the hurricane littered streets with tin roofs, palmetto fronds and chunks of bark."	-1	0.3919	0.6081	spec	3	2	3	0
+83	d085d_AP890922-0007	28	"Businesses were closed and classes at public schools and universities canceled."	1	0.74982	0.25018	gen	3	3	2	0
+84	d085d_AP890922-0007	29	"Riley ordered residents of one-story homes to evacuate."	1	0.539694	0.460306	spec	3	2	3	0
+85	d085d_AP890922-0007	30	"Hospitals stockpiled supplies, discharging any patients well enough to go and moving others to hospitals inland to make room for emergency patients, officials said."	1	0.677681	0.322319	gen	3	3	1	1
+86	d085d_AP890922-0007	31	"About 12,000 people had checked into 83 shelters across the state as of Thursday evening, and more were expected, said Bennish Brown, a spokesman for the Emergency Operations Center in Columbia, 220 miles northwest of here."	-1	0.138977	0.861023	spec	5	0	5	0
+87	d085d_AP890922-0007	32	"``We tried to close the doors but people are sneaking in side doors,'' said Elaine Skelton, a registered nurse working at the Conway High School shelter near Myrtle Beach."	-1	0.235708	0.764292	spec	4	1	4	0
+88	d085d_AP890922-0007	33	"``We tried to post guards at the doors, but people were still coming in''."	1	0.646581	0.353419	gen	4	4	1	0
+89	d085d_AP890922-0007	34	"American Red Cross relief efforts were buckling under the number of evacuees, said Brian Ruberry, a spokesman in Savannah, Ga., who appealed for help."	-1	0.318688	0.681312	gen	3	3	2	0
+90	d085d_AP890922-0007	35	"``Right now the Red Cross is sheltering tens of thousands of people all along the Eastern seaboard."	1	0.729302	0.270698	spec	4	1	4	0
+91	d085d_AP890922-0007	36	"This of course is at the same time that we're sheltering 25,000 people on Puerto Rico and the other Caribbean islands."	-1	0.183315	0.816685	spec	4	1	4	0
+92	d085d_AP890922-0007	37	"``We're beginning to feel the squeeze."	1	0.504768	0.495232	gen	5	5	0	0
+93	d085d_AP890922-0007	38	"Our resources are very tight."	1	0.781577	0.218423	gen	5	5	0	0
+94	d085d_AP890922-0007	39	"Right now Hugo is shaping up to be one of our biggest relief operations of the decade''."	1	0.573249	0.426751	gen	4	4	1	0
+95	d085d_AP890922-0007	40	"At midnight, the center of Hugo was near latitude 32.7 degrees north and longitude 79.9 degrees west, forecasters said."	-1	0.184805	0.815195	spec	5	0	5	0
+96	d085d_AP890922-0007	41	"The hurricane's speed had picked up to 22 mph from 20 mph earlier."	-1	0.189372	0.810628	spec	3	2	3	0
+97	d085d_AP890922-0007	42	"Near its center, Hugo's muscle reached winds of 135 mph, up from 125 mph earlier in the day and 105 mph the day before."	-1	0.117162	0.882838	spec	5	0	5	0
+98	d085d_AP890922-0007	43	"North and South Carolina can expect tornadoes linked to Hugo for the next two days, according to the hurricane center."	-1	0.246785	0.753215	spec	3	2	3	0
+99	d085d_AP890922-0007	44	"The coastal area could expect hurricane force winds for 10 to 12 hours once the eye comes ashore, officials said."	-1	0.312565	0.687435	spec	3	2	3	0
+100	d085d_AP890922-0007	45	"A hurricane warning was in effect between Fernandina Beach, Fla., and Oregon Inlet, N.C."	-1	0.164458	0.835542	spec	4	1	4	0
+101	d085d_AP890922-0007	46	"By late afternoon, Hugo was upgraded to a category 4 hurricane on the Saffir-Simpson scale of strength, the second mightiest category, which indicated it could cause extreme damage."	-1	0.0950939	0.904906	spec	5	0	5	0
+102	d085d_AP890922-0007	47	"``It strengthened more than we thought it would,'' Sheets said, adding that Hugo would cause severe flooding as it moved up the Appalachians."	-1	0.312043	0.687957	spec	5	0	5	0
+103	d085d_AP890922-0007	48	"The timing of the landfall was critical because of the storm's tidal surge, a dome of water 10 to 15 feet high that would feed a normal 5-foot high tide that peaks after 2 a.m."	-1	0.102503	0.897497	spec	5	0	5	0
+104	d085d_AP890922-0007	49	"``On top of that will be waves,'' Sheets said earlier, and in many places on barrier islands ``the buildings will be swept clean off.''"	1	0.752487	0.247513	gen	4	4	1	0
+105	d107g_AP880713-0175	7	"Here is a state-by-state summary of drought developments Wednesday:"	1	0.666019	0.333981	spec	2	1	2	2
+106	d107g_AP880713-0175	9	"The Alabama National Guard is still hauling up to 25,000 gallons of water a day to 10 communities across the state despite recent rains."	-1	0.22618	0.77382	spec	5	0	5	0
+107	d107g_AP880713-0175	10	"At the height of the drought last month, the Guard was hauling water to 12 locations."	-1	0.473823	0.526177	gen	3	3	2	0
+108	d107g_AP880713-0175	11	"The Guard's water-hauling program has been in continuous operation since last July in west-central Alabama because of a low water table ."	-1	0.382014	0.617986	spec	5	0	5	0
+109	d107g_AP880713-0175	13	"In an effort to help Georgia farmers locate hay, the state Department of Agriculture announced it will start compiling a list of sources."	-1	0.37284	0.62716	spec	3	2	3	0
+110	d107g_AP880713-0175	14	"Commissioner Tommy Irvin urged those with a surplus for sale to contact the department."	-1	0.330456	0.669544	gen	3	3	2	0
+111	d107g_AP880713-0175	15	"He said information will be compiled and updated regularly ."	1	0.761239	0.238761	gen	5	5	0	0
+112	d107g_AP880713-0175	17	"State Treasurer Jerry Cosentino announced a program to provide drought-stricken farmers with access to commercial loans with below-market interest rates."	-1	0.329053	0.670947	spec	4	1	4	0
+113	d107g_AP880713-0175	18	"The treasurer's office will commit $50 million to banks at a lower-than-normal interest yield and in turn those banks will offer farmers loans with rates as low as 10 percent."	-1	0.234133	0.765867	spec	5	0	5	0
+114	d107g_AP880713-0175	19	"``I know what the farmers first need is rain but that is out of our hands right now,'' Cosentino said."	1	0.756186	0.243814	spec	3	1	3	1
+115	d107g_AP880713-0175	20	"``The next best thing they can get ..."	1	0.84193	0.15807	gen	5	5	0	0
+116	d107g_AP880713-0175	21	"would be additional funds to carry them over until next year.''"	1	0.55889	0.44111	gen	5	5	0	0
+117	d107g_AP880713-0175	23	"A group of Indiana farmers sued a New Jersey insurance company, saying the company acted in bad faith when it reneged on $2.5 million in drought insurance."	-1	0.180425	0.819575	spec	5	0	5	0
+118	d107g_AP880713-0175	24	"The lawsuit seeks an ``undeterminable'' amount of damages from Pio-Gard Agency of Ohio Inc. and Federal Insurance Co., a subsidiary of the Chubb Group Insurance Cos. of Warren, N.J ."	-1	0.0266501	0.97335	spec	4	1	4	0
+119	d107g_AP880713-0175	26	"Forecasters say Iowa's weather is returning to the hot, dry drought pattern which settled over the state for much of June ."	1	0.569328	0.430672	spec	3	2	3	0
+120	d107g_AP880713-0175	28	"The first emergency shipment of Oregon hay to help drought-stricken Kentucky farmers arrived, but logistical problems forced agriculture officials to delay its distribution until next week."	-1	0.426408	0.573592	spec	4	1	4	0
+121	d107g_AP880713-0175	29	"``It's a nightmare trying to find a fair way to do this,'' said Roger Nesbitt, a spokesman for the Kentucky Department of Agriculture."	-1	0.201784	0.798216	spec	3	2	3	0
+122	d107g_AP880713-0175	30	"Nesbitt said Wednesday's 20-ton shipment, flown free from Portland, Ore., by United Parcel Service, will be sold to farmers on Monday ."	-1	0.285346	0.714654	spec	5	0	5	0
+123	d107g_AP880713-0175	32	"Heavy rain fell on some of the driest areas of central and east-central Minnesota, but it was ``way, way below what we should have, as far as precipitation goes,'' a National Weather Service hydrologist said."	-1	0.27671	0.72329	spec	4	1	4	0
+124	d107g_AP880713-0175	33	"``We need ..."	1	0.965225	0.034775	gen	3	3	1	1
+125	d107g_AP880713-0175	34	"a widespread distribution over a long period of time, say maybe 10 inches of rainfall to get us back to what we normally should be,'' Gary McDevitt said."	-1	0.384639	0.615361	spec	3	2	3	0
+126	d107g_AP880713-0175	35	"It was the heaviest rainfall for the east-central part of the state since April 26, when the area got about a half-inch of rain ."	-1	0.191312	0.808688	spec	5	0	5	0
+127	d107g_AP880713-0175	37	"Weather experts say Mississippi could see above normal rainfall in the coming week."	1	0.544761	0.455239	spec	3	2	3	0
+128	d107g_AP880713-0175	38	"Rainfall during the week ending Wednesday averaged 1 inch in some areas, with some extreme northern counties receiving greater amounts."	-1	0.447798	0.552202	spec	3	2	3	0
+129	d107g_AP880713-0175	39	"But the weather service said all Mississippi farm communities still had only 30 percent to 50 percent of normal moisture ."	-1	0.332043	0.667957	spec	3	2	3	0
+130	d107g_AP880713-0175	41	"Road builders in the Kansas City area say the effects of dry weather in the Midwest this year are not all bad."	1	0.586859	0.413141	gen	3	3	2	0
+131	d107g_AP880713-0175	42	"Engineers say several highway projects in the area will be open to traffic at least a month earlier than expected because of fewer interruptions caused by rain and wet weather. __"	1	0.686459	0.313541	gen	3	3	2	0
+132	d107g_AP880713-0175	44	"As many as 20 fires, sparked by lightning from thunderstorms, have blackened about 1,500 acres in the Custer National Forest."	-1	0.219376	0.780624	spec	4	1	4	0
+133	d107g_AP880713-0175	45	"The fires are being fought by from 150 to 200 firefighters."	1	0.637969	0.362031	gen	4	4	0	1
+134	d107g_AP880713-0175	46	"A lightning-caused fire in the Bob Marshall Wilderness Area of northwest Montana was being allowed to burn naturally, officials said ."	1	0.511414	0.488586	spec	4	1	4	0
+135	d107g_AP880713-0175	48	"State Agriculture Director Roy Frederick said Nebraska farmers probably will have better crops than are expected nationwide and may benefit from higher prices."	-1	0.493128	0.506872	spec	3	2	3	0
+136	d107g_AP880713-0175	49	"Nebraska's outlook for the corn crop is rosier than national predictions because 75 percent of the corn comes from irrigated acres and Nebraska has received more rain than some other states, he said ."	-1	0.314576	0.685424	spec	5	0	5	0
+137	d107g_AP880713-0175	51	"Gov. George Sinner has asked federal officials to declare all 53 North Dakota counties disaster areas because of the drought."	-1	0.285185	0.714815	spec	5	0	5	0
+138	d107g_AP880713-0175	52	"Sinner says the drought has wiped out small grain crops and is beginning to take a toll on row crops."	-1	0.441495	0.558505	gen	3	3	1	1
+139	d107g_AP880713-0175	53	"The State Agricultural Statistics Service said North Dakota farmers will abandon 31 percent of their spring wheat this year and harvest the smallest crop in 19 years because of the drought."	-1	0.109306	0.890694	spec	5	0	5	0
+140	d107g_AP880713-0175	54	"That compares to a normal abandonment of about 5 percent."	1	0.645904	0.354096	gen	4	4	1	0
+141	d107g_AP880713-0175	55	"Abandonment has not been so high in the state since the 1930s ."	1	0.835929	0.164071	gen	3	3	2	0
+142	d107g_AP880713-0175	57	"Lt."	1	0.782868	0.217132	gen	3	3	0	2
+143	d107g_AP880713-0175	58	"Gov. Paul Leonard, who heads a state drought task force, said he would not advocate statewide mandatory water restrictions but said local governments should have the authority to impose restrictions where necessary."	-1	0.313659	0.686341	spec	5	0	5	0
+144	d107g_AP880713-0175	59	"In central Ohio, farmers awaited what will be the largest haylift of the season _ 50 truckloads of hay from the South scheduled to arrive Thursday night in Columbus ."	-1	0.126577	0.873423	spec	5	0	5	0
+145	d107g_AP880713-0175	61	"Thunderstorms hit Brown County with heavy rain and hail that damaged drought-stricken crops."	-1	0.471193	0.528807	spec	3	2	3	0
+146	d107g_AP880713-0175	62	"Rain was heavy north and east of Aberdeen and spotty elsewhere."	1	0.710149	0.289851	spec	3	2	3	0
+147	d107g_AP880713-0175	63	"Stanley and Thelma Dennert, who live three miles west of Houghton, reported 3.75 inches of rain within an hour."	-1	0.164728	0.835272	spec	4	1	4	0
+148	d107g_AP880713-0175	64	"``It was hard with a little bit of hail."	1	0.86788	0.13212	gen	4	4	1	0
+149	d107g_AP880713-0175	65	"It really came down in sheets,'' said Mrs. Dennert."	1	0.713127	0.286873	gen	3	3	2	0
+150	d107g_AP880713-0175	66	"Authorities said no tornado sightings were confirmed, but about a dozen funnel clouds were reported ."	1	0.643281	0.356719	spec	4	1	4	0
+151	d107g_AP880713-0175	68	"The drought-plagued Mississippi River measured seventh-tenths of a foot higher than expected at Memphis because of rainfall throughout West Tennessee."	-1	0.342434	0.657566	spec	4	0	4	1
+152	d107g_AP880713-0175	69	"The Mississippi was still 21 feet lower than normal for this time of year, however, and the Coast Guard said the slight rise had no effect on commercial traffic on the river ."	-1	0.475303	0.524697	spec	4	1	4	0
+153	d107g_AP880713-0175	71	"The drought has dried up summer jobs at the Stokley USA cannery in Merrill."	-1	0.355792	0.644208	spec	4	1	4	0
+154	d107g_AP880713-0175	72	"During most summers, the plant provides three months' employment for about 300 workers on three shifts, but this year there are only 225 seasonal employees on two shifts, said Vern Warren, plant manager."	-1	0.0869008	0.913099	spec	5	0	5	0
+155	d107g_AP880713-0175	73	"``It's been on and off so far."	1	0.735549	0.264451	gen	4	4	0	1
+156	d107g_AP880713-0175	74	"The drought conditions have made it a little difficult for us,'' Warren said ."	1	0.847393	0.152607	gen	5	5	0	0
+157	d067f_FT923-5589	6	"WHILE Hurricane Andrew was wreaking havoc across large parts of southern Florida and Louisiana this week, a grade two dollar crisis (on a one-to-four scale, four being most severe) was blowing itself out at the end of a tumultuous few days for US and world financial markets."	-1	0.0658049	0.934195	spec	4	1	4	0
+158	d067f_FT923-5589	7	"On Wall Street, most of the damage from the currency storm was inflicted a week ago Friday and on the following Monday, when bond yields jumped sharply and the Dow Jones industrial average plunged by more than 75 points."	-1	0.249695	0.750305	spec	5	0	5	0
+159	d067f_FT923-5589	8	"The flimsy walls erected hastily by the Federal Reserve and other big central banks to protect the vulnerable dollar from a tidal wave of selling on foreign exchange markets failed to hold; and as the sellers poured through the breached barricades, the currency dropped to DM1.40."	-1	0.102746	0.897254	spec	4	1	4	0
+160	d067f_FT923-5589	9	"This was its lowest-ever point against the D-mark."	1	0.692007	0.307993	gen	3	3	2	0
+161	d067f_FT923-5589	10	"The conditions necessary for a dollar crisis had been building up in currency markets for some time."	1	0.727498	0.272502	gen	5	5	0	0
+162	d067f_FT923-5589	11	"Interest rate differentials between US and Germany widened over the summer as the Fed eased, and the Bundesbank tightened, their respective monetary policies."	-1	0.190122	0.809878	spec	5	0	5	0
+163	d067f_FT923-5589	12	"The failure of the US economy to climb out of recession with any vigour was also making overseas investors increasingly unhappy about holding the dollar."	1	0.596626	0.403374	gen	3	3	2	0
+164	d067f_FT923-5589	13	"So, too, was the political hole President Bush had dug for himself in a re-election battle that only a year ago was supposed to be a shoo-in for the incumbent."	1	0.500804	0.499196	spec	3	2	3	0
+165	d067f_FT923-5589	14	"Moreover, the fact that almost every central bank worth its salt was in the markets trying to prop up the dollar served only to convince foreign exchange dealers that the currency was heading in one direction - down."	-1	0.408705	0.591295	gen	3	3	2	0
+166	d067f_FT923-5589	15	"While there were plenty of reasons for the dealers to sell the dollar, the logic for such a strongly negative reaction from bond and stock markets was less obviously compelling."	1	0.796487	0.203513	gen	4	4	1	0
+167	d067f_FT923-5589	16	"There are two standard explanations why a weak dollar prompts bond prices to fall."	-1	0.464428	0.535572	gen	5	5	0	0
+168	d067f_FT923-5589	17	"The first is that it raises import prices and, as a result, adds to inflationary pressures."	1	0.614412	0.385588	gen	5	5	0	0
+169	d067f_FT923-5589	18	"The second is that it makes it hard for the Fed to engineer another cut in interest rates to stimulate the flagging recovery, and raises the possibility that rates may actually have to go up to protect the currency."	-1	0.233342	0.766658	gen	3	3	2	0
+170	d067f_FT923-5589	19	"The first explanation is not particularly convincing - imports account for not much more than 10 per cent of US gross domestic product, so higher import prices do not greatly effect the overall price level, which is now around 3 per cent and heading lower."	1	0.652407	0.347593	spec	5	0	5	0
+171	d067f_FT923-5589	20	"The second explanation carries more weight."	1	0.664576	0.335424	gen	4	4	1	0
+172	d067f_FT923-5589	21	"Although there is not much chance, given the present economic and political climate, that the Fed will raise rates to help the dollar, there is little doubt that the currency's weakness makes it extremely difficult for the Fed to ease monetary policy again."	-1	0.445825	0.554175	gen	3	3	2	0
+173	d067f_FT923-5589	22	"The fear that the Fed may be done with interest rate cuts for the present economic cycle was also behind the selling in equity markets."	1	0.614025	0.385975	gen	3	3	1	1
+174	d067f_FT923-5589	23	"But investors in stocks were equally, if not more, troubled by the rise in bond yields."	1	0.82828	0.17172	gen	5	5	0	0
+175	d067f_FT923-5589	24	"Just over a week ago, the yield on the benchmark 30-year bond, which has remained stubbornly high all year despite the poor state of the economy, looked as if it might drop below 7.3 per cent."	-1	0.366199	0.633801	spec	2	2	2	1
+176	d067f_FT923-5589	25	"The dollar put paid to those hopes and, by the middle of this week, it was approaching 7.45 per cent, putting an upward pressure on the all-important mortgage rate for home-buyers."	-1	0.256005	0.743995	spec	5	0	5	0
+177	d067f_FT923-5589	26	"The dollar was not the only story in financial markets this week, and the devastating effect of Hurricane Andrew produced a typically hard-eyed, although nonetheless logical, reaction from Wall Street."	1	0.564473	0.435527	gen	3	3	2	0
+178	d067f_FT923-5589	27	"The stocks of those insurance companies with the greatest exposure in southern Florida, the area hit worst by the hurricane, all took a tumble."	1	0.623957	0.376043	gen	3	3	2	0
+179	d067f_FT923-5589	28	"But the relatively modest losses in Geico, Travelers and Progressive suggested that the market believed the insurers were reserved or reinsured adequately enough to cover hurricane-related claims."	-1	0.454383	0.545617	spec	4	1	4	0
+180	d067f_FT923-5589	29	"The flip side of the hurricane's coin was a strong showing from the stocks of home construction companies expected to benefit from demand for rebuilding damaged or destroyed homes."	-1	0.437465	0.562535	gen	3	3	2	0
+181	d067f_FT923-5589	30	"Since there are an estimated 250,000 people left homeless by the storm, there is a lot of work to be done."	-1	0.392234	0.607766	spec	4	1	4	0
+182	d067f_FT923-5589	31	"The biggest gains among construction stocks this week were posted by Lennar, Oakwood Homes, Engle Homes and Fleetwood, the largest maker of pre-manufactured homes in the US ."	-1	0.336233	0.663767	spec	5	0	5	0
+183	d083a_AP891116-0035	12	"A tornado slammed into a shopping district, a residential area and a school Wednesday, killing at least 15 people, injuring more than 300 and trapping people in cars and homes, authorities said."	-1	0.246514	0.753486	spec	5	0	5	0
+184	d083a_AP891116-0035	13	"``It's total destruction where the tornado hit."	1	0.603139	0.396861	gen	5	5	0	0
+185	d083a_AP891116-0035	14	"Cars are piled on top of each other under piles of rubble where buildings used to be,'' said Danny Cooper, state emergency management director in Montgomery."	-1	0.420876	0.579124	spec	4	1	4	0
+186	d083a_AP891116-0035	15	"Emergency officials in Huntsville reported 15 confirmed deaths, said Henry Jurnigan, a duty officer with the state Emergency Management Agency in Montgomery."	-1	0.252633	0.747367	spec	5	0	5	0
+187	d083a_AP891116-0035	16	"Mayor Steve Hettinger said 305 people were injured and about 500 displaced by the tornado that struck while streets of this northeastern Alabama city filled with rush-hour traffic."	-1	0.116971	0.883029	spec	5	0	5	0
+188	d083a_AP891116-0035	17	"Rescue teams with cranes and floodlights searched the rubble through the night for injured or dead."	1	0.608667	0.391333	gen	3	3	2	0
+189	d083a_AP891116-0035	18	"``Several people are still trapped in vehicles and apartment complexes and shopping areas,'' said police spokesman Ben Jennings after the twister touched down between 4 and 4:30 p.m. in the city's south section."	-1	0.154663	0.845337	spec	5	0	5	0
+190	d083a_AP891116-0035	19	"``It may be tomorrow before we have a final count,'' Gov. Guy Hunt said at the state's disaster center in Montgomery."	-1	0.297319	0.702681	gen	3	3	2	0
+191	d083a_AP891116-0035	20	"The governor dispatched 50 National Guardsmen, along with search and rescue equipment."	-1	0.316447	0.683553	spec	4	1	4	0
+192	d083a_AP891116-0035	21	"Rescuers picked through piles of rubble 10 to 14 feet deep, and Cooper said police were unable to determine the extent of the damaged area."	-1	0.459355	0.540645	spec	3	2	3	0
+193	d083a_AP891116-0035	22	"Rescuers also were hampered by darkness and plunging temperatures."	1	0.884884	0.115116	gen	5	5	0	0
+194	d083a_AP891116-0035	23	"``We're even having a few snowflakes,'' said Cooper."	1	0.680458	0.319542	gen	5	5	0	0
+195	d083a_AP891116-0035	24	"High temperatures in Huntsville were expected to be in the 30s Thursday, he said."	1	0.57883	0.42117	spec	4	1	4	0
+196	d083a_AP891116-0035	25	"Witnesses said the downtown Jones Valley Elementary School, the Waterford Square and adjacent Queensbury apartment complexes were reduced to rubble by the tornado."	-1	0.146075	0.853925	spec	5	0	5	0
+197	d083a_AP891116-0035	26	"``The only thing left standing was a door frame,'' news photographer Mike Mercier said of the school, which was empty of staff and pupils when the tornado hit."	-1	0.310855	0.689145	spec	4	1	4	0
+198	d083a_AP891116-0035	27	"Police reported one person killed in a car outside the school."	-1	0.297521	0.702479	gen	4	4	1	0
+199	d083a_AP891116-0035	28	"Authorities said at least five were killed at Waterford Square apartments, three at a business school, Southern Junior College, which is located in a converted movie theater, and others in scattered areas."	-1	0.170863	0.829137	spec	4	1	4	0
+200	d083a_AP891116-0035	29	"``Rescuers are digging in the rubble,'' state trooper W.L. Kelly said."	-1	0.299455	0.700545	gen	3	3	2	0
+201	d083a_AP891116-0035	30	"He said two people were killed when the twister hit house trailers in rural areas east of Huntsville."	-1	0.380881	0.619119	spec	4	1	4	0
+202	d083a_AP891116-0035	31	"The fifth death was reported near the shopping district."	1	0.607815	0.392185	gen	3	3	2	0
+203	d083a_AP891116-0035	32	"The city is home to Marshall Space Flight Center and the Army's Redstone Arsenal, but no serious damage was reported from the space agency or weapons testing center."	-1	0.26579	0.73421	spec	4	1	4	0
+204	d083a_AP891116-0035	33	"``We've called in troopers from around the state to help,'' Kelly said."	-1	0.491575	0.508425	gen	3	3	2	0
+205	d083a_AP891116-0035	34	"Telephone communication and electricity were disrupted by the tornadoes and WAAY-TV, the only station still broadcasting, reported widespread damage."	-1	0.405697	0.594303	spec	3	2	3	0
+206	d083a_AP891116-0035	35	"``It came in with a huge roar, an enormous amount of water, and it just started shaking and tearing at everything it could get hold of,'' said real estate broker Ike Carroll, who was in his car when the twister struck."	-1	0.184631	0.815369	spec	4	1	4	0
+207	d083a_AP891116-0035	36	"``It started picking cars up and pushing them around, ..."	1	0.68673	0.31327	gen	4	4	1	0
+208	d083a_AP891116-0035	37	"some of them upside down, some of them just strewn around,'' he said."	1	0.695022	0.304978	gen	4	4	1	0
+209	d083a_AP891116-0035	38	"Heavy overhead power lines ``started snapping just like a circus performer would snap his whip,'' Carroll said."	-1	0.417359	0.582641	spec	3	2	3	0
+210	d083a_AP891116-0035	39	"``All of these heavy arcing, flashing lines that were just popping and snapping over the top of us ..."	1	0.663084	0.336916	gen	4	4	1	0
+211	d083a_AP891116-0035	40	"it was as if you were looking into an arc-welder, they were so bright,'' he said."	1	0.581215	0.418785	gen	4	4	1	0
+212	d083a_AP891116-0035	41	"WAAY reported at least one person died when the roof of a business collapsed from winds that overturned cars in the area."	-1	0.326971	0.673029	spec	5	0	5	0
+213	d083a_AP891116-0035	42	"A nearby shopping center also was damaged."	1	0.610159	0.389841	gen	4	4	1	0
+214	d083a_AP891116-0035	43	"Humana Hospital administrator David Miller said doctors were having difficulty reaching the hospital because of blocked roads."	-1	0.48815	0.51185	spec	4	1	4	0
+215	d083a_AP891116-0035	44	"The National Weather Service earlier said a tornado hit the east Alabama hamlet of Mellow Valley, severely damaging at least one home and causing some injuries."	-1	0.310387	0.689613	spec	4	0	4	1
+216	d083a_AP891116-0035	45	"Weather officials said people were trapped inside a collapsed house."	1	0.620067	0.379933	gen	3	3	2	0
+217	d083a_AP891116-0035	46	"A spokeswoman for the Clay County Sheriff's Department said people were injured at one house in a rural area 30 miles east of Sylacauga."	-1	0.138028	0.861972	spec	4	1	4	0
+218	d083a_AP891116-0035	47	"Another tornado touched down about 1:30 p.m. as severe weather swept across much of Alabama and the National Weather Service placed most of the state under a tornado watch."	-1	0.225482	0.774518	spec	4	1	4	0
+219	d083a_AP891116-0035	48	"A third tornado was reported shortly before 3:30 p.m. crossing the Coosa River near Titus in east Alabama, the Weather Service said."	-1	0.18998	0.81002	spec	3	2	3	0
+220	d083a_AP891116-0035	49	"In Georgia, five people were injured, four critically, and at least 200 people evacuated after a tornado struck two mobile home parks and an interstate highway near Palmetto, about 25 miles southeast of Atlanta, authorities said."	-1	0.0132201	0.98678	spec	5	0	5	0
+221	d083a_AP891116-0035	50	"Authorities in southwestern North Carolina said a pair of storm-spawned tornadoes struck around 10:45 p.m., destroying a vacant house in Henderson County."	-1	0.237001	0.762999	spec	5	0	5	0
+222	d083a_AP891116-0035	51	"The National Weather Service also reported tornadoes inflicting minor property damage in Kentucky and Mississippi ."	-1	0.371916	0.628084	spec	4	1	4	0
+223	d087d_AP881002-0048	9	"The 1988 Summer Olympics, kept free of terrorism but tainted by drug scandals, closed Sunday with the pealing of a medieval bell to symbolize the sorrow of parting."	-1	0.303136	0.696864	spec	5	0	5	0
+224	d087d_AP881002-0048	10	"The United States finished third in medals."	1	0.674133	0.325867	gen	5	5	0	0
+225	d087d_AP881002-0048	11	"The 1,000-year-old, 72-ton Emille Bell, which according to Korean legend has the saddest tone of any in the world, tolled farewell to the more than 9,000 athletes from 160 nations who participated in the 24th Olympiad."	-1	0.120636	0.879364	spec	4	0	4	1
+226	d087d_AP881002-0048	12	"The 16-day event, conducted under extraordinary security, wrapped up with the Soviet Union winning the lion's share of the 237 medals events."	-1	0.272354	0.727646	spec	4	1	4	0
+227	d087d_AP881002-0048	13	"The Soviets took home 132 medals, including 55 gold, the most ever in a Summer Olympics without a major-power boycott."	-1	0.471668	0.528332	spec	4	1	4	0
+228	d087d_AP881002-0048	14	"East Germany had 102 medals and 37 gold, and the United States 94 medals and 36 gold."	-1	0.0683513	0.931649	spec	3	2	3	0
+229	d087d_AP881002-0048	15	"Many felt that the United States was robbed of a second-place tie for golds when judges awarded a bout to a South Korean boxer over American Roy Jones in the 156-pound event on the final day of competition."	-1	0.162122	0.837878	spec	5	0	5	0
+230	d087d_AP881002-0048	16	"Because of boycotts in 1980 and 1984, the Games were the first meeting between the Soviet Union and the United States since 1976 in Montreal, and matchups between the two nations provided some of the Games' highlights."	-1	0.0551381	0.944862	spec	5	0	5	0
+231	d087d_AP881002-0048	17	"The U.S. men's volleyball team beat the Soviets to defend its 1984 Olympic championship, providing consolation for America's upset in the men's basketball quarterfinals."	-1	0.322719	0.677281	spec	5	0	5	0
+232	d087d_AP881002-0048	18	"America also defeated the Soviets in women's basketball and men's water polo."	1	0.540887	0.459113	gen	3	3	2	0
+233	d087d_AP881002-0048	19	"At least 1 billion people watched the Olympics via a 115-nation, worldwide TV hookup."	-1	0.276895	0.723105	spec	4	1	4	0
+234	d087d_AP881002-0048	20	"The Seoul Games had the greatest number of athletes (9,633), the most countries, the most gold medals and the most venues (34)."	-1	0.467083	0.532917	spec	5	0	5	0
+235	d087d_AP881002-0048	21	"Communist North Korea, which demanded a role in the Games, boycotted them, but the only sports power to follow suit was Cuba."	-1	0.275681	0.724319	spec	5	0	5	0
+236	d087d_AP881002-0048	22	"Among the highlights: _Greg Louganis won the Olympic Spirit Award as top American athlete Sunday for winning gold medals in platform and 3-meter springboard diving."	-1	0.16719	0.83281	spec	5	0	5	0
+237	d087d_AP881002-0048	23	"He accomplished the same feat in 1980 and became the first man to sweep the events twice."	-1	0.397951	0.602049	gen	3	3	2	0
+238	d087d_AP881002-0048	24	"The 28-year-old Louganis, who hit his head on the board in the preliminaries and received five stitches, announced his retirement from diving and said he wanted to pursue acting."	-1	0.18471	0.81529	spec	5	0	5	0
+239	d087d_AP881002-0048	25	"_Sisters-in-law Florence Griffith Joyner and Jackie Joyner-Kersee led an American assault on the record books in track and field."	-1	0.151608	0.848392	spec	4	1	4	0
+240	d087d_AP881002-0048	26	"Griffith Joyner won golds in the 100, the 200 and the 400-meter relay, and silver in the 1,600-meter relay."	-1	0.0801718	0.919828	spec	4	1	4	0
+241	d087d_AP881002-0048	27	"She set a world record in the 200 and an Olympic record in the 100."	-1	0.23011	0.76989	spec	4	1	4	0
+242	d087d_AP881002-0048	28	"Joyner-Kersee won two golds, taking the heptathlon with a world record 7,291 points and the long jump with an Olympic mark of 24 feet, 3 inches."	-1	0.0313996	0.9686	spec	5	0	5	0
+243	d087d_AP881002-0048	29	"_Kristin Otto of East Germany won six golds in swimming."	-1	0.223322	0.776678	spec	5	0	5	0
+244	d087d_AP881002-0048	30	"American swimmer Matt Biondi won seven medals, five gold, while Janet Evans earned three golds in the pool for the United States."	-1	0.0545145	0.945486	spec	5	0	5	0
+245	d087d_AP881002-0048	31	"_Daniela Silivas of Romania dominated women's gymnastics, winning three golds, two silvers and a bronze."	-1	0.128187	0.871813	spec	5	0	5	0
+246	d087d_AP881002-0048	32	"_West German Steffi Graf completed tennis's first Golden Slam, winning the gold medal as well as all four Grand Slam tournaments _ Wimbledon and the U.S., French and Australian Opens _ in a calendar year."	-1	0.0354799	0.96452	spec	5	0	5	0
+247	d087d_AP881002-0048	33	"There were low moments as well."	1	0.924833	0.0751667	gen	5	5	0	0
+248	d087d_AP881002-0048	34	"Canadian sprinter Ben Johnson, the most prominent of 10 athletes who tested positive for drugs, was stripped of his gold medal in the 100 meters and title of world's fastest man, and flew home in disgrace, his career in jeopardy."	-1	0.237217	0.762783	spec	5	0	5	0
+249	d087d_AP881002-0048	35	"He was accused of using muscle-building steroids."	1	0.693653	0.306347	gen	4	4	1	0
+250	d087d_AP881002-0048	36	"Four other medals _ two Bulgarian weightlifting golds, a Hungarian weightlifing silver and a British judo bronze _ also were stripped for drugs, and five non-medalists tested positive for substances ranging from caffeine to diuretics."	-1	0.0750859	0.924914	spec	5	0	5	0
+251	d087d_AP881002-0048	37	"Early in the Games, five people connected to the Korean boxing team were suspended for attacking a New Zealand referee after a Korean lost a decision to a Bulgarian."	-1	0.208962	0.791038	spec	5	0	5	0
+252	d087d_AP881002-0048	38	"Another Korean boxer staged a 67-minute sit-in in the ring to protest his loss."	-1	0.483742	0.516258	spec	4	1	4	0
+253	d087d_AP881002-0048	39	"Anthony Hembrick, a U.S. boxer expected to win a gold, never got to fight; his coach misread the schedule and he missed the bus to the arena."	-1	0.257223	0.742777	spec	5	0	5	0
+254	d087d_AP881002-0048	40	"Two gold medal-winning U.S. swimmers were arrested for carrying a stone lion's head out of a hotel bar, but charges were dropped."	-1	0.20515	0.79485	gen	4	4	1	0
+255	d087d_AP881002-0048	41	"American runner Johnny Gray kicked a taxicab in an argument with its driver."	-1	0.329437	0.670563	spec	3	2	3	0
+256	d087d_AP881002-0048	42	"He was arrested and released."	1	0.74615	0.25385	gen	4	4	1	0
+257	d087d_AP881002-0048	43	"Security measures against the possibility of terrorism were extraordinary, including metal detectors, numerous checkpoints and ID cards, but except for scattered protests by student radicals, the Games proceeded without incident."	1	0.715339	0.284661	spec	5	0	5	0
+258	d087d_AP881002-0048	44	"At the closing ceremonies, before the great torch was extinguished, Korea passed the Olympic flag to representatives from Barcelona, site of the 1992 Games ."	-1	0.280166	0.719834	spec	4	1	4	0
+259	d113h_FT931-3664	6	"MR TEG BAHADUR Thapar was serving lunch from his stall outside the Bombay stock exchange on Friday when he was showered with flying glass and broken concrete in one of 13 explosions which rocked the city and left at least 255 people killed and over 1,200 injured."	-1	0.0123069	0.987693	spec	5	0	5	0
+260	d113h_FT931-3664	7	"'I'm lucky to be alive,' he said from his hospital bed."	1	0.606729	0.393271	gen	4	4	1	0
+261	d113h_FT931-3664	8	"'Who did this?"	1	0.771577	0.228423	gen	4	4	1	0
+262	d113h_FT931-3664	9	"Who can stop this happening again'?"	1	0.710615	0.289385	gen	4	4	0	1
+263	d113h_FT931-3664	10	"Across Bombay people were asking themselves the same questions this weekend."	1	0.521238	0.478762	gen	5	5	0	0
+264	d113h_FT931-3664	11	"They sensed there was an enormous difference from the riots which scarred the city in December and again in January."	1	0.549908	0.450092	gen	5	5	0	0
+265	d113h_FT931-3664	12	"Those were caused by a traditional mix of crime, political agitation and ancient Hindu-Moslem hatreds stirred by the destruction of the mosque in Ayodhya."	1	0.503239	0.496761	spec	3	2	3	0
+266	d113h_FT931-3664	13	"The weapons used were mostly primitive - knives, clubs and petrol bottles."	1	0.718932	0.281068	gen	5	5	0	0
+267	d113h_FT931-3664	14	"Friday's outrage, by contrast, bears the deadly stamp of high-technology terrorism, complete with Semtex plastic explosive, high-grade timers, efficient organisation and money."	-1	0.417966	0.582034	spec	4	1	4	0
+268	d113h_FT931-3664	15	"The only comparable previous incident was the assassination in 1991 of Mr Rajiv Gandhi, the former prime minister, by Sri Lanka's Tamil Tiger terrorists."	-1	0.131764	0.868236	spec	4	1	4	0
+269	d113h_FT931-3664	16	"But that was a single bomb aimed at one man - the explosions in Bombay were designed to terrorise the nation's commercial capital."	-1	0.294754	0.705246	spec	3	1	3	1
+270	d113h_FT931-3664	17	"Bombay accounts for 35 per cent of India's exports."	-1	0.427773	0.572227	spec	4	1	4	0
+271	d113h_FT931-3664	18	"Mr P V Narasimha Rao, the prime minister, described the blasts as an attack on India's economy."	-1	0.27825	0.72175	gen	3	3	2	0
+272	d113h_FT931-3664	19	"The immediate assumption both at the highest level and in the streets of Bombay was that those responsible must have been foreigners or had foreign help."	1	0.58811	0.41189	gen	3	3	2	0
+273	d113h_FT931-3664	20	"But these suggestions were seen in Bombay as a deliberate attempt to deflect attention from the people who in the popular mind are the real suspects - Moslem extremists who might have taken revenge for the riots which hit India after the Ayodhya mosque's destruction and which left 2,000 dead, including 700 in Bombay."	-1	0.0900299	0.90997	spec	5	0	5	0
+274	d113h_FT931-3664	21	"If Moslems are found to have staged the attacks, the Indian authorities will certainly suspect that the operation was supported from a Moslem country, notably Pakistan."	-1	0.428142	0.571858	spec	4	1	4	0
+275	d113h_FT931-3664	22	"The implications would be vast."	1	0.820269	0.179731	gen	4	4	0	1
+276	d113h_FT931-3664	23	"Breaking diplomatic relations would be the minimum step Delhi could take on a dangerous road."	-1	0.448817	0.551183	gen	5	5	0	0
+277	d113h_FT931-3664	24	"Mr Rao chose his words carefully during his visit to Bombay: 'There is a definite possibility that our search may not stop within the country."	-1	0.400903	0.599097	gen	4	4	1	0
+278	d113h_FT931-3664	25	"I do not want to name anybody because it will have ramifications within and outside the country'."	1	0.565869	0.434131	gen	4	4	1	0
+279	d113h_FT931-3664	26	"There is no evidence linking the attacks to Moslem extremists, let alone to Pakistan."	1	0.768403	0.231597	spec	3	2	3	0
+280	d113h_FT931-3664	27	"Even if Moslem groups are found to be responsible for the bombings, they could have been supplied from other Moslem countries."	-1	0.429589	0.570411	gen	5	5	0	0
+281	d113h_FT931-3664	28	"India would still face a diplomatic crisis but hardly on the same scale."	1	0.70765	0.29235	gen	5	5	0	0
+282	d113h_FT931-3664	29	"For the moment, such concerns seem remote from the streets on Bombay, where the atmosphere yesterday was calm."	1	0.606608	0.393392	gen	4	4	1	0
+283	d113h_FT931-3664	30	"Workmen were clearing away rubble at the blast sites, including the blackened stock exchange building."	1	0.564305	0.435695	spec	2	2	2	1
+284	d113h_FT931-3664	31	"Bombayites seemed determined to put the outrage behind them."	1	0.61555	0.38445	gen	5	5	0	0
+285	d113h_FT931-3664	32	"At the Gymkhana Club and dozens of other sports grounds, hundreds of men and boys were playing cricket as they do every Sunday."	1	0.584158	0.415842	gen	3	3	2	0
+286	d113h_FT931-3664	33	"Others were walking along the seafront by the arch of the Gateway of India."	1	0.519465	0.480535	spec	3	2	3	0
+287	d113h_FT931-3664	34	"The stock exchange authorities plan to re-start trading as soon as they can -probably today - using an old trading floor the exchange vacated only last year."	-1	0.45102	0.54898	gen	3	3	2	0
+288	d113h_FT931-3664	35	"Businessmen estimated the main loss to the city would be the loss of life and injuries and the damage caused to blasted buildings."	1	0.676459	0.323541	spec	3	2	3	0
+289	d113h_FT931-3664	36	"They did not expect the same widespread disruption to production as occurred during the riots."	1	0.737344	0.262656	gen	4	4	1	0
+290	d113h_FT931-3664	37	"Some of the credit for the limited disruption should go the government and the police for promptly calling paramilitary and regular troops to help patrol sensitive districts."	1	0.523114	0.476886	spec	2	2	2	1
+291	d113h_FT931-3664	38	"But much more should go to the people of Bombay, who, so far at least, have refused to be goaded into violent protest by the bombers ."	1	0.729868	0.270132	gen	5	5	0	0
+0	2002_03_05_1373005.xml_fulltext	0	"Nobody knows why our early ancestors decided to get off their knuckles and stand upright."	1	0.572421	0.427579	gen	5	5	0	0
+1	2002_03_05_1373005.xml_fulltext	1	"Maybe they just wanted a better view of the stars."	1	0.909274	0.090726	gen	4	4	1	0
+2	2002_03_05_1373005.xml_fulltext	2	"And when sky gazers finally realized that the heavenly lights were not the footprints of the gods, but rather millions of blazing stars like our Sun writ far, they began to wonder, How do we get there?"	1	0.692315	0.307685	gen	3	3	2	0
+3	2002_03_05_1373005.xml_fulltext	3	"How can we leave this world and travel, not merely the 238,000 miles to the Moon, or 35 million miles to Mars, but through the vast dark silk of interstellar space, across trillions and trillions of miles, to encounter other stars, other solar systems, even other civilizations?"	-1	0.180926	0.819074	spec	4	1	4	0
+4	2002_03_05_1373005.xml_fulltext	4	"According to a group of scientists for whom the term ''wildly optimistic dreamers'' is virtually a job description, it will indeed be very difficult to travel to other stars, and nobody in either the public or private sector is about to try it any time soon."	-1	0.447571	0.552429	spec	3	2	3	0
+5	2002_03_05_1373005.xml_fulltext	5	"But as the researchers see it, the challenge is not insurmountable, it requires no defiance of the laws of physics, so why not have fun and start thinking about it now?"	1	0.758111	0.241889	spec	3	2	3	0
+6	2002_03_05_1373005.xml_fulltext	6	"At the annual meeting of the American Association for the Advancement of Science, held last month in Boston, scientists discussed how humans might pull off a real-life version of ''Star Trek,'' minus the space Lycra and perpetual syndication rights."	-1	0.0854779	0.914522	gen	3	3	2	0
+7	2002_03_05_1373005.xml_fulltext	7	"They talked about propulsion at a reasonable fraction of the speed of light, a velocity that is orders of magnitude greater than any space ship can fly today, but that would be necessary if the light-years of space between the Sun and even the nearest star are ever to be crossed."	-1	0.244731	0.755269	spec	5	0	5	0
+8	2002_03_05_1373005.xml_fulltext	8	"They talked about the possibility of multigenerational space travel, and what it might be like for people who board a space ship knowing that they, their children, grandchildren and descendants through 6, 8 or 10 generations would live and die knowing nothing but life in an enclosed and entirely artificial environment, hurtling year upon year through the near-featureless expanse of interstellar space."	-1	0.0404058	0.959594	spec	4	1	4	0
+9	2002_03_05_1373005.xml_fulltext	9	"They talked about how big the founding crew would have to be to prevent long-term risks of inbreeding and so-called genetic drift."	-1	0.270832	0.729168	gen	3	3	2	0
+10	2002_03_05_1373005.xml_fulltext	10	"They talked about how the crew's chain of command would be structured, what language people would most likely speak, and what sort of marital and family policies might be put in place."	-1	0.390611	0.609389	spec	4	1	4	0
+11	2002_03_05_1373005.xml_fulltext	11	"And they talked about food, all of which would have to be grown, cultivated and synthesized on board."	-1	0.42367	0.57633	gen	4	4	1	0
+12	2002_03_05_1373005.xml_fulltext	12	"''One thing is almost certain,'' said Dr. Jean B. Hunter, an associate professor of biological and environmental engineering at Cornell."	-1	0.254215	0.745785	gen	3	3	2	0
+13	2002_03_05_1373005.xml_fulltext	13	"''You'll have to leave the steak, cheesecake and artichokes with hollandaise sauce behind.''"	-1	0.399707	0.600293	spec	3	1	3	1
+14	2002_03_05_1373005.xml_fulltext	14	"Many of the subjects raised during the session were so fanciful that at times it felt like a discussion of how to clone a unicorn, and indeed half the presenters moonlight as science fiction writers."	1	0.610887	0.389113	gen	3	3	2	0
+15	2002_03_05_1373005.xml_fulltext	15	"Nevertheless, the researchers argued, human beings have shown themselves to be implacable itinerants, capable of colonizing the most hostile environments."	1	0.759628	0.240372	spec	3	2	3	0
+16	2002_03_05_1373005.xml_fulltext	16	"Dr. John H. Moore, a research professor of anthropology at the University of Florida, compared a theoretical crew of spacefaring pioneers to groups of Polynesians setting out tens of thousands of years ago in search of new islands to populate."	-1	0.205322	0.794678	spec	5	0	5	0
+17	2002_03_05_1373005.xml_fulltext	17	"''Young people with food and tools would set out in large flotillas of canoes,'' he said."	1	0.594728	0.405272	gen	5	5	0	0
+18	2002_03_05_1373005.xml_fulltext	18	"''Nobody knew if they would ever come back, the trade winds went in only one direction, and many of them perished in the ocean.''"	-1	0.468607	0.531393	gen	3	3	2	0
+19	2002_03_05_1373005.xml_fulltext	19	"Yet over time, the Polynesians managed to colonize New Zealand, Easter Island and Hawaii."	-1	0.251684	0.748316	spec	3	2	3	0
+20	2002_03_05_1373005.xml_fulltext	20	"Still, no human migration in history would compare in difficulty with reaching another star."	1	0.725076	0.274924	gen	4	4	1	0
+21	2002_03_05_1373005.xml_fulltext	21	"The nearest, Alpha Centauri, is about 4.4 light-years from the Sun, and a light-year is equal to almost six trillion miles."	-1	0.211631	0.788369	spec	5	0	5	0
+22	2002_03_05_1373005.xml_fulltext	22	"The next nearest star, Sirius, is 8.7 light-years from home."	1	0.662358	0.337642	spec	3	1	3	1
+23	2002_03_05_1373005.xml_fulltext	23	"To give a graphic sense of what these distances mean, Dr. Geoffrey A. Landis of the NASA John Glenn Research Center in Cleveland, pointed out that the fastest objects humans have ever dispatched into space are the Voyager interplanetary probes, which travel at about 9.3 miles per second."	-1	0.048322	0.951678	spec	5	0	5	0
+24	2002_03_05_1373005.xml_fulltext	24	"''If a caveman had launched one of those during the last ice age, 11,000 years ago,'' Dr. Landis said, ''it would now be only a fifth of the way toward the nearest star.''"	-1	0.211767	0.788233	spec	4	1	4	0
+25	2002_03_05_1373005.xml_fulltext	25	"Dr. Robert L. Forward, owner and chief scientist of Forward Unlimited, a consulting company that describes itself as ''specializing in exotic physics and advanced space propulsion,'' argued that rockets and their fuel would be so heavy that they would prevent a starship from reaching the necessary velocity to go anywhere in a sane amount of time."	-1	0.0499625	0.950038	spec	4	1	4	0
+26	2002_03_05_1373005.xml_fulltext	26	"He envisions a rocketless spacecraft that would be manufactured in space and equipped with an ultrathin, ultralarge sail, its span as big as Texas but using no more material than a small bridge."	-1	0.10037	0.89963	spec	4	1	4	0
+27	2002_03_05_1373005.xml_fulltext	27	"A beam of laser light or high-energy particles from a source on Earth, in space or perhaps on the Sun-drenched planet of Mercury would be aimed at the sail, propelling it and its attached module to as much as 30 percent the speed of light -- or about 55,000 miles per second."	-1	0.0347199	0.96528	spec	5	0	5	0
+28	2002_03_05_1373005.xml_fulltext	28	"At that pace, said Dr. Forward, a crew would reach Alpha Centauri in under 50 years."	-1	0.267052	0.732948	spec	4	0	4	1
+29	2002_03_05_1373005.xml_fulltext	29	"''You could get a bunch of 16-year-olds, train them and then send them out at the age of 20,'' he said."	-1	0.36138	0.63862	gen	4	4	1	0
+30	2002_03_05_1373005.xml_fulltext	30	"''They'd have a long, boring trip, reach Alpha Centauri when they're in their 60's or 70's, do some exploring, and send everything they learned back home.''"	-1	0.0653906	0.934609	spec	3	2	3	0
+31	2002_03_05_1373005.xml_fulltext	31	"Admittedly, the astronauts would not make it home themselves."	1	0.930147	0.069853	gen	4	4	1	0
+32	2002_03_05_1373005.xml_fulltext	32	"''It's a lifetime job,'' Dr. Forward said."	1	0.5358	0.4642	gen	5	5	0	0
+33	2002_03_05_1373005.xml_fulltext	33	"''But it could be done in a single generation.''"	1	0.640947	0.359053	gen	4	4	0	1
+34	2002_03_05_1373005.xml_fulltext	34	"For longer journeys, designed with multigenerational crews in mind, an onboard engine and fuel source would be required, perhaps something powered by nuclear bombs, or the combining of matter and antimatter in a reaction that converts both substances into pure energy."	-1	0.347769	0.652231	spec	4	1	4	0
+35	2002_03_05_1373005.xml_fulltext	35	"However the ship is propulsed, the researchers agree that it must be comfortable for long-distance travel."	1	0.552576	0.447424	gen	3	3	2	0
+36	2002_03_05_1373005.xml_fulltext	36	"That means creating artificial gravity by gently rotating the craft; a spin no greater than one or two revolutions per minute would suffice."	-1	0.227859	0.772141	spec	4	1	4	0
+37	2002_03_05_1373005.xml_fulltext	37	"It might also mean calling upon architects with Disney-esque sensibilities."	1	0.671881	0.328119	gen	4	4	1	0
+38	2002_03_05_1373005.xml_fulltext	38	"''The inside of one of these long-duration space habitats might feel like the inside of a shopping mall,'' Dr. Landis said."	-1	0.279683	0.720317	spec	3	2	3	0
+39	2002_03_05_1373005.xml_fulltext	39	"''Malls are carefully designed to use space efficiently, yet to give you the feeling that they're more spacious than they are.''"	-1	0.434251	0.565749	gen	3	3	2	0
+40	2002_03_05_1373005.xml_fulltext	40	"And malls, of course, are a great place to bring the family."	1	0.584648	0.415352	gen	4	4	1	0
+41	2002_03_05_1373005.xml_fulltext	41	"In Dr. Moore's view, the good old-fashioned family is the key to success in space."	-1	0.464663	0.535337	gen	3	3	2	0
+42	2002_03_05_1373005.xml_fulltext	42	"''Over the past several decades, space scientists and writers of science fiction have speculated at length about the optimum size and composition'' of an interstellar crew, he said."	-1	0.443837	0.556163	gen	3	3	2	0
+43	2002_03_05_1373005.xml_fulltext	43	"They have imagined platoons of Chuck Yeager-type stalwarts grimly enduring all hardships, or teams of bionic and vaguely asexual crew members overseeing freezers of embryos that can be defrosted and gestated as needed."	-1	0.384385	0.615615	spec	3	2	3	0
+44	2002_03_05_1373005.xml_fulltext	44	"''Some of the scenarios proposed so far are downright alarming from a social science perspective,'' Dr. Moore said, ''since they require bizarre social structures and an intensity of social relationships which are quite beyond the experience of any known human communities.''"	1	0.744754	0.255246	spec	3	2	3	0
+45	2002_03_05_1373005.xml_fulltext	45	"In deciding how to organize a star mission, Dr. Moore looks to the most ''familiar, ubiquitous, well-ordered and well-understood'' of social forms, the human family."	1	0.539891	0.460109	spec	4	1	4	0
+46	2002_03_05_1373005.xml_fulltext	46	"''Virtually every human society in history has been structured along kinship lines,'' he said, ''from small-scale foraging societies to empires comprising millions of people.''"	1	0.643434	0.356566	gen	3	3	2	0
+47	2002_03_05_1373005.xml_fulltext	47	"Lines of authority and seniority in a family are reasonably clear, and when they're not, well, there's always the time-out chamber."	1	0.503493	0.496507	gen	4	4	1	0
+48	2002_03_05_1373005.xml_fulltext	48	"In Dr. Moore's rendition, all recruits for an interstellar odyssey would be guaranteed the opportunity, though not the requirement, to marry and have children."	-1	0.387146	0.612854	spec	4	1	4	0
+49	2002_03_05_1373005.xml_fulltext	49	"Mate choice would be part of the bargain as well, with the population cannily structured so that each cohort of individuals, on reaching sexual maturity, would have about 10 potential partners of a similar age to select from."	-1	0.337754	0.662246	spec	3	2	3	0
+50	2002_03_05_1373005.xml_fulltext	50	"Dr. Moore and his colleagues have developed a computer simulation called Ethnopop, in which they asked how large the crew must be in order to maintain genetic variability over time while still allowing crew members a choice of sex partners."	-1	0.143216	0.856784	spec	5	0	5	0
+51	2002_03_05_1373005.xml_fulltext	51	"They determined that a founding crew could be as small as 80 to 100 people and stay viable for more than a thousand years, assuming that two rules were followed: women waited until they were in their mid-30's or so before having children, and they had only a couple each."	-1	0.0655038	0.934496	spec	4	1	4	0
+52	2002_03_05_1373005.xml_fulltext	52	"Counterintuitive though it may seem, said Dr. Moore, delayed childbearing and small families are known to help maintain genetic variability in a closed population."	-1	0.363631	0.636369	spec	3	2	3	0
+53	2002_03_05_1373005.xml_fulltext	53	"Genetic diversity may be essential, but Dr. Sarah G. Thomason, a professor of linguistics at the University of Michigan, argued that the same could not be said for language."	-1	0.222872	0.777128	spec	5	0	5	0
+54	2002_03_05_1373005.xml_fulltext	54	"''You want everyone to be able to talk to each other as soon as they're on board,'' she said."	1	0.519356	0.480644	gen	4	4	1	0
+55	2002_03_05_1373005.xml_fulltext	55	"As Dr. Thomason sees it, the likeliest lingua franca for a starship will be -- gracias a Dios -- English."	-1	0.117677	0.882323	spec	3	1	3	1
+56	2002_03_05_1373005.xml_fulltext	56	"After all, she said, English is the language of the international air traffic control system, the scientific community and the educated class generally."	-1	0.45075	0.54925	spec	4	1	4	0
+57	2002_03_05_1373005.xml_fulltext	57	"English is the official language of 51 of the 195 nations of the world, and it is the second language of many others."	-1	0.217049	0.782951	spec	4	1	4	0
+58	2002_03_05_1373005.xml_fulltext	58	"Yet, while crew members will be expected to speak English, their accents are likely to be quite diverse, and the English that their children and grandchildren end up speaking will have a rhythm and texture of its own -- Space English."	-1	0.21797	0.78203	spec	4	1	4	0
+59	2002_03_05_1373005.xml_fulltext	59	"And though Dr. Thomason believes that the basic structure of Space English is not likely to change much from that of the mother tongue, teenagers will, of course, invent words of their own and drop words of scant use."	-1	0.332773	0.667227	spec	5	0	5	0
+60	2002_03_05_1373005.xml_fulltext	60	"''I can imagine the loss of words like snow, rivers, winter, mosquitoes, if they're lucky,'' she said."	1	0.514345	0.485655	spec	3	2	3	0
+61	2002_03_05_1373005.xml_fulltext	61	"Another arena that will test the limits of human ingenuity is space cuisine."	1	0.598987	0.401013	gen	4	4	1	0
+62	2002_03_05_1373005.xml_fulltext	62	"Without livestock on board or supply ships to restock the pantry, crew members will have to be entirely self-sufficient."	-1	0.410955	0.589045	gen	4	4	1	0
+63	2002_03_05_1373005.xml_fulltext	63	"Dr. Hunter of Cornell envisions crops grown in hydroponic gardens, in which plants are suspended in troughs like rain gutters, and water and fertilizer are trickled slowly over their roots."	1	0.574645	0.425355	spec	4	1	4	0
+64	2002_03_05_1373005.xml_fulltext	64	"Among the possible food groups are wheat, rice, sweet potatoes, beans, soy, corn, herbs and spices."	-1	0.388984	0.611016	spec	4	1	4	0
+65	2002_03_05_1373005.xml_fulltext	65	"In addition, space-minded agronomists are exploring the marvels of microbes."	1	0.60308	0.39692	gen	5	5	0	0
+66	2002_03_05_1373005.xml_fulltext	66	"Plants take weeks to grow, but yeastlike micro-organisms replicating in vats can be used to churn out significant quantities of carbohydrates, sugars, proteins and fats in a matter of hours."	1	0.554854	0.445146	spec	3	2	3	0
+67	2002_03_05_1373005.xml_fulltext	67	"Of benefit to a community in which recycling is not just a personal virtue but a public necessity, micro-organisms can live on the carboniferous waste products of plants and people."	1	0.637348	0.362652	spec	3	2	3	0
+68	2002_03_05_1373005.xml_fulltext	68	"''There's a protein product called quorn, which is made from filamentous mold,'' Dr. Hunter said."	-1	0.274954	0.725046	spec	5	0	5	0
+69	2002_03_05_1373005.xml_fulltext	69	"''Not to make a joke of it, but it does taste like chicken.''"	1	0.808142	0.191858	gen	4	4	1	0
+70	2002_03_05_1373005.xml_fulltext	70	"Some clichés, it seems, are truly universal."	1	0.88603	0.11397	gen	4	4	0	1
+71	2002_03_05_1373005.xml_fulltext	71	"Correction: March 9, 2002, Saturday An article in Science Times on Tuesday about the challenges of interstellar travel referred imprecisely to the stars nearest Earth's."	-1	0.150697	0.849303	spec	5	0	5	0
+72	2002_03_05_1373005.xml_fulltext	72	"While Alpha Centauri is the nearest star system, it has three stars; the nearest is Proxima Centauri, 4.2 light-years away."	-1	0.256349	0.743651	spec	5	0	5	0
+73	2002_03_05_1373005.xml_fulltext	73	"The next nearest is Barnard's star, at 6 light-years -- not the double star Sirius, 8.7 light-years away."	1	0.555483	0.444517	spec	5	0	5	0
+74	2006_11_07_1802956.xml_fulltext	0	"In recent years, scientists have made sizable gains in what was once considered an impossible art -- reconstructing the history of Earth's atmosphere back into the dim past."	1	0.603596	0.396404	gen	4	4	1	0
+75	2006_11_07_1802956.xml_fulltext	1	"They can now peer across more than a half billion years."	-1	0.464601	0.535399	gen	4	4	1	0
+76	2006_11_07_1802956.xml_fulltext	2	"The scientists have learned about the changing makeup of the vanished gases by teasing subtle clues from fossilized soils, plants and sea creatures."	1	0.672994	0.327006	gen	3	3	2	0
+77	2006_11_07_1802956.xml_fulltext	3	"They have also gained insights from computer models that predict how phenomena like eroding rocks and erupting volcanoes have altered the planet's evolving air."	1	0.594209	0.405791	spec	3	2	3	0
+78	2006_11_07_1802956.xml_fulltext	4	"''It's getting a lot more attention,'' Michael C. MacCracken, chief scientist of the Climate Institute, a research group in Washington, said of the growing field."	-1	0.225197	0.774803	gen	3	3	2	0
+79	2006_11_07_1802956.xml_fulltext	5	"For the first time, the Intergovernmental Panel on Climate Change, a United Nations group that analyzes global warming, plans to include a chapter on the reconstructions in its latest report, due early next year."	-1	0.2055	0.7945	spec	4	1	4	0
+80	2006_11_07_1802956.xml_fulltext	6	"The discoveries have stirred a little-known dispute that, if resolved, could have major implications."	1	0.690247	0.309753	gen	5	5	0	0
+81	2006_11_07_1802956.xml_fulltext	7	"At issue is whether the findings back or undermine the prevailing view on global warming."	1	0.665962	0.334038	gen	5	5	0	0
+82	2006_11_07_1802956.xml_fulltext	8	"One side foresees a looming crisis of planetary heating; the other, temperature increases that would be more nuisance than catastrophe."	-1	0.462183	0.537817	gen	5	5	0	0
+83	2006_11_07_1802956.xml_fulltext	9	"Perhaps surprisingly, both hail from the same camp: scientists who study the big picture of Earth's past, including geologists and paleoclimatologists."	1	0.545257	0.454743	gen	3	3	2	0
+84	2006_11_07_1802956.xml_fulltext	10	"Most public discussions of global warming concentrate on evidence from the last few hundred or, at most, few thousand years."	-1	0.329066	0.670934	gen	3	3	2	0
+85	2006_11_07_1802956.xml_fulltext	11	"And some climate scientists remain unconvinced that data from the deep past are solid enough to be relevant to the debates."	1	0.766114	0.233886	gen	5	5	0	0
+86	2006_11_07_1802956.xml_fulltext	12	"But the experts who peer back millions of years, though they may debate what their work means, do agree on the relevance of their findings."	1	0.62028	0.37972	gen	4	4	1	0
+87	2006_11_07_1802956.xml_fulltext	13	"They also agree that the eon known as the Phanerozoic, a lengthy span from the present to 550 million years ago, the dawn of complex life, typically bore concentrations of carbon dioxide that were up to 18 times the levels present in the short reign of Homo sapiens."	-1	0.114964	0.885036	spec	5	0	5	0
+88	2006_11_07_1802956.xml_fulltext	14	"The carbon dioxide, the scientists agree, came from volcanoes and other natural sources, as on Mars and Venus."	1	0.616941	0.383059	spec	4	1	4	0
+89	2006_11_07_1802956.xml_fulltext	15	"The levels have generally dropped over the ages, as the carbon became a building block of many rock formations and all living things."	1	0.711561	0.288439	gen	4	4	1	0
+90	2006_11_07_1802956.xml_fulltext	16	"Moreover, the opponents tend to agree on why the early Earth's high carbon dioxide levels failed to roast the planet."	-1	0.386064	0.613936	spec	3	2	3	0
+91	2006_11_07_1802956.xml_fulltext	17	"First, the Sun was dimmer in its youth."	1	0.584438	0.415562	gen	3	3	2	0
+92	2006_11_07_1802956.xml_fulltext	18	"Second, as the gas concentrations increase, its heat trapping capacity slows and reaches a plateau."	-1	0.40049	0.59951	spec	3	2	3	0
+93	2006_11_07_1802956.xml_fulltext	19	"Where the specialists clash is on what the evidence means for the idea that industrial civilization and the burning of fossil fuels are the main culprits in climate change."	-1	0.455355	0.544645	gen	4	4	1	0
+94	2006_11_07_1802956.xml_fulltext	20	"The two sides agree that carbon dioxide can block solar energy that would otherwise radiate back into space, an effect known as greenhouse warming."	-1	0.251014	0.748986	spec	4	1	4	0
+95	2006_11_07_1802956.xml_fulltext	21	"But they differ sharply on its strength."	1	0.888933	0.111067	gen	4	4	1	0
+96	2006_11_07_1802956.xml_fulltext	22	"Some argue that CO2 fluctuations over the Phanerozoic follow climate trends fairly well, supporting a causal relationship between high gas levels and high temperatures."	-1	0.480936	0.519064	spec	3	2	3	0
+97	2006_11_07_1802956.xml_fulltext	23	"''The geologic record over the past 550 million years indicates a good correlation,'' said Robert A. Berner, a Yale geologist and pioneer of paleoclimate analysis."	-1	0.0558947	0.944105	gen	3	3	2	0
+98	2006_11_07_1802956.xml_fulltext	24	"''There are other factors at work here."	1	0.705406	0.294594	gen	5	5	0	0
+99	2006_11_07_1802956.xml_fulltext	25	"But in general, global warming is due to CO2."	1	0.53953	0.46047	gen	4	4	1	0
+100	2006_11_07_1802956.xml_fulltext	26	"It was in the past and is now.''"	1	0.728018	0.271982	gen	5	5	0	0
+101	2006_11_07_1802956.xml_fulltext	27	"Other experts say that is an oversimplification of a complex picture of natural variation."	1	0.622682	0.377318	gen	4	4	1	0
+102	2006_11_07_1802956.xml_fulltext	28	"The fluctuations in the gas levels, they say, often fall out of step with the planet's hot and cold cycles, undermining the claimed supremacy of carbon dioxide."	1	0.695492	0.304508	spec	3	2	3	0
+103	2006_11_07_1802956.xml_fulltext	29	"''It's too simplistic to say low CO2 was the only cause of the glacial periods'' on time scales of millions of years, said Robert Giegengack, a geologist at the University of Pennsylvania who studies past atmospheres."	-1	0.370353	0.629647	spec	4	1	4	0
+104	2006_11_07_1802956.xml_fulltext	30	"''The record violates that one-to-one correspondence.''"	1	0.604955	0.395045	gen	4	4	1	0
+105	2006_11_07_1802956.xml_fulltext	31	"He and other doubters say the planet is clearly warming today, as it has repeatedly done, but insist that no one knows exactly why."	1	0.57263	0.42737	gen	3	3	2	0
+106	2006_11_07_1802956.xml_fulltext	32	"Other possible causes, they say, include changes in sea currents, Sun cycles and cosmic rays that bombard the planet."	-1	0.481097	0.518903	spec	3	2	3	0
+107	2006_11_07_1802956.xml_fulltext	33	"''More and more data,'' Jan Veizer, an expert on Phanerozoic climates at the University of Ottawa, said, ''point to the Sun and stars as the dominant driver.''"	-1	0.388531	0.611469	spec	5	0	5	0
+108	2006_11_07_1802956.xml_fulltext	34	"Highlighting the gap, the two sides clash on how much the Earth would warm today if carbon dioxide concentrations double from preindustrial levels, as scientists expect."	-1	0.284693	0.715307	gen	3	3	1	1
+109	2006_11_07_1802956.xml_fulltext	35	"Many climatologists see an increase of as much as 8 degrees Fahrenheit."	-1	0.493985	0.506015	spec	4	1	4	0
+110	2006_11_07_1802956.xml_fulltext	36	"The skeptics, drawing on Phanerozoic data, tend to see far less, perhaps 2 or 3 degrees."	-1	0.479154	0.520846	spec	5	0	5	0
+111	2006_11_07_1802956.xml_fulltext	37	"In the Phanerozoic (the term is Greek for visible life), complex organisms arose."	1	0.546708	0.453292	spec	3	2	3	0
+112	2006_11_07_1802956.xml_fulltext	38	"If its countless ages were compressed into a single year, fish would have appeared in January, land animals in March, dinosaurs in June, monkeys in December and humans late on New Year's Eve."	-1	0.178651	0.821349	spec	4	1	4	0
+113	2006_11_07_1802956.xml_fulltext	39	"The Phanerozoic dispute, fought mainly in scholarly journals and scientific meetings, has occurred in isolation from the public debate on global warming."	1	0.69455	0.30545	spec	3	2	3	0
+114	2006_11_07_1802956.xml_fulltext	40	"Al Gore in ''An Inconvenient Truth'' makes no mention of it."	1	0.662089	0.337911	spec	3	2	3	0
+115	2006_11_07_1802956.xml_fulltext	41	"Some mainstream scientists familiar with the Phanerozoic evidence call it too sketchy for public consumption and government policy, if not expert deliberations."	1	0.66259	0.33741	spec	5	0	5	0
+116	2006_11_07_1802956.xml_fulltext	42	"''In my view, the uncertainties are too great to draw any conclusions right now,'' Michael Oppenheimer, a professor of geosciences and international affairs at Princeton, said."	1	0.591068	0.408932	gen	3	3	2	0
+117	2006_11_07_1802956.xml_fulltext	43	"''It could be that when the dust settles some insight will emerge that will be germane to the current problem -- how do we keep the climate from spinning out of control.''"	-1	0.332107	0.667893	gen	4	4	1	0
+118	2006_11_07_1802956.xml_fulltext	44	"Skeptics say CO2 crusaders simply find the Phanerozoic data embarrassing and irreconcilable with public alarms."	1	0.538079	0.461921	spec	3	2	3	0
+119	2006_11_07_1802956.xml_fulltext	45	"''People come to me and say, 'Stop talking like this, you're hurting the cause,' '' said Dr. Giegengack of Penn."	-1	0.255507	0.744493	spec	3	2	3	0
+120	2006_11_07_1802956.xml_fulltext	46	"Robert A. Rohde, a graduate student in geophysics at the University of California, Berkeley, may represent a neutral voice."	-1	0.178398	0.821602	spec	4	0	4	1
+121	2006_11_07_1802956.xml_fulltext	47	"The evidence, he said, ''is that CO2 is just one of many influences.''"	1	0.581453	0.418547	spec	3	2	3	0
+122	2006_11_07_1802956.xml_fulltext	48	"For Wikipedia, Mr. Rohde recently drew up graphic overviews of Phanerozoic carbon dioxide, en.wikipedia.org/wiki/Image:Phanerozoic-Carbon-Dioxide.png, and climate swings, en.wikipedia.org/wiki/Image:Phanerozoic-Climate-Change.png."	-1	7.85048e-07	0.999999	spec	5	0	5	0
+123	2006_11_07_1802956.xml_fulltext	49	"For nearly two centuries, scientists have known that the ancient Earth went through ice ages and other climate upheavals."	-1	0.484087	0.515913	spec	3	2	3	0
+124	2006_11_07_1802956.xml_fulltext	50	"Their explanations included changes in land forms, ocean flows, solar intensity and Earth's orbit around the Sun."	-1	0.422134	0.577866	gen	5	5	0	0
+125	2006_11_07_1802956.xml_fulltext	51	"The new argument dates from 1958, when scientists began to track carbon dioxide in the air, finding its levels low, 0.0315 percent, but increasing."	-1	0.164099	0.835901	spec	5	0	5	0
+126	2006_11_07_1802956.xml_fulltext	52	"They knew that excess gas could in theory trap more heat from the Sun, warming the planet and providing a new explanation for climate change."	-1	0.336273	0.663727	spec	3	2	3	0
+127	2006_11_07_1802956.xml_fulltext	53	"The greenhouse theory rose to prominence in the 1980's as carbon dioxide continued to increase and as global temperatures started to increase."	-1	0.179521	0.820479	spec	4	1	4	0
+128	2006_11_07_1802956.xml_fulltext	54	"While scientists tracked many greenhouse gases, including ozone, methane and water vapor, they focused on carbon dioxide because its concentrations seemed to be rising quite rapidly."	-1	0.432113	0.567887	spec	5	0	5	0
+129	2006_11_07_1802956.xml_fulltext	55	"Keen to put the threat in perspective, they sought to compare modern CO2 levels to those of the past."	1	0.667828	0.332172	gen	3	3	2	0
+130	2006_11_07_1802956.xml_fulltext	56	"Ice cores from the frozen regions turned out to harbor tiny air bubbles that showed carbon dioxide concentrations going back hundreds of thousands of years."	1	0.645769	0.354231	spec	3	2	3	0
+131	2006_11_07_1802956.xml_fulltext	57	"Scientists found the preindustrial levels averaging 280 parts per million, down from 315 parts per million, or 0.0315 percent, in 1958."	-1	0.114135	0.885865	spec	5	0	5	0
+132	2006_11_07_1802956.xml_fulltext	58	"Scientists suspected that the concentrations were once much higher, especially in hot eras of little or no polar ice."	1	0.918125	0.0818746	gen	4	4	1	0
+133	2006_11_07_1802956.xml_fulltext	59	"Eager to push beyond the cores, which went back just a half million years or so, scientists looked for ways to peer further back."	1	0.543408	0.456592	gen	5	5	0	0
+134	2006_11_07_1802956.xml_fulltext	60	"Dr. Berner of Yale focused on computer models."	1	0.517591	0.482409	spec	3	2	3	0
+135	2006_11_07_1802956.xml_fulltext	61	"His studies of the Phanerozoic analyzed factors such as how some ages produced many volcanoes and much atmospheric carbon dioxide and others spawned mountains, extensive weathering of fresh rock and, by that mechanism, considerable uptake of atmospheric carbon dioxide."	-1	0.332213	0.667787	spec	5	0	5	0
+136	2006_11_07_1802956.xml_fulltext	62	"From the start, he consistently reported close ties between carbon dioxide and climate swings."	1	0.582768	0.417232	gen	4	4	1	0
+137	2006_11_07_1802956.xml_fulltext	63	"For instance, in the explosion of plant life from 400 million to 300 million years ago, he found a sharp drop in the gas, occurring as the earth entered an ice age."	-1	0.0678008	0.932199	spec	4	1	4	0
+138	2006_11_07_1802956.xml_fulltext	64	"''These results,'' Dr. Berner wrote in the journal Science in 1990, ''support the notion that the atmospheric CO2 greenhouse mechanism is a major control on climate over very long time scales.''"	-1	0.239097	0.760903	spec	4	1	4	0
+139	2006_11_07_1802956.xml_fulltext	65	"Other scientists looked for clues among fossilized soils, plants and sea creatures, assuming that fluctuating climates had altered their growth patterns."	1	0.528552	0.471448	spec	3	2	3	0
+140	2006_11_07_1802956.xml_fulltext	66	"In time, the ancient specimens yielded a bonanza of subtle evidence, some confirming aspects of Dr. Berner's modeling."	-1	0.37699	0.62301	gen	3	3	2	0
+141	2006_11_07_1802956.xml_fulltext	67	"Claudia I. Mora and two colleagues at the University of Tennessee found that ancient soils verified the steep decline in carbon dioxide between 400 million and 300 million years ago."	-1	0.0262279	0.973772	spec	5	0	5	0
+142	2006_11_07_1802956.xml_fulltext	68	"Other scientists found conflicting evidence."	1	0.569115	0.430885	gen	5	5	0	0
+143	2006_11_07_1802956.xml_fulltext	69	"In 1992, a team from the University of New Mexico reported that ancient soils showed extremely high levels of carbon dioxide 440 million years ago, an age of primitive sea life before the advent of land plants and animals."	-1	0.143694	0.856306	spec	5	0	5	0
+144	2006_11_07_1802956.xml_fulltext	70	"The carbon dioxide levels were roughly 16 times higher than today."	1	0.611862	0.388138	spec	4	1	4	0
+145	2006_11_07_1802956.xml_fulltext	71	"Surprisingly, the scientists said, this appeared to coincide with wide glaciation, an analysis, wrote Crayton J. Yapp and Harald Poths in the journal Nature, that ''suggests that the climate models require modification.''"	-1	0.0908169	0.909183	spec	5	0	5	0
+146	2006_11_07_1802956.xml_fulltext	72	"Throughout the 1990's, reconstruction papers offered evidence on both sides of the debate about the effects of carbon dioxide."	1	0.558947	0.441053	gen	3	3	2	0
+147	2006_11_07_1802956.xml_fulltext	73	"Starting in 2000, the attacks intensified as Dr. Veizer of Ottawa questioned the CO2-climate link across the whole Phanerozoic."	-1	0.133455	0.866545	spec	4	1	4	0
+148	2006_11_07_1802956.xml_fulltext	74	"He and two Belgian colleagues, writing in Nature, based their doubts on how two ice ages -- 440 million and 150 million years ago, in the age of dinosaurs -- apparently had very high carbon dioxide levels."	-1	0.0504193	0.949581	spec	5	0	5	0
+149	2006_11_07_1802956.xml_fulltext	75	"In 2002, Daniel H. Rothman of the Massachusetts Institute of Technology also raised sharp Phanerozoic questions after studying carbon dioxide clues teased from marine rocks."	-1	0.174193	0.825807	spec	4	1	4	0
+150	2006_11_07_1802956.xml_fulltext	76	"Writing in The Proceedings of the National Academy of Sciences, he said that with one exception -- the recent cool period of the last 50 million years -- he could find ''no systematic correspondence'' between carbon dioxide and climate shifts."	-1	0.0510916	0.948908	spec	5	0	5	0
+151	2006_11_07_1802956.xml_fulltext	77	"In 2003, Dr. Veizer joined Nir J. Shaviv, an astrophysicist at the Hebrew University of Jerusalem, to propose a new climate driver."	-1	0.0385114	0.961489	spec	4	1	4	0
+152	2006_11_07_1802956.xml_fulltext	78	"They envisioned slow movements of the solar system through the surrounding galaxy as controlling the cosmic rays that bombard Earth's atmosphere."	-1	0.450008	0.549992	spec	3	2	3	0
+153	2006_11_07_1802956.xml_fulltext	79	"A reduction, they argued, would lessen cloud cover and Earth's reflectivity, warming the planet."	-1	0.371747	0.628253	spec	2	2	2	1
+154	2006_11_07_1802956.xml_fulltext	80	"The reverse would cause cooling."	1	0.571238	0.428762	gen	3	3	1	1
+155	2006_11_07_1802956.xml_fulltext	81	"The Phanerozoic record of cosmic-ray bombardment showed excellent agreement with climate fluctuations, trumping carbon dioxide, they wrote."	-1	0.228041	0.771959	spec	4	1	4	0
+156	2006_11_07_1802956.xml_fulltext	82	"In 2004, Dr. Berner of Yale and four colleagues fired back."	-1	0.399012	0.600988	spec	3	2	3	0
+157	2006_11_07_1802956.xml_fulltext	83	"While saying cosmic rays were possibly ''of some climatic significance,'' they argued that such an effect was much less than that of carbon dioxide."	-1	0.477548	0.522452	spec	3	2	3	0
+158	2006_11_07_1802956.xml_fulltext	84	"In the debate, opponents can differ not only on the contours of past CO2 fluctuations but also on defining hot and cold eras."	1	0.836941	0.163059	gen	3	3	2	0
+159	2006_11_07_1802956.xml_fulltext	85	"Although Dr. Veizer sees a cold period 150 million years ago, a time of increased ice at sea but not on land because the continents had shifted from the poles, Dr. Berner, in his modeling, disregards it."	-1	0.192784	0.807216	spec	5	0	5	0
+160	2006_11_07_1802956.xml_fulltext	86	"Such differences can muddy the dispute."	1	0.817698	0.182302	gen	5	5	0	0
+161	2006_11_07_1802956.xml_fulltext	87	"Today, each side claims new victories."	1	0.599198	0.400802	gen	4	4	1	0
+162	2006_11_07_1802956.xml_fulltext	88	"Dr. Veizer says he has a comprehensive paper on the cosmic-ray theory coming out soon."	-1	0.39134	0.60866	spec	2	2	2	1
+163	2006_11_07_1802956.xml_fulltext	89	"Dr. Berner recently refined his model to repair an old inconsistency."	1	0.575472	0.424528	gen	4	4	1	0
+164	2006_11_07_1802956.xml_fulltext	90	"The revision, described in the May issue of The American Journal of Science, brings the model into closer agreement with the fact of wide glaciation 440 million years ago, yielding what he sees as stronger evidence of the dominant role of carbon dioxide then."	-1	0.0992438	0.900756	spec	5	0	5	0
+165	2006_11_07_1802956.xml_fulltext	91	"Dr. Yapp, once a carbon dioxide skeptic, concurred, saying, ''The data complied in the last decade suggests that long-term climate change correlates pretty well with CO2 changes.''"	-1	0.351921	0.648079	spec	3	2	3	0
+166	2006_11_07_1802956.xml_fulltext	92	"Some climatologists view the Phanerozoic debate as irrelevant."	1	0.59825	0.40175	gen	3	3	2	0
+167	2006_11_07_1802956.xml_fulltext	93	"They say the evidence of a tie between carbon dioxide and planetary warming over the last few centuries is so compelling that any long-term evidence to the contrary must somehow be tainted."	-1	0.393427	0.606573	spec	4	0	4	1
+168	2006_11_07_1802956.xml_fulltext	94	"They also say greenhouse gases are increasing faster than at any other time in Earth history, making the past immaterial."	1	0.510573	0.489427	gen	4	4	1	0
+169	2006_11_07_1802956.xml_fulltext	95	"Carbon dioxide skeptics and others see the reconstructions of the last 15 years as increasingly reliable, posing fundamental questions about the claimed powers of carbon dioxide."	1	0.502882	0.497118	spec	3	2	3	0
+170	2006_11_07_1802956.xml_fulltext	96	"Climatologists and policy makers, they say, need to ponder such complexities rather than trying to ignore or dismiss the unexpected findings."	1	0.753151	0.246849	gen	5	5	0	0
+171	2006_11_07_1802956.xml_fulltext	97	"''Some of the work has been quite meticulous,'' Thure E. Cerling, an expert at the University of Utah on Phanerozoic climates, said."	-1	0.309797	0.690203	gen	4	4	1	0
+172	2006_11_07_1802956.xml_fulltext	98	"''We are likely to learn something.''"	1	0.748866	0.251134	gen	5	5	0	0
+173	2007_05_10_1846387.xml_fulltext	0	"When Anya Bailey developed an eating disorder after her 12th birthday, her mother took her to a psychiatrist at the University of Minnesota who prescribed a powerful antipsychotic drug called Risperdal."	-1	0.115256	0.884744	spec	4	1	4	0
+174	2007_05_10_1846387.xml_fulltext	1	"Created for schizophrenia, Risperdal is not approved to treat eating disorders, but increased appetite is a common side effect and doctors may prescribe drugs as they see fit."	-1	0.47304	0.52696	spec	5	0	5	0
+175	2007_05_10_1846387.xml_fulltext	2	"Anya gained weight but within two years developed a crippling knot in her back."	-1	0.461712	0.538288	spec	4	1	4	0
+176	2007_05_10_1846387.xml_fulltext	3	"She now receives regular injections of Botox to unclench her back muscles."	-1	0.403426	0.596574	spec	5	0	5	0
+177	2007_05_10_1846387.xml_fulltext	4	"She often awakens crying in pain."	1	0.803739	0.196261	gen	5	5	0	0
+178	2007_05_10_1846387.xml_fulltext	5	"Isabella Bailey, Anya's mother, said she had no idea that children might be especially susceptible to Risperdal's side effects."	-1	0.47424	0.52576	spec	5	0	5	0
+179	2007_05_10_1846387.xml_fulltext	6	"Nor did she know that Risperdal and similar medicines were not approved at the time to treat children, or that medical trials often cited to justify the use of such drugs had as few as eight children taking the drug by the end."	-1	0.299502	0.700498	spec	5	0	5	0
+180	2007_05_10_1846387.xml_fulltext	7	"Just as surprising, Ms. Bailey said, was learning that the university psychiatrist who supervised Anya's care received more than $7,000 from 2003 to 2004 from Johnson &amp; Johnson, Risperdal's maker, in return for lectures about one of the company's drugs."	-1	0.028083	0.971917	spec	5	0	5	0
+181	2007_05_10_1846387.xml_fulltext	8	"Doctors, including Anya Bailey's, maintain that payments from drug companies do not influence what they prescribe for patients."	1	0.684348	0.315652	gen	3	3	2	0
+182	2007_05_10_1846387.xml_fulltext	9	"But the intersection of money and medicine, and its effect on the well-being of patients, has become one of the most contentious issues in health care."	-1	0.375939	0.624061	gen	5	5	0	0
+183	2007_05_10_1846387.xml_fulltext	10	"Nowhere is that more true than in psychiatry, where increasing payments to doctors have coincided with the growing use in children of a relatively new class of drugs known as atypical antipsychotics."	1	0.854631	0.145369	spec	4	1	4	0
+184	2007_05_10_1846387.xml_fulltext	11	"These best-selling drugs, including Risperdal, Seroquel, Zyprexa, Abilify and Geodon, are now being prescribed to more than half a million children in the United States to help parents deal with behavior problems despite profound risks and almost no approved uses for minors."	-1	0.45414	0.54586	spec	5	0	5	0
+185	2007_05_10_1846387.xml_fulltext	12	"A New York Times analysis of records in Minnesota, the only state that requires public reports of all drug company marketing payments to doctors, provides rare documentation of how financial relationships between doctors and drug makers correspond to the growing use of atypicals in children."	-1	0.497625	0.502375	spec	5	0	5	0
+186	2007_05_10_1846387.xml_fulltext	13	"From 2000 to 2005, drug maker payments to Minnesota psychiatrists rose more than sixfold, to $1.6 million."	-1	0.0587596	0.94124	spec	5	0	5	0
+187	2007_05_10_1846387.xml_fulltext	14	"During those same years, prescriptions of antipsychotics for children in Minnesota's Medicaid program rose more than ninefold."	1	0.539392	0.460608	spec	3	2	3	0
+188	2007_05_10_1846387.xml_fulltext	15	"Those who took the most money from makers of atypicals tended to prescribe the drugs to children the most often, the data suggest."	1	0.778206	0.221794	gen	3	3	2	0
+189	2007_05_10_1846387.xml_fulltext	16	"On average, Minnesota psychiatrists who received at least $5,000 from atypical makers from 2000 to 2005 appear to have written three times as many atypical prescriptions for children as psychiatrists who received less or no money."	-1	0.172773	0.827227	spec	5	0	5	0
+190	2007_05_10_1846387.xml_fulltext	17	"The Times analysis focused on prescriptions written for about one-third of Minnesota's Medicaid population, almost all of whom are disabled."	-1	0.38121	0.61879	spec	4	1	4	0
+191	2007_05_10_1846387.xml_fulltext	18	"Some doctors were misidentified by pharmacists, but the information provides a rough guide to prescribing patterns in the state."	1	0.584025	0.415975	gen	5	5	0	0
+192	2007_05_10_1846387.xml_fulltext	19	"Drug makers underwrite decision makers at every level of care."	1	0.627223	0.372777	gen	5	5	0	0
+193	2007_05_10_1846387.xml_fulltext	20	"They pay doctors who prescribe and recommend drugs, teach about the underlying diseases, perform studies and write guidelines that other doctors often feel bound to follow."	1	0.756753	0.243247	gen	5	5	0	0
+194	2007_05_10_1846387.xml_fulltext	21	"But studies present strong evidence that financial interests can affect decisions, often without people knowing it."	1	0.686085	0.313915	spec	3	2	3	0
+195	2007_05_10_1846387.xml_fulltext	22	"In Minnesota, psychiatrists collected more money from drug makers from 2000 to 2005 than doctors in any other specialty."	-1	0.287705	0.712295	spec	4	1	4	0
+196	2007_05_10_1846387.xml_fulltext	23	"Total payments to individual psychiatrists ranged from $51 to more than $689,000, with a median of $1,750."	-1	0.306777	0.693223	spec	5	0	5	0
+197	2007_05_10_1846387.xml_fulltext	24	"Since the records are incomplete, these figures probably underestimate doctors' actual incomes."	1	0.847629	0.152371	gen	4	4	1	0
+198	2007_05_10_1846387.xml_fulltext	25	"Such payments could encourage psychiatrists to use drugs in ways that endanger patients' physical health, said Dr. Steven E. Hyman, the provost of Harvard University and former director of the National Institute of Mental Health."	-1	0.159906	0.840094	gen	3	3	2	0
+199	2007_05_10_1846387.xml_fulltext	26	"The growing use of atypicals in children is the most troubling example of this, Dr. Hyman said."	1	0.696196	0.303804	spec	3	2	3	0
+200	2007_05_10_1846387.xml_fulltext	27	"''There's an irony that psychiatrists ask patients to have insights into themselves, but we don't connect the wires in our own lives about how money is affecting our profession and putting our patients at risk,'' he said."	-1	0.387057	0.612943	spec	3	2	3	0
+201	2007_05_10_1846387.xml_fulltext	28	"The Prescription Anya Bailey is a 15-year-old high school freshman from East Grand Forks, Minn., with pictures of the actor Chad Michael Murray on her bedroom wall."	-1	0.0862366	0.913763	spec	4	1	4	0
+202	2007_05_10_1846387.xml_fulltext	29	"She has constant discomfort in her neck that leads her to twist it in a birdlike fashion."	1	0.568631	0.431369	spec	4	1	4	0
+203	2007_05_10_1846387.xml_fulltext	30	"Last year, a boy mimicked her in the lunch room."	-1	0.499701	0.500299	gen	3	3	2	0
+204	2007_05_10_1846387.xml_fulltext	31	"''The first time, I laughed it off,'' Anya said."	1	0.566319	0.433681	gen	3	3	2	0
+205	2007_05_10_1846387.xml_fulltext	32	"''I said: 'That's so funny."	1	0.744499	0.255501	gen	4	4	0	1
+206	2007_05_10_1846387.xml_fulltext	33	"I think I'll laugh with you.'"	1	0.806471	0.193529	gen	3	3	0	2
+207	2007_05_10_1846387.xml_fulltext	34	"Then it got annoying, and I decided to hide it."	1	0.797278	0.202722	gen	4	4	1	0
+208	2007_05_10_1846387.xml_fulltext	35	"I don't want to be made fun of.''"	1	0.866876	0.133124	gen	5	5	0	0
+209	2007_05_10_1846387.xml_fulltext	36	"Now she slumps when seated at school to pressure her clenched muscles, she said."	1	0.556861	0.443139	spec	4	1	4	0
+210	2007_05_10_1846387.xml_fulltext	37	"It all began in 2003 when Anya became dangerously thin."	1	0.582689	0.417311	spec	3	2	3	0
+211	2007_05_10_1846387.xml_fulltext	38	"''Nothing tasted good to her,'' Ms. Bailey said."	1	0.803705	0.196295	spec	3	2	3	0
+212	2007_05_10_1846387.xml_fulltext	39	"Psychiatrists at the University of Minnesota, overseen by Dr. George M. Realmuto, settled on Risperdal, not for its calming effects but for its normally unwelcome side effect of increasing appetite and weight gain, Ms. Bailey said."	-1	0.167212	0.832788	spec	4	1	4	0
+213	2007_05_10_1846387.xml_fulltext	40	"Anya had other issues that may have recommended Risperdal to doctors, including occasional angry outbursts and having twice heard voices over the previous five years, Ms. Bailey said."	-1	0.448113	0.551887	spec	4	1	4	0
+214	2007_05_10_1846387.xml_fulltext	41	"Dr. Realmuto said he did not remember Anya's case, but speaking generally he defended his unapproved use of Risperdal to counter an eating disorder despite the drug's risks."	-1	0.301343	0.698657	gen	3	3	2	0
+215	2007_05_10_1846387.xml_fulltext	42	"''When things are dangerous, you use extraordinary measures,'' he said."	1	0.791111	0.208889	gen	4	4	1	0
+216	2007_05_10_1846387.xml_fulltext	43	"Ten years ago, Dr. Realmuto helped conduct a study of Concerta, an attention deficit hyperactivity disorder drug marketed by Johnson &amp; Johnson, which also makes Risperdal."	-1	0.119022	0.880978	spec	3	2	3	0
+217	2007_05_10_1846387.xml_fulltext	44	"When Concerta was approved, the company hired him to lecture about it."	1	0.613767	0.386233	spec	3	2	3	0
+218	2007_05_10_1846387.xml_fulltext	45	"He said he gives marketing lectures for several reasons."	1	0.621567	0.378433	gen	5	5	0	0
+219	2007_05_10_1846387.xml_fulltext	46	"''To the extent that a drug is useful, I want to be seen as a leader in my specialty and that I was involved in a scientific study,'' he said."	-1	0.39368	0.60632	gen	3	3	2	0
+220	2007_05_10_1846387.xml_fulltext	47	"The money is nice, too, he said."	1	0.887556	0.112444	gen	3	3	0	2
+221	2007_05_10_1846387.xml_fulltext	48	"Dr. Realmuto's university salary is $196,310."	-1	0.259424	0.740576	spec	4	1	4	0
+222	2007_05_10_1846387.xml_fulltext	49	"''Academics don't get paid very much,'' he said."	1	0.778606	0.221394	gen	4	4	1	0
+223	2007_05_10_1846387.xml_fulltext	50	"''If I was an entertainer, I think I would certainly do a lot better.''"	1	0.68304	0.31696	gen	4	4	1	0
+224	2007_05_10_1846387.xml_fulltext	51	"In 2003, the year Anya came to his clinic, Dr. Realmuto earned $5,000 from Johnson &amp; Johnson for giving three talks about Concerta."	-1	0.0622379	0.937762	spec	5	0	5	0
+225	2007_05_10_1846387.xml_fulltext	52	"Dr. Realmuto said he could understand someone's worrying that his Concerta lecture fees would influence him to prescribe Concerta but not a different drug from the same company, like Risperdal."	-1	0.102352	0.897648	spec	5	0	5	0
+226	2007_05_10_1846387.xml_fulltext	53	"In general, he conceded, his relationship with a drug company might prompt him to try a drug."	-1	0.45208	0.54792	gen	4	4	1	0
+227	2007_05_10_1846387.xml_fulltext	54	"Whether he continued to use it, though, would depend entirely on the results."	1	0.703073	0.296927	gen	4	4	1	0
+228	2007_05_10_1846387.xml_fulltext	55	"As the interview continued, Dr. Realmuto said that upon reflection his payments from drug companies had probably opened his door to useless visits from a drug salesman, and he said he would stop giving sponsored lectures in the future."	-1	0.245507	0.754493	spec	4	1	4	0
+229	2007_05_10_1846387.xml_fulltext	56	"Kara Russell, a Johnson &amp; Johnson spokeswoman, said that the company selects speakers who have used the drug in patients and have either undertaken research or are aware of the studies."	-1	0.299201	0.700799	spec	4	1	4	0
+230	2007_05_10_1846387.xml_fulltext	57	"''Dr."	1	0.770748	0.229252	gen	3	3	0	2
+231	2007_05_10_1846387.xml_fulltext	58	"Realmuto met these criteria,'' Ms. Russell said."	-1	0.39675	0.60325	spec	3	2	3	0
+232	2007_05_10_1846387.xml_fulltext	59	"When asked whether these payments may influence doctors' prescribing habits, Ms. Russell said that the talks ''provide an educational opportunity for physicians.''"	1	0.592417	0.407583	spec	2	2	2	1
+233	2007_05_10_1846387.xml_fulltext	60	"No one has proved that psychiatrists prescribe atypicals to children because of drug company payments."	1	0.678549	0.321451	gen	4	4	1	0
+234	2007_05_10_1846387.xml_fulltext	61	"Indeed, some who frequently prescribe the drugs to children earn no drug industry money."	1	0.729397	0.270603	gen	5	5	0	0
+235	2007_05_10_1846387.xml_fulltext	62	"And nearly all psychiatrists who accept payments say they remain independent."	1	0.750801	0.249199	gen	4	4	1	0
+236	2007_05_10_1846387.xml_fulltext	63	"Some say they prescribed and extolled the benefits of such drugs before ever receiving payments to speak to other doctors about them."	1	0.643274	0.356726	gen	5	5	0	0
+237	2007_05_10_1846387.xml_fulltext	64	"''If someone takes the point of view that your doctor can be bought, why would you go to an E. R. with your injured child and say, 'Can you help me?'"	-1	0.17884	0.82116	gen	3	3	2	0
+238	2007_05_10_1846387.xml_fulltext	65	"'' said Dr. Suzanne A. Albrecht, a psychiatrist from Edina, Minn., who earned more than $188,000 from 2002 to 2005 giving drug marketing talks."	-1	0.0408992	0.959101	spec	4	1	4	0
+239	2007_05_10_1846387.xml_fulltext	66	"The Industry Campaign It is illegal for drug makers to pay doctors directly to prescribe specific products."	1	0.661305	0.338695	spec	3	2	3	0
+240	2007_05_10_1846387.xml_fulltext	67	"Federal rules also bar manufacturers from promoting unapproved, or off-label, uses for drugs."	1	0.691646	0.308354	gen	4	4	1	0
+241	2007_05_10_1846387.xml_fulltext	68	"But doctors are free to prescribe as they see fit, and drug companies can sidestep marketing prohibitions by paying doctors to give lectures in which, if asked, they may discuss unapproved uses."	-1	0.331146	0.668854	spec	4	1	4	0
+242	2007_05_10_1846387.xml_fulltext	69	"The drug industry and many doctors say that these promotional lectures provide the field with invaluable education."	1	0.529796	0.470204	gen	5	5	0	0
+243	2007_05_10_1846387.xml_fulltext	70	"Critics say the payments and lectures, often at expensive restaurants, are disguised kickbacks that encourage potentially dangerous drug uses."	1	0.841907	0.158093	gen	3	3	2	0
+244	2007_05_10_1846387.xml_fulltext	71	"The issue is particularly important in psychiatry, because mental problems are not well understood, treatment often involves trial and error, and off-label prescribing is common."	1	0.7551	0.2449	spec	3	2	3	0
+245	2007_05_10_1846387.xml_fulltext	72	"The analysis of Minnesota records shows that from 1997 through 2005, more than a third of Minnesota's licensed psychiatrists took money from drug makers, including the last eight presidents of the Minnesota Psychiatric Society."	-1	0.0899322	0.910068	spec	4	1	4	0
+246	2007_05_10_1846387.xml_fulltext	73	"The psychiatrist receiving the most from drug companies was Dr. Annette M. Smick, who lives outside Rochester, Minn., and was paid more than $689,000 by drug makers from 1998 to 2004."	-1	0.0695529	0.930447	spec	4	1	4	0
+247	2007_05_10_1846387.xml_fulltext	74	"At one point Dr. Smick was doing so many sponsored talks that ''it was hard for me to find time to see patients in my clinical practice,'' she said."	-1	0.201604	0.798396	spec	4	1	4	0
+248	2007_05_10_1846387.xml_fulltext	75	"''I was providing an educational benefit, and I like teaching,'' Dr. Smick said."	1	0.569168	0.430832	gen	3	3	2	0
+249	2007_05_10_1846387.xml_fulltext	76	"Dr. Steven S. Sharfstein, immediate past president of the American Psychiatric Association, said psychiatrists have become too cozy with drug makers."	-1	0.344321	0.655679	spec	3	2	3	0
+250	2007_05_10_1846387.xml_fulltext	77	"One example of this, he said, involves Lexapro, made by Forest Laboratories, which is now the most widely used antidepressant in the country even though there are cheaper alternatives, including generic versions of Prozac."	-1	0.495906	0.504094	spec	5	0	5	0
+251	2007_05_10_1846387.xml_fulltext	78	"''Prozac is just as good if not better, and yet we are migrating to the expensive drug instead of the generics,'' Dr. Sharfstein said."	1	0.854222	0.145778	spec	4	1	4	0
+252	2007_05_10_1846387.xml_fulltext	79	"''I think it's the marketing.''"	1	0.531976	0.468024	gen	5	5	0	0
+253	2007_05_10_1846387.xml_fulltext	80	"Atypicals have become popular because they can settle almost any extreme behavior, often in minutes, and doctors have few other answers for desperate families."	1	0.758122	0.241878	gen	3	3	2	0
+254	2007_05_10_1846387.xml_fulltext	81	"Their growing use in children is closely tied to the increasingly common and controversial diagnosis of pediatric bipolar disorder, a mood problem marked by aggravation, euphoria, depression and, in some cases, violent outbursts."	1	0.738147	0.261853	spec	4	1	4	0
+255	2007_05_10_1846387.xml_fulltext	82	"The drugs, sometimes called major tranquilizers, act by numbing brain cells to surges of dopamine, a chemical that has been linked to euphoria and psychotic delusions."	1	0.516122	0.483878	spec	4	1	4	0
+256	2007_05_10_1846387.xml_fulltext	83	"Suzette Scheele of Burnsville, Minn., said her 17-year-old son, Matt, was given a diagnosis of bipolar disorder four years ago because of intense mood swings, and now takes Seroquel and Abilify, which have caused substantial weight gain."	-1	0.0552276	0.944772	spec	5	0	5	0
+257	2007_05_10_1846387.xml_fulltext	84	"''But I don't have to worry about his rages; he's appropriate; he's pleasant to be around,'' Ms. Scheele said."	-1	0.414106	0.585894	spec	4	1	4	0
+258	2007_05_10_1846387.xml_fulltext	85	"The sudden popularity of pediatric bipolar diagnosis has coincided with a shift from antidepressants like Prozac to far more expensive atypicals."	1	0.552223	0.447777	spec	5	0	5	0
+259	2007_05_10_1846387.xml_fulltext	86	"In 2000, Minnesota spent more than $521,000 buying antipsychotic drugs, most of it on atypicals, for children on Medicaid."	-1	0.42535	0.57465	spec	4	1	4	0
+260	2007_05_10_1846387.xml_fulltext	87	"In 2005, the cost was more than $7.1 million, a 14-fold increase."	-1	0.320943	0.679057	spec	5	0	5	0
+261	2007_05_10_1846387.xml_fulltext	88	"The drugs, which can cost $1,000 to $8,000 for a year's supply, are huge sellers worldwide."	-1	0.400314	0.599686	gen	4	4	1	0
+262	2007_05_10_1846387.xml_fulltext	89	"In 2006, Zyprexa, made by Eli Lilly, had $4.36 billion in sales, Risperdal $4.18 billion and Seroquel, made by AstraZeneca, $3.42 billion."	-1	0.0107329	0.989267	spec	4	1	4	0
+263	2007_05_10_1846387.xml_fulltext	90	"Many Minnesota doctors, including the president of the Minnesota Psychiatric Society, said drug makers and their intermediaries are now paying them almost exclusively to talk about bipolar disorder."	-1	0.448906	0.551094	spec	5	0	5	0
+264	2007_05_10_1846387.xml_fulltext	91	"The Diagnoses Yet childhood bipolar disorder is an increasingly controversial diagnosis."	1	0.5728	0.4272	gen	4	4	1	0
+265	2007_05_10_1846387.xml_fulltext	92	"Even doctors who believe it is common disagree about its telltale symptoms."	1	0.831247	0.168753	gen	5	5	0	0
+266	2007_05_10_1846387.xml_fulltext	93	"Others suspect it is a fad."	1	0.782528	0.217472	gen	4	4	0	1
+267	2007_05_10_1846387.xml_fulltext	94	"And the scientific evidence that atypicals improve these children's lives is scarce."	1	0.646056	0.353944	gen	5	5	0	0
+268	2007_05_10_1846387.xml_fulltext	95	"One of the first and perhaps most influential studies was financed by AstraZeneca and performed by Dr. Melissa DelBello, a child and adult psychiatrist at the University of Cincinnati."	-1	0.16149	0.83851	spec	4	1	4	0
+269	2007_05_10_1846387.xml_fulltext	96	"Dr. DelBello led a research team that tracked for six weeks the moods of 30 adolescents who had received diagnoses of bipolar disorder."	-1	0.243178	0.756822	gen	4	4	1	0
+270	2007_05_10_1846387.xml_fulltext	97	"Half of the teenagers took Depakote, an antiseizure drug used to treat epilepsy and bipolar disorder in adults."	-1	0.337954	0.662046	spec	5	0	5	0
+271	2007_05_10_1846387.xml_fulltext	98	"The other half took Seroquel and Depakote."	-1	0.46416	0.53584	spec	3	1	3	1
+272	2007_05_10_1846387.xml_fulltext	99	"The two groups did about equally well until the last few days of the study, when those in the Seroquel group scored lower on a standard measure of mania."	-1	0.484604	0.515396	spec	5	0	5	0
+273	2007_05_10_1846387.xml_fulltext	100	"By then, almost half of the teenagers getting Seroquel had dropped out because they missed appointments or the drugs did not work."	1	0.711101	0.288899	spec	3	2	3	0
+274	2007_05_10_1846387.xml_fulltext	101	"Just eight of them completed the trial."	1	0.742593	0.257407	gen	3	3	1	1
+275	2007_05_10_1846387.xml_fulltext	102	"In an interview, Dr. DelBello acknowledged that the study was not conclusive."	1	0.706833	0.293167	gen	3	3	2	0
+276	2007_05_10_1846387.xml_fulltext	103	"In the 2002 published paper, however, she and her co-authors reported that Seroquel in combination with Depakote ''is more effective for the treatment of adolescent bipolar mania'' than Depakote alone."	-1	0.213622	0.786378	spec	5	0	5	0
+277	2007_05_10_1846387.xml_fulltext	104	"In 2005, a committee of prominent experts from across the country examined all of the studies of treatment for pediatric bipolar disorder and decided that Dr. DelBello's was the only study involving atypicals in bipolar children that deserved its highest rating for scientific rigor."	-1	0.211226	0.788774	spec	4	1	4	0
+278	2007_05_10_1846387.xml_fulltext	105	"The panel concluded that doctors should consider atypicals as a first-line treatment for some children."	1	0.503071	0.496929	gen	4	4	1	0
+279	2007_05_10_1846387.xml_fulltext	106	"The guidelines were published in The Journal of the American Academy of Child and Adolescent Psychiatry."	-1	0.405965	0.594035	spec	4	1	4	0
+280	2007_05_10_1846387.xml_fulltext	107	"Three of the four doctors on the panel served as speakers or consultants to makers of atypicals, according to disclosures in the guidelines."	1	0.521217	0.478783	spec	4	1	4	0
+281	2007_05_10_1846387.xml_fulltext	108	"In an interview, Dr. Robert A. Kowatch, a psychiatrist at Cincinnati Children's Hospital and the lead author of the guidelines, said the drug makers' support had no influence on the conclusions."	-1	0.208091	0.791909	spec	4	1	4	0
+282	2007_05_10_1846387.xml_fulltext	109	"AstraZeneca hired Dr. DelBello and Dr. Kowatch to give sponsored talks."	-1	0.359773	0.640227	spec	5	0	5	0
+283	2007_05_10_1846387.xml_fulltext	110	"They later undertook another study comparing Seroquel and Depakote in bipolar children and found no difference."	-1	0.383085	0.616915	spec	3	2	3	0
+284	2007_05_10_1846387.xml_fulltext	111	"Dr. DelBello, who earns $183,500 annually from the University of Cincinnati, would not discuss how much she is paid by AstraZeneca."	-1	0.307992	0.692008	spec	4	1	4	0
+285	2007_05_10_1846387.xml_fulltext	112	"''Trust me, I don't make much,'' she said."	1	0.642573	0.357427	gen	5	5	0	0
+286	2007_05_10_1846387.xml_fulltext	113	"Drug company payments did not affect her study or her talks, she said."	1	0.769622	0.230378	gen	3	3	2	0
+287	2007_05_10_1846387.xml_fulltext	114	"In a recent disclosure, Dr. DelBello said that she received marketing or consulting income from eight drug companies, including all five makers of atypicals."	-1	0.151359	0.848641	spec	4	1	4	0
+288	2007_05_10_1846387.xml_fulltext	115	"Dr. Realmuto has heard Dr. DelBello speak several times, and her talks persuaded him to use combinations of Depakote and atypicals in bipolar children, he said."	-1	0.273288	0.726712	spec	4	1	4	0
+289	2007_05_10_1846387.xml_fulltext	116	"''She's the leader in terms of doing studies on bipolar,'' Dr. Realmuto said."	-1	0.365758	0.634242	gen	3	3	2	0
+290	2007_05_10_1846387.xml_fulltext	117	"Some psychiatrists who advocate use of atypicals in children acknowledge that the evidence supporting this use is thin."	1	0.587956	0.412044	gen	3	3	2	0
+291	2007_05_10_1846387.xml_fulltext	118	"But they say children should not go untreated simply because scientists have failed to confirm what clinicians already know."	1	0.759709	0.240291	gen	5	5	0	0
+292	2007_05_10_1846387.xml_fulltext	119	"''We don't have time to wait for them to prove us right,'' said Dr. Kent G. Brockmann, a psychiatrist from the Twin Cities who made more than $16,000 from 2003 to 2005 doing drug talks and one-on-one sales meetings, and last year was a leading prescriber of atypicals to Medicaid children."	-1	0.0440718	0.955928	spec	4	1	4	0
+293	2007_05_10_1846387.xml_fulltext	120	"The Reaction For Anya Bailey, treatment with an atypical helped her regain her appetite and put on weight, but also heavily sedated her, her mother said."	-1	0.243679	0.756321	spec	4	0	4	1
+294	2007_05_10_1846387.xml_fulltext	121	"She developed the disabling knot in her back, the result of a nerve condition called dystonia, in 2005."	-1	0.29674	0.70326	spec	4	1	4	0
+295	2007_05_10_1846387.xml_fulltext	122	"The reaction was rare but not unknown."	1	0.881501	0.118499	gen	5	5	0	0
+296	2007_05_10_1846387.xml_fulltext	123	"Atypicals have side effects that are not easy to predict in any one patient."	1	0.58875	0.41125	gen	4	4	1	0
+297	2007_05_10_1846387.xml_fulltext	124	"These include rapid weight gain and blood sugar problems, both risk factors for diabetes; disfiguring tics, dystonia and in rare cases heart attacks and sudden death in the elderly."	1	0.513353	0.486647	spec	3	2	3	0
+298	2007_05_10_1846387.xml_fulltext	125	"In 2006, the Food and Drug Administration received reports of at least 29 children dying and at least 165 more suffering serious side effects in which an antipsychotic was listed as the ''primary suspect.''"	-1	0.339311	0.660689	spec	4	1	4	0
+299	2007_05_10_1846387.xml_fulltext	126	"That was a substantial jump from 2000, when there were at least 10 deaths and 85 serious side effects among children linked to the drugs."	-1	0.366865	0.633135	spec	4	1	4	0
+300	2007_05_10_1846387.xml_fulltext	127	"Since reporting of bad drug effects is mostly voluntary, these numbers likely represent a fraction of the toll."	1	0.713891	0.286109	gen	4	4	1	0
+301	2007_05_10_1846387.xml_fulltext	128	"Jim Minnick, a spokesman for AstraZeneca, said that the company carefully monitors reported problems with Seroquel."	1	0.536984	0.463016	spec	3	1	3	1
+302	2007_05_10_1846387.xml_fulltext	129	"''AstraZeneca believes that Seroquel is safe,'' Mr. Minnick said."	1	0.644971	0.355029	spec	4	1	4	0
+303	2007_05_10_1846387.xml_fulltext	130	"Other psychiatrists renewed Anya's prescriptions for Risperdal until Ms. Bailey took Anya last year to the Mayo Clinic, where a doctor insisted that Ms. Bailey stop the drug."	-1	0.0817128	0.918287	spec	5	0	5	0
+304	2007_05_10_1846387.xml_fulltext	131	"Unlike most universities and hospitals, the Mayo Clinic restricts doctors from giving drug marketing lectures."	1	0.577913	0.422087	spec	4	1	4	0
+305	2007_05_10_1846387.xml_fulltext	132	"Ms. Bailey said she wished she had waited to see whether counseling would help Anya before trying drugs."	-1	0.477131	0.522869	spec	3	2	3	0
+306	2007_05_10_1846387.xml_fulltext	133	"Anya's weight is now normal without the help of drugs, and her counseling ended in March."	1	0.680032	0.319968	spec	4	1	4	0
+307	2007_05_10_1846387.xml_fulltext	134	"An experimental drug, her mother said, has recently helped the pain in her back."	1	0.641167	0.358833	spec	3	2	3	0
+0	wsj_1037.seg.clean	0	"Japan is going on a capital-spending binge that could make its trade surpluses even harder to shrink ."	1	0.559306	0.440694	gen	4	4	1	0
+1	wsj_1037.seg.clean	1	"Its capital spending is growing at double-digit rates for the second year in a row , and its superefficient producers of everything from cars to computer chips are rushing to expand capacity , modernize factories and develop new products ."	-1	0.383404	0.616596	spec	3	2	3	0
+2	wsj_1037.seg.clean	2	"`` The boom 's so huge , '' says Mitsuru Saito , an economist at Sanwa Research Institute , ``it makes you think of the Golden '60s , '' when Japan developed rapidly ."	-1	0.207028	0.792972	spec	4	1	4	0
+3	wsj_1037.seg.clean	3	"The more factories and robots Japanese manufacturers add , the more they will be able to export , and the less their domestic customers will need to import ."	1	0.748491	0.251509	gen	3	3	2	0
+4	wsj_1037.seg.clean	4	"At Canon Inc. , for example , sales are up nearly 20 % this year ; so , the maker of cameras and computer printers is doing what any Japanese company would do under the circumstances : It is increasing capital spending -- by 60 % ."	-1	0.206356	0.793644	spec	5	0	5	0
+5	wsj_1037.seg.clean	5	"It is building , among other things , a new laser-beam-printer factory in western Japan that can produce up to 150,000 printers next year ."	-1	0.199943	0.800057	spec	4	0	4	1
+6	wsj_1037.seg.clean	6	"Some 70 % of them are to be exported to the U.S. ."	-1	0.494879	0.505121	spec	3	2	3	0
+7	wsj_1037.seg.clean	7	"Even companies in smokestack industries wrestling with world-wide overcapacity are joining the boom ."	1	0.678701	0.321299	gen	5	5	0	0
+8	wsj_1037.seg.clean	8	"Japan 's steelmakers are raising capital spending 22 % this year to $ 4.8 billion ."	-1	0.178352	0.821648	spec	4	1	4	0
+9	wsj_1037.seg.clean	9	"Hitachi Zosen Corp. , a shipbuilder buried in debt just a few years ago , will build a machinery plant , its first expansion in 14 years ."	-1	0.247432	0.752568	spec	5	0	5	0
+10	wsj_1037.seg.clean	10	"So big ICH is the capital-spending boom that Japanese companies ' outlays in Japan topped American companies ' domestic outlays by $ 521.4 billion to $ 494.8 billion in the 12 months ended March 31 even though Japan 's total output of goods and services is less than two-thirds America 's ."	-1	0.0194639	0.980536	spec	5	0	5	0
+11	wsj_1037.seg.clean	11	"From a financial standpoint , the boom could n't come at a better time ."	1	0.672842	0.327158	gen	4	4	0	1
+12	wsj_1037.seg.clean	12	"Many Japanese companies expect record profits this fiscal year , and Japanese interest rates , though up a bit recently , are still low ."	1	0.798639	0.201361	gen	5	5	0	0
+13	wsj_1037.seg.clean	13	"And in a business system where shareholders have few rights and expect only modest dividends , companies can plow their profits back into plant and equipment ."	1	0.585151	0.414849	gen	4	4	1	0
+14	wsj_1037.seg.clean	14	"But some economists and government officials here are n't applauding ."	1	0.749416	0.250584	gen	5	5	0	0
+15	wsj_1037.seg.clean	15	"They fear that the boom may be too big for Japan 's or anyone else 's good ."	1	0.713883	0.286117	gen	5	5	0	0
+16	wsj_1037.seg.clean	16	"`` It 's an explosive cocktail '' thrown at the world , says Kenneth Courtis , senior economist at the Tokyo unit of Deutsche Bank Group ."	-1	0.158687	0.841313	gen	4	4	1	0
+17	wsj_1037.seg.clean	17	"The Ministry of International Trade and Industry is so concerned that it recently took the unusual step of urging Japanese auto companies to exercise caution in capital spending ."	-1	0.348011	0.651989	gen	3	3	2	0
+18	wsj_1037.seg.clean	18	"MITI officials hope to avoid yet-another source of trade friction with the U.S. even though export restraints currently limit Japanese car exports to the U.S. ."	-1	0.436501	0.563499	gen	4	4	1	0
+19	wsj_1037.seg.clean	19	"Not everyone is worried , however ."	1	0.947413	0.0525873	gen	5	5	0	0
+20	wsj_1037.seg.clean	20	"Some economists -- and many Japanese companies -- are puzzled by the warnings ."	1	0.780035	0.219965	gen	5	5	0	0
+21	wsj_1037.seg.clean	21	"The investment boom is mainly sparked , they say , by strong domestic demand and is n't likely to increase exports sharply ."	1	0.645172	0.354828	gen	5	5	0	0
+22	wsj_1037.seg.clean	22	"Moreover , much investment is n't aimed at increasing capacity ."	1	0.695257	0.304743	gen	5	5	0	0
+23	wsj_1037.seg.clean	23	"According to a survey of some 2,400 large companies by the Japan Development Bank , expanded capacity is the goal of just 51.8 % of the outlays ; for manufacturers alone , the figure is 32 % ."	-1	0.157427	0.842573	spec	5	0	5	0
+24	wsj_1037.seg.clean	24	"The manufacturers said14.2 % of their spending is designed to improve products or add new ones , 17.5 % is to cut costs , 12.5 % is for research and development , and the rest is for maintenance and other purposes ."	-1	0.0403917	0.959608	spec	4	1	4	0
+25	wsj_1037.seg.clean	25	"But the worriers remain unconvinced ."	1	0.687153	0.312847	gen	5	5	0	0
+26	wsj_1037.seg.clean	26	"With Japan running enormous trade surpluses against much of the world , they think that Japan should meet the increased domestic demand by importing more ."	1	0.591171	0.408829	spec	3	2	3	0
+27	wsj_1037.seg.clean	27	"And eventually , they contend , domestic demand will weaken , forcing companies to emphasize exports again ."	1	0.750121	0.249879	gen	4	4	1	0
+28	wsj_1037.seg.clean	28	"`` If there 's a further drive to export , '' says Nobuyuki Arai , an economist at the Japan Development Bank , `` that 'll be a problem . ''"	-1	0.199669	0.800331	spec	3	2	3	0
+29	wsj_1037.seg.clean	29	"Even in the short run , the investment boom could exacerbate a disturbing trend : Japanese exports are showing surprisingly little tendency to ease ."	1	0.706082	0.293918	spec	3	2	3	0
+30	wsj_1037.seg.clean	30	"Japanese auto makers , for example , are increasing their production capacity in the U.S. ; the additional production should , in part , replace imported vehicles with locally manufactured ones ."	1	0.512053	0.487947	spec	3	2	3	0
+31	wsj_1037.seg.clean	31	"But although Japanese companies increased their U.S. auto output by 42 % from January to September compared with the year-earlier period , their exports to the U.S. will drop only 9 % this year , Nikko Research Center estimates ."	-1	0.0528579	0.947142	spec	5	0	5	0
+32	wsj_1037.seg.clean	32	"In contrast to previous economic booms , Japanese auto companies are n't just trying to boost production ."	1	0.680535	0.319465	gen	4	4	1	0
+33	wsj_1037.seg.clean	33	"Many are pouring money into developing high-quality products to target affluent consumers and , to some extent , to avoid direct combat with cheaper cars from South Korea and Taiwan ."	-1	0.342927	0.657073	gen	3	3	2	0
+34	wsj_1037.seg.clean	34	"Others are replacing older facilities with flexible assembly lines on which different models can be turned out at once ."	1	0.690982	0.309018	gen	4	4	1	0
+35	wsj_1037.seg.clean	35	"So many companies ICH are investing in high-tech machinery that Fanuc Ltd. , a robot maker , also had to build a new plant ."	-1	0.324273	0.675727	spec	4	1	4	0
+36	wsj_1037.seg.clean	36	"The buildup is `` making Japan clearly more efficient , more technologically advanced and more competitive , '' declares a Western diplomat in Tokyo ."	1	0.788097	0.211903	spec	3	1	3	1
+37	wsj_1037.seg.clean	37	"But whatever its effects on exports and imports , Japan 's investment boom during the past two years has been stimulated at least partly by soaring domestic demand ."	1	0.549233	0.450767	spec	3	2	3	0
+38	wsj_1037.seg.clean	38	"Japan 's marathon economy , growing at 4.3 % this year , is now in its 35th month of expansion , and some economists are betting that the boom will outlast the record 57-month expansion in the late 1960s ."	-1	0.142341	0.857659	spec	5	0	5	0
+39	wsj_1037.seg.clean	39	"Japanese consumers are increasingly eager to spend their money , especially on high-priced goods such as 29-inch television sets and luxury cars ."	1	0.612066	0.387934	gen	4	4	1	0
+40	wsj_1037.seg.clean	40	"Nissan Motor Co. 's domestic auto sales are up 20 % this year largely because its expensive Cima , Sylvia and Cefiro models are in heavy demand ."	-1	0.125803	0.874197	spec	5	0	5	0
+41	wsj_1037.seg.clean	41	"`` One dealer told me that if he had more cars , he 'd sell them right away , '' says Takuro Endo , Nissan executive vice president ."	-1	0.270709	0.729291	gen	3	3	2	0
+42	wsj_1037.seg.clean	42	"He adds that the company is trying to keep up with demand `` by overworking '' its employees ."	1	0.60882	0.39118	gen	4	4	1	0
+43	wsj_1037.seg.clean	43	"Similarly , Honda Motor Co. 's sales are so brisk that workers grumblethey have n't had a Saturday off in years , despite the government 's encouragement of more leisure activity ."	1	0.622693	0.377307	gen	3	3	2	0
+44	wsj_1037.seg.clean	44	"With demand growing and workers in short supply , many Japanese manufacturers are spending heavily on automation ."	1	0.740843	0.259157	spec	4	1	4	0
+45	wsj_1037.seg.clean	45	"Among them are the shipbuilders , which had halved their shipyard work forces to cut costs during a prolonged slump in demand but now are capturing an increased share of the strengthening global market ."	1	0.511741	0.488259	gen	3	3	1	1
+46	wsj_1037.seg.clean	46	"Sasebo Heavy Industries Co. , a medium-sized shipbuilder , expects its sales to increase 30 % this year , largely because of rising demand for oil tankers ."	-1	0.10493	0.89507	spec	5	0	5	0
+47	wsj_1037.seg.clean	47	"Once one Japanese company steps up its investments , the whole industry follows ."	-1	0.442305	0.557695	gen	5	5	0	0
+48	wsj_1037.seg.clean	48	"Because most businesses put market share above profitability , to let a competitor 's addition to capacity go unmatched is to concede defeat ."	1	0.694142	0.305858	gen	3	3	2	0
+49	wsj_1037.seg.clean	49	"The emphasis on market share is evident at Daikin Industries Ltd. , Japan 's biggest maker of industrial air conditioners ."	-1	0.346286	0.653714	gen	4	4	1	0
+50	wsj_1037.seg.clean	50	"Seeing new office buildings sprout up and its sales soar , Daikin is building another plant , which will lift its production capacity 50 % ."	-1	0.145115	0.854885	spec	3	2	3	0
+51	wsj_1037.seg.clean	51	"The expansion is aimed not just at meeting demand but also at expanding the company 's market share to 30 % from 27 % currently ."	-1	0.382594	0.617406	spec	4	1	4	0
+52	wsj_1037.seg.clean	52	"Besides , Daikin 's major competitors , Hitachi Ltd. and Mitsubishi Heavy Industries Ltd. , `` are all adding production lines , '' a Daikin spokesman says ."	-1	0.126582	0.873418	spec	4	1	4	0
+53	wsj_1037.seg.clean	53	"`` Until now , we were trying to increase productivity with the facilitieswe already had ."	1	0.647437	0.352563	gen	3	3	2	0
+54	wsj_1037.seg.clean	54	"But we ca n't produce enough anymore . ''"	1	0.716186	0.283814	gen	4	4	1	0
+55	wsj_1037.seg.clean	55	"The competition is even more heated in the auto industry , where companies are racing one another in a world-wide market ."	1	0.510988	0.489012	gen	5	5	0	0
+56	wsj_1037.seg.clean	56	"Nissan aims to expand its 25 % share of the market to 30 % by spending $ 141 million on a plant in southern Japan that could make as many as 240,000 cars a year ."	-1	0.0160708	0.983929	spec	5	0	5	0
+57	wsj_1037.seg.clean	57	"Meanwhile , Toyota Motor Corp. 's $ 247 million buildup is increasing its annual capacity by 180,000 cars , and Honda is spending $ 317 million on expansion ."	-1	0.0334184	0.966582	spec	5	0	5	0
+58	wsj_1037.seg.clean	58	"Mazda Motor Corp. is still considering its options , but it boldly aims to double its annual domestic sales to 800,000 cars in the next four years ."	-1	0.25683	0.74317	spec	5	0	5	0
+59	wsj_1037.seg.clean	59	"Those who are n't worried about how Japanese manufacturers ' investments will affect trade note that many new products are n't replacements for imports ."	1	0.74736	0.25264	gen	3	3	1	1
+60	wsj_1037.seg.clean	60	"Although imports account for less than 1 % of beer sales in Japan , Asahi Breweries Ltd. , which has been gaining share with its popular dry beer , plans to fend off Japanese competitors by pouring $ 1.06 billion into facilities to brew 50 % more beer ."	-1	0.0720215	0.927979	spec	5	0	5	0
+61	wsj_1037.seg.clean	61	"But new-product development will make Japanese companies stronger , and big investments in `` domestic '' industries such as beer will make it EXP even tougher for foreign competitors to crack the Japanese market ."	1	0.677241	0.322759	spec	3	2	3	0
+62	wsj_1037.seg.clean	62	"Moreover , much of the investment boom is in high-tech fields in which Japanese companies have only limited foreign competition ; so , more investment practically assures more exports ."	1	0.843327	0.156673	gen	3	3	2	0
+63	wsj_1037.seg.clean	63	"Toshiba Corp. , for example , is spending $ 986 million on two new plants to build four-megabit dynamic random access memories , the next generation of computer chips ."	-1	0.07976	0.92024	spec	4	0	4	1
+64	wsj_1037.seg.clean	64	"The product is n't widely used yet , but Toshiba , which has already beaten everyone else in producing the current-generation one-megabit DRAMs , believes that its early investment will heighten its chances of beating its competitors again ."	-1	0.477194	0.522806	spec	4	1	4	0
+65	wsj_1037.seg.clean	65	"`` It EXP 's important to gain leadership , '' a Toshiba spokesman says ."	1	0.626265	0.373735	gen	5	5	0	0
+66	wsj_1037.seg.clean	66	"Meanwhile , Toshiba 's Japanese rivals , Hitachi , Fujitsu Ltd. and NEC Corp. , are n't sitting still ."	-1	0.425202	0.574798	gen	3	3	2	0
+67	wsj_1037.seg.clean	67	"After doubling production in one plant , NEC is spending $ 275 million to build another plant that , in two years , will be able to make a million four-megabit DRAMs a year ."	-1	0.0285452	0.971455	spec	5	0	5	0
+68	wsj_1037.seg.clean	68	"The new chip plants `` wo n't be excessive investment , '' says Hajime Sasaki , an NEC vice president ."	-1	0.310492	0.689508	gen	3	3	2	0
+69	wsj_1037.seg.clean	69	"`` We have enough products to make and the markets to sell these products . ''"	1	0.693403	0.306597	gen	5	5	0	0
+70	wsj_1037.seg.clean	70	"Some of Japan 's goods being produced as a result of the investment boom are already successful overseas ."	1	0.700641	0.299359	gen	4	4	0	1
+71	wsj_1037.seg.clean	71	"Toyota 's $ 35,000 Lexus automobile , a luxury model that it started shipping to the U.S. only last month , is racking up orders at a time when U.S.-made luxury-car sales are slow ."	-1	0.190554	0.809446	spec	5	0	5	0
+72	wsj_1037.seg.clean	72	"Toyota plans to raise Lexus exports when a new plant starts up next year ."	-1	0.472266	0.527734	spec	3	2	3	0
+73	wsj_1037.seg.clean	73	"What if its sales weaken someday ?"	1	0.808059	0.191941	gen	5	5	0	0
+74	wsj_1037.seg.clean	74	"Japanese companies have a caveat competitor attitude ."	1	0.693989	0.306011	gen	5	5	0	0
+75	wsj_1037.seg.clean	75	"If excess capacity develops , they say , not everyone will suffer ."	1	0.856593	0.143407	gen	5	5	0	0
+76	wsj_1037.seg.clean	76	"The losers will be those with the least attractive products , and many of them , analysts think , will be foreign companies ."	1	0.843503	0.156497	gen	5	5	0	0
+77	wsj_0445.seg.clean	0	"If Japanese companies are so efficient , why does Kawasaki-Rikuso Transportation Co. sometimes need a week just to tell its clients how soon it can ship goods from here to Osaka ?"	1	0.599708	0.400292	spec	3	2	3	0
+78	wsj_0445.seg.clean	1	"Why , until last spring , did the Long-Term Credit Bank of Japan sometimes take several days to correct typographical errors in its paper work for international transactions ?"	-1	0.469474	0.530526	spec	4	1	4	0
+79	wsj_0445.seg.clean	2	"Because the companies have lacked office computers considered standard equipment in the U.S. and Western Europe , Japanese corporations ' reputation as hi-tech powerhouses is only half right ."	1	0.500184	0.499816	gen	4	4	1	0
+80	wsj_0445.seg.clean	3	"Their factories may look like sets for a Spielberg movie , but their offices , with rows of clerks hunched over ledgers and abacuses , are more like scenes from a Dickens novel ."	1	0.783445	0.216555	spec	4	0	4	0
+81	wsj_0445.seg.clean	4	"Now , the personal-computer revolution is finally reaching Japan ."	1	0.812009	0.187991	gen	5	5	0	0
+82	wsj_0445.seg.clean	5	"Kawasaki-Rikuso , a freight company , set up its own software subsidiary this year and is spending nearly a year 's profit to more than double the computer terminals at its main office ."	-1	0.271624	0.728376	spec	5	0	5	0
+83	wsj_0445.seg.clean	6	"In April , the Long-Term Credit Bank linked its computers in Tokyo with its three American offices ."	-1	0.372845	0.627155	spec	5	0	5	0
+84	wsj_0445.seg.clean	7	"Overall , PC sales in Japan in the first half of 1989 were 34 % higher than in the year-earlier period ."	-1	0.277919	0.722081	spec	4	1	4	0
+85	wsj_0445.seg.clean	8	"Combined PC and work-station use in Japan will jump as much as 25 % annually over the next five years , according to some analysts , compared with about 10 % in the U.S. ."	-1	0.0973899	0.90261	spec	5	0	5	0
+86	wsj_0445.seg.clean	9	"And with a labor shortage and intense competitive pressure to improve efficiency , more and more Japanese companies are concluding that they have no choice ."	1	0.732422	0.267578	spec	3	2	3	0
+87	wsj_0445.seg.clean	10	"`` We have too many people in our home offices , '' says Yoshio Hatakeyama , the president of the Japan Management Association ."	-1	0.45884	0.54116	gen	3	3	2	0
+88	wsj_0445.seg.clean	11	"`` Productivity in Japanese offices is relatively low . ''"	1	0.867745	0.132255	gen	5	5	0	0
+89	wsj_0445.seg.clean	12	"With Japanese companies in a wide range of industries -- from heavy industry to securities firms -- increasing their market share world-wide , the prospect of an even more efficient Japanese economic army may rattle foreigners ."	1	0.768614	0.231386	gen	4	4	1	0
+90	wsj_0445.seg.clean	13	"But it also offers opportunities ; Americans are well poised to supply the weapons ."	1	0.816852	0.183148	gen	3	3	2	0
+91	wsj_0445.seg.clean	14	"Japan may be a tough marketfor outsiders to penetrate , and the U.S. is hopelessly behind Japan in certain technologies ."	-1	0.438647	0.561353	gen	3	3	2	0
+92	wsj_0445.seg.clean	15	"But for now , at least , Americans are far better at making PCs and the software that runs them ."	1	0.851187	0.148813	gen	4	4	1	0
+93	wsj_0445.seg.clean	16	"After years of talking about selling in Japan , more and more U.S. companies are seriously pouring in ."	1	0.846134	0.153866	gen	3	3	1	1
+94	wsj_0445.seg.clean	17	"Apple Computer Inc. has doubled its staff here over the past year ."	-1	0.490464	0.509536	spec	4	1	4	0
+95	wsj_0445.seg.clean	18	"Lotus Development Corp. has slashed the lag between U.S. and Japan product introductions to six months from three years ."	-1	0.160744	0.839256	spec	4	1	4	0
+96	wsj_0445.seg.clean	19	"Ungermann-Bass Inc. has a bigger share of the computer-network market in Japan than at home ."	-1	0.425606	0.574394	spec	4	1	4	0
+97	wsj_0445.seg.clean	20	"But the Japanese have to go a long way to catch up ."	1	0.69384	0.30616	gen	5	5	0	0
+98	wsj_0445.seg.clean	21	"Typical is one office of the Ministry of International Trade and Industry 's Machinery and Information Industries Bureau -- the main bureaucracy overseeing the computer industry ."	-1	0.109048	0.890952	spec	4	0	4	1
+99	wsj_0445.seg.clean	22	"`` Personal Computer '' yearbooks are lined up on nearly every desk , and dog-eared copies of Nikkei Computer crowd magazine racks ."	-1	0.250965	0.749035	gen	4	4	1	0
+100	wsj_0445.seg.clean	23	"But amid the two dozen bureaucrats and secretaries sits only one real-life PC ."	-1	0.341738	0.658262	gen	4	4	1	0
+101	wsj_0445.seg.clean	24	"While American PC sales have averaged roughly 25 % annual growth since 1984 and West European sales a whopping 40 % , Japanese sales were flat for most of that time ."	-1	0.133256	0.866744	spec	5	0	5	0
+102	wsj_0445.seg.clean	25	"Japanese office workers use PCs at half the rate of their European counterparts and one-third that of the Americans ."	1	0.568989	0.431011	spec	4	1	4	0
+103	wsj_0445.seg.clean	26	"Moreover , Japanese offices tend to use computers less efficiently than American offices do ."	1	0.819156	0.180844	gen	4	4	1	0
+104	wsj_0445.seg.clean	27	"In the U.S. , PCs commonly perform many tasks and plug into a broad network ."	1	0.54908	0.45092	gen	4	4	1	0
+105	wsj_0445.seg.clean	28	"In Japan , many desktop terminals are limited to one function and ca n't communicate with other machines ."	-1	0.388798	0.611202	gen	4	4	1	0
+106	wsj_0445.seg.clean	29	"The market planning and sales promotion office of Nomura Securities Co. , for example , has more than 30 computers for its 60 workers , a respectable ratio ."	-1	0.223669	0.776331	spec	5	0	5	0
+107	wsj_0445.seg.clean	30	"But the machines are n't on employees ' desks ; they ring the perimeter of the large office ."	1	0.672718	0.327282	spec	3	2	3	0
+108	wsj_0445.seg.clean	31	"Some machines make charts for presentations ."	1	0.832585	0.167415	gen	4	4	1	0
+109	wsj_0445.seg.clean	32	"Others analyze the data ."	1	0.784624	0.215376	gen	5	5	0	0
+110	wsj_0445.seg.clean	33	"To transfer information from one to the other , employees make printouts and enter the data manually ."	1	0.585246	0.414754	spec	3	2	3	0
+111	wsj_0445.seg.clean	34	"To transmit charts to branch offices , they use a fax machine ."	1	0.514564	0.485436	gen	3	3	2	0
+112	wsj_0445.seg.clean	35	"Meanwhile , a woman sitting next to a new Fujitsu terminal writes stock-market information on a chart with a pencil and adds it up with a hand calculator ."	-1	0.285099	0.714901	gen	3	3	2	0
+113	wsj_0445.seg.clean	36	"In an efficient setup , the same PC could perform all those tasks ."	1	0.576467	0.423533	gen	5	5	0	0
+114	wsj_0445.seg.clean	37	"In the U.S. , more than half the PC software sold is either for spreadsheets or for database analysis , according to Lotus ."	1	0.510628	0.489372	spec	4	1	4	0
+115	wsj_0445.seg.clean	38	"In Japan , those functions account for only about a third of the software market ."	1	0.633944	0.366056	gen	3	3	2	0
+116	wsj_0445.seg.clean	39	"Machines dedicated solely to word processing , which have all but disappeared in the U.S. , are still more common ICH in Japan than PCs ."	1	0.595418	0.404582	gen	3	3	2	0
+117	wsj_0445.seg.clean	40	"In the U.S. , one-fifth of the office PCs are hooked up to some sort of network ."	-1	0.480306	0.519694	spec	3	2	3	0
+118	wsj_0445.seg.clean	41	"In Japan , about 1 % are linked ."	1	0.598027	0.401973	spec	3	2	3	0
+119	wsj_0445.seg.clean	42	"`` Computers here are used for data gathering , '' says Roger J. Boisvert , who manages the integrated-technologies group in McKinsey & Co. 's Tokyo office ."	-1	0.223046	0.776954	spec	5	0	5	0
+120	wsj_0445.seg.clean	43	"Some Japanese operations , such as securities-trading rooms , may be ahead of their American counterparts , he says , but `` basically , there 's little analysis done on computers in Japan . ''"	1	0.521992	0.478008	spec	3	2	3	0
+121	wsj_0445.seg.clean	44	"Of course , simply buying computers does n't always solve problems , and many American companies have erred by purchasing technologythey did n't understand ."	1	0.766107	0.233893	gen	4	4	1	0
+122	wsj_0445.seg.clean	45	"But healthy skepticism is only a small reason for Japan 's PC lag ."	1	0.670637	0.329363	gen	3	3	2	0
+123	wsj_0445.seg.clean	46	"Various cultural and economic forces have suppressed demand ."	1	0.610116	0.389884	gen	4	4	1	0
+124	wsj_0445.seg.clean	47	"Because the Japanese `` alphabet '' is so huge , Japan has no history of typewriter use , and so `` keyboard allergy , '' especially among older workers , remains a common affliction ."	1	0.557222	0.442778	spec	3	2	3	0
+125	wsj_0445.seg.clean	48	"`` I have no experience before with such sophisticated machinery , '' says Matsuo Toshimitsu , a 66-year-old executive vice president of Japan Air Lines , explaining his reluctance before accepting a terminal in his office this summer ."	-1	0.201309	0.798691	spec	5	0	5	0
+126	wsj_0445.seg.clean	49	"While most American employees have their own private space , Japanese `` salarymen '' usually share large , common tables and rely heavily on old-fashioned personal contact ."	1	0.629455	0.370545	gen	4	4	1	0
+127	wsj_0445.seg.clean	50	"Top Japanese executives often make decisions based on consensus and personal relationships rather than complex financial projections and fancy presentations ."	1	0.8078	0.1922	gen	3	3	1	1
+128	wsj_0445.seg.clean	51	"And Japan 's management system makes it EXP hard to impose a single , integrated computer system corporatewide ."	-1	0.366906	0.633094	gen	4	4	1	0
+129	wsj_0445.seg.clean	52	"Besides , a computer processing the Japanese language needs a huge memory and much processing capability , while the screen and printer need far better definition to depict accurately the intricate symbols ."	1	0.514954	0.485046	gen	3	3	2	0
+130	wsj_0445.seg.clean	53	"Until recently , much of the necessary technology has been unavailable or at least unaffordable ."	1	0.898781	0.101219	gen	5	5	0	0
+131	wsj_0445.seg.clean	54	"Some analysts estimatethe average PC costs about 50 % more ICH in Japan than the U.S. ."	-1	0.223598	0.776402	gen	3	3	2	0
+132	wsj_0445.seg.clean	55	"But the complex language is n't the only reason ."	1	0.764245	0.235755	gen	5	5	0	0
+133	wsj_0445.seg.clean	56	"For the past decade , NEC Corp. has owned more than half the Japanese PC market and ruled it with near-monopoly power ."	-1	0.267058	0.732942	spec	3	2	3	0
+134	wsj_0445.seg.clean	57	"With little competition , the computer industry here is inefficient ."	1	0.845383	0.154617	gen	5	5	0	0
+135	wsj_0445.seg.clean	58	"The U.S. market , too , is dominated by a giant , International Business Machines Corp ."	1	0.510184	0.489816	spec	3	2	3	0
+136	wsj_0445.seg.clean	59	"But early on , IBM offered its basic design to anybody wanting to copy it ."	1	0.570015	0.429985	gen	4	4	1	0
+137	wsj_0445.seg.clean	60	"Dozens of small companies did , swiftly establishing a standard operating system ."	1	0.730052	0.269948	gen	5	5	0	0
+138	wsj_0445.seg.clean	61	"That spurs competition and growth , allows users to change and mix brands easily , and increases software firms ' incentive to write packages because they can be sold to users of virtually any computer ."	1	0.579019	0.420981	gen	3	3	2	0
+139	wsj_0445.seg.clean	62	"If a record industry lacked a common standard , Sony CD owners could listen to a Sony version of Madonna 's `` Like a Prayer '' but not one made for a Panasonic player ."	-1	0.153333	0.846667	spec	4	1	4	0
+140	wsj_0445.seg.clean	63	"That is the state of Japan 's computer industry ."	1	0.542489	0.457511	gen	4	4	1	0
+141	wsj_0445.seg.clean	64	"NEC wo n't release its code , and every one of the dozen or so makers has its own proprietary operating system -- all incompatible with each other ."	-1	0.391371	0.608629	spec	4	1	4	0
+142	wsj_0445.seg.clean	65	"IBM established its standard to try to stop falling behind upstart Apple Computer , but NEC was ahead from the start and did n't need to invite in competitive allies ."	-1	0.406079	0.593921	spec	3	2	3	0
+143	wsj_0445.seg.clean	66	"Meanwhile , the big players have n't tried to copy the NEC standard ."	1	0.616643	0.383357	gen	3	3	2	0
+144	wsj_0445.seg.clean	67	"Corporate pride as well as the close ties common among Japanese manufacturers help explain why ."	1	0.78849	0.21151	gen	4	4	1	0
+145	wsj_0445.seg.clean	68	"Most rivals `` have a working relationship with NEC , often through cross-licensing of technology , '' the Japan Personal Computer Software Association noted recently ."	-1	0.466965	0.533035	spec	3	1	3	1
+146	wsj_0445.seg.clean	69	"`` They hesitate to market NEC-compatible machines ; NEC disapproves of such machines , and marketing one would jeopardize their relationship . ''"	-1	0.281723	0.718277	spec	4	1	4	0
+147	wsj_0445.seg.clean	70	"The result , according to many analysts , is higher prices and less innovation ."	1	0.878506	0.121494	gen	4	4	0	1
+148	wsj_0445.seg.clean	71	"While tens of thousands of software packages using the IBM standard are available in the U.S. , they sayonly about 8,000 are written for NEC ."	-1	0.260229	0.739771	spec	4	1	4	0
+149	wsj_0445.seg.clean	72	"A year ago , Japan 's Fair Trade Commission warned NEC about possible violations of anti-monopoly laws for discouraging retailers from discounting ."	-1	0.430637	0.569363	spec	4	1	4	0
+150	wsj_0445.seg.clean	73	"In Japan , `` software is four to five years behind the U.S. because hardware is four to five years behind , because NEC is enjoying a monopoly , '' complains Kazuhiko Nishi , the president of Ascii Corp. , one of Japan 's leading PC-magazine publishing and software companies ."	-1	0.00617294	0.993827	spec	5	0	5	0
+151	wsj_0445.seg.clean	74	"`` There are no price wars , no competition . ''"	1	0.884153	0.115847	gen	3	3	1	1
+152	wsj_0445.seg.clean	75	"An NEC spokeswoman responds that prices are higher in Japan because customers put a greater emphasis ICH on quality and service than they do in the U.S. ."	1	0.524528	0.475472	spec	3	2	3	0
+153	wsj_0445.seg.clean	76	"She adds that some technological advances trail those in the U.S. because the Japanese still import basic operating systems from American companies ."	1	0.628481	0.371519	gen	4	4	1	0
+154	wsj_0445.seg.clean	77	"But the market is changing ."	1	0.721306	0.278694	gen	5	5	0	0
+155	wsj_0445.seg.clean	78	"The government is funding several projects to push PC use ."	1	0.590985	0.409015	gen	5	5	0	0
+156	wsj_0445.seg.clean	79	"Over the next three years , public schools will get 1.5 million PCs , a 15-fold increase from current levels ."	-1	0.200592	0.799408	spec	4	1	4	0
+157	wsj_0445.seg.clean	80	"In the private sector , practically every major company is setting explicit goals to increase employees ' exposure to computers ."	1	0.680198	0.319802	gen	5	5	0	0
+158	wsj_0445.seg.clean	81	"Toyota Motor Corp. 's sales offices in Japan have one-tenth the computers per employee that its own U.S. offices do ; over the next five years , it is aiming for rough parity ."	-1	0.167287	0.832713	spec	5	0	5	0
+159	wsj_0445.seg.clean	82	"Within a year , Kao Corp. , a major cosmetics company , plans to eliminate 1,000 clerical jobs by putting on a central computer network some work , such as credit reports , currently performed in 22 separate offices ."	-1	0.169945	0.830055	spec	5	0	5	0
+160	wsj_0445.seg.clean	83	"By increasing the number of PCsit uses from 66 to 1,000 , Omron Tateishi Electronics Co. , of Kyoto , hopes not only to make certain tasks easier but also to transform the waythe company is run ."	-1	0.164167	0.835833	spec	5	0	5	0
+161	wsj_0445.seg.clean	84	"`` Managers have long been those who supervise their subordinates so orders would be properly acted on , '' a spokesman says ."	1	0.751606	0.248394	gen	4	4	1	0
+162	wsj_0445.seg.clean	85	"`` But new managers will have to be creators and innovators ... and for that purpose it EXP is necessary to create an environment where information from both inside and outside the company can be reached easily , and also shared . ''"	-1	0.303095	0.696905	gen	3	3	1	1
+163	wsj_0445.seg.clean	86	"Meanwhile , more computer makers now are competing for the new business ."	1	0.766335	0.233665	gen	5	5	0	0
+164	wsj_0445.seg.clean	87	"Seiko Epson Corp. , a newcomer to the industry , fought off a legal challenge and started selling NEC clones last year ."	-1	0.315715	0.684285	spec	3	2	3	0
+165	wsj_0445.seg.clean	88	"It has won about 15 % of the retail PC market ."	-1	0.392225	0.607775	gen	3	3	2	0
+166	wsj_0445.seg.clean	89	"Sony Corp. , which temporarily dropped out of the PC business three years ago , started selling its work station in 1987 and quickly became the leading Japanese company in that market ."	-1	0.237818	0.762182	spec	5	0	5	0
+167	wsj_0445.seg.clean	90	"In a country where elbow room is scarce , laptop machines will take a large portion of the industry 's future growth ."	-1	0.405489	0.594511	gen	5	5	0	0
+168	wsj_0445.seg.clean	91	"Toshiba Corp. busted open that sector this summer with a notebook-sized machine that retails for less than 200,000 yen -LRB- under $ 1,500 -RRB- -- one of the smallest , cheapest PCs available in the country ."	-1	0.078613	0.921387	spec	5	0	5	0
+169	wsj_0445.seg.clean	92	"Fujitsu Ltd. is lavishing the most expensive promotion campaign in its history -- including a 100,000-guest bash at Tokyo Dome -- for its sophisticated sound\/graphics FM Towns machine , which it advertises for everything from balancing the family checkbook to practicing karaoke , bar singing ."	-1	0.07953	0.92047	spec	5	0	5	0
+170	wsj_0445.seg.clean	93	"Many of the companies are even dropping their traditional independence and trying to band together to create some sort of standard ."	1	0.605195	0.394805	gen	4	4	1	0
+171	wsj_0445.seg.clean	94	"Two years ago , most of the smaller makers joined under the Microsoft Corp. umbrella to adopt a version of the American IBM AT standard ."	-1	0.279256	0.720744	gen	3	3	2	0
+172	wsj_0445.seg.clean	95	"That has n't generated much sales , but this summer Microsoft rallied all the major NEC competitors to make their new machines compatible with the IBM OS\/2 standard ."	-1	0.296345	0.703655	spec	3	2	3	0
+173	wsj_0445.seg.clean	96	"A healthy , coherent Japanese market could also make it EXP far easier for Japanese companies to sell overseas , where their share is still minimal ."	1	0.721046	0.278954	gen	3	3	1	1
+174	wsj_0445.seg.clean	97	"But it could also help American companies , which also are starting to try to open the market ."	1	0.710104	0.289896	gen	5	5	0	0
+175	wsj_0445.seg.clean	98	"As with many other goods , the American share of Japan 's PC market is far below that in the rest of the world ."	-1	0.4822	0.5178	gen	3	3	2	0
+176	wsj_0445.seg.clean	99	"U.S. makers have under 10 % share , compared with half the market in Europe and 80 % at home ."	-1	0.268438	0.731562	spec	4	1	4	0
+177	wsj_0445.seg.clean	100	"Though no formal trade barriers exist , the Japanese computer industry is difficultfor outsiders to enter ."	1	0.535896	0.464104	gen	5	5	0	0
+178	wsj_0445.seg.clean	101	"`` If it were an open market , we would have been in in 1983 or 1984 , '' says Eckhard Pfeiffer , who heads Compaq Computer Corp. 's European and international operations ."	-1	0.089368	0.910632	spec	3	1	3	1
+179	wsj_0445.seg.clean	102	"His company , without any major effort , sells more machines in China than in Japan ."	1	0.694323	0.305677	spec	3	2	3	0
+180	wsj_0445.seg.clean	103	"Although it has opened a New Zealand subsidiary , it is still only `` studying '' Japan , the only nation that has n't adopted IBM-oriented specifications ."	-1	0.488174	0.511826	spec	5	0	5	0
+181	wsj_0445.seg.clean	104	"And because general retail centers such as ComputerLand have little presence in Japan , sales remain in the iron grip of established computer makers ."	1	0.595553	0.404447	spec	4	1	4	0
+182	wsj_0445.seg.clean	105	"But the Americans are also to blame ."	1	0.819564	0.180436	gen	4	4	1	0
+183	wsj_0445.seg.clean	106	"They long made little effort here ."	1	0.904343	0.0956573	gen	5	5	0	0
+184	wsj_0445.seg.clean	107	"IBM , though long a leader in the Japanese mainframe business , did n't introduce its first PC in Japan until five years after NEC did , and that was n't compatible even with the U.S. IBM standard ."	-1	0.159422	0.840578	spec	5	0	5	0
+185	wsj_0445.seg.clean	108	"Apple did n't introduce a kanji machine -- one that handles the Chinese characters of written Japanese -- until three years after entering the market ."	-1	0.279625	0.720375	spec	5	0	5	0
+186	wsj_0445.seg.clean	109	"Critics also sayAmerican companies charge too much ."	1	0.890145	0.109855	gen	5	5	0	0
+187	wsj_0445.seg.clean	110	"Japan 's FTC saysit is investigating Apple for allegedly discouraging retailers from discounting ."	-1	0.440453	0.559547	spec	4	1	4	0
+188	wsj_0445.seg.clean	111	"But the U.S. companies are redoubling their efforts ."	1	0.669339	0.330661	gen	5	5	0	0
+189	wsj_0445.seg.clean	112	"Apple recently hired its first Japanese president ICH , luring away an official of Toshiba 's European operations , as well as a whole Japanese top-management team ."	-1	0.262713	0.737287	spec	3	2	3	0
+190	wsj_0445.seg.clean	113	"Earlier this year , it introduced a much more powerful kanji operating system and a kanji laser printer ."	-1	0.410492	0.589508	gen	4	4	1	0
+191	wsj_0445.seg.clean	114	"IBM just last year started selling its first machine that could run in both Japanese and English and that substantially enhances compatibility with its American products ."	-1	0.408022	0.591978	spec	5	0	5	0
+192	wsj_0445.seg.clean	115	"`` It EXP may take five years to break even in Japan , '' says John A. Siniscal , who runs the Asia-Pacific office for McCormack & Dodge , a U.S. software company ."	-1	0.155887	0.844113	spec	4	1	4	0
+193	wsj_0445.seg.clean	116	"`` But it 's an enormous business opportunity ."	1	0.782893	0.217107	gen	5	5	0	0
+194	wsj_1394.seg.clean	0	"Ralph Brown was 31,000 feet over Minnesota when both jets on his Falcon 20 flamed out ."	-1	0.231762	0.768238	spec	5	0	5	0
+195	wsj_1394.seg.clean	1	"At 18,000 feet , he says , he and his co-pilot `` were looking for an interstate or a cornfield '' to land ."	-1	0.296188	0.703812	spec	3	2	3	0
+196	wsj_1394.seg.clean	2	"At 13,000 feet , the engines restarted ."	1	0.58001	0.41999	gen	3	3	2	0
+197	wsj_1394.seg.clean	3	"But knowing that mechanics would probably ground him for repairs , Mr. Brown skipped his stop in nearby Chicago and set course to get his load -- a few hundred parcels -- to the Memphis package-sorting hub on time ."	-1	0.108692	0.891308	spec	4	1	4	0
+198	wsj_1394.seg.clean	4	"Had he been a little less gung-ho , `` I 'd have gotten the thing on the ground and headed for the nearest bar , '' Mr. Brown says ."	1	0.545914	0.454086	gen	4	4	1	0
+199	wsj_1394.seg.clean	5	"But he flies for Federal Express Corp. , perhaps the closest thing in corporate America to the Green Berets ."	-1	0.447715	0.552285	spec	3	2	3	0
+200	wsj_1394.seg.clean	6	"Federal 's employees work long hours and seem to thrive on the stress of racing the clock ."	1	0.57809	0.42191	gen	5	5	0	0
+201	wsj_1394.seg.clean	7	"Like Mr. Brown , they sometimes go to surprising lengths to meet that overarching corporate goal : delivering the goods on time ."	1	0.530003	0.469997	spec	3	2	3	0
+202	wsj_1394.seg.clean	8	"They are a tribute to Federal 's management which , since the company 's founding 16 years ago , has had its way with its work force -- an unusual feat in the contentious transportation industry ."	-1	0.282889	0.717111	gen	2	2	1	2
+203	wsj_1394.seg.clean	9	"That may soon change ."	1	0.77379	0.22621	gen	4	4	1	0
+204	wsj_1394.seg.clean	10	"This month , Federal 's 2,048 pilots , including some 961 acquired along with Tiger International Inc. in February , will decide whether to elect the powerful Air Line Pilots Association as their bargaining agent ."	-1	0.0466329	0.953367	spec	5	0	5	0
+205	wsj_1394.seg.clean	11	"The election , which would bring the first major union to Federal 's U.S. operations , has pitted new hires against devoted veterans such as Mr. Brown ."	-1	0.419419	0.580581	spec	4	1	4	0
+206	wsj_1394.seg.clean	12	"It has also rattled Federal 's strongly anti-union management , which is already contending with melding far-flung operations and with falling profits ."	1	0.637634	0.362366	spec	3	2	3	0
+207	wsj_1394.seg.clean	13	"`` A union , sooner or later , has to have an adversary , and it has to have a victory , '' Frederick W. Smith , Federal 's chairman and chief executive , says with disdain ."	-1	0.290782	0.709218	gen	3	3	2	0
+208	wsj_1394.seg.clean	14	"`` In our formula , we do n't have any losers except the competition . ''"	1	0.739286	0.260714	gen	5	5	0	0
+209	wsj_1394.seg.clean	15	"What managers really fear is that the pro-union movement could spread beyond the pilots ."	1	0.738483	0.261517	gen	5	5	0	0
+210	wsj_1394.seg.clean	16	"Under federal transportation law , a government mediator is attempting to reconcile the melding of Tiger 's job classifications into Federal 's ."	-1	0.333032	0.666968	spec	3	1	3	1
+211	wsj_1394.seg.clean	17	"Depending on the outcome , the merged company may face union elections ICH this fall among airplane mechanics , ramp workers , stock clerks and flight dispatchers ."	1	0.55476	0.44524	spec	4	1	4	0
+212	wsj_1394.seg.clean	18	"These groups constitute up to 10 % of its work force ."	1	0.54891	0.45109	gen	3	3	2	0
+213	wsj_1394.seg.clean	19	"`` Unions would have a profound effect on the whole culture of the company , '' says Bernard La Londe , a professor at Ohio State University at Columbus and a Federal consultant ."	-1	0.152281	0.847719	gen	3	3	2	0
+214	wsj_1394.seg.clean	20	"That culture , carefully crafted by Mr. Smith , leaves little , if any , room for unions ."	1	0.642895	0.357105	gen	4	4	1	0
+215	wsj_1394.seg.clean	21	"Since founding the company , the charismatic Vietnam vet , who is still only 46 years old , has fostered an ethos of combat ."	-1	0.478172	0.521828	gen	4	4	1	0
+216	wsj_1394.seg.clean	22	"Flights are `` missions . ''"	1	0.831463	0.168537	gen	4	4	1	0
+217	wsj_1394.seg.clean	23	"Mr. Smith 's managers have , at times , been called `` Ho Chi Minh 's Guerrillas . ''"	-1	0.449194	0.550806	spec	3	2	3	0
+218	wsj_1394.seg.clean	24	"The Bravo Zulu award , the Navy accolade for a `` job well done , '' is bestowed on Federal 's workers who surpass the call of duty ."	1	0.50644	0.49356	spec	4	1	4	0
+219	wsj_1394.seg.clean	25	"Competitors are known as the `` enemy . ''"	1	0.805955	0.194045	gen	4	4	1	0
+220	wsj_1394.seg.clean	26	"To reinforce employees ' dedication , Mr. Smith pays well ."	1	0.835714	0.164286	gen	3	3	2	0
+221	wsj_1394.seg.clean	27	"He also lets workers vent steam through an elaborate grievance procedure and , as a perk , fly free in empty cockpit seats ."	1	0.604352	0.395648	gen	4	4	1	0
+222	wsj_1394.seg.clean	28	"He gives pep talks in periodic `` family briefings '' beamed internationally on `` FXTV , '' the company 's own television network ."	-1	0.429562	0.570438	spec	3	2	3	0
+223	wsj_1394.seg.clean	29	"And , with many of his 70,000 workers , Mr. Smith 's damn-the-torpedoes attitude has caught on ."	-1	0.442679	0.557321	gen	3	3	2	0
+224	wsj_1394.seg.clean	30	"James Cleveland , a courier who earned a Bravo Zulu for figuring out how to get a major customer 's 1,100-parcel-a-week load to its doorstep by 8 a.m. , considers himself far more than a courier ."	-1	0.100243	0.899757	spec	4	1	4	0
+225	wsj_1394.seg.clean	31	"`` We do n't just hand the customer the package ."	1	0.786449	0.213551	gen	4	4	1	0
+226	wsj_1394.seg.clean	32	"That 's just the beginning , '' he says ."	1	0.717516	0.282484	gen	5	5	0	0
+227	wsj_1394.seg.clean	33	"`` In essence , we run the show . ''"	1	0.820868	0.179132	gen	5	5	0	0
+228	wsj_1394.seg.clean	34	"David Sanders , a longtime pilot , bristles at the mere suggestion that a union might tamper with his flight schedule ."	-1	0.403105	0.596895	gen	3	3	2	0
+229	wsj_1394.seg.clean	35	"`` This is America , '' he says ."	1	0.735328	0.264672	gen	5	5	0	0
+230	wsj_1394.seg.clean	36	"`` Nobody has the right to tell me how much I can work . ''"	1	0.576726	0.423274	gen	3	3	2	0
+231	wsj_1394.seg.clean	37	"Such attitudes have given Federal flexibility , not only to rapidly implement new technology but to keep its work force extraordinarily lean ."	1	0.571848	0.428152	gen	4	4	1	0
+232	wsj_1394.seg.clean	38	"The company deliberately understaffs , stretching employees ' schedules to the limit ."	1	0.700346	0.299654	gen	5	5	0	0
+233	wsj_1394.seg.clean	39	"But though couriers work as many as 60 hours a week during the autumn rush , they leave early during slack times while still being assured of a minimum paycheck ."	-1	0.453498	0.546502	spec	5	0	5	0
+234	wsj_1394.seg.clean	40	"Pilots , as well , routinely fly overtime to ensure that none are furloughed during seasonal lows ."	1	0.812021	0.187979	gen	3	3	2	0
+235	wsj_1394.seg.clean	41	"The operational freedom has also given Federal a leg up on archrival United Parcel Service Inc. , the nation 's largest employer of United Brotherhood of Teamsters members ."	-1	0.267738	0.732262	spec	4	1	4	0
+236	wsj_1394.seg.clean	42	"UPS wo n't discuss its labor practices , but , according to Mr. Cleveland , a former UPS employee , and others , union work rules prohibit UPS drivers from doing more than carrying packages between customers and their vans ."	-1	0.335373	0.664627	spec	5	0	5	0
+237	wsj_1394.seg.clean	43	"Because UPS drivers are n't permitted to load their own vehicles at the depot , say these couriers , packages often get buried in the load and are delivered late ."	1	0.635509	0.364491	spec	3	2	3	0
+238	wsj_1394.seg.clean	44	"Labor problems are the last thingMr. Smith needs right now ."	1	0.759473	0.240527	gen	3	3	2	0
+239	wsj_1394.seg.clean	45	"Although the Tiger acquisition has brought Federal a long way toward becoming the global playerit wants to be , it also has brought problems ."	1	0.501041	0.498959	gen	3	3	2	0
+240	wsj_1394.seg.clean	46	"It more than doubled Federal 's long-term debt to $ 1.9 billion , thrust the company into unknown territory -- heavy cargo -- and suddenly expanded its landing rights to 21 countries from four ."	-1	0.0910983	0.908902	spec	5	0	5	0
+241	wsj_1394.seg.clean	47	"Federal , on its own , had n't been doing very well overseas ."	1	0.645404	0.354596	gen	4	4	0	1
+242	wsj_1394.seg.clean	48	"It had hemorrhaged in its attempt to get into Asia , where treaty restrictions forced it to fly some planes half-empty on certain routes ."	-1	0.471125	0.528875	gen	3	3	1	1
+243	wsj_1394.seg.clean	49	"On routes to South America , the company had no backup jets to ensure delivery when planes were grounded ."	1	0.541743	0.458257	gen	4	4	1	0
+244	wsj_1394.seg.clean	50	"In Europe , business suffered as Federal bought several local companies , only to have the managers quit ."	1	0.637136	0.362864	spec	3	2	3	0
+245	wsj_1394.seg.clean	51	"These and other problems squeezed Federal 's profit margins last year to 8 % , down from more than 13 % annually in the first half of the decade ."	-1	0.270625	0.729375	spec	5	0	5	0
+246	wsj_1394.seg.clean	52	"Earnings have plummeted , too , in each of the past three quarters ."	1	0.647169	0.352831	spec	3	2	3	0
+247	wsj_1394.seg.clean	53	"In the fiscal first period ended Aug. 31 , profit fell 54 % to $ 30.4 million , or 58 cents a share , mostly because of the Tiger merger , Federal says ."	-1	0.0326364	0.967364	spec	5	0	5	0
+248	wsj_1394.seg.clean	54	"Federal 's stock price , however , has held up well , driven in part by the general run-up of airline stocks , analysts say ."	1	0.666249	0.333751	spec	3	2	3	0
+249	wsj_1394.seg.clean	55	"Since trading as low as $ 42.25 a share in May , Federal 's shares have rallied as high as $ 57.87 in New York Stock Exchange composite trading ."	-1	0.198522	0.801478	spec	5	0	5	0
+250	wsj_1394.seg.clean	56	"They closed Friday at $ 53.25 , down 50 cents on the day ."	-1	0.477798	0.522202	gen	3	3	2	0
+251	wsj_1394.seg.clean	57	"There 's a certain irony in the fact that Federal Express faces its first union problems as a result of its Tiger purchase ."	-1	0.291684	0.708316	gen	3	3	2	0
+252	wsj_1394.seg.clean	58	"Tiger itself was founded by a band of gungho airmen who had airlifted supplies `` over the Hump '' from India to China during World War II ."	-1	0.293961	0.706039	spec	5	0	5	0
+253	wsj_1394.seg.clean	59	"In the early 1970s , Mr. Smith modeled his fledgling company on Tiger 's innovation of hub-and-spoke and containerized-cargo operations ."	-1	0.423444	0.576556	spec	4	1	4	0
+254	wsj_1394.seg.clean	60	"But from early on , Tiger 's workers unionized , while Federal 's never have ."	1	0.796394	0.203606	gen	3	3	2	0
+255	wsj_1394.seg.clean	61	"Federal Express officials acknowledge mistakes in their drive overseas but sayit will pay off eventually ."	1	0.803817	0.196183	gen	5	5	0	0
+256	wsj_1394.seg.clean	62	"Analysts expect Federal 's earnings to improve again in its fiscal third quarter ending Feb. 28 , when the company should begin benefiting from Tiger 's extra flights , back-up planes and landing rights ."	-1	0.213899	0.786101	spec	5	0	5	0
+257	wsj_1394.seg.clean	63	"Until then , they expect the cost of integrating the two carriers to continue crimping profits ."	1	0.511222	0.488778	gen	4	4	1	0
+258	wsj_1394.seg.clean	64	"For now , the union issue is the most nettlesome of Federal 's Tiger problems , management believes ."	1	0.73446	0.26554	gen	3	3	2	0
+259	wsj_1394.seg.clean	65	"Although encouraging dialogue between managers and workers , Mr. Smith does n't countenance what he considers insubordination ."	1	0.547043	0.452957	gen	4	4	1	0
+260	wsj_1394.seg.clean	66	"When a large group of pilots once signed petitions opposing work-rule and compensation changes , he called a meeting in a company hangar and dressed them down for challenging his authority ."	-1	0.48314	0.51686	spec	4	1	4	0
+261	wsj_1394.seg.clean	67	"He then made most of the changes , pilots say ."	1	0.82811	0.17189	gen	4	4	1	0
+262	wsj_1394.seg.clean	68	"That sort of approach , however , has n't worked since the addition of Tiger ."	1	0.702749	0.297251	gen	4	4	1	0
+263	wsj_1394.seg.clean	69	"Its 6,500 workers , who had battled Tiger 's management for years over givebacks , were union members until the day of the merger , when most of their unions were automatically decertified ."	-1	0.335149	0.664851	spec	4	0	4	1
+264	wsj_1394.seg.clean	70	"Soon after the merger , moreover , Federal 's management asked Tiger 's pilots to sign an agreement stating that they could be fired any time , without cause or notice ."	-1	0.25187	0.74813	spec	4	1	4	0
+265	wsj_1394.seg.clean	71	"When the pilots refused , the company retracted it ."	1	0.72009	0.27991	gen	4	4	1	0
+266	wsj_1394.seg.clean	72	"Mr. Smith angered Federal 's pilots , too ."	1	0.737734	0.262266	spec	3	1	3	1
+267	wsj_1394.seg.clean	73	"In his haste to seal the deal with Tiger Chairman Saul Steinberg last August , Mr. Smith ignored a promise ICH that he had made to his own pilots three years ago : that any fliers acquired in future mergers would be `` end-tailed '' -- put at the bottom of the pilot seniority list that determines work schedules , pay and career options ."	-1	0.0284152	0.971585	spec	5	0	5	0
+268	wsj_1394.seg.clean	74	"The Tiger merger agreement stipulated that the lists be combined on the basis of tenure ."	-1	0.499411	0.500589	gen	4	4	1	0
+269	wsj_1394.seg.clean	75	"Mr. Smith is trying hard to allay the anger ."	1	0.872477	0.127523	gen	3	3	1	1
+270	wsj_1394.seg.clean	76	"And even some pro-union pilots sayhis charisma and popularity among the many former military fliers could be tough to beat ."	1	0.550522	0.449478	gen	3	3	2	0
+271	wsj_1394.seg.clean	77	"`` A lot of people are identifying a vote for representation as a vote against Fred Smith , '' says J.X. Gollich , a Tiger-turned-Federal pilot and union activist ."	-1	0.257767	0.742233	spec	4	1	4	0
+272	wsj_1394.seg.clean	78	"Mr. Smith and other top Federal executives have met with Tiger workers in Los Angeles , Ohio , New York , Alaska , Asia and Europe ."	-1	0.201287	0.798713	spec	4	1	4	0
+273	wsj_1394.seg.clean	79	"Recently , they have appeared every few weeks in talk-show type videos , countering pro-union arguments ."	1	0.725176	0.274824	gen	5	5	0	0
+274	wsj_1394.seg.clean	80	"In one video , Mr. Smith defended his agreement to merge the pilot-seniority lists ."	-1	0.323045	0.676955	gen	3	3	2	0
+275	wsj_1394.seg.clean	81	"He saidMr. Steinberg had insisted that the merger talks move quickly ."	-1	0.496773	0.503227	gen	5	5	0	0
+276	wsj_1394.seg.clean	82	"Regulators , as well , might have quashed the deal if Tiger 's pilots had n't been protected , he said ."	1	0.700819	0.299181	spec	3	2	3	0
+277	wsj_1394.seg.clean	83	"Furthermore , Mr. Smith added , `` our contract with our pilots says that we will manage our fleet operations with their advice ."	1	0.506543	0.493457	gen	5	5	0	0
+278	wsj_1394.seg.clean	84	"It does n't give any particular group the ability to veto change . ''"	1	0.708259	0.291741	gen	4	4	1	0
+279	wsj_1394.seg.clean	85	"Already , the fight has been costly ."	1	0.911804	0.0881955	gen	4	4	1	0
+280	wsj_1394.seg.clean	86	"The seniority-list controversy , along with the job-classification dispute , has been turned over to the mediator ."	1	0.519599	0.480401	spec	3	2	3	0
+281	wsj_1394.seg.clean	87	"Meanwhile , the company is operating with two separate pilot groups and seniority lists , and that is costing Federal `` a big number , '' says James Barksdale , executive vice president and chief operating officer ."	-1	0.198944	0.801056	spec	5	0	5	0
+282	wsj_1394.seg.clean	88	"The issue has also cost Federal management a lot of good will among its old pilots ."	1	0.710032	0.289968	gen	5	5	0	0
+283	wsj_1394.seg.clean	89	"`` They were willing to mistreat us because we had n't shown any moxie , any resistance , '' says William Queenan , a DC-10 pilot and 14-year Federal veteran ."	-1	0.203051	0.796949	spec	4	0	4	1
+284	wsj_1394.seg.clean	90	"Adds ICH John Poag , a 727 captain and past chairman of the company-sponsored Flight Advisory Board : `` They 've made all these magnanimous gestures to the Flying Tiger pilots , and for us , nothing . ''"	-1	0.0798222	0.920178	spec	4	1	4	0
+285	wsj_1394.seg.clean	91	"Such animosity could prove pivotal in the union vote ."	1	0.606888	0.393112	gen	4	4	1	0
+286	wsj_1394.seg.clean	92	"A large majority of the 961 former Tiger fliers support the union , according to a union study ."	1	0.505291	0.494709	spec	4	1	4	0
+287	wsj_1394.seg.clean	93	"But though most of the 1,087 Federal pilots are believed opposed , it EXP is unclear just how much their loyalty to Mr. Smith has been eroded ."	1	0.511653	0.488347	spec	4	1	4	0
+288	wsj_1394.seg.clean	94	"The fight has turned ugly and , among pilots at least , has shattered the esprit de corps that Mr. Smith worked so hard to build ."	1	0.642003	0.357997	gen	5	5	0	0
+289	wsj_1394.seg.clean	95	"Anti-union pilots have held ballot-burning parties ."	1	0.697102	0.302898	gen	4	4	1	0
+290	wsj_1394.seg.clean	96	"Some younger pilots saythey have had to endure anti-union harangues by senior pilots while flying across the country ."	1	0.608799	0.391201	gen	4	4	0	1
+291	wsj_1394.seg.clean	97	"And for now , at least , the competition is n't the only enemy ."	1	0.853018	0.146982	gen	5	5	0	0
+292	wsj_1394.seg.clean	98	"Barney Barnhardt , a 727 captain and leader of the pro-union forces , saidhe has received two anonymous death threats and been challenged to a fight with tire irons by a colleague ."	-1	0.250307	0.749693	spec	5	0	5	0
+293	wsj_1394.seg.clean	99	"`` The pilots are either for us or extremely against us , '' he says with a sigh ."	1	0.815424	0.184576	gen	3	3	2	0
