@@ -1,7 +1,7 @@
 from main import *
 import scipy
 import numpy
-import matplotlib.pyplot as pl
+import scipy.stats
 
 
 def extract_scale_nums(scales):
@@ -116,9 +116,37 @@ def find_amb_words(sentence):
 
   return index_freqs
 
+def find_context_labels(sentence):           #sentence is a sentence object
+  labels = [0]*4
+  for question in sentence.get_questions():
+    labels[int(question.get_context()[0])]+=1
+  return labels
+  
+def add_context_labels(list1, list2):       #adds elements of two lists
+  for i, element in enumerate(list1):
+    list1[i] = element + list2[i]
+  return list1
+
+def sent_length(sentence):               #sentence is a sentence object
+  return len(sentence.get_sent().split())
+  
+def mean_confidence_interval(data, confidence=0.95):        #http://stackoverflow.com/questions/15033511/compute-a-confidence-interval-from-sample-data
+    a = 1.0*numpy.array(data)
+    n = len(a)
+    m, se = numpy.mean(a), scipy.stats.sem(a)
+    h = se * scipy.stats.t._ppf((1+confidence)/2., n-1)
+    return m, m-h, m+h
+
+def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent, amb_phrases = {index of word: (string of word, #times asked about)}
+  for i in amb_phrases:
+    sentence[i] = sentence[i].upper() + "(" + str(amb_phrases[i][1]) + ")"
+  return " ".join(sentence)
+
+  
 #------------------------------------------------------------MAIN------------------------------------------
 tasks = main()
 info = []
+task_lengths = []
 for key in tasks:
   task = tasks[key]
   meanandDevs = []
@@ -129,6 +157,9 @@ for key in tasks:
   q_maxes = []
   q_mins = []
   amb_phrases_per_sent = []		#list of maps that map to tuples (index of list = sent#, key = word index, tuple = "word", freq)
+  context_labels = [0]*4 
+  context_map = {0: "No", 1:"Vague", 2:"Some", 3:"Immediate"}
+  task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
   
 
   for sentence in task.get_sentences():
@@ -146,6 +177,9 @@ for key in tasks:
     scale_maxes.append(max(nums))
     scale_mins.append(min(nums))
     amb_phrases_per_sent.append(find_amb_words(sentence))
+    next_label = find_context_labels(sentence)
+    context_labels = add_context_labels(context_labels, next_label)
+    
 
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
@@ -182,11 +216,17 @@ for key in tasks:
 
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
-    info.append("\n\nSentence: " + str(i) + "\n" + task.get_sentence(i).get_sent())
-    keys = amb_phrases_per_sent[i].keys()
-    for key in keys:
-      info.append("\n\tindex: " + str(key) + "\tword: " + amb_phrases_per_sent[i][key][0] + "\tfreq: " + str(amb_phrases_per_sent[i][key][1]))  
+    info.append("\n\nSentence: " + str(i) + cap_words(task.get_sentences()[i].get_sent().split(" "), amb_phrases_per_sent[i]))
+      
+  info.append("\n\n-----------------Context Labels-----------------")
+  for i, contextfreq in enumerate(context_labels):
+    info.append("\n" + context_map[i] + ": " + str(contextfreq))
   info.append("\n\n\n")
+  
+  
+info.append("\n\n-----------------Confidence Interval of Sentence Lengths-----------------")
+info.append("\n(mean, lower bound, upper bound) " + str(mean_confidence_interval(task_lengths)))
+info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths)))
 
 #PRINTING THINGS
 
