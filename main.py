@@ -188,7 +188,5 @@ def main():
     tasks = add_questions_to_sentences(resultlines, categories, tasks)          #Add Questions to the proper Sentences
     write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
     return tasks
-    #print tasks
 
 #main()
-#print tasks

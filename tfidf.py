@@ -1,6 +1,7 @@
-import collections
 import math
 import os.path
+import collections
+import ExternalDict
 from sets import Set
 from collections import OrderedDict
 
@@ -14,35 +15,6 @@ def get_input_file_lines(fname):
 
 def lower(x):
   return x.lower()
-"""
-def calc_freq(input_lines, chars):
-    words = {}
-    frequency = {}
-    string = ""
-    for line in input_lines:
-        count = {}
-        document = str(line[3])
-        document = document[1:-1]
-        sent = document.split(" ")
-        label = line[4]
-        string+= label
-        for word in sent:
-            if word not in chars:
-                if word in words.keys():
-                    if words[word] in count.keys():
-                        count[words[word]] += 1
-                    else:
-                        count[words[word]] = 1
-                else:
-                    words[word] = len(words)
-                    count[words[word]] = 1
-        od = collections.OrderedDict(sorted(count.items()))
-        l = od.items()
-        for pair in l:
-            string += " " + str(pair[0]) + ":" + str(pair[1])
-        string += "\n"
-    return string
-"""
 
 #---------------------------------------------------------------------------------------
 def is_word_dict_exist():
@@ -142,10 +114,10 @@ def output_word_dict(word_dict):
 
 def calc_freq(input_lines, chars):
     idf_dict = get_idfs()
-    words = upload_word_dict()
-    count = {}                           #map word number to frequency
+    words = ExternalDict("word_dict.txt") #Uploads the word dictionary, an ExternalDict object
+    count = {}                            #map word number to frequency
     string = ""
-    total = len(input_lines)             #total number of sentences
+    total = len(input_lines)              #total number of sentences
     termfreqlist = []
     labels = []
     sentences = []
@@ -173,8 +145,6 @@ def calc_freq(input_lines, chars):
             
         tf = collections.OrderedDict(sorted(termfreq.items()))
         termfreqlist.append(tf)
-    od = collections.OrderedDict(sorted(count.items()))
-    l = od.items()
     for i, termfreq in enumerate(termfreqlist):
         string+= labels[i]
         for term in termfreq:

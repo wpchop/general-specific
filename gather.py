@@ -1,21 +1,16 @@
 import os.path
-from parse_data import main as m
+from math import log
 from sets import Set
 from random import choice
+from parse_data import main as m
+from parse_ani_data import main as am
+from ExternalDict import *
 
 #-----------------------------Basic Functions--------------------------------------
 def words(string):
   '''Lowers and divides a given string into a list of words.'''
   return string.lower().split()
 
-
-def merge_dicts(*dict_args):
-    '''Given any number of dicts, shallow copy and merge into a new dict,
-    precedence goes to key value pairs in latter dicts.'''
-    result = {}
-    for dictionary in dict_args:
-        result.update(dictionary)
-    return result
 
 def ispunct(string):
   '''Checks if the given string is just punctuation. Returns True or False.'''
@@ -26,20 +21,56 @@ def ispunct(string):
     if not result:                      #If result is False, return False
       return result
   return result
-
+  
+  
 #-----------------------------Task Collection--------------------------------------
-def user_file_type():
-  '''Asks user if they are creating a .train file or a .test file. Returns 0 if 
-  .train and 1 if .test.'''
-  choice = 3
+
+
+def gather():
+  '''Handles the collection of data from all files. Currently can gather from Ani's
+  rated data and from mTurk result files.
+  post: Returns a dictionary containing all data. Key value pairs can be as follows:
+      "fname" : [(rating, "sentence"), ...]    <--Ani's data files
+     "taskID" : Task                           <--mTurk result files'''
+  c = {0:ask_user_for_tasks, 1:ask_user_for_ani_data}                              #If new data format, add something here
+  data = {}
+  while True:
+    choice = user_infile_type()
+    data = merge_dicts(c[choice](), data)
+    cont = raw_input("Are there more data files to include? y/n : ")
+    if 'y' not in cont.lower(): break
+  return data
+
+
+#------------Different Data File Inputs------------------------
+def user_infile_type():
+  '''Handles user input for the choice of data to parse. Returns an int representing
+  the choice.
+  0: mTurk result files
+  1: Ani and Annie's annotated data from wsj/asp/nyt'''
+  choice = -400
   while choice not in range(2):
-    choice = int(raw_input('''\nWhich of the following would you like to create?
-  0: A .train file to train a LibSVM model.
-  1: A .test file to test a LibSVM model's prediction.
+    choice = int(raw_input('''\nWhich of the following data files would you like to input?
+  0: mTurk result files
+  1: Ani and Annie's annotated data from wsj/asp/nyt
 Enter the appropriate integer: '''))
   return choice
+  
+#---------------Ani's Data Files  
+def ask_user_for_ani_data():
+  '''Handles user input for the collection of data from Ani and Annie's annotated
+  data from newspapers.
+  post: Returns a dictionary containing the data such that "fname":[(rating, "sentence")]'''
+  data_dict = {}
+  print ""
+  while True:
+    data_tup = am()                                                 #(fname, [tups])
+    data_dict[data_tup[0]] = data_tup[1]                            #"fname":[(rating, "sentence")]
+    cont = raw_input("Are there more 'Ani's data' files to include? y/n : ")
+    if 'y' not in cont.lower(): break
+  return data_dict
 
-
+#---------------mTurk Result Files
 def ask_user_for_tasks():
   '''Handles user input for the collection of all data from all tasks. Loops through
   task acception until user indicates they are finished.
@@ -62,184 +93,117 @@ def add_tasks(task_dict):
   return new_dict
 
 
+#------------Feature Selection------------------------
 def user_feature_selection():
   '''Handles user input for selecting which features to analyze. Returns the choice
   as an int.
-  0 = term frequency only
-  1 = punctuation frequency only
-  2 = term and punctuation frequency'''
+  0: Punctuation count
+  1: Term frequency only
+  2: All possible features'''
   choice = 5
   while choice not in range(3):
     choice = int(raw_input('''\nWhich feature(s) would you like to look at?:
-  0: Term frequency only
-  1: Punctuation frequency only
-  2: Both term and punctuation frequency
+  0: Punctuation count
+  1: Term frequency only
+  2: All possible features
 Enter the appropriate integer: '''))
   return choice
 
+#------------Output File------------------------
+def user_outfile_type():
+  '''Asks user if they are creating a .train file or a .test file. Returns 0 if 
+  .train and 1 if .test.'''
+  choice = -1
+  while choice not in range(2):
+    choice = int(raw_input('''\nWhich of the following would you like to create?
+  0: A .train file to train a LibSVM model.
+  1: A .test file to test a LibSVM model's prediction.
+Enter the appropriate integer: '''))
+  return choice
 
 #-------------------------Building Word Dictionary---------------------------------
-def is_word_dict_exist():
-  '''Checks if a file named "word_dict.txt" exists and returns True or False.'''
-  return os.path.isfile("word_dict.txt") 
-
-
-def upload_word_dict():
-  '''Looks for a file named "word_dict.txt" to upload that information to the dictionary.
-  If no such file exists, assumes the dictionary is empty. Returns the filled word_dict
-  and the highest id number found.
-  post: Returns a tuple (word_dict, i) such that word_dict is a dictionary of the form
-  "word":ID and i is the highest ID in the dictionary.'''
-  if is_word_dict_exist():
-    return read_word_dict_txt()
-  else:
-    return {}
-
-
-def read_word_dict_txt():
-  '''Reads a "word_dict.txt" file, building the dictionary it contains and returning
-  that dictionary.
-  post: Returns word_dict, a dictionary of the form "word":ID '''
-  word_dict = {}
-  dictFile = open("word_dict.txt", "r")
-  items = dictFile.readlines()[0].strip().split("\t")
-  for item in items:
-    pair = item.split(">x<")
-    word_dict[pair[0]] = int(pair[1])
-  dictFile.close()
-  return word_dict
-
-
-def get_list_of_all_sentences(task_dict):
-  '''Returns a list of all sentences from all tasks.'''
+def get_list_of_all_sentences(data_dict):
+  '''Returns a list of all sentences from all data.'''
   sentences = []
-  for task in task_dict.values():
-    for sent in task.get_sentences():
-      sentences.append( sent.get_sent() )
+  for data in data_dict.values():                                                  #If new data format, add something here
+    if type(data) is list:
+      for tup in data:
+        sentences.append( tup[1] )
+    else:
+      for sent in data.get_sentences():
+        sentences.append( sent.get_sent() )
   return sentences
 
 
-def get_word_set(word_dict, sentences):
-  '''Takes in a list of sentences (strings) and returns a set of
-  all words making up those sentences.
-  pre: sentences is a list of strings
-  post: returns an unordered, no-duplicates set of strings'''
-  words_ls = words(" ".join(sentences))	        #Makes a big string then breaks @ spaces
-  words_ls.extend(word_dict.keys())             #Adds on words already in dictionary
-  words_s = Set(words_ls)					              #Removes duplicates and randomizes order
-  return words_s
+def get_word_list(data_dict):
+  '''Gets a list of every word contained in the data's sentences. Returns the list.'''
+  return words(" ".join( get_list_of_all_sentences(data_dict) ))
 
 
-def __build_word_dict(word_dict, sentences):
-  '''Fills the given dictionary with the individual words in the given
-  list of sentences, and returns the full dictionary.
-  pre: word_dict = {} or {"word": wordID}, sentences = list of strings}
-  post: Returns word_dict, in format above.'''
-  words = get_word_set(word_dict, sentences)
-  maxi = get_max_id(word_dict)
-  for word in words:		    #For each word not already in it, adds it to the dictionary with a unique id
-    if word in word_dict:
-      pass
-    else:
-      maxi += 1               #Prepares for the id
-      word_dict[word] = maxi
-  return word_dict
-
-
-def get_max_id(word_dict):
-  '''Returns the maximum value of the dictionary's value set.'''
-  if word_dict == {}:
-    return -1                               #So that next id is 0
-  else:
-    return sorted(word_dict.values())[-1]   #Sort the IDs, get the highest from off the end
-
-
-def update_word_dict(task_dict):
-  '''Creates a word dictionary such that {"word": wordID (int)} from the provided
-  dictionary of tasks, {taskID:Task}. Adds to a dictionary in a "word_dict.txt" file
-  or if none, from scratch.
-  post: Returns the updated word_dict.'''
-  word_dict = upload_word_dict()                                      #Gets word_dict from file if present
-  sentences = get_list_of_all_sentences(task_dict)                    #Get list of all sentences from all tasks
-  word_dict = __build_word_dict(word_dict, sentences)                 #Adds any new words
-  return word_dict
-
-
-def get_word_dict(task_dict, choice):
+def get_word_dict(data_dict, choice):
   '''Gets the appropriate word dictionary based on the provided choice.
-  pre: task_dict is a dictionary of Tasks and choice is an int 0-1.
-  post: Returns a dictionary such that {"word:wordID}'''
+  pre: data_dict is a dictionary of Tasks or fnames, and choice is an int 0-1.
+  post: Returns an ExternalDict such that {"word:wordID}'''
+  word_dict = ExternalDict("word_dict.txt")                               #If .test file... Leave word dict as is.
   if choice == 0:                                                         #If .train file...
-    word_dict = update_word_dict(task_dict)                                 #Update word dictionary {"word:wordID}
-  else:                                                                   #If .test file...
-    word_dict = upload_word_dict()                                          #Get the word dictionary as already exists
+    word_dict.add_list( Set(get_word_list(data_dict)) )                   #Update word dictionary {"word:wordID}
   return word_dict
-
-
-def output_word_dict(word_dict):
-  '''Outputs word_dict to a file for reuse in other data gathering ventures.
-  pre: word_dict is a dictionary such that "word":wordID
-  post: Outputs a file "word_dict.txt" where the words are listed--> word:ID\tword:ID...
-  WARNING: Overwrites any file by the same name.'''
-  outFile = open("word_dict.txt","w")
-  for item in word_dict.items():
-    outFile.write(item[0]+">x<"+str(item[1])+"\t")
-  outFile.close()
-    
 
 #---------------------------------Features-----------------------------------------
 
 #------Term Frequency: Words & Punctuation------
-def get_tf_dicts(sentence, word_dict):
-  '''Takes in a sentence (string) and creates a term frequency and a
-  punctuation frequency dictionary for it using the provided word
-  dictionary.
+def get_ftup(sentence, word_dict):
+  '''Takes in a sentence (string) and creates a term frequency dict and a
+  punctuation count for it using the provided word dictionary.
   pre: sentence is a tokenized string.
-  word_dict is a dictionary such that {"word": int}
-  post: returns a tf dictionary and a pf dictionary of the forms {wordID:count_int}'''
-  tf_dict, pf_dict = {}, {}
+  word_dict is an ExternalDict such that {"word": int}
+  post: returns a tf dictionary of the form {wordID:count_int} and an int that is 
+  #ofpunctuation in sentence.'''
+  tf_dict, p_count = {}, 0
   for word in words(sentence):                          #For each word in the sentence
     if word in word_dict:                                 #If word is in the dictionary (.train = always, .test = not always)
       wordID = word_dict[word]                              #Get the word's ID
-      if ispunct(word) and (wordID in pf_dict.keys()):      #If the punct has already appeared, add to it
-        pf_dict[ wordID ] += 1
-      elif ispunct(word):                                   #If the punct hasn't yet appeared, add as new key
-        pf_dict[ wordID ] = 1
+      if ispunct(word):                                     #If punctuation, add to count
+        p_count += 1
       elif wordID in tf_dict.keys():                        #If the word has already appeared, add to it
         tf_dict[ wordID ] += 1
       else:                                                 #If the word hasn't yet appeared, add as new key
         tf_dict[ wordID ] = 1
     else:                                                 #if word not in dictionary (.test, if it wasn't in training data)
       pass
-  return (tf_dict, pf_dict)
+  return (tf_dict, p_count)
 
 
-def get_list_of_tf_dicts(sentences, word_dict):
+def get_ftups(sentences, word_dict):
   '''Takes in a list of sentences and the word dictionary and
   finds the term frequency dictionaries for each sentences and 
   returns that list.
-  pre: sentences is list of strings, word_dict is a dictionary such
-  that {"word":int}
+  pre: sentences is list of strings, word_dict is an ExternalDict such that {"word":int}
   post: returns a list of tuples, each containing two dictionaries,
   (term_freq_dict, punct_freq_dict).'''
   ls = []
   for sentence in sentences:
-    ls.append(get_tf_dicts(sentence, word_dict) )
+    ls.append(get_ftup(sentence, word_dict) )
   return ls
 
 
-def associate_tasks_with_features(task_dict, word_dict):
+def associate_data_with_features(data_dict, word_dict):
   '''Creates a dictionary of the form:
-     Task : [( {term freq}, {punct freq} ), ...]
-  where each tuple is for Sentence #[index] in the Task. The inner dictionaries 
-  are of the form {wordID:int}.
-  pre: task_dict is a dictionary of all taskIDs associated with their Task object,
-  word_dict is a dictionary such that {"word":wordID}
+     Task/list of tuples : [( {term freq}, punct_count ), ...]
+  where each tuple is for Sentence #[index] in the Task or list of tuples. The 
+  inner dictionary is of the form {wordID:int}.
+  pre: data_dict is a dictionary of all dataIDs associated with their data:
+      -taskIDs associated with their Task object OR
+      -filenames associated with a list of tuples (rating, "sentence")
+  word_dict is an ExternalDict such that {"word":wordID}
   post: returns a dictionary as described above.'''
-  task_to_tf_dicts = {}
-  for task in task_dict.values():
-    task_to_tf_dicts[task] = get_list_of_tf_dicts(task.get_sentences_as_strings(), word_dict)
-  return task_to_tf_dicts
+  data_to_ftups = {}
+  for data in data_dict.values():
+    if type(data) is list:
+      data_to_ftups[tuple(data)] = get_ftups([tup[1] for tup in data], word_dict)
+    else:
+      data_to_ftups[data] = get_ftups(data.get_sentences_as_strings(), word_dict)
+  return data_to_ftups
 
 #--------------------------------File Output---------------------------------------
 
@@ -278,76 +242,102 @@ def sort_wordIDs(*dict_args):
     ls.extend(dic.keys())
   return sorted(ls)
 
+
+def interp_tf(freq, total_terms):
+  '''Interprets the term frequency for a term given its frequency in the document
+  and the total number of terms in that document.
+  pre: freq and total_terms are ints.
+  post: returns a float representing term frequency.'''
+  return freq/float(total_terms)
+
+
+def interp_idf(num_docs, num_with_term):
+  '''Interprets the inverse document frequency for a particular term, given the 
+  total number of documents (num_docs) and the number of documents containing the
+  term (num_with_term).
+  pre: num_docs and num_with_term are both ints
+  post: returns a float representing the idf'''
+  return log(num_docs/num_with_term)
+
+
 #------Feature Options--------------------------
 def match_choice_to_func(choice): #See commented ints below
   '''Choice in an int 0-2, representing which feature output to use.
   post: returns a function to create a line of output when given a feature tuple for
   a particular sentence.'''
-  d = {0:tf_feature_string, 1:pf_feature_string, 2:tfpf_feature_string}
+  d = {0:pf_count, 1:tf_feature_string, 2:all_feature_string}
   return d[choice]
 
 
-def tf_feature_string(f_tup): #0
+def pf_count(f_tup): #0
+  '''Takes in a sentence's f_tup and returns a segment 
+  of a line for the output file, namely "0:#ofpunct" where 0 is the feature id.
+  pre: f_tup is a tuple of dictionaries -> ({wordID:freq}, {punctID:freq})
+  post: returns a string of the form "0:#ofpunct\\n", unless #ofpunct is 0, which
+  returns newline.'''
+  num = f_tup[1]
+  if num != 0:
+    return " 0:"+str(num)+'\n'
+  return "\n"
+
+
+def tf_feature_string(f_tup): #1
   '''Takes in the tuple containing the features for the sentence. Uses this info to
   return a string for the LibSVM classifier using ONLY word frequencies.
-  pre: f_tup is a tuple of dictionaries -> ({wordID:freq}, {punctID:freq})
+  pre: f_tup is a tuple -> ( {term freq}, punct_count ),
   post: returns a string in the following form: "0:freq 1:freq ... n:freq"'''
-  line = ''
+  line = ''  
+  num_terms = float(len(f_tup[0].keys()))
   wordIDs = sort_wordIDs(f_tup[0])
   for wordID in wordIDs:
-    line += " " + str(wordID) + ":" + str(f_tup[0][wordID])
+    line += " " + str(wordID) + ":" + str( interp_tf(f_tup[0][wordID],num_terms) )
   return line+"\n"
 
 
-def pf_feature_string(f_tup): #1
-  '''Takes in the tuple containing the features for the sentence. Uses this info to
-  return a string for the LibSVM classifier using ONLY punctuation frequencies.
-  pre: f_tup is a tuple of dictionaries -> ({wordID:freq}, {punctID:freq})
-  post: returns a string in the following form: "0:freq 1:freq ... n:freq"'''
-  line = ''
-  wordIDs = sort_wordIDs(f_tup[1])
-  for wordID in wordIDs:
-    line += " " + str(wordID) + ":" + str(f_tup[1][wordID])
-  return line+"\n"
-
-
-def tfpf_feature_string(f_tup): #2
+def all_feature_string(f_tup): #2
   '''Takes in the tuple containing the features for the sentence. Uses this info to
   return a string for the LibSVM classifier using BOTH word and punctuation 
   frequencies.
-  pre: f_tup is a tuple of dictionaries -> ({wordID:freq}, {punctID:freq})
+  pre: f_tup is a tuple -> ({wordID:freq}, punct_count)
   post: returns a string in the following form: "0:freq 1:freq ... n:freq"'''
-  line = ""
-  wordIDs = sort_wordIDs(f_tup[0], f_tup[1])
+  line = pf_count(f_tup).strip('\n')            #Punct count
+  wordIDs = sort_wordIDs(f_tup[0])              #Sorts the IDs least to greatest
+  num_terms = float(len(f_tup[0]))              #Gets total number of terms in sentence
   for wordID in wordIDs:
-    if wordID in f_tup[1].keys():
-      line += " " + str(wordID) + ":" + str(f_tup[1][wordID])
-    else:
-      line += " " + str(wordID) + ":" + str(f_tup[0][wordID])
+    line += " " + str(wordID) + ":" + str(interp_tf(f_tup[0][wordID],num_terms))
   return line+"\n"
 
 #------Output File Creation---------------------
-def output_string(task_to_features, choice):
-  '''Takes in a dictionary of tasks with their features, and a user provided choice 
+def output_string(data_to_features, choice):
+  '''Takes in a dictionary of data with their features, and a user provided choice 
   to indicate which features to use.
-  pre: The dictionary is of the form {Task:[( {term freq}, {punct freq} ), ...]}, and
-  choice is an int between 0 and 2.
+  pre: The dictionary is of the form {Task/listoftups : [( {term freq}, punct_count ), ...]}, and
+  choice is an int between 0 and 2, inclusive.
   post: returns a string to output to a file.'''
   outstr = ""
-  for task in task_to_features.keys():
-    for sent in task.get_sentences():
-      f_tup = task_to_features[task][sent.get_num()]    #This is ({term freq}, {punct freq})
-      outstr += get_output_line(sent, choice, f_tup)
+  for data in data_to_features:
+  
+    if type(data) is tuple:
+      sentences = data                    #tuple of tuples
+      ratings = [tup[0] for tup in data]  #list of ints
+    else:
+      sentences = data.get_sentences()                #list of Sentences
+      ratings = map(categorize, map(mean, sentences)) #list of ints
+    
+    for i in range(len(sentences)):
+      ftup = data_to_features[data][i]                                             #This is ({term freq}, p_count)
+      outstr += get_output_line(ratings[i], choice, ftup)
+      
   return outstr
 
 
-def get_output_line(sent, choice, f_tup):
-  '''Given the Sentence object, the feature choice, and the feature tuple for that 
-  Sentence, this function will return a string representing the output line for the
-  Sentence. "0 34:3 56:1"...etc
-  pre: task is a Task object, sent is a Sentence object, choice is an int 0-2.
+def get_output_line(rating, choice, f_tup):
+  '''Given the rating, the feature choice, and the feature tuple for a 
+  sentence, this function will return a string representing the output line for the
+  sentence. "0 34:3 56:1"...etc
+  pre: rating is an int 0-1, choice is an int 0-2, and ftup is a feature tuple
   post: returns the line as a string'''
-  line = str( categorize(mean(sent)) )              #"0" or "1" for specific or general
+  line = str( rating )                              #"0" or "1" for specific or general
   line += (match_choice_to_func(choice))(f_tup)     #+ " 0:freq 1:freq ... n:feq\n"
   return line
 
@@ -373,23 +363,25 @@ def write_output(outstr, f_name):
 
 #-----------------------------------MAIN-------------------------------------------
 def main():
-  file_type = user_file_type()                                            #Asks if .train or .test file
-  task_dict = ask_user_for_tasks()                                        #Get dictionary of all tasks
+  file_type = user_outfile_type()                                         #Asks if .train or .test file
+  data_dict = gather()                                                    #Get dictionary of ALL DATA  
   choice = user_feature_selection()                                       #Which set of features to use
-  word_dict = get_word_dict(task_dict, file_type)                         #Word dictionary {"word:wordID}
   
-  task_to_features = associate_tasks_with_features(task_dict, word_dict)  #Task : [( {term freq}, {punct freq} ), ...]
+  word_dict = get_word_dict(data_dict, file_type)                         #ExternalDict {"word:wordID}
+  
+  data_to_features = associate_data_with_features(data_dict, word_dict)  #Task/listoftups : [( {term freq}, punct_count ), ...]
  
-  output_word_dict(word_dict)
-  write_output( output_string(task_to_features, choice) , make_fname(file_type))
-
+  word_dict.save()
+  write_output( output_string(data_to_features, choice) , make_fname(file_type))
 
 main()
 
 
 '''
-Fixes:
-
-deal with 'll and other punct + letters combos
-see why it is missing one, regardless
+To do:
+-External word dict
+-Punct count
+-Take in new file type
+  -extract tf (ie make ftups)
+-include idf
 '''

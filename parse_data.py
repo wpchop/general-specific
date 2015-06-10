@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        main.py
+# Name:        parse_data.py
 # Purpose: Takes a .input file and a .results file from mTurk, extracts the data,
 # and outputs it nicely.
 # Authors:      Bridget O'Daniel, Wenli Zhao, Lily Wu
@@ -159,6 +159,7 @@ def write_output(input_fname, tasks):
     Task objects.
     WARNING: Will overwrite another file of the same name."""
     outFile = open(input_fname[0:-6]+"_output.txt","w")
+    context_map = {0: "No", 1: "Vague", 2: "Some", 3: "Immediate"}
     for key in tasks:
       outFile.write("\n==================TASK==================\n"+key+"\n\n")
       task = tasks[key]
@@ -169,7 +170,7 @@ def write_output(input_fname, tasks):
           outFile.write("\t---Question #"+str(question.get_num())+" "+question.get_ID()+"\n")
           outFile.write("\tTXT\t"+question.get_text(sentence.get_sent().split())+"\n")
           outFile.write("\tBODY\t"+question.get_body()+"\n")
-          outFile.write("\tIN CONTEXT\t"+question.get_context()+"\n")
+          outFile.write("\tIN CONTEXT\t"+context_map[int(question.get_context()[0:1])]+"\n")
         outFile.write("--Specificity scale: ")
         for scale in sentence.get_scales():
           outFile.write(str(scale))
@@ -188,4 +189,4 @@ def main():
     write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
     return tasks
 
-main()
+#main()
