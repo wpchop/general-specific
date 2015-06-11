@@ -1,4 +1,4 @@
-from main import *
+from parse_turk_data import main
 import scipy
 import numpy
 import scipy.stats
