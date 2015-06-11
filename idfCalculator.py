@@ -6,7 +6,7 @@
 # Created: 11/06/2015
 # Acknowledgements:
 #-------------------------------------------------------------------------------
-import ExternalDict
+from ExternalDict import ExternalDict
 from math import log
 
 
@@ -19,7 +19,7 @@ class idfCalculator():
   
   def __getitem__(self, key): #idfCalc[key]
     '''Gets the value to match the given provided key.'''
-    return self.idf[key]
+    return self.idf(key)
     
   def __contains__(self, key): #key in idfCalc?
     '''Checks to see if idfCalculator contains the given key. Returns True or False.'''
@@ -45,8 +45,8 @@ class idfCalculator():
     pre: wordID is an int representing a word.
     post: Returns a float.'''
     tot = self.get_tot_docs()
-    return self.__idf(tot, self[wordID])
+    return self.__idf(tot, self.count[wordID])
     
   def __idf(self, num_docs, num_with_term):
     '''Actually calculates the idf.'''
-    return log(num_docs/float(num_with_term))
+    return log(int(num_docs)/float(num_with_term))

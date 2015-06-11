@@ -155,7 +155,7 @@ def add_questions_to_sentences(resultlines, categories, tasks):
     return tasks
 
 def write_output(input_fname, tasks):
-    """Creates an output file by the name of "output.txt" using the hash of
+    """Creates an output file by the name of "<file>_output.txt" using the hash of
     Task objects.
     WARNING: Will overwrite another file of the same name."""
     outFile = open(input_fname[0:-6]+"_output.txt","w")
@@ -186,7 +186,7 @@ def main():
     meta, resultlines = read_results_file(result_fname)                         #Get the list of metadata and the lines from the .result file
     categories = make_category_dict(meta)                                       #A category dictionary parsed from the metadata
     tasks = add_questions_to_sentences(resultlines, categories, tasks)          #Add Questions to the proper Sentences
-    write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
+    #write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
     return tasks
 
 #main()

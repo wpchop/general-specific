@@ -101,7 +101,7 @@ class ExternalDict(object):
     items = lines[0].strip().split("\t")
     for item in items:
       pair = item.split(">x<")
-      ed[pair[0]] = int(pair[1])
+      ed[pair[0]] = pair[1]
     dictFile.close()
     self.dict = merge_dicts(self.dict, ed)
 
@@ -149,6 +149,6 @@ class ExternalDict(object):
     WARNING: Overwrites any file by the same name.'''
     outFile = open(self.fname,"w") #Empties whatever was previously in the file
     for item in self.items():
-      outFile.write(item[0]+">x<"+str(item[1])+"\t")
+      outFile.write(str(item[0])+">x<"+str(item[1])+"\t")
+    print self.fname+" written."
     outFile.close()
-  

@@ -1,11 +1,12 @@
 import os.path
-import idfCalculator
 from math import log
 from sets import Set
 from random import choice
+from ExternalDict import merge_dicts
 from parse_turk_data import main as m
 from parse_ani_data import main as am
-from ExternalDict import *
+from ExternalDict import ExternalDict
+from idfCalculator import idfCalculator
 
 #-----------------------------Basic Functions--------------------------------------
 def words(string):
@@ -27,7 +28,7 @@ def ispunct(string):
 #-----------------------------Task Collection--------------------------------------
 
 
-def gather():
+def gather_data():
   '''Handles the collection of data from all files. Currently can gather from Ani's
   rated data and from mTurk result files.
   post: Returns a dictionary containing all data. Key value pairs can be as follows:
@@ -100,13 +101,15 @@ def user_feature_selection():
   as an int.
   0: Punctuation count
   1: Term frequency only
-  2: All possible features'''
+  2: TF-IDF only
+  3: All possible features'''
   choice = 5
-  while choice not in range(3):
+  while choice not in range(4):
     choice = int(raw_input('''\nWhich feature(s) would you like to look at?:
   0: Punctuation count
   1: Term frequency only
-  2: All possible features
+  2: TF-IDF only
+  3: All possible features
 Enter the appropriate integer: '''))
   return choice
 
@@ -374,7 +377,7 @@ def write_output(outstr, f_name):
 #-----------------------------------MAIN-------------------------------------------
 def main():
   file_type = user_outfile_type()                                         #Asks if .train or .test file
-  data_dict = gather()                                                    #Get dictionary of ALL DATA  
+  data_dict = gather_data()                                               #Get dictionary of ALL DATA  
   choice = user_feature_selection()                                       #Which set of features to use
   
   word_dict = get_word_dict(data_dict, file_type)                         #ExternalDict {"word:wordID}
@@ -384,14 +387,4 @@ def main():
   word_dict.save()
   write_output( output_string(data_to_features, choice) , make_fname(file_type))
 
-main()
-
-
-'''
-To do:
--External word dict
--Punct count
--Take in new file type
-  -extract tf (ie make ftups)
--include idf
-'''
+#main()
