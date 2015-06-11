@@ -50,10 +50,6 @@ class ExternalDict(object):
   def __setitem__(self, key, value): #ED[key] = new_value
     '''Sets the value at key in the External Dict.'''
     self.dict[key] = value
-    
-  def __missing__(self, key): #Error message handling
-    '''Called by __getitem__ when key not in ED.'''
-    self.dict.__missing__(key)
 
   def __iter__(self): #Allows for iteration
     '''Gets an interation object for the ED, over the keys.'''
@@ -110,9 +106,10 @@ class ExternalDict(object):
     self.dict = merge_dicts(self.dict, ed)
 
 #--------------Altering ED
-  def add_pair(self, key, value):
-    '''Adds the key:value pair to the ED.'''
-    self.dict[key] = value
+  def add_pair(self, pair):
+    '''Adds the key:value pair in the tuple to the ED.
+    pre: pair is a tuple of length 2'''
+    self.dict[pair[0]] = pair[1]
     
     
   def add_dict(self, dictionary):

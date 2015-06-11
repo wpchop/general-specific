@@ -144,7 +144,7 @@ def get_word_dict(data_dict, choice):
   '''Gets the appropriate word dictionary based on the provided choice.
   pre: data_dict is a dictionary of Tasks or fnames, and choice is an int 0-1.
   post: Returns an ExternalDict such that {"word:wordID}'''
-  word_dict = ExternalDict("word_dict.txt")                               #If .test file... Leave word dict as is.
+  word_dict = ExternalDict("word.dict")                                   #If .test file... Leave word dict as is.
   if choice == 0:                                                         #If .train file...
     word_dict.add_list( Set(get_word_list(data_dict)) )                   #Update word dictionary {"word:wordID}
   return word_dict
