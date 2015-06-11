@@ -129,6 +129,11 @@ class ExternalDict(object):
         self[item] = len(self) + 1 #length of the dict at that point is the unique ID
     
     
+  def empty_dict(self):
+    '''Completely resets the dictionary to empty.'''
+    self.dict = {}
+    
+    
   def get_key_set(self, lst=[]):
     '''Takes in a list of keys and returns a set of those keys AND those already in
     the ED with duplicates removed

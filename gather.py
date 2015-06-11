@@ -1,8 +1,9 @@
 import os.path
+import idfCalculator
 from math import log
 from sets import Set
 from random import choice
-from parse_data import main as m
+from parse_turk_data import main as m
 from parse_ani_data import main as am
 from ExternalDict import *
 
@@ -243,7 +244,7 @@ def sort_wordIDs(*dict_args):
   return sorted(ls)
 
 
-def interp_tf(freq, total_terms):
+def get_tf(freq, total_terms):
   '''Interprets the term frequency for a term given its frequency in the document
   and the total number of terms in that document.
   pre: freq and total_terms are ints.
@@ -251,21 +252,16 @@ def interp_tf(freq, total_terms):
   return freq/float(total_terms)
 
 
-def interp_idf(num_docs, num_with_term):
-  '''Interprets the inverse document frequency for a particular term, given the 
-  total number of documents (num_docs) and the number of documents containing the
-  term (num_with_term).
-  pre: num_docs and num_with_term are both ints
-  post: returns a float representing the idf'''
-  return log(num_docs/num_with_term)
-
+def get_tfidf(tf, idf):
+  '''Returns the tf-idf.'''
+  return tf * idf
 
 #------Feature Options--------------------------
 def match_choice_to_func(choice): #See commented ints below
   '''Choice in an int 0-2, representing which feature output to use.
   post: returns a function to create a line of output when given a feature tuple for
   a particular sentence.'''
-  d = {0:pf_count, 1:tf_feature_string, 2:all_feature_string}
+  d = {0:pf_count, 1:tf_feature_string, 2:tfidf_feature_string, 3:all_feature_string}
   return d[choice]
 
 
@@ -294,18 +290,32 @@ def tf_feature_string(f_tup): #1
   return line+"\n"
 
 
-def all_feature_string(f_tup): #2
+def tfidf_feature_string(f_tup): #2
+  '''Takes in the tuple containing the geatures for the setnences. Uses this info
+  to return a string for the LibSVM classifier using ONLY tf-idf.add_tasks
+  pre: f_tup is a tuple -> ( {term freq}, punct_count )
+  post: returns a string in the following form: "0:freq 1:freq ... n:freq"'''
+  line = ''
+  len_doc = float(len(f_tup[0].keys()))
+  wordIDs = sort_wordIDs(f_tup[0])
+  idfCalc = idfCalculator()
+  
+  for wordID in wordIDs:
+    tf = get_tf( f_tup[0][wordID], len_doc)
+    idf = idfCalc[wordID]
+    line += " " + str(wordID) + ":" + str( get_tfidf(tf, idf) )
+    
+  return line+"\n"
+  
+
+def all_feature_string(f_tup): #3
   '''Takes in the tuple containing the features for the sentence. Uses this info to
-  return a string for the LibSVM classifier using BOTH word and punctuation 
-  frequencies.
+  return a string for the LibSVM classifier using BOTH punct count and TF-IDF.
   pre: f_tup is a tuple -> ({wordID:freq}, punct_count)
   post: returns a string in the following form: "0:freq 1:freq ... n:freq"'''
   line = pf_count(f_tup).strip('\n')            #Punct count
-  wordIDs = sort_wordIDs(f_tup[0])              #Sorts the IDs least to greatest
-  num_terms = float(len(f_tup[0]))              #Gets total number of terms in sentence
-  for wordID in wordIDs:
-    line += " " + str(wordID) + ":" + str(interp_tf(f_tup[0][wordID],num_terms))
-  return line+"\n"
+  line += tfidf_feature_string(f_tup)           #tfidf
+  return line
 
 #------Output File Creation---------------------
 def output_string(data_to_features, choice):
