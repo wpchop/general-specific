@@ -118,4 +118,4 @@ def main():
   word_dict.save()
   count_dict.save()
   
-#main()
+main()
