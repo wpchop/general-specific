@@ -30,7 +30,7 @@ def find_quest_nums(sentence, workers):
   return worker_questions
 
 def find_keyword_freqmap(sentence):
-  keywords = {"who": 0, "what": 0, "where": 0, "when": 0, "why": 0, "how": 0, "which": 0, "''": 0}
+  keywords = {"who": 0, "what": 0, "where": 0, "when": 0, "why": 0, "how": 0, "which": 0, "": 0}
   for question in sentence.get_questions():
       kword = find_keyword(question.get_body(), keywords)
       keywords[kword] = keywords[kword] + 1
@@ -113,17 +113,45 @@ def find_all_amb_phrases(sentence):
   index_freqs = {}
   sent_list = sentence.get_sent().split()
   freqs = [0 for i in range(len(sent_list))]
+
   for question in questions:
     low = question.get_low()
     high = question.get_high()
     for i in range(low, high+1):
       freqs[i]+=1
   
+<<<<<<< HEAD
   for i in range(len(freqs)):
     index_freqs[i] = freqs[i]
     
   return index_freqs
+
+def find_context_labels(sentence):           #sentence is a sentence object
+  labels = [0]*4
+  for question in sentence.get_questions():
+    labels[int(question.get_context()[0])]+=1
+  return labels
   
+def add_context_labels(list1, list2):       #adds elements of two lists
+  for i, element in enumerate(list1):
+    list1[i] = element + list2[i]
+  return list1
+
+def sent_length(sentence):               #sentence is a sentence object
+  return len(sentence.get_sent().split())
+  
+def mean_confidence_interval(data, confidence=0.95):        #http://stackoverflow.com/questions/15033511/compute-a-confidence-interval-from-sample-data
+    a = 1.0*numpy.array(data)
+    n = len(a)
+    m, se = numpy.mean(a), scipy.stats.sem(a)
+    h = se * scipy.stats.t._ppf((1+confidence)/2., n-1)
+    return m, m-h, m+h
+
+def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent, amb_phrases = {index of word: (string of word, #times asked about)}
+  for i in amb_phrases:
+    sentence[i] = sentence[i].upper() + "(" + str(amb_phrases[i][1]) + ")"
+  return " ".join(sentence)
+
 #------------------------------------------------------------MAIN------------------------------------------
 input_fname, tasks = main()
 info = []
@@ -135,7 +163,8 @@ while line != "":
   out.write(line)
   line = original_out.readline()
 
-original_out.close()
+original_out.close() 
+task_lengths = []
 
 for key in tasks:
   task = tasks[key]
@@ -148,6 +177,9 @@ for key in tasks:
   q_mins = []
   amb_phrases_per_sent = []		#list of maps (index of list = sent#, key = word index, value = freq)
   max_ambs = []         #list of maps that map to tuples {index = sent #, key = word index in sentence, tuple = "word", freq
+  context_labels = [0]*4 
+  context_map = {0: "No", 1:"Vague", 2:"Some", 3:"Immediate"}
+  task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
   
 
   for sentence in task.get_sentences():
@@ -166,6 +198,8 @@ for key in tasks:
     scale_mins.append(min(nums))
     amb_phrases_per_sent.append(find_all_amb_phrases(sentence))
     max_ambs.append(find_max_amb_words(sentence, find_all_amb_phrases(sentence)))
+    next_label = find_context_labels(sentence)
+    context_labels = add_context_labels(context_labels, next_label)
 
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
@@ -202,12 +236,23 @@ for key in tasks:
 
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
-    info.append("\n\nSentence: " + str(i) + "\n" + task.get_sentence(i).get_sent())
+    info.append("\n\nSentence: " + str(i) + cap_words(task.get_sentences()[i].get_sent().split(" "), amb_phrases_per_sent[i]))
     keys = max_ambs[i].keys()
     for key in keys:
       info.append("\n\tindex: " + str(key) + "\tword: " + max_ambs[i][key][0] + "\tfreq: " + str(max_ambs[i][key][1]))  
     out.write(" ".join(map(Sentence.get_word(), amb_phrases_per_sent[i].keys()) + " ")
   info.append("\n\n\n")
+    
+      
+  info.append("\n\n-----------------Context Labels-----------------")
+  for i, contextfreq in enumerate(context_labels):
+    info.append("\n" + context_map[i] + ": " + str(contextfreq))
+  info.append("\n\n\n")
+  
+  
+info.append("\n\n-----------------Confidence Interval of Sentence Lengths-----------------")
+info.append("\n(mean, lower bound, upper bound) " + str(mean_confidence_interval(task_lengths)))
+info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths)))
 
 #PRINTING THINGS
 

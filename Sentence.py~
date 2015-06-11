@@ -43,8 +43,18 @@ class Sentence: 	#sentence, all questions, all scales
 
   def get_sent(self):
     return self.sent
+<<<<<<< HEAD
+  
+  def get_word(self, index):
+    return self.sent.split()[index]
+=======
+>>>>>>> 581e32ba9e22806a28f82e90ecc3559b8ae4a2ea
 
 #-----------Other Methods--------------------
   def split_sentence(self):
     """Splits the sentence into a list of words and returns it."""
+<<<<<<< HEAD
     return self.sent.split()
+=======
+    return self.sent.split()
+>>>>>>> 581e32ba9e22806a28f82e90ecc3559b8ae4a2ea

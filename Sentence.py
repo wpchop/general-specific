@@ -43,7 +43,7 @@ class Sentence: 	#sentence, all questions, all scales
 
   def get_sent(self):
     return self.sent
-  
+    
   def get_word(self, index):
     return self.sent.split()[index]
 

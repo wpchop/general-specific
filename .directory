@@ -1,4 +1,16 @@
 [Dolphin]
+<<<<<<< HEAD
 SortRole=type
 Timestamp=2015,6,3,16,3,47
 Version=3
+=======
+<<<<<<< HEAD
+Timestamp=2015,6,9,9,35,5
+=======
+GroupedSorting=true
+SortRole=type
+Timestamp=2015,6,10,9,43,26
+>>>>>>> 171a0af32ff196c2a2f743c0ddf49957d5c85167
+Version=3
+ViewMode=1
+>>>>>>> 581e32ba9e22806a28f82e90ecc3559b8ae4a2ea
