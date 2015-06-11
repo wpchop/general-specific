@@ -1,0 +1,554 @@
+=========================================================
+TASK: 2006_04_11_1753729.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.46
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.55
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: 0.69
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.97
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: 0.78
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: 0.84
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.75
+	std dev: 0.83
+	max: 4
+	min: 2
+Sentence: 1
+	mean: 5.0
+	std dev: 0.71
+	max: 6
+	min: 4
+Sentence: 2
+	mean: 5.75
+	std dev: 0.43
+	max: 6
+	min: 5
+Sentence: 3
+	mean: 5.5
+	std dev: 0.87
+	max: 6
+	min: 4
+Sentence: 4
+	mean: 4.75
+	std dev: 1.09
+	max: 6
+	min: 3
+Sentence: 5
+	mean: 5.5
+	std dev: 0.5
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 2.0
+	std dev: 1.0
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 2.0
+	std dev: 1.58
+	max: 4
+	min: 0
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: -0.03
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.57
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: -0.24
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.0
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: 0.28
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A20XQ7XGG24T6Z"
+	Correlation: 0.27
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 3.0
+	std dev: 1.41
+	max: 5
+	min: 1
+Sentence: 1
+	mean: 2.25
+	std dev: 0.83
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 1.5
+	std dev: 1.12
+	max: 3
+	min: 0
+Sentence: 3
+	mean: 2.5
+	std dev: 1.5
+	max: 4
+	min: 1
+Sentence: 4
+	mean: 3.25
+	std dev: 0.83
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 2.5
+	std dev: 0.87
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 1.5
+	std dev: 0.5
+	max: 2
+	min: 1
+Sentence: 7
+	mean: 2.0
+	std dev: 1.58
+	max: 4
+	min: 0
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+'':            (0)
+how:           (0)
+what:  *       (1)
+which:         (0)
+when:  *       (1)
+who:   ******* (7)
+where:         (0)
+why:   ***     (3)
+
+Sentence 1:
+'':            (0)
+how:           (0)
+what:          (0)
+which:         (0)
+when:          (0)
+who:   ******* (7)
+where:         (0)
+why:   **      (2)
+
+Sentence 2:
+'':         (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   **   (2)
+where:      (0)
+why:        (0)
+
+Sentence 3:
+'':           (0)
+how:          (0)
+what:  **     (2)
+which:        (0)
+when:         (0)
+who:   ****** (6)
+where:        (0)
+why:   **     (2)
+
+Sentence 4:
+'':               (0)
+how:   **         (2)
+what:             (0)
+which:            (0)
+when:             (0)
+who:   ********** (10)
+where:            (0)
+why:   *          (1)
+
+Sentence 5:
+'':          (0)
+how:   *     (1)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   ***   (3)
+where:       (0)
+why:   *     (1)
+
+Sentence 6:
+'':        (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:   **  (2)
+
+Sentence 7:
+'':        (0)
+how:       (0)
+what:  *** (3)
+which: **  (2)
+when:      (0)
+who:   **  (2)
+where:     (0)
+why:   *   (1)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0
+Guillen has vowed to retaliate if Mart√nez hits him again , but Robinson told The Associated Press yesterday that he would speak with Guillen about curtailing his emotions . ''
+	index: 12	word: Robinson	freq: 3
+	index: 7	word: hits	freq: 3
+
+Sentence: 1
+He 'll listen to anything I tell him , '' Robinson said . ''
+	index: 0	word: He	freq: 5
+
+Sentence: 2
+But I do n't know how someone will react in the heat of the battle .
+	index: 13	word: the	freq: 3
+	index: 14	word: battle	freq: 3
+
+Sentence: 3
+All I can do is reason with him and tell him what I think . ''
+	index: 7	word: him	freq: 5
+
+Sentence: 4
+Cliff Floyd said : '' I think if Pedro hits him , we 're going to fight .
+	index: 10	word: him	freq: 5
+
+Sentence: 5
+I think if anybody on their team gets hit , chances are something 's going to happen . ''
+	index: 6	word: team	freq: 4
+
+Sentence: 6
+The umpiring crew has been put on notice for any potential confrontation , but Bob Watson , baseball 's vice president for on-field operations , does not intend to be at the games .
+	index: 32	word: games	freq: 3
+
+Sentence: 7
+Vice President Dick Cheney will throw out the first pitch before today 's game , the Nationals ' home opener , and is scheduled to visit both clubhouses .
+	index: 26	word: both	freq: 4
+	index: 27	word: clubhouses	freq: 4
+
+
+=========================================================
+TASK: 2006_04_11_1753729.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.58
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.57
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.63
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.94
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.72
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.86
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.5
+	std dev: 0.5
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 4.0
+	std dev: 1.22
+	max: 5
+	min: 2
+Sentence: 2
+	mean: 2.75
+	std dev: 0.83
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 2.25
+	std dev: 0.83
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 4.75
+	std dev: 0.43
+	max: 5
+	min: 4
+Sentence: 5
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 4.0
+	std dev: 0.71
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 4.75
+	std dev: 0.43
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 3.0
+	std dev: 0.71
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.46
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.16
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.38
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.36
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.53
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.49
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.25
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 2.25
+	std dev: 0.43
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 1.75
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 5
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.5
+	std dev: 1.12
+	max: 4
+	min: 1
+Sentence: 7
+	mean: 3.0
+	std dev: 0.71
+	max: 4
+	min: 2
+Sentence: 8
+	mean: 1.25
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 9
+	mean: 2.75
+	std dev: 0.43
+	max: 3
+	min: 2
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+'':        (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   **  (2)
+
+Sentence 1:
+'':         (0)
+how:        (0)
+what:  **** (4)
+which: **   (2)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:   *    (1)
+
+Sentence 2:
+'':           (0)
+how:   *      (1)
+what:  **     (2)
+which:        (0)
+when:         (0)
+who:   ****** (6)
+where:        (0)
+why:          (0)
+
+Sentence 3:
+'':         (0)
+how:        (0)
+what:  **   (2)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:   *    (1)
+
+Sentence 4:
+'':        (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:   **  (2)
+
+Sentence 5:
+'':          (0)
+how:         (0)
+what:  **    (2)
+which:       (0)
+when:        (0)
+who:   ***** (5)
+where:       (0)
+why:   *     (1)
+
+Sentence 6:
+'':          (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   ***** (5)
+where:       (0)
+why:         (0)
+
+Sentence 7:
+'':         (0)
+how:   **   (2)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   ***  (3)
+where:      (0)
+why:   ***  (3)
+
+Sentence 8:
+'':       (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   ** (2)
+
+Sentence 9:
+'':         (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:   ***  (3)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0
+Major League Baseball suspended the Washington Nationals ' manager , Frank Robinson , for one game and reliever Felix Rodriguez for three games yesterday and fined them for their actions in last Thursday 's game against the Mets .
+	index: 28	word: their	freq: 3
+	index: 29	word: actions	freq: 3
+
+Sentence: 1
+The game included five hit-batsmen and a near brawl .
+	index: 1	word: game	freq: 4
+
+Sentence: 2
+Jose Guillen , who started to charge Pedro Mart√nez after he was hit by Mart√nez in consecutive at-bats , was also fined .
+	index: 0	word: Jose	freq: 3
+	index: 1	word: Guillen	freq: 3
+
+Sentence: 3
+Robinson served his suspension yesterday , when the Nationals lost , 5-4 , in 12 innings to the Astros in Houston .
+	index: 0	word: Robinson	freq: 4
+
+Sentence: 4
+The bench coach , Eddie Rodriguez , filled in for him .
+	index: 10	word: him	freq: 5
+
+Sentence: 5
+Robinson and Felix Rodriguez were ejected after Rodriguez hit Mets catcher Paul Lo Duca with a pitch in the eighth inning .
+	index: 0	word: Robinson	freq: 4
+	index: 2	word: Felix	freq: 4
+	index: 3	word: Rodriguez	freq: 4
+
+Sentence: 6
+The plunking of Lo Duca followed a warning to both teams issued by the umpires after Guillen was hit twice .
+	index: 16	word: Guillen	freq: 3
+	index: 3	word: Lo	freq: 3
+	index: 4	word: Duca	freq: 3
+
+Sentence: 7
+Rodriguez 's suspension was delayed pending the outcome of an appeal .
+	index: 2	word: suspension	freq: 4
+
+Sentence: 8
+Baseball will be paying special attention to the Mets-Nationals three-game series , which begins today at Washington .
+	index: 4	word: special	freq: 4
+
+Sentence: 9
+Tomorrow night 's game , when Mart√nez starts , will be of particular interest .
+	index: 3	word: game	freq: 4
+	index: 6	word: Mart√nez	freq: 4
+
+

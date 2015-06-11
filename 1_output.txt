@@ -1,0 +1,367 @@
+
+==================TASK==================
+2005_11_01_1714080.0
+
+
+---SENTENCE 0---
+It 's not every day that a foreign affairs issue comes up in the same context as unfair lending practices , which can strip borrowers of hard-won assets and drive people into bankruptcy .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	a foreign affairs issue comes up in the same context as unfair lending practices
+	BODY	What happened?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	a foreign affairs issue comes up
+	BODY	How did it come up?
+	IN CONTEXT	0
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a foreign affairs issue
+	BODY	What happened?
+	IN CONTEXT	0
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	unfair lending practices , which can strip borrowers of hard-won assets and drive people into bankruptcy
+	BODY	How do lending practices cause this problem?
+	IN CONTEXT	NA
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the same context
+	BODY	What is the context?
+	IN CONTEXT	0
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	unfair lending practices
+	BODY	what kind of practices?
+	IN CONTEXT	0
+--Specificity scale: ('4', '"A20XQ7XGG24T6Z"')('5', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+But given the 30-state investigation of the lending practices of the Ameriquest Capital Corporation , a mortgage behemoth , the Senate Foreign Relations Committee was right to delay a vote to confirm the company 's chairman as ambassador to the Netherlands .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	the lending practices
+	BODY	What are the lending practices?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the lending practices
+	BODY	What are the problematic lending practices in question?
+	IN CONTEXT	2
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	was right to delay a vote
+	BODY	What is the chairman's involvement in the investigation?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	lending practices
+	BODY	What were the lending practices?
+	IN CONTEXT	0
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	30-state investigation
+	BODY	how was it carried out?
+	IN CONTEXT	0
+--Specificity scale: ('3', '"A20XQ7XGG24T6Z"')('3', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+The executive , Roland Arnall , is well respected in the business world and by some fair-lending advocates .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	some fair-lending advocates
+	BODY	Which advocates?
+	IN CONTEXT	0
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	The executive
+	BODY	Executive of what?
+	IN CONTEXT	1
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	well respected in the business world and by some fair-lending advocates
+	BODY	Why is he well-respected?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The executive
+	BODY	The executive of what company?
+	IN CONTEXT	1
+--Specificity scale: ('6', '"A20XQ7XGG24T6Z"')('4', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('0', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+He has a good record of public service .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	He
+	BODY	Who is ""he""?
+	IN CONTEXT	1
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	1
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a good record of public service
+	BODY	What public service has he done?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	1
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	public service
+	BODY	what types of public service has he done?
+	IN CONTEXT	0
+--Specificity scale: ('6', '"A20XQ7XGG24T6Z"')('6', '"AY1E1I3E6TC8G"')('3', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+Even some who remain deeply critical of his company believe that he would be an asset as a diplomat .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	Even some who remain deeply critical of his company believe that he would be an asset as a diplomat .
+	BODY	Why?
+	IN CONTEXT	0
+	---Question #1 "A20XQ7XGG24T6Z"
+	TXT	he
+	BODY	Who is ""he""?
+	IN CONTEXT	1
+	---Question #2 "A20XQ7XGG24T6Z"
+	TXT	his company
+	BODY	What is ""his company""?
+	IN CONTEXT	2
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	some who remain deeply critical of his company
+	BODY	Who is ""some""?
+	IN CONTEXT	0
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	remain deeply critical of his company
+	BODY	Why are they critical of his company?
+	IN CONTEXT	2
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	his company
+	BODY	What company?
+	IN CONTEXT	2
+	---Question #3 "AY1E1I3E6TC8G"
+	TXT	believe that he would be an asset as a diplomat
+	BODY	Why do they believe this?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	his company
+	BODY	What is his company?
+	IN CONTEXT	2
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	2
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	who is he?
+	IN CONTEXT	1
+--Specificity scale: ('6', '"A20XQ7XGG24T6Z"')('5', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+For his part , Mr. Arnall admits that Ameriquest has made mistakes in the past -- apparently as a result of its rapid growth -- and he says that these problems have been corrected .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	has made mistakes in the past
+	BODY	What are the mistakes?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	mistakes in the past
+	BODY	What mistakes were made in the past?
+	IN CONTEXT	0
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	rapid growth
+	BODY	How/when did the company grow?
+	IN CONTEXT	0
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	these problems have been corrected
+	BODY	How were they corrected?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	For his part
+	BODY	What is his part?
+	IN CONTEXT	2
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	these problems
+	BODY	what are the problems?
+	IN CONTEXT	2
+--Specificity scale: ('4', '"A20XQ7XGG24T6Z"')('4', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+The issue , however , is not so much what Mr. Arnall believes as how his company , which has the power to treat lenders poorly or well , will behave from now on .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	Mr. Arnall
+	BODY	Who is Mr. Arnall?
+	IN CONTEXT	2
+	---Question #1 "A20XQ7XGG24T6Z"
+	TXT	believes
+	BODY	What does he believe?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	what Mr. Arnall believes
+	BODY	What does he believe?
+	IN CONTEXT	1
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	his company
+	BODY	What company?
+	IN CONTEXT	1
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	will behave from now on
+	BODY	Why is the company's behavior in question?
+	IN CONTEXT	2
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	believes
+	BODY	What does Mr. Arnall believe?
+	IN CONTEXT	NA
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	how his company
+	BODY	How does his company currently behave?
+	IN CONTEXT	2
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	believes
+	BODY	what does Mr. Arnall believe?
+	IN CONTEXT	0
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	treat lenders poorly or well
+	BODY	how were the lenders treated before?
+	IN CONTEXT	0
+--Specificity scale: ('5', '"A20XQ7XGG24T6Z"')('5', '"AY1E1I3E6TC8G"')('5', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+Citing other cases , state regulators rightly believe that the only way to end abuses for good is for the company to sign a formal agreement forswearing the alleged practices that led to the investigation .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	abuses
+	BODY	What abuses?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	abuses for good is for the company to sign a formal agreement forswearing the alleged practices that led to the investigation
+	BODY	What abuses/practices?
+	IN CONTEXT	2
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	other cases
+	BODY	What other cases?
+	IN CONTEXT	0
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the investigation
+	BODY	What investigation?
+	IN CONTEXT	2
+	---Question #3 "AY1E1I3E6TC8G"
+	TXT	the investigation
+	BODY	 How were they investigated?
+	IN CONTEXT	0
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	alleged practices
+	BODY	What are the alleged practices?
+	IN CONTEXT	2
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	company
+	BODY	What company?
+	IN CONTEXT	2
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	alleged practices that led to the investigation
+	BODY	what are the practices?
+	IN CONTEXT	1
+--Specificity scale: ('2', '"A20XQ7XGG24T6Z"')('5', '"AY1E1I3E6TC8G"')('5', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+Since the two sides have already agreed on the figure Ameriquest will pay in compensation , the rest of the negotiation should not be difficult .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	the two sides
+	BODY	Which two sides?
+	IN CONTEXT	0
+	---Question #1 "A20XQ7XGG24T6Z"
+	TXT	the negotiation
+	BODY	What negotiation?
+	IN CONTEXT	0
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the two sides
+	BODY	What two sides?
+	IN CONTEXT	2
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the figure
+	BODY	How much?
+	IN CONTEXT	0
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the negotiation
+	BODY	Why are they negotiating?
+	IN CONTEXT	1
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	two sides
+	BODY	Who are the two sides?
+	IN CONTEXT	1
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	negotiation
+	BODY	What is the negotiation?
+	IN CONTEXT	1
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	two sides
+	BODY	who are on the two sides?
+	IN CONTEXT	1
+--Specificity scale: ('4', '"A20XQ7XGG24T6Z"')('NA', '"AY1E1I3E6TC8G"')('5', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+It 's not too much to ask that Mr. Arnall close this chapter before being rewarded with an ambassadorship .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	Mr. Arnall
+	BODY	Who is Mr. Arnall?
+	IN CONTEXT	2
+	---Question #1 "A20XQ7XGG24T6Z"
+	TXT	this chapter
+	BODY	What happened?
+	IN CONTEXT	2
+	---Question #2 "A20XQ7XGG24T6Z"
+	TXT	being rewarded with an ambassadorship
+	BODY	Why was he awarded?
+	IN CONTEXT	2
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	this chapter
+	BODY	What chapter?
+	IN CONTEXT	2
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	being rewarded
+	BODY	Why should he be rewarded?
+	IN CONTEXT	2
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	an ambassadorship
+	BODY	To where?
+	IN CONTEXT	2
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	this chapter
+	BODY	To what does the chapter belong?
+	IN CONTEXT	1
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Arnall
+	BODY	who is Mr. Arnall?
+	IN CONTEXT	2
+--Specificity scale: ('5', '"A20XQ7XGG24T6Z"')('4', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 10---
+He should take the advice that was given to him at a hearing earlier this month , when Senator Paul Sarbanes , Democrat of Maryland , urged him to settle the matter as quickly as possible .
+	---Question #0 "A20XQ7XGG24T6Z"
+	TXT	the matter
+	BODY	What is the matter?
+	IN CONTEXT	2
+	---Question #1 "A20XQ7XGG24T6Z"
+	TXT	He
+	BODY	Who is ""he""?
+	IN CONTEXT	2
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	1
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a hearing
+	BODY	Why was there a hearing?
+	IN CONTEXT	2
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the matter
+	BODY	What is ""the matter""?
+	IN CONTEXT	NA"
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	1
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	He
+	BODY	who is ""he?""
+	IN CONTEXT	1
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the matter
+	BODY	what matter?
+	IN CONTEXT	2
+--Specificity scale: ('3', '"A20XQ7XGG24T6Z"')('4', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')
+

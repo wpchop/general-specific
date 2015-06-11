@@ -1,0 +1,340 @@
+=========================================================
+TASK: 2005_11_01_1714080.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.37
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: -0.22
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: -0.2
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.5
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.59
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.69
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.25
+	std dev: 0.43
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 2.25
+	std dev: 0.83
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 3.0
+	std dev: 2.24
+	max: 6
+	min: 0
+Sentence: 3
+	mean: 4.25
+	std dev: 1.79
+	max: 6
+	min: 2
+Sentence: 4
+	mean: 4.25
+	std dev: 1.48
+	max: 6
+	min: 2
+Sentence: 5
+	mean: 3.0
+	std dev: 1.0
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 4.75
+	std dev: 0.43
+	max: 5
+	min: 4
+Sentence: 7
+	mean: 3.75
+	std dev: 1.3
+	max: 5
+	min: 2
+Sentence: 8
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 9
+	mean: 3.5
+	std dev: 1.5
+	max: 5
+	min: 1
+Sentence: 10
+	mean: 3.0
+	std dev: 1.22
+	max: 4
+	min: 1
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.49
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.39
+Worker 1: "A20XQ7XGG24T6Z"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.34
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.23
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.0
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.63
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.5
+	std dev: 0.87
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 1.25
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 1.0
+	std dev: 1.22
+	max: 3
+	min: 0
+Sentence: 3
+	mean: 1.25
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 2.5
+	std dev: 1.12
+	max: 4
+	min: 1
+Sentence: 5
+	mean: 1.5
+	std dev: 0.87
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.25
+	std dev: 0.43
+	max: 3
+	min: 2
+Sentence: 7
+	mean: 2.0
+	std dev: 1.22
+	max: 4
+	min: 1
+Sentence: 8
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 2.0
+	std dev: 1.0
+	max: 3
+	min: 1
+Sentence: 10
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+'':         (0)
+how:   **   (2)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 1:
+'':         (0)
+how:   *    (1)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 2:
+'':       (0)
+how:      (0)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   *  (1)
+
+Sentence 3:
+'':        (0)
+how:       (0)
+what:  **  (2)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+'':         (0)
+how:        (0)
+what:  ***  (3)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:   ***  (3)
+
+Sentence 5:
+'':         (0)
+how:   **   (2)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 6:
+'':          (0)
+how:   **    (2)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   *     (1)
+where:       (0)
+why:   *     (1)
+
+Sentence 7:
+'':            (0)
+how:   *       (1)
+what:  ******* (7)
+which:         (0)
+when:          (0)
+who:           (0)
+where:         (0)
+why:           (0)
+
+Sentence 8:
+'':        (0)
+how:   *   (1)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:   **  (2)
+where:     (0)
+why:   *   (1)
+
+Sentence 9:
+'':        (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   **  (2)
+where: *   (1)
+why:   **  (2)
+
+Sentence 10:
+'':         (0)
+how:        (0)
+what:  ***  (3)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:   *    (1)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0
+It 's not every day that a foreign affairs issue comes up in the same context as unfair lending practices , which can strip borrowers of hard-won assets and drive people into bankruptcy .
+	index: 6	word: a	freq: 3
+	index: 7	word: foreign	freq: 3
+	index: 8	word: affairs	freq: 3
+	index: 9	word: issue	freq: 3
+	index: 17	word: unfair	freq: 3
+	index: 18	word: lending	freq: 3
+	index: 19	word: practices	freq: 3
+
+Sentence: 1
+But given the 30-state investigation of the lending practices of the Ameriquest Capital Corporation , a mortgage behemoth , the Senate Foreign Relations Committee was right to delay a vote to confirm the company 's chairman as ambassador to the Netherlands .
+	index: 8	word: practices	freq: 3
+	index: 7	word: lending	freq: 3
+
+Sentence: 2
+The executive , Roland Arnall , is well respected in the business world and by some fair-lending advocates .
+	index: 0	word: The	freq: 2
+	index: 1	word: executive	freq: 2
+	index: 17	word: advocates	freq: 2
+	index: 16	word: fair-lending	freq: 2
+	index: 15	word: some	freq: 2
+
+Sentence: 3
+He has a good record of public service .
+	index: 0	word: He	freq: 3
+
+Sentence: 4
+Even some who remain deeply critical of his company believe that he would be an asset as a diplomat .
+	index: 8	word: company	freq: 6
+	index: 7	word: his	freq: 6
+
+Sentence: 5
+For his part , Mr. Arnall admits that Ameriquest has made mistakes in the past -- apparently as a result of its rapid growth -- and he says that these problems have been corrected .
+	index: 11	word: mistakes	freq: 2
+	index: 12	word: in	freq: 2
+	index: 13	word: the	freq: 2
+	index: 14	word: past	freq: 2
+	index: 29	word: these	freq: 2
+	index: 30	word: problems	freq: 2
+
+Sentence: 6
+The issue , however , is not so much what Mr. Arnall believes as how his company , which has the power to treat lenders poorly or well , will behave from now on .
+	index: 12	word: believes	freq: 4
+
+Sentence: 7
+Citing other cases , state regulators rightly believe that the only way to end abuses for good is for the company to sign a formal agreement forswearing the alleged practices that led to the investigation .
+	index: 33	word: the	freq: 4
+	index: 34	word: investigation	freq: 4
+
+Sentence: 8
+Since the two sides have already agreed on the figure Ameriquest will pay in compensation , the rest of the negotiation should not be difficult .
+	index: 2	word: two	freq: 4
+	index: 3	word: sides	freq: 4
+
+Sentence: 9
+It 's not too much to ask that Mr. Arnall close this chapter before being rewarded with an ambassadorship .
+	index: 11	word: this	freq: 3
+	index: 12	word: chapter	freq: 3
+
+Sentence: 10
+He should take the advice that was given to him at a hearing earlier this month , when Senator Paul Sarbanes , Democrat of Maryland , urged him to settle the matter as quickly as possible .
+	index: 0	word: He	freq: 4
+
+

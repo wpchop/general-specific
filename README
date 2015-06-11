@@ -1,0 +1,29 @@
+classify.py
+
+Variables:
+==========
+words - dictionary of all words used in the training data
+chars - list of forbidden tokens to use as attributes
+
+main portion of the script:
+===========================
+- for every sentence in every task, go through each word and add it to a frequency count.
+- make dictionary with key being the class number (general or specific or mixed) and the value being an ordered dictionary of word(int): freq(int)
+- add the dictionary to a list of dictionaries of all sentences
+- write the information about each sentence and the frequency counts to the training file
+
+functions:
+==========
+
+format_sentence_svm 
+-------------------
+- takes a sentence as a string, a dictionary of all words that were used in the training data, and a list of forbidden tokens
+- checks if each word is in the forbidden characters.
+	if not: keeps count of how many times each word in the sentence occurs and uses the key in 		the dictionary to keep track
+- returns string that is in the format that svm will take in ("<class > <index1>:<value1> ...")
+
+
+lower(x)
+--------
+takes a string and lowers it: created to use the map function
+
