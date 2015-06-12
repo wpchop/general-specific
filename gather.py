@@ -66,7 +66,7 @@ def add_tasks(task_dict):
   '''Adds tasks from an mTurk output to the provided dictionary.
   pre: task_dict is a dictionary of tasks.
   post: Returns a new dictionary with the tasks from the asked for files.'''
-  more_tasks = m()
+  more_tasks = m()[1]
   new_dict = merge_dicts(task_dict, more_tasks)
   return new_dict
 
@@ -78,14 +78,14 @@ def user_feature_selection():
   as an int.
   0: Punctuation count
   1: Term frequency only
-  2: TF-IDF only
+  2: Tf-idf only
   3: All possible features'''
   choice = 5
   while choice not in range(4):
     choice = int(raw_input('''\nWhich feature(s) would you like to look at?:
   0: Punctuation count
   1: Term frequency only
-  2: TF-IDF only
+  2: Tf-idf only
   3: All possible features
 Enter the appropriate integer: '''))
   return choice

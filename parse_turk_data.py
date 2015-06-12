@@ -187,6 +187,6 @@ def main():
     categories = make_category_dict(meta)                                       #A category dictionary parsed from the metadata
     tasks = add_questions_to_sentences(resultlines, categories, tasks)          #Add Questions to the proper Sentences
     #write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
-    return tasks
+    return (input_fname, tasks)
 
 #main()

@@ -45,8 +45,9 @@ class idfCalculator():
     pre: wordID is an int representing a word.
     post: Returns a float.'''
     tot = self.get_tot_docs()
-    return self.__idf(tot, self.count[wordID])
+    count = self.count[wordID] if wordID in self.count else 0                   #If word is in our dict, use its count. Else, we HAVE seen it 0 times.
+    return self.__idf(tot, count)
     
   def __idf(self, num_docs, num_with_term):
     '''Actually calculates the idf.'''
-    return log(int(num_docs)/float(num_with_term))
+    return log(int(num_docs)/(float(num_with_term)+1))  #+1 for smoothing in case of word not in count.dict
