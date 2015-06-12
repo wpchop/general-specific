@@ -2,6 +2,8 @@ from parse_turk_data import main
 import scipy
 import numpy
 import scipy.stats
+from ExternalDict import ExternalDict
+from idfCalculator import idfCalculator
 
 
 def extract_scale_nums(scales):
@@ -98,6 +100,9 @@ def means_and_devs_qs(freqlist):
   return meansandDevs
 
 def find_amb_words(sentence):
+  """Returns map that maps integer keys to a tuple (word, frequency) pairs.
+  Size of map is equal to number of words in the sentence that are the most
+  ambiguous"""
   questions = sentence.get_questions()
   index_freqs = {}
   sent_list = sentence.get_sent().split()
@@ -141,12 +146,16 @@ def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent
   for i in amb_phrases:
     sentence[i] = sentence[i].upper() + "(" + str(amb_phrases[i][1]) + ")"
   return " ".join(sentence)
-
   
 #------------------------------------------------------------MAIN------------------------------------------
-tasks = main()
+input_fname, tasks = main()
 info = []
 task_lengths = []
+amb_words = []                           #list of integers corresponding to ambiguity rating of a word
+amb_words_idfs = []                      #list of idf corresponding to idf of ambiguous words in amb_words
+word_dict = ExternalDict("word.dict")
+idf_calc = idfCalculator()
+
 for key in tasks:
   task = tasks[key]
   meanandDevs = []
@@ -179,7 +188,13 @@ for key in tasks:
     amb_phrases_per_sent.append(find_amb_words(sentence))
     next_label = find_context_labels(sentence)
     context_labels = add_context_labels(context_labels, next_label)
-    
+    sentlist = sentence.get_sent().split(" ")
+    for question in sentence.get_questions():
+      low = question.get_low()
+      high = question.get_high()
+      for i in range(low, high+1):
+        amb_words.append(float(question.get_context()[0]))
+        amb_words_idfs.append(idf_calc.idf(word_dict[sentlist[i].lower()]))
 
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
@@ -228,9 +243,14 @@ info.append("\n\n-----------------Confidence Interval of Sentence Lengths-------
 info.append("\n(mean, lower bound, upper bound) " + str(mean_confidence_interval(task_lengths)))
 info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths)))
 
+#print amb_words
+#print amb_words_idfs
+
+print numpy.corrcoef(amb_words, amb_words_idfs)[1][0]
+
 #PRINTING THINGS
 
-outFile = open("outputs-stats.txt","w")
+outFile = open(input_fname[0:input_fname.index(".")] + "_output-stats.txt","w")
 
 for line in info:
   outFile.write(line)
