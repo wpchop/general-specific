@@ -1,0 +1,1854 @@
+=========================================================
+TASK: 2005_01_05_1639693.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.8
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A3FC7B60ECZ0TN"
+	Correlation: 0.71
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A3FC7B60ECZ0TN"
+	Correlation: 0.79
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 2
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 6
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 9
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.84
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.45
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.45
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 4
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 6
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 2.67
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 8
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 9
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:      * (1)
+how:     (0)
+what:  * (1)
+which: * (1)
+when:  * (1)
+who:   * (1)
+where:   (0)
+why:     (0)
+
+Sentence 1:
+:      *  (1)
+how:      (0)
+what:     (0)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   ** (2)
+
+Sentence 2:
+:      *    (1)
+how:   *    (1)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 3:
+:      *   (1)
+how:   **  (2)
+what:  *** (3)
+which: **  (2)
+when:  *   (1)
+who:   *   (1)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+:      * (1)
+how:     (0)
+what:  * (1)
+which: * (1)
+when:    (0)
+who:   * (1)
+where:   (0)
+why:   * (1)
+
+Sentence 5:
+:      *  (1)
+how:      (0)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 6:
+:      *    (1)
+how:        (0)
+what:  **** (4)
+which: **   (2)
+when:       (0)
+who:   **   (2)
+where:      (0)
+why:   **   (2)
+
+Sentence 7:
+:      *  (1)
+how:   *  (1)
+what:  ** (2)
+which: ** (2)
+when:  *  (1)
+who:      (0)
+where:    (0)
+why:   *  (1)
+
+Sentence 8:
+:      *    (1)
+how:   **** (4)
+what:  *    (1)
+which: **   (2)
+when:       (0)
+who:        (0)
+where:      (0)
+why:   ***  (3)
+
+Sentence 9:
+:      *  (1)
+how:      (0)
+what:  *  (1)
+which: ** (2)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0SECURITIES(3) REGULATORS(3) charged one of the richest men in Mexico , Ricardo B. Salinas Pliego , with fraud yesterday , in a lawsuit that seeks to have him barred as a director or officer of any company whose shares trade on an American exchange .
+
+Sentence: 1The Securities and Exchange Commission ALSO(2) sought to have Mr. Salinas Pliego , the chairman of TV Azteca , the second-biggest Spanish-language broadcaster , GIVE(2) UP(2) MORE(2) THAN(2) $(2) 110(2) MILLION(2) he made from trading in the company 's stock and debt .
+
+Sentence: 2The SUIT(4) , filed in federal court in Washington , came after a long investigation into financial dealings between TV Azteca and a private company owned by Mr. Salinas Pliego .
+
+Sentence: 3In the lawsuit , the commission contended that Mr. Salinas Pliego reaped '' a TREMENDOUS(4) personal profit at the expense of INVESTORS(4) '' in the United States and Mexico , then '' coordinated a scheme to conceal '' his involvement from them , TV Azteca 's directors and regulators .
+
+Sentence: 4The suit charged that Mr. Salinas Pliego added to his gains by selling more than $ 9 million of stock in TV Azteca while he and other executives rejected advice from their lawyers to disclose his INVOLVEMENT(3) .
+
+Sentence: 5The TRANSACTIONS(4) came to light in late 2003 after a New York lawyer , citing the Sarbanes-Oxley corporate governance law , blew the whistle to TV Azteca 's board and threatened to tell the S.E.C. .
+
+Sentence: 6After the lawyer 's WITHDRAWAL(4) was reported in The New York Times , two American DIRECTORS(4) commissioned an investigation into the transactions in early 2004 , and then resigned in the spring .
+
+Sentence: 7It was LATER(3) disclosed in a draft of the report of the INVESTIGATION(3) that Mr. Salinas Pliego had sought to have various law firms endorse his TRANSACTIONS(3) and that the law firms refused .
+
+Sentence: 8Mr. Salinas Pliego said in a STATEMENT(4) late Tuesday that the S.E.C. 's CHARGES(4) were '' false , IN(4) BAD(4) FAITH(4) AND(4) DISCRIMINATORY(4) , '' and that he would fight them .
+
+Sentence: 9The CASE(4) breaks new ground in that it is the first major instance in which a lawyer has followed the Sarbanes-Oxley Act and blown the whistle on a client .
+
+-----------------Context Labels-----------------
+No: 34
+Vague: 13
+Some: 16
+Immediate: 6
+
+
+=========================================================
+TASK: 2005_01_13_1641657.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.77
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.19
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.37
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 0.33
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 3
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 5
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 7
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 8
+	mean: 4.33
+	std dev: 1.7
+	max: 6
+	min: 2
+Sentence: 9
+	mean: 3.67
+	std dev: 1.89
+	max: 5
+	min: 1
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.47
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.08
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.71
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 1.41
+	max: 3
+	min: 0
+Sentence: 1
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 5
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 6
+	mean: 2.0
+	std dev: 1.41
+	max: 4
+	min: 1
+Sentence: 7
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 9
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:         (0)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   *  (1)
+
+Sentence 1:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:       (0)
+
+Sentence 2:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 3:
+:               (0)
+how:            (0)
+what:  ******** (8)
+which: **       (2)
+when:           (0)
+who:   ***      (3)
+where:          (0)
+why:            (0)
+
+Sentence 4:
+:             (0)
+how:          (0)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:          (0)
+where:        (0)
+why:          (0)
+
+Sentence 5:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which: *     (1)
+when:        (0)
+who:         (0)
+where:       (0)
+why:         (0)
+
+Sentence 6:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:   *    (1)
+
+Sentence 7:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 8:
+:         (0)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 9:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0The Supreme Court ruled on Wednesday that federal law prohibits the open-ended detention of Cubans who entered the United States during THE(1) MARIEL(1) BOATLIFT(1) in 1980 and who , despite CRIMES(1) LATER(1) COMMITTED(1) IN(1) THE(1) UNITED(1) STATES(1) , can not be deported because the Cuban government REFUSES(1) TO(1) TAKE(1) THEM(1) BACK(1) .
+
+Sentence: 1Voting 7 to 2 , the court applied to the deportable group of Mariel Cubans the SAME(2) RIGHTS(2) it found in federal law in a decision four years ago that barred the indefinite detention of a stateless immigrant , lawfully admitted to the United States , whose criminal record made him deportable but who had no place to go .
+
+Sentence: 2The Bush administration had argued that THE(3) DECISION(3) in the earlier case did not apply to the Mariel group because , unlike the immigrant , Kestutis Zadvydas , admitted as a refugee from post-World War II Europe , the Cubans had never been granted formal admission to the United States .
+
+Sentence: 3Instead , they received a humanitarian parole , which the ADMINISTRATION(3) said did not entitle them to the same protection when they violated the country 's hospitality by committing crimes .
+
+Sentence: 4But writing for the majority on Wednesday , Justice Antonin Scalia said that because the immigration statute itself made no such DISTINCTION(3) , the court could not create one .
+
+Sentence: 5In Zadvydas v. Davis , the court held that because detention longer than six months could raise SERIOUS(3) CONSTITUTIONAL(3) PROBLEMS(3) , the STATUTE(3) should be interpreted to avoid those problems by limiting detention of a deportable alien who did not pose a risk to the community .
+
+Sentence: 6Justice Scalia said the fact that immigrants who had never been formally admitted into the country might have a more tenuous constitutional claim did not change the ANALYSIS(3) .
+
+Sentence: 7Addressing the government 's ARGUMENT(2) , Justice Scalia said : '' If we were , as the government seems to believe , free to ` interpret ' statutes as becoming inoperative when they ` approach CONSTITUTIONAL(2) LIMITS(2) , ' we would be able to spare ourselves the necessity of ever finding a statute unconstitutional as applied . ''
+
+Sentence: 8THE(2) DECISION(2) , Clark v. Martinez .
+
+Sentence: 9NO.(2) 03-878(2) , applied to TWO(2) CASES(2) of Cubans found deportable .
+
+-----------------Context Labels-----------------
+No: 17
+Vague: 23
+Some: 11
+Immediate: 4
+
+
+=========================================================
+TASK: 2006_01_01_1728972.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A3FC7B60ECZ0TN"
+	Correlation: 0.58
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.69
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.24
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 4.67
+	std dev: 1.25
+	max: 6
+	min: 3
+Sentence: 3
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 5
+	mean: 3.67
+	std dev: 1.89
+	max: 5
+	min: 1
+Sentence: 6
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.78
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.25
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.12
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 4.33
+	std dev: 1.7
+	max: 6
+	min: 2
+Sentence: 3
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 6
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 7
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 3.0
+	std dev: 1.41
+	max: 5
+	min: 2
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:      *   (1)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 1:
+:      *   (1)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 2:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:   ***  (3)
+where: **   (2)
+why:   **   (2)
+
+Sentence 3:
+:      *     (1)
+how:   *     (1)
+what:  *     (1)
+which:       (0)
+when:        (0)
+who:         (0)
+where:       (0)
+why:   ***** (5)
+
+Sentence 4:
+:      *  (1)
+how:      (0)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 5:
+:      *  (1)
+how:      (0)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   ** (2)
+
+Sentence 6:
+:      *  (1)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:      (0)
+
+Sentence 7:
+:      *  (1)
+how:      (0)
+what:  *  (1)
+which: *  (1)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:   ** (2)
+
+Sentence 8:
+:      *   (1)
+how:       (0)
+what:      (0)
+which:     (0)
+when:  *   (1)
+who:   *** (3)
+where:     (0)
+why:   *   (1)
+
+Sentence 9:
+:      *    (1)
+how:   *    (1)
+what:  ***  (3)
+which: **** (4)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0MANY(4) are set off by remote detonators and are powerful enough to destroy heavily armored tanks and troop carriers .
+
+Sentence: 1The TOTALS(4) were compiled by Iraq Coalition Casualty Count , a nonprofit group that tracks American service members killed and wounded in Iraq .
+
+Sentence: 2The Associated Press , which keeps its own statistics , reported the year 's death toll as slightly lower , saying that 841(5) had been killed .
+
+Sentence: 3Death totals for Iraqis have been MORE(4) DIFFICULT(4) to estimate , and VARY(4) WIDELY(4) .
+
+Sentence: 4Iraq Body Count , an independent media-monitoring group , estimates that about 30,000 Iraqis have died since the WAR(4) began in 2003 .
+
+Sentence: 5On Saturday , VIOLENCE(5) flared across Iraq .
+
+Sentence: 6In Khalis , north of Baghdad , a bomb killed FIVE(3) MEMBERS(3) of the Iraqi Islamic Party , a Sunni political party that defied insurgent threats and fielded candidates in the Dec. 15 election .
+
+Sentence: 7Since 2003 , at least 75 PARTY(4) MEMBERS(4) have been killed .
+
+Sentence: 8In central Baghdad , a ROADSIDE(4) BOMB(4) struck an Iraqi police patrol , killing two officers .
+
+Sentence: 9At Camp Victory , the American military headquarters just outside Baghdad , Gen. Peter Pace , the chairman of the Joint Chiefs of Staff , urged Iraqi political leaders on Saturday to form a new government as quickly as possible to avoid the KIND(3) OF(3) delay that stalled the political momentum after THE(3) VOTE(3) LAST(3) JANUARY(3) . ''
+
+-----------------Context Labels-----------------
+No: 34
+Vague: 8
+Some: 21
+Immediate: 3
+
+
+=========================================================
+TASK: 2006_01_01_1728972.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.67
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.59
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.86
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 1
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 2
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 5
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 0.33
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 1.67
+	std dev: 1.7
+	max: 4
+	min: 0
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.72
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.27
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.22
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 1.33
+	std dev: 1.25
+	max: 3
+	min: 0
+Sentence: 2
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 5
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 6
+	mean: 0.33
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 7
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:   *   (1)
+
+Sentence 1:
+:         (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 2:
+:          (0)
+how:       (0)
+what:      (0)
+which:     (0)
+when:  *** (3)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 3:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 4:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where: *   (1)
+why:       (0)
+
+Sentence 5:
+:           (0)
+how:        (0)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 6:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 7:
+:      *  (1)
+how:      (0)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:      (0)
+
+Sentence 8:
+:          (0)
+how:   *** (3)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 9:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:   * (1)
+where:   (0)
+why:     (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0Clearly , the sooner that THEY(3) 're able to come to agreement on who their leaders are going to be , the sooner that those leaders then can act to appoint the rest of the country 's key leadership , '' General Pace told reporters traveling with him on a troop visit .
+
+Sentence: 1In historical terms , THE(2) NUMBER(2) OF(2) CASUALTIES(2) in Iraq is still RELATIVELY(2) SMALL(2) .
+
+Sentence: 2At the HEIGHT(3) of the Vietnam War , the American military was sustaining 500 killed and wounded each week .
+
+Sentence: 3At the Battle of the Somme in 1916 , about 58,000 British soldiers were KILLED(2) OR(2) WOUNDED(2) on the first day .
+
+Sentence: 4In interviews , American commanders have said the relatively unchanging NUMBER(2) of deaths in Iraq from 2004 to 2005 belies the progress that had been made here against the guerrilla insurgency and in setting up democratic institutions .
+
+Sentence: 5Three NATIONWIDE(4) votes were held this year .
+
+Sentence: 6Although the NUMBER(1) OF(1) ATTACKS(1) against American and Iraqi forces in and around Baghdad has grown over the past year -- to about 28 per day now from about 22 a year ago -- only about 10 percent of those attacks inflict casualties , said Maj. Gen. William G. Webster Jr. , the commander of American forces in and around Baghdad .
+
+Sentence: 7A year ago , about 25 percent of ATTACKS(3) inflicted casualties .
+
+Sentence: 8More than 400 car and suicide bombs struck the country in 2005 , although the number has DROPPED(3) SHARPLY(3) in recent months .
+
+Sentence: 9In April , FOR(1) INSTANCE(1) , there were 66 suicide and CAR(1) BOMB(1) ATTACKS(1) , compared with 28 in November .
+
+-----------------Context Labels-----------------
+No: 17
+Vague: 11
+Some: 14
+Immediate: 1
+
+
+=========================================================
+TASK: 2005_01_13_1641657.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.34
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.62
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.6
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.0
+	std dev: 1.41
+	max: 5
+	min: 2
+Sentence: 1
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 2.0
+	std dev: 1.63
+	max: 4
+	min: 0
+Sentence: 5
+	mean: 2.67
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 6
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 8
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 4.67
+	std dev: 1.25
+	max: 6
+	min: 3
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.77
+Worker 1: "A3FC7B60ECZ0TN"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.63
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.41
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 5
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 6
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 1.67
+	std dev: 1.25
+	max: 3
+	min: 0
+Sentence: 8
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 6.0
+	std dev: 2.45
+	max: 9
+	min: 3
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:      *    (1)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:  *    (1)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 1:
+:      *    (1)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:   *    (1)
+
+Sentence 2:
+:      * (1)
+how:   * (1)
+what:    (0)
+which:   (0)
+when:  * (1)
+who:     (0)
+where:   (0)
+why:   * (1)
+
+Sentence 3:
+:      *   (1)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+:         (0)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 5:
+:      *   (1)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 6:
+:      *    (1)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:   *    (1)
+
+Sentence 7:
+:      *   (1)
+how:       (0)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 8:
+:      ** (2)
+how:   *  (1)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:      (0)
+
+Sentence 9:
+:      *         (1)
+how:             (0)
+what:  ********* (9)
+which: ****      (4)
+when:            (0)
+who:   **        (2)
+where:           (0)
+why:   **        (2)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0Deborah Pearlstein of the group Human Rights First , which had filed a brief , praised the court for rejecting '' ONE(4) OF(4) THE(4) FARTHER(4) REACHING(4) ASSERTIONS(4) of administrative power by the executive branch . ''
+
+Sentence: 1In ANOTHER(3) IMMIGRATION(3) DECISION(3) on Wednesday , the court accepted the ADMINISTRATION(3) 's argument that the absence of a functioning central government in Somalia did not prevent the deportation of Somalis to their home country .
+
+Sentence: 2A Somali man , Kayse G. Jama , who entered the United States as a 17-year-old refugee in 1996 and was LATER(3) convicted of assault , argued that federal law required the consent of the receiving country before deportation .
+
+Sentence: 3HE(4) lost his case in the United States Court of Appeals for the Eighth Circuit , in St. Louis , while the Ninth Circuit in a separate case had issued an injunction barring further deportations to Somalia .
+
+Sentence: 4The Supreme Court affirmed the Eighth Circuit 's RULING(2) by a 5-to-4 vote .
+
+Sentence: 5Justice Scalia wrote the MAJORITY(4) OPINION(4) in Jama v. Immigration and Customs Enforcement , No. 03-674 .
+
+Sentence: 6Justice David H. Souter wrote a dissenting OPINION(6) , joined by Justices John Paul Stevens , Ruth Bader Ginsburg and Stephen G. Breyer .
+
+Sentence: 7The DISPUTE(3) on the court was over statutory interpretation .
+
+Sentence: 8The question was whether Congress , in a complex SET(3) OF(3) PROVISIONS(3) dealing with deportation , meant to require the receiving country 's consent as a condition of deportation for people in MR.(3) JAMA(3) 's particular position .
+
+Sentence: 9Some sections of the law include such a provision , and the majority said that the court should not find a '' structural inference '' that the REQUIREMENT(5) also applied to MR.(5) JAMA(5) 's category .
+
+-----------------Context Labels-----------------
+No: 24
+Vague: 15
+Some: 24
+Immediate: 2
+
+
+=========================================================
+TASK: 2005_01_14_1641804.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.51
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.32
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.66
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 1
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 2
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 3
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 4
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 5
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 9
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.19
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.61
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.25
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 8
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:             (0)
+how:          (0)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:          (0)
+where:        (0)
+why:   *      (1)
+
+Sentence 1:
+:           (0)
+how:        (0)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:   **   (2)
+
+Sentence 2:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:  * (1)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 3:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 4:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 5:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:         (0)
+where:       (0)
+why:         (0)
+
+Sentence 6:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:   *   (1)
+
+Sentence 7:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:   **   (2)
+
+Sentence 8:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   **    (2)
+where:       (0)
+why:   *     (1)
+
+Sentence 9:
+:      *    (1)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0The Securities and Exchange Commission is looking into the COMPANY(3) 's ASSERTIONS(3) about the safety of the guns .
+
+Sentence: 1Separately , The Wall Street Journal reported yesterday that the Pentagon had found THE(3) GUNS(3) generally safe , although a military study recommended further studies .
+
+Sentence: 2And a California assemblyman , Mark Leno , a Democrat from San Francisco , announced yesterday that he would INTRODUCE(1) A(1) BILL(1) requiring the COLLECTION(1) OF(1) DATA(1) on the use of Taser guns in the state .
+
+Sentence: 3While the company 's news release made no mention of the STUDY(3) 's four authors , Taser posted the full four-page study on its Web site .
+
+Sentence: 4THE(3) STUDY(3) noted that two of the four authors were Robert A. Stratbucker and Max Nerheim , who were identified as Taser employees .
+
+Sentence: 5Mr. Stratbucker is the medical director and Mr. Nerheim is the vice president for engineering , THE(3) COMPANY(3) said .
+
+Sentence: 6Asked whether the company had played any role in the conduct of the STUDY(3) , a Taser spokesman , Steve Tuttle , replied in an e-mail message : '' Pacing and Clinical Electrophysiology ( PACE ) is the foremost peer-reviewed journal in the field of pacing and implantable cardioversion defibrillation .
+
+Sentence: 7The published RESULTS(3) of the cardiac safety study of Taser technology SPEAKS(3) FOR(3) ITSELF(3) . ''
+
+Sentence: 8Wayne C. McDaniel of the University of Missouri in Columbia , Mo. , the lead author on the study , said that Mr. Stratbucker and Mr. Nerheim had '' both made IMPORTANT(4) CONTRIBUTIONS(4) '' to the study .
+
+Sentence: 9The FOURTH(3) AUTHOR(3) is James E. Brewer , a consultant in Minneapolis .
+
+-----------------Context Labels-----------------
+No: 12
+Vague: 11
+Some: 29
+Immediate: 5
+
+
+=========================================================
+TASK: 2005_01_13_1641657.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.4
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.68
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.67
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 2
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 2.67
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 4
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 5
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 8
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 9
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.15
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.35
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.31
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 7
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 8
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 1:
+:          (0)
+how:       (0)
+what:  **  (2)
+which: *   (1)
+when:  *   (1)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 2:
+:      *   (1)
+how:       (0)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 3:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:       (0)
+
+Sentence 5:
+:             (0)
+how:   ***    (3)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:          (0)
+where:        (0)
+why:          (0)
+
+Sentence 6:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   *     (1)
+where:       (0)
+why:         (0)
+
+Sentence 7:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 8:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:   *** (3)
+
+Sentence 9:
+:           (0)
+how:        (0)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0One , Sergio Suarez Martinez , convicted of burglary , theft and assault , was taken into custody by immigration officials and ordered removed from THE(2) COUNTRY(2) in January 2001 .
+
+Sentence: 1Eighteen months later , HE(3) filed a habeas corpus petition based on the Zadvydas decision , which was granted by a federal district court in Oregon in a decision that the United States Court of Appeals for the Ninth Circuit , in San Francisco , affirmed .
+
+Sentence: 2Another federal appeals court , in Atlanta , reached the OPPOSITE(3) CONCLUSION(3) in denying release to Daniel Benitez , who had filed a habeas corpus petition six months after he was detained and ordered deported for convictions for assault and gun possession .
+
+Sentence: 3Some 125,000 Cubans entered the COUNTRY(3) during the Mariel incident .
+
+Sentence: 4The ruling on Wednesday will apply to as many as 1,000(2) who have been convicted of crimes and are being held without a realistic prospect of repatriation .
+
+Sentence: 5The administration had also argued that a DECISION(3) in the Cubans ' favor would raise national security concerns by making it more DIFFICULT(3) to control the country 's borders . ''
+
+Sentence: 6If THAT(3) is so , Congress can attend to it , '' Justice Scalia said in his opinion .
+
+Sentence: 7The two dissenters were Justice Clarence Thomas and Chief Justice William H. Rehnquist , who said that the majority had mischaracterized the ZADVYDAS(2) DECISION(2) as applying to the MARIEL(2) GROUP(2) .
+
+Sentence: 8Justice Thomas , in a part of his dissenting opinion that the chief justice did not join , said the ZADVYDAS(3) DECISION(3) should be overruled .
+
+Sentence: 9The CASE(3) had drawn considerable attention from international and human rights groups .
+
+-----------------Context Labels-----------------
+No: 11
+Vague: 18
+Some: 25
+Immediate: 4
+
+
+
+
+-----------------Confidence Interval of Sentence Lengths-----------------
+(mean, lower bound, upper bound) (300.28571428571428, 251.2435522895133, 349.32787628191522)
+min: 239
+max: 377

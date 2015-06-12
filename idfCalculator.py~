@@ -50,4 +50,4 @@ class idfCalculator():
     
   def __idf(self, num_docs, num_with_term):
     '''Actually calculates the idf.'''
-    return log(int(num_docs)/(float(num_with_term)+1))  #+1 for smoothing in case of word not in count.dict
+    return log(int(num_docs)/(float(num_with_term)))  #+1 for smoothing in case of word not in count.dict
