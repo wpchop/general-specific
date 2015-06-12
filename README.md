@@ -6,7 +6,7 @@ Instructions
 
 To create a training or test file for LibSVM:
 
-1) Run count.dict_builder.py
-  -Creates the file count.dict for idf calculations.
-2) Run classify.py
-   -Creates the input file for LibSVM, either specific.train or specific.test
+1. Run count.dict_builder.py
+  - Creates the file count.dict for idf calculations.
+2. Run classify.py
+  - Creates the input file for LibSVM, either specific.train or specific.test
