@@ -5,6 +5,9 @@
 # Authors:      Bridget O'Daniel, Wenli Zhao, Lily Wu
 # Created:     21/05/2015
 #-------------------------------------------------------------------------------
+import os, sys
+path = os.getcwd()+'data'                                                       #Setting path to include the data folder
+sys.path.insert(0, path)
 
 from ast import (literal_eval)
 from Task import Task
