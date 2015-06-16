@@ -1,7 +1,11 @@
-import os
+import os, sys
 from sets import Set
-from ExternalDict import ExternalDict
 import xml.etree.ElementTree as ET
+
+path = os.getcwd()[:''.join(os.getcwd()).rfind('/')+1]                          #Me cheating to reach the file below in another folder
+sys.path.insert(0, path)
+from ExternalDict import ExternalDict
+
 
 outer_path = "/project/cis/nlp/data/corpora/nytimes/data"
 
@@ -170,14 +174,14 @@ def main():
   for year_folder in os.listdir(outer_path):                  #1987
     year_path = add2path(year_folder, outer_path)
     
-    for folder1 in get_immediate_folders(year_path):          #01 (has .tzg files in here)
-      folder1_path = add2path(folder1, year_path)
+    for month_folder in get_immediate_folders(year_path):     #month (has .tzg files in here)
+      month_path = add2path(month_folder, year_path)
       
-      for folder2 in get_immediate_folders(folder1_path):     #01 again
-        folder2_path = add2path(folder2, folder1_path)
+      for day_folder in get_immediate_folders(month_path):    #day
+        day_path = add2path(day_folder, month_path)
         #.xml files are here
-        for file in os.listdir(folder2_path):
-          file_path = add2path(file, folder2_path) 
+        for file in os.listdir(day_path):
+          file_path = add2path(file, day_path) 
           print file_path
           tree, root = xml_tree( file_path )
           tokens = tokenize( get_text(tree,root) )
@@ -189,4 +193,4 @@ def main():
   word_dict.save()
   count_dict.save()
   
-main()
+#main()
