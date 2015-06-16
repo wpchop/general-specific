@@ -23,6 +23,8 @@ class ExternalDict(object):
   '''Creates an ExternalDict object to handle a constant dictionary needed for the 
   creation of files to be read by the GenSpec classifier.'''
   
+  STARTING_VALUE = 1                                                            #Starting value for assignment of unique IDs
+  
   def __init__(self, fname):
     '''Creates an ExternalDict object. Reads from a file "fname" if it exists, 
     otherwise the dictionary starts off empty.
@@ -74,7 +76,7 @@ class ExternalDict(object):
     return self.dict.items()
 
 #------------------------- Specific to External Dict -----------------------------#
-
+    
 #-------------Reading File
   def is_external_dict_exist(self):
     '''Checks if a file for the External Dict exists and returns True or False.'''
@@ -126,7 +128,7 @@ class ExternalDict(object):
       if item in self:
         pass
       else:
-        self[item] = len(self) + 1 #length of the dict at that point is the unique ID
+        self[item] = len(self) + ExternalDict.STARTING_VALUE                    #length of the dict at that point is the unique ID
     
     
   def empty_dict(self):
