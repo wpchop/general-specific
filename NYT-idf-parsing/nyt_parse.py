@@ -35,10 +35,14 @@ def xml_tree(filename):
 def get_text(tree, root):
   '''Given an xml tree and the root at the highest node, returns the body of the
   article as a string. Enjoy.'''
-  string = ''
-  for paragraph in root[1][1][1]:
-    string += (paragraph.text+"\n") 
-  return string
+  text = ""
+  for body in root.iter("body.content"):
+    for cls in body:
+      if cls.get("class") == 'full_text':
+        for paragraph in cls:
+          text += paragraph.text+"\n"
+        break
+  return text
 
 def is_not_number(s):
   try:
@@ -138,7 +142,10 @@ def update_num_docs(count_dict, num_new_docs):
   
   
 #------------------ MAIN -------------------------------------------
-'''TESTING IN CLOUD9
+#/nitf/body/body.content/block[@class="full_text"]
+
+
+'''CLOUD9 TESTING
 count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
 word_dict = ExternalDict("word.dict")
   
@@ -153,7 +160,7 @@ for folder in get_immediate_folders(os.getcwd()):
     
 word_dict.save()
 count_dict.save()
-'''    
+ '''
     
 def main():
   count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
@@ -170,7 +177,9 @@ def main():
         folder2_path = add2path(folder2, folder1_path)
         #.xml files are here
         for file in os.listdir(folder2_path):
-          tree, root = xml_tree( add2path(file, folder2_path) )
+          file_path = add2path(file, folder2_path) 
+          print file_path
+          tree, root = xml_tree( file_path )
           tokens = tokenize( get_text(tree,root) )
           
           word_dict = add_new_words(tokens, word_dict)
@@ -179,3 +188,5 @@ def main():
           
   word_dict.save()
   count_dict.save()
+  
+main()
