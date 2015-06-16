@@ -7,15 +7,12 @@
 # Created: 10/06/2015
 # Acknowledgements:
 #-------------------------------------------------------------------------------
-import os, sys
-path = os.getcwd()+'data'                                                       #Setting path to include the data folder
-sys.path.insert(0, path)
 
 
 def get_input_lines(fname):
   '''Returns a list of the lines from the given input file name, leaving off
   the first line of the file.'''
-  inputFile = open(fname, "r")
+  inputFile = open("data/"+fname, "r")
   inputlines = inputFile.readlines()              #reads lines
   inputFile.close()
   return inputlines

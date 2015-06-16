@@ -144,7 +144,7 @@ def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent
 
   
 #------------------------------------------------------------MAIN------------------------------------------
-tasks = main()
+fname, tasks = main()
 info = []
 task_lengths = []
 for key in tasks:
