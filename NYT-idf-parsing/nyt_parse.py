@@ -1,9 +1,7 @@
 import os, sys
 from sets import Set
 import xml.etree.ElementTree as ET
-
-path = os.getcwd()[:''.join(os.getcwd()).rfind('/')+1]                          #Me cheating to reach the file below in another folder
-sys.path.insert(0, path)
+sys.path.insert(0, os.path.abspath(os.path.join(sys.path[0], os.pardir)))       #Inserting parent directory into path to reach ExternalDict
 from ExternalDict import ExternalDict
 
 

@@ -1,8 +1,5 @@
-import sys
-import os
-
-path = os.getcwd()[:''.join(os.getcwd()).rfind('/')+1]                          #To reach ExternalDict.py in parent directory
-sys.path.insert(0, path)
+import sys, os
+sys.path.insert( 0, os.path.abspath(os.path.join(sys.path[0], os.pardir)) )     #To reach ExternalDict.py in parent directory
 
 from ExternalDict import ExternalDict
 from idfCalculator import idfCalculator
@@ -55,8 +52,7 @@ def main():
   noIDs = match_ids(words, low_idfs)
   output_tups(noIDs, "low_nyt_idfs.txt")
 
-
-main()
+#main()
 
 '''
 w = ExternalDict("w.txt")
