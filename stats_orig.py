@@ -1,7 +1,9 @@
-from parse_turk_data import main
 import scipy
 import numpy
 import scipy.stats
+from parse_turk_data import main
+from ExternalDict import ExternalDict
+from idfCalculator import idfCalculator
 
 
 def extract_scale_nums(scales):
