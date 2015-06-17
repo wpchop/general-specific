@@ -1,0 +1,607 @@
+=========================================================
+TASK: 2005_01_14_1641804.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.81
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.79
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.91
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 1
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 2
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 3
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 4
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 5
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 6
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 7
+	mean: 2.67
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 8
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 9
+	mean: 1.67
+	std dev: 1.25
+	max: 3
+	min: 0
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.47
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.62
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.58
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 1
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 2
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 5
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 6
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 7
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 8
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 1.33
+	std dev: 0.94
+	max: 2
+	min: 0
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:        (0)
+how:   * (1)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:   * (1)
+where:   (0)
+why:     (0)
+
+Sentence 1:
+:             (0)
+how:          (0)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:   **     (2)
+where:        (0)
+why:   *      (1)
+
+Sentence 2:
+:      *     (1)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   *     (1)
+where:       (0)
+why:   *     (1)
+
+Sentence 3:
+:          (0)
+how:       (0)
+what:  *** (3)
+which: *** (3)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 4:
+:          (0)
+how:       (0)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 5:
+:         (0)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 6:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:         (0)
+where:       (0)
+why:   *     (1)
+
+Sentence 7:
+:         (0)
+how:      (0)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:      (0)
+
+Sentence 8:
+:             (0)
+how:   *      (1)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:          (0)
+where:        (0)
+why:          (0)
+
+Sentence 9:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where: *   (1)
+why:       (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0Shares of Taser International , the manufacturer of stun guns whose safety has been questioned , rose more than 22 percent yesterday after the company said A(1) NEWLY(2) PUBLISHED(2) SCIENTIFIC(2) STUDY(2) affirmed that the gun 's electric shocks do not cause cardiac arrest and '' may be safely applied MULTIPLE(1) TIMES(1) if needed . ''
+	index: 27	word: newly	freq: 2
+	index: 28	word: published	freq: 2
+	index: 29	word: scientific	freq: 2
+	index: 30	word: study	freq: 2
+
+Sentence: 1THE(1) NEWS(1) RELEASE(1) issued by TASER(2) QUOTED(1) DIRECTLY(1) from THE(2) STUDY(3) but did not list THE(1) FOUR(1) AUTHORS(1) , TWO(1) OF(1) WHOM(1) ARE(1) TASER(1) EXECUTIVES(1) .
+	index: 10	word: study	freq: 3
+
+Sentence: 2THE(2) RELEASE(4) ALSO(1) SAID(1) that THE(1) STUDY(3) was published in a prestigious peer-reviewed journal , Pacing and Clinical Electrophysiology .
+	index: 1	word: release	freq: 4
+
+Sentence: 3But THE(2) STUDY(3) is scheduled to appear instead in A(1) SUPPLEMENT(1) TO(1) THE(1) JOURNAL(3) , not THE(1) JOURNAL(1) itself .
+	index: 2	word: study	freq: 3
+	index: 13	word: journal	freq: 3
+
+Sentence: 4STUDIES(1) IN(1) BOTH(1) THE(2) JOURNAL(4) AND(2) THE(3) SUPPLEMENT(3) ARE(1) PEER(1) REVIEWED(1) , according to Dawn Peters , a spokeswoman for the journal 's publisher , Blackwell Publishing .
+	index: 4	word: journal	freq: 4
+
+Sentence: 5In a peer-reviewed journal , QUALIFIED(1) outside researchers evaluate THE(1) FINDINGS(1) .
+	index: 9	word: the	freq: 1
+	index: 10	word: findings	freq: 1
+	index: 5	word: qualified	freq: 1
+
+Sentence: 6After THE(2) NEWS(4) RELEASE(4) appeared , TASER(2) 's stock rose sharply , closing at $ 20.80 a share , up $ 3.79 .
+	index: 2	word: news	freq: 4
+	index: 3	word: release	freq: 4
+
+Sentence: 7JUST(1) TWO(1) DAYS(1) EARLIER(1) , the stock plunged $ 5.95 , or nearly 30 percent , to $ 14.10 , after THE(2) COMPANY(3) said that sales might slow because of INCREASED(1) COMPETITION(1) .
+	index: 22	word: company	freq: 3
+
+Sentence: 8THE(1) NEWS(3) RELEASE(3) and THE(1) STOCK(3) MARKET(3) RESPONSE(3) are the latest episodes in a RUNNING(1) DEBATE(1) OVER(1) THE(1) SAFETY(1) OF(1) TASER(1) 'S(1) PISTOL-LIKE(1) STUN(1) GUNS(1) , which are sold mainly to police departments but also to the military and to a few civilians .
+	index: 1	word: news	freq: 3
+	index: 2	word: release	freq: 3
+	index: 5	word: stock	freq: 3
+	index: 6	word: market	freq: 3
+	index: 7	word: response	freq: 3
+
+Sentence: 9MOST(2) OF(2) TASER(3) 'S(2) NEARLY(2) $(2) 70(2) MILLION(2) IN(2) ANNUAL(2) REVENUE(2) comes from sales to police departments , according to the COMPANY(1) .
+	index: 2	word: Taser	freq: 3
+
+
+
+
+-----------------Context Labels-----------------
+No: 9
+Vague: 24
+Some: 19
+Immediate: 4
+
+
+=========================================================
+TASK: 2006_01_01_1728972.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.68
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A3ATO99JLN0TWG"
+	Correlation: 0.9
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.72
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A3ATO99JLN0TWG"
+	Correlation: 0.61
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.9
+Worker 1: "A3ATO99JLN0TWG"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.65
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 0.5
+	std dev: 0.5
+	max: 1
+	min: 0
+Sentence: 1
+	mean: 0.75
+	std dev: 0.43
+	max: 1
+	min: 0
+Sentence: 2
+	mean: 3.75
+	std dev: 0.83
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 0.0
+	std dev: 0.0
+	max: 0
+	min: 0
+Sentence: 4
+	mean: 4.25
+	std dev: 0.83
+	max: 5
+	min: 3
+Sentence: 5
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 4.5
+	std dev: 0.5
+	max: 5
+	min: 4
+Sentence: 7
+	mean: 3.5
+	std dev: 0.87
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 0.75
+	std dev: 0.43
+	max: 1
+	min: 0
+Sentence: 9
+	mean: 2.5
+	std dev: 2.06
+	max: 5
+	min: 0
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.45
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A3ATO99JLN0TWG"
+	Correlation: 0.89
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.69
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A3ATO99JLN0TWG"
+	Correlation: 0.5
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.73
+Worker 1: "A3ATO99JLN0TWG"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.51
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 0.5
+	std dev: 0.5
+	max: 1
+	min: 0
+Sentence: 1
+	mean: 0.75
+	std dev: 0.83
+	max: 2
+	min: 0
+Sentence: 2
+	mean: 1.75
+	std dev: 0.83
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 0.25
+	std dev: 0.43
+	max: 1
+	min: 0
+Sentence: 4
+	mean: 1.25
+	std dev: 0.43
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 1.5
+	std dev: 0.87
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.5
+	std dev: 0.5
+	max: 3
+	min: 2
+Sentence: 7
+	mean: 2.0
+	std dev: 0.71
+	max: 3
+	min: 1
+Sentence: 8
+	mean: 0.75
+	std dev: 0.43
+	max: 1
+	min: 0
+Sentence: 9
+	mean: 1.25
+	std dev: 1.09
+	max: 3
+	min: 0
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:        (0)
+how:     (0)
+what:  * (1)
+which: * (1)
+when:    (0)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 1:
+:         (0)
+how:      (0)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 2:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which: ** (2)
+when:  *  (1)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 3:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 4:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *   (1)
+where: *   (1)
+why:       (0)
+
+Sentence 5:
+:      *   (1)
+how:   *   (1)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:       (0)
+where: *** (3)
+why:       (0)
+
+Sentence 6:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which: ***   (3)
+when:  **    (2)
+who:         (0)
+where:       (0)
+why:         (0)
+
+Sentence 7:
+:             (0)
+how:   *      (1)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:          (0)
+where:        (0)
+why:   *      (1)
+
+Sentence 8:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:   * (1)
+where: * (1)
+why:     (0)
+
+Sentence 9:
+:          (0)
+how:   *** (3)
+what:      (0)
+which: *   (1)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:       (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0At least 844 American service members were killed in Iraq in 2005 , nearly matching 2004 's total of 848 , according to information released by the United States government and A(2) NONPROFIT(2) ORGANIZATION(2) that tracks casualties in Iraq .
+	index: 32	word: nonprofit	freq: 2
+	index: 33	word: organization	freq: 2
+	index: 31	word: a	freq: 2
+
+Sentence: 1The deaths of two Americans announced by the United States military on Friday -- A(1) MARINE(1) killed by gunfire in Falluja and A(1) SOLDIER(1) killed by a roadside bomb in Baghdad -- brought the total killed since THE(1) WAR(1) in Iraq began in March 2003 to 2,178 .
+	index: 37	word: the	freq: 1
+	index: 38	word: war	freq: 1
+	index: 14	word: a	freq: 1
+	index: 15	word: marine	freq: 1
+	index: 22	word: a	freq: 1
+	index: 23	word: soldier	freq: 1
+
+Sentence: 2The TOTAL(1) WOUNDED(2) since THE(3) WAR(4) BEGAN(2) is 15,955 .
+	index: 5	word: war	freq: 4
+
+Sentence: 3From Jan. 1 , 2005 to Dec. 3 , 2005 , the most recent date for which numbers are available , the number of Americans military personnel wounded IN(1) IRAQ(1) was 5,557 .
+	index: 28	word: in	freq: 1
+	index: 29	word: Iraq	freq: 1
+
+Sentence: 4THE(2) TOTAL(5) WOUNDED(5) in 2004 was 7,989 .
+	index: 1	word: total	freq: 5
+	index: 2	word: wounded	freq: 5
+
+Sentence: 5IN(1) 2005(1) ,(1) THE(3) SINGLE(3) BLOODIEST(3) MONTH(3) FOR(1) AMERICAN(1) SOLDIERS(1) AND(1) MARINES(1) WAS(1) JANUARY(1) ,(1) WHEN(2) 107(3) WERE(3) KILLED(3) AND(3) NEARLY(3) 500(3) WERE(4) WOUNDED(4) .
+	index: 22	word: were	freq: 4
+	index: 23	word: wounded	freq: 4
+
+Sentence: 6AT(4) THE(4) TIME(4) , American forces were CONDUCTING(1) NUMEROUS(3) OPERATIONS(2) to secure THE(2) COUNTRY(3) for the elections on Jan. 30 .
+	index: 0	word: At	freq: 4
+	index: 1	word: the	freq: 4
+	index: 2	word: time	freq: 4
+
+Sentence: 7THE(1) SECOND(3) WORST(4) MONTH(2) WAS(1) OCTOBER(1) , WHEN(1) 96(1) AMERICANS(1) WERE(1) KILLED(2) AND(2) 603(2) WOUNDED(2) .
+	index: 2	word: worst	freq: 4
+
+Sentence: 8MORE(1) THAN(1) HALF(1) of all 2005 American military DEATHS(1) , 427 , were caused by HOMEMADE(1) BOMBS(1) , most planted along roadsides and detonated as vehicles passed .
+	index: 0	word: More	freq: 1
+	index: 1	word: than	freq: 1
+	index: 2	word: half	freq: 1
+	index: 8	word: deaths	freq: 1
+	index: 15	word: homemade	freq: 1
+	index: 16	word: bombs	freq: 1
+
+Sentence: 9AMERICAN(1) COMMANDERS(1) have said that roadside bombs , THE(1) LEADING(1) CAUSE(1) OF(1) DEATH(1) IN(1) IRAQ(1) , HAVE(1) GROWN(2) LARGER(2) AND(2) MORE(3) SOPHISTICATED(3) .
+	index: 20	word: more	freq: 3
+	index: 21	word: sophisticated	freq: 3
+
+
+
+
+-----------------Context Labels-----------------
+No: 16
+Vague: 20
+Some: 11
+Immediate: 3
+
+
+
+
+-----------------Confidence Interval of Sentence Lengths-----------------
+(mean, lower bound, upper bound) (268.0, 64.700724217086474, 471.29927578291353)
+min: 252
+max: 284
