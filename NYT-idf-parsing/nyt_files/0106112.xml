@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Trio at Knitting Factory</title>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1988" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="19" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="106112"/>
+      <doc.copyright holder="The New York Times" year="1988"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19880101T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940DE4DA1639F932A35752C0A96E948260" item-length="54" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Trio at Knitting Factory</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The trio of Robert Dick on flute, Mark Dresser on bass, and Gerry Hemingway on percussion is to perform Sunday at 8 P.M. at the Knitting Factory, 47 East Houston Street (219-3055). At 10 P.M., the trio of Wilber Morris on bass, Claude Lawrence on saxophone, and Dennis Charles on drums is to perform.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The trio of Robert Dick on flute, Mark Dresser on bass, and Gerry Hemingway on percussion is to perform Sunday at 8 P.M. at the Knitting Factory, 47 East Houston Street (219-3055). At 10 P.M., the trio of Wilber Morris on bass, Claude Lawrence on saxophone, and Dennis Charles on drums is to perform.</p>
+        <p>The trio of Robert Dick on flute, Mark Dresser on bass, and Gerry Hemingway on percussion is to perform Sunday at 8 P.M. at the Knitting Factory, 47 East Houston Street (219-3055). At 10 P.M., the trio of Wilber Morris on bass, Claude Lawrence on saxophone, and Dennis Charles on drums is to perform. Tickets are $5.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>
