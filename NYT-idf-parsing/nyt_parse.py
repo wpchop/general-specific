@@ -1,5 +1,7 @@
 import os
 from sets import Set
+#import sys, os
+#sys.path.insert( 0, os.path.abspath(os.path.join(sys.path[0], os.pardir)) )
 from ExternalDict import ExternalDict
 import xml.etree.ElementTree as ET
 
@@ -43,12 +45,6 @@ def get_text(tree, root):
           text += paragraph.text+"\n"
         break
   return text
-  '''OLD VERSION
-  string = ''
-  for paragraph in root[1][1][1]:
-    string += (paragraph.text+"\n") 
-  return string
-  '''
 
 def is_not_number(s):
   try:
@@ -163,10 +159,10 @@ for folder in get_immediate_folders(os.getcwd()):
     
     word_dict = add_new_words(tokens, word_dict)
     count_dict = update_count_dict(tokens, count_dict, word_dict)
-    
 word_dict.save()
 count_dict.save()
- '''
+'''
+
     
 def main(outer_path):
   count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
@@ -196,4 +192,4 @@ def main(outer_path):
   word_dict.save()
   count_dict.save()
   
-main("/project/cis/nlp/data/corpora/nytimes/data")
+#main("/project/cis/nlp/data/corpora/nytimes/data")
