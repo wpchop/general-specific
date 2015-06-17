@@ -257,9 +257,9 @@ Sentence: 9The CASE(4) breaks new ground in that it is the first major instance 
 
 -----------------Context Labels-----------------
 No: 34
-Vague: 13
+Immediate: 13
 Some: 16
-Immediate: 6
+Vague: 6
 
 
 =========================================================
@@ -521,9 +521,9 @@ Sentence: 9NO.(2) 03-878(2) , applied to TWO(2) CASES(2) of Cubans found deporta
 
 -----------------Context Labels-----------------
 No: 17
-Vague: 23
+Immediate: 23
 Some: 11
-Immediate: 4
+Vague: 4
 
 
 =========================================================
@@ -785,9 +785,9 @@ Sentence: 9At Camp Victory , the American military headquarters just outside Bag
 
 -----------------Context Labels-----------------
 No: 34
-Vague: 8
+Immediate: 8
 Some: 21
-Immediate: 3
+Vague: 3
 
 
 =========================================================
@@ -1049,9 +1049,9 @@ Sentence: 9In April , FOR(1) INSTANCE(1) , there were 66 suicide and CAR(1) BOMB
 
 -----------------Context Labels-----------------
 No: 17
-Vague: 11
+Immediate: 11
 Some: 14
-Immediate: 1
+Vague: 1
 
 
 =========================================================
@@ -1313,9 +1313,9 @@ Sentence: 9Some sections of the law include such a provision , and the majority 
 
 -----------------Context Labels-----------------
 No: 24
-Vague: 15
+Immediate: 15
 Some: 24
-Immediate: 2
+Vague: 2
 
 
 =========================================================
@@ -1577,9 +1577,9 @@ Sentence: 9The FOURTH(3) AUTHOR(3) is James E. Brewer , a consultant in Minneapo
 
 -----------------Context Labels-----------------
 No: 12
-Vague: 11
+Immediate: 11
 Some: 29
-Immediate: 5
+Vague: 5
 
 
 =========================================================
@@ -1841,9 +1841,9 @@ Sentence: 9The CASE(3) had drawn considerable attention from international and h
 
 -----------------Context Labels-----------------
 No: 11
-Vague: 18
+Immediate: 18
 Some: 25
-Immediate: 4
+Vague: 4
 
 
 
@@ -1852,3 +1852,9 @@ Immediate: 4
 (mean, lower bound, upper bound) (300.28571428571428, 251.2435522895133, 349.32787628191522)
 min: 239
 max: 377
+
+-----------------OTHER DATA-----------------
+
+Overall Worker Correlation:0.573
+95% Confidence Interval of ambiguous word idfs: (3.5770744008346465, 3.4592674784289814, 3.6948813232403115)
+95% Confidence Interval of unambiguous word idfs: (3.3225723776193425, 3.186714643655074, 3.4584301115836111)

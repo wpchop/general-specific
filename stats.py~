@@ -140,7 +140,7 @@ def mean_confidence_interval(data, confidence=0.95):        #http://stackoverflo
     n = len(a)
     m, se = numpy.mean(a), scipy.stats.sem(a)
     h = se * scipy.stats.t._ppf((1+confidence)/2., n-1)
-    return m, m-h, m+h
+    return round(m, 3), round(m-h, 3), round(m+h, 3)
 
 def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent, amb_phrases = {index of word: (string of word, #times asked about)}
   for i in amb_phrases:
@@ -155,6 +155,9 @@ amb_words = []                           #list of integers corresponding to ambi
 amb_words_idfs = []                      #list of idf corresponding to idf of ambiguous words in amb_words
 word_dict = ExternalDict("word.dict")
 idf_calc = idfCalculator()
+all_corrs = []
+amb_phrase_idfs = []
+unamb_words_idfs = []
 
 for key in tasks:
   task = tasks[key]
@@ -167,8 +170,9 @@ for key in tasks:
   q_mins = []
   amb_phrases_per_sent = []		#list of maps that map to tuples (index of list = sent#, key = word index, tuple = "word", freq)
   context_labels = [0]*4 
-  context_map = {0: "No", 1:"Vague", 2:"Some", 3:"Immediate"}
+  context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate"}
   task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
+  context_value_map = {"0": 3, "1": 0, "2": 1, "3": 2}
   
 
   for sentence in task.get_sentences():
@@ -188,14 +192,23 @@ for key in tasks:
     amb_phrases_per_sent.append(find_amb_words(sentence))
     next_label = find_context_labels(sentence)
     context_labels = add_context_labels(context_labels, next_label)
+    """
+    For calculating correlation of labels and idf """
     sentlist = sentence.get_sent().split(" ")
+    word_seen = [False]*len(sentlist)
     for question in sentence.get_questions():
       low = question.get_low()
       high = question.get_high()
       for i in range(low, high+1):
-        amb_words.append(float(question.get_context()[0]))
+        amb_words.append(float(context_value_map[question.get_context()[0]]))
         amb_words_idfs.append(idf_calc.idf(word_dict[sentlist[i].lower()]))
-
+        word_seen[i] = True
+    for i, word in enumerate(sentlist):
+      word = word.lower()
+      if word_seen[i]:
+        amb_phrase_idfs.append(idf_calc.idf(word_dict[word]))
+      else:
+        unamb_words_idfs.append(idf_calc.idf(word_dict[word]))
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
 
@@ -210,11 +223,15 @@ for key in tasks:
   info.append("\n-------------Correlations between Workers--------------\n")
   for corr in scale_corrs:
     info.append("Worker 1: " + corr[0] + "\nWorker 2: " + corr[1] + "\n\tCorrelation: " + str(round(corr[2],2)) + "\n")
+    all_corrs.append(corr[2])
   
   info.append("\n---------------Means, Standard Deviations, and Max/Min------------")
+  scalemeans = []
   for i, element in enumerate(meanandDevs):
     info.append("\nSentence: " + str(element[0]) + "\n\tmean: " + str(element[1]) + "\n\tstd dev: " + str(element[2]))
     info.append("\n\tmax: " + str(scale_maxes[i]) + "\n\tmin: " + str(scale_mins[i]))
+    scalemeans.append(element[1])
+  print "average scale: " + str(round(numpy.mean(scalemeans),2))
 
   info.append("\n\n----------------QUESTIONS------------\n")
   info.append("\n-----------Correlations between Workers---------\n")
@@ -222,9 +239,13 @@ for key in tasks:
     info.append("Worker 1: " + corr[0] + "\nWorker 2: " + corr[1] + "\n\tCorrelation: " + str(round(corr[2],2)) + "\n")
 
   info.append("\n---------------Means, Standard Deviations and Max/Min------------")
+  qnumsmeans = []
   for i, element in enumerate(q_means_and_devs):
     info.append("\nSentence: " + str(element[0]) + "\n\tmean: " + str(element[1]) + "\n\tstd dev: " + str(element[2]))
     info.append("\n\tmax: " + str(q_maxes[i]) + "\n\tmin: " + str(q_mins[i]))
+    qnumsmeans.append(element[1])
+  info.append("\nAverage Number of Questions asked: " + str(round(numpy.mean(qnumsmeans),2)))
+  print "average questions asked: " + str(round(numpy.mean(qnumsmeans),2))
   
   info.append("\n\n------------------Keyword Frequencies-----------------")
   info.append(print_keyword_freqs(kwordsbySent))
@@ -243,10 +264,18 @@ info.append("\n\n-----------------Confidence Interval of Sentence Lengths-------
 info.append("\n(mean, lower bound, upper bound) " + str(mean_confidence_interval(task_lengths)))
 info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths)))
 
+info.append("\n\n-----------------OTHER DATA-----------------")
+info.append("\n\n" + "Overall Worker Correlation:" + str(round(numpy.mean(all_corrs), 3)) + "\n")
+info.append("95% Confidence Interval of ambiguous word idfs: " + str(mean_confidence_interval(amb_phrase_idfs)))
+info.append("\n95% Confidence Interval of unambiguous word idfs: " + str(mean_confidence_interval(unamb_words_idfs)))
+print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
+print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
+print "average worker correlation: " + str(numpy.mean(all_corrs))
+
 #print amb_words
 #print amb_words_idfs
 
-print numpy.corrcoef(amb_words, amb_words_idfs)[1][0]
+print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
 
 #PRINTING THINGS
 

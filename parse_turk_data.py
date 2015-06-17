@@ -159,7 +159,7 @@ def write_output(input_fname, tasks):
     Task objects.
     WARNING: Will overwrite another file of the same name."""
     outFile = open(input_fname[0:-6]+"_output.txt","w")
-    context_map = {0: "No", 1: "Vague", 2: "Some", 3: "Immediate"}
+    context_map = {0: "No", 3: "Vague", 2: "Some", 1: "Immediate"}
     for key in tasks:
       outFile.write("\n==================TASK==================\n"+key+"\n\n")
       task = tasks[key]

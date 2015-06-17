@@ -257,9 +257,9 @@ Sentence: 9Most of TASER(3) 's nearly $ 70 million in annual revenue comes from 
 
 -----------------Context Labels-----------------
 No: 9
-Vague: 24
+Immediate: 24
 Some: 19
-Immediate: 4
+Vague: 4
 
 
 =========================================================
@@ -539,14 +539,20 @@ Sentence: 9American commanders have said that roadside bombs , the leading cause
 
 -----------------Context Labels-----------------
 No: 16
-Vague: 20
+Immediate: 20
 Some: 11
-Immediate: 3
+Vague: 3
 
 
 
 
 -----------------Confidence Interval of Sentence Lengths-----------------
-(mean, lower bound, upper bound) (268.0, 64.700724217086474, 471.29927578291353)
+(mean, lower bound, upper bound) (268.0, 64.701, 471.299)
 min: 252
 max: 284
+
+-----------------OTHER DATA-----------------
+
+Overall Worker Correlation:0.776
+95% Confidence Interval of ambiguous word idfs: (3.623, 3.324, 3.923)
+95% Confidence Interval of unambiguous word idfs: (3.27, 3.059, 3.48)

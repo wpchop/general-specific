@@ -1,0 +1,1801 @@
+=========================================================
+TASK: 2005_01_05_1639693.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.45
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.87
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.45
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 4.0
+	std dev: 1.41
+	max: 5
+	min: 2
+Sentence: 2
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.23
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.76
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.44
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 4
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 5
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 6
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Average Number of Questions asked: 2.24
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:           (0)
+how:        (0)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 1:
+:          (0)
+how:   **  (2)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 2:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:  *   (1)
+who:       (0)
+where:     (0)
+why:   **  (2)
+
+Sentence 3:
+:          (0)
+how:   *** (3)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+:              (0)
+how:   **      (2)
+what:  ******* (7)
+which:         (0)
+when:          (0)
+who:   **      (2)
+where:         (0)
+why:           (0)
+
+Sentence 5:
+:        (0)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:   * (1)
+where:   (0)
+why:     (0)
+
+Sentence 6:
+:          (0)
+how:       (0)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:   *   (1)
+where:     (0)
+why:       (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0According to the lawsuit , Mr. Salinas Pliego failed to inform shareholders about a COMPLEX(3) DEAL(3) between Unefon , TV Azteca 's phone unit , and a company formed by Mr. Salinas Pliego and an associate , Moises Saba .
+
+Sentence: 1That company , called Codisco , bought UNEFON(2) debt at A(2) DEEP(2) DISCOUNT(2) .
+
+Sentence: 2FOUR(3) MONTHS(3) LATER(3) , Mr. Salinas Pliego reaped more than $ 109 million in suspected ill-gotten profits by selling the Unefon debt back , at full price , to TV Azteca .
+
+Sentence: 3According to the S.E.C. , Mr. Salinas Pliego not only failed to disclose THE(3) TRANSACTION(3) to his board , as the law requires for any related-party transaction , but he also MISREPRESENTED(3) THE(3) NATURE(3) OF(3) THE(3) TRANSACTION(3) to his board , the press and the S.E.C. '' After the resignation of TV Azteca 's U.S. legal counsel and a Dec. 24 , 2003 , New York Times article concerning the matter , Mr. Echarte sent an e-mail to Mr. Salinas Pliego and Mr. Padilla stating , ` The damage is done and the situation that we did n't want to explain openly is now in the hands of the press , '' ' according to the S.E.C. press release .
+
+Sentence: 4Stephen M. Cutler , director of enforcement at the S.E.C. , said : '' SALINAS(2) took from the COMPANY(2) a valuable CORPORATE(2) OPPORTUNITY(2) and over a period of MANY(2) MONTHS(2) concealed that TRANSACTION(2) in violation of the U.S. securities laws .
+
+Sentence: 5The federal securities laws are designed to ensure FULL(1) AND(1) FAIR(1) DISCLOSURE(1) about related PARTY(1) transactions . ''
+
+Sentence: 6Mexico 's main securities regulator , the Comisión Nacional Bancaria y de Valores , has been conducting its own investigation of the CODISCO-UNEFON(3) AFFAIR(3) and has now determined that Mexican securities laws were broken , a top official said Tuesday .
+
+-----------------Context Labels-----------------
+No: 16
+Immediate: 12
+Some: 14
+Vague: 5
+
+
+=========================================================
+TASK: 2005_01_14_1641884.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.24
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.13
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.62
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.33
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 1
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 2
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 9
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.56
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.6
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.67
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 4
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 5
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 6
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 7
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 9
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Average Number of Questions asked: 2.1
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:           (0)
+how:   **** (4)
+what:  *    (1)
+which: **   (2)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 1:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   *     (1)
+where:       (0)
+why:   *     (1)
+
+Sentence 2:
+:          (0)
+how:       (0)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 3:
+:          (0)
+how:   **  (2)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 4:
+:           (0)
+how:   **** (4)
+what:  ***  (3)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 5:
+:          (0)
+how:       (0)
+what:  *** (3)
+which: *   (1)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   **  (2)
+
+Sentence 6:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   **   (2)
+where:      (0)
+why:        (0)
+
+Sentence 7:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 8:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   ***   (3)
+where:       (0)
+why:   *     (1)
+
+Sentence 9:
+:            (0)
+how:         (0)
+what:        (0)
+which:       (0)
+when:        (0)
+who:   ***** (5)
+where:       (0)
+why:         (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0Nine current and former sales executives from an assortment of food companies were charged yesterday with participating in a scheme that created a HUGE(4) ACCOUNTING(4) FRAUD(4) at U.S. Foodservice , which has been under investigation in the United States and in the Netherlands for the last two years .
+
+Sentence: 1The EXECUTIVES(3) were arraigned in Federal District Court in Manhattan on CONSPIRACY(3) CHARGES(3) and released .
+
+Sentence: 2THEY(3) worked for companies that sold products like sugar , eggs , seafood and cake mix to U.S. Foodservice , which in turn supplied restaurants , corporate dining rooms and other institutions .
+
+Sentence: 3All the EXECUTIVES(2) are accused of approving documents that claimed U.S. Foodservice , a unit of Royal Ahold , was owed MILLIONS(2) OF(2) DOLLARS(2) more in promotional allowances -- a type of rebate offered by manufacturers to stores and distributors -- than was actually the case .
+
+Sentence: 4The scheme had the effect of inflating U.S.(4) FOODSERVICE(4) 'S(4) PROFITS(4) , prosecutors say .
+
+Sentence: 5The LETTERS(3) were issued by a former U.S. Foodservice chief marketing officer , Mark P. Kaiser , according to court documents .
+
+Sentence: 6Mr. Kaiser is awaiting trial on CONSPIRACY(3) AND(3) FRAUD(3) CHARGES(3) , along with Michael J. Resnick , the former chief financial officer .
+
+Sentence: 7Two other former U.S. Foodservice executives , Timothy J. Lee and William F. Carter , pleaded guilty to SIMILAR(3) CHARGES(3) last summer .
+
+Sentence: 8All the DEFENDANTS(2) charged yesterday signed audit letters containing FALSE(2) INFORMATION(2) at the request of Mr. Kaiser , the DOCUMENTS(2) state . ''
+
+Sentence: 9THEIR(3) motivation was to maintain a very important business relationship , '' the acting United States attorney for Manhattan , David N. Kelley , said .
+
+-----------------Context Labels-----------------
+No: 22
+Immediate: 23
+Some: 10
+Vague: 8
+
+
+=========================================================
+TASK: 2005_01_14_1641845.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.88
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.48
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.6
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 7
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 8
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 9
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.52
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.48
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.0
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 1
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 5
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 6
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 7
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Average Number of Questions asked: 2.33
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:             (0)
+how:   **     (2)
+what:  ****** (6)
+which: *      (1)
+when:         (0)
+who:          (0)
+where:        (0)
+why:   *      (1)
+
+Sentence 1:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   *    (1)
+where:      (0)
+why:        (0)
+
+Sentence 2:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   **  (2)
+where:     (0)
+why:       (0)
+
+Sentence 3:
+:          (0)
+how:       (0)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *** (3)
+
+Sentence 4:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   **    (2)
+where:       (0)
+why:         (0)
+
+Sentence 5:
+:           (0)
+how:   **   (2)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:        (0)
+
+Sentence 6:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which: *     (1)
+when:        (0)
+who:         (0)
+where:       (0)
+why:   *     (1)
+
+Sentence 7:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+Sentence 8:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   **   (2)
+where:      (0)
+why:        (0)
+
+Sentence 9:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *** (3)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0The corps has had a much lower profile and has enjoyed some CONSTRUCTION(4) successes in Iraq .
+
+Sentence: 1ITS(3) ELECTRICAL(3) PROJECTS(3) have added more than 1,800 megawatts to the Iraqi grid , roughly the equivalent of two large power plants .
+
+Sentence: 2But major corps projects , like huge waterway projects in the United States , have also been criticized as grandiose and unresponsive to LOCAL(2) NEEDS(2) .
+
+Sentence: 3And it was the Army corps that awarded Halliburton an early no-bid contract worth billions of dollars for work on Iraq 's oil fields , which opened the company to LASHING(3) CRITICISM(3) .
+
+Sentence: 4Whether the CORPS(2) will FARE(2) BETTER(2) than THE(2) PROJECT(2) OFFICE(2) is open to question , MR.(2) BARTON(2) said .
+
+Sentence: 5Success in Iraq means engaging the local populace , HE(3) said , and '' that has n't been their strength even domestically . ''
+
+Sentence: 6Brig. Gen. Thomas Bostick , commander of the Army corps in the Persian Gulf region , said that because the TWO(3) ORGANIZATIONS(3) had been working hand-in-glove from the start , he did not regard THE(3) SWITCH(3) as a substantial change .
+
+Sentence: 7Rather , HE(3) said , the project office , with its emphasis on planning , will slim down as more contracts moved into construction . ''
+
+Sentence: 8I see THIS(3) as a natural progression , '' General Bostick said . ''
+
+Sentence: 9To say IT(3) 's going to change , and is going to change as a result of negative perception , is not correct . ''
+
+-----------------Context Labels-----------------
+No: 20
+Immediate: 19
+Some: 23
+Vague: 8
+
+
+=========================================================
+TASK: 2005_01_14_1641845.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.67
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.82
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.79
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 2
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 5
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 8
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 9
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.78
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: -0.13
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: -0.19
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 4
+	mean: 3.33
+	std dev: 2.05
+	max: 6
+	min: 1
+Sentence: 5
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 7
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Average Number of Questions asked: 2.27
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   ** (2)
+
+Sentence 1:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:   *  (1)
+
+Sentence 2:
+:             (0)
+how:          (0)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:   **     (2)
+where:        (0)
+why:          (0)
+
+Sentence 3:
+:        (0)
+how:   * (1)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:     (0)
+where:   (0)
+why:   * (1)
+
+Sentence 4:
+:           (0)
+how:   **   (2)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:   **   (2)
+where:      (0)
+why:   *    (1)
+
+Sentence 5:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which: ***   (3)
+when:        (0)
+who:         (0)
+where:       (0)
+why:         (0)
+
+Sentence 6:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:   *     (1)
+where:       (0)
+why:   **    (2)
+
+Sentence 7:
+:            (0)
+how:   *     (1)
+what:  ***** (5)
+which:       (0)
+when:        (0)
+who:         (0)
+where:       (0)
+why:   *     (1)
+
+Sentence 8:
+:          (0)
+how:       (0)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where: *   (1)
+why:   *   (1)
+
+Sentence 9:
+:              (0)
+how:           (0)
+what:  ******* (7)
+which:         (0)
+when:          (0)
+who:           (0)
+where:         (0)
+why:           (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0In a major shift within the MUCH-CRITICIZED(2) $ 18.4 billion program to rebuild Iraq 's physical infrastructure , the office that the Pentagon formed to oversee the effort will begin handing ITS(2) RESPONSIBILITIES(2) over to the United States Army Corps of Engineers over the next several months .
+
+Sentence: 1Charles Hess , the director of the agency , the Project and Contracting Office , said in a telephone interview from Baghdad that the CHANGE(2) was a NATURAL(2) EVOLUTION(2) .
+
+Sentence: 2HE(2) denied that the MOVE(2) was a response to Iraqi and American criticism that the RECONSTRUCTION(2) EFFORT(2) had focused too much on LARGE(2) PROJECTS(2) , started up too slowly and failed to anticipate attacks by insurgents .
+
+Sentence: 3As the United States tries to LAY(1) THE(1) GROUNDWORK(1) for a functioning Iraqi government before elections on Jan. 30 , SOME(1) CRITICISMS(1) of the reconstruction program have carried a particular sting : a major goal of the reconstruction , from power plants and sewage-treatment plants to roads and fire stations , was to PERSUADE(1) ORDINARY(1) IRAQIS(1) OF(1) THE(1) GOOD(1) WILL(1) AND(1) COMPETENCE(1) OF(1) THE(1) POST-SADDAM(1) HUSSEIN(1) AUTHORITIES(1) .
+
+Sentence: 4While the Army corps has increased electricity output and BOTH(2) AGENCIES(2) have put in place other , SMALLER-SCALE(2) PROJECTS(2) , most MAJOR(2) EFFORTS(2) have faced MAJOR(2) DELAYS(2) .
+
+Sentence: 5Insurgent attacks have hit both the PROJECTS(3) and the workers , prompting SOME(3) LARGE(3) COMPANIES(3) to pull out of Iraq , sending security costs skyrocketing and forcing the elimination or scaling down of dozens of projects .
+
+Sentence: 6Mr. Hess defended the RECONSTRUCTION(2) program as successful , given the HARD(2) REALITIES(2) of Iraq , and said the gradual shift of responsibility to the Army corps , with its history of managing construction project in conflict zones , had LONG(2) BEEN(2) ENVISIONED(2) .
+
+Sentence: 7But Rick Barton , co-director of the post-conflict reconstruction program at the Center for Strategic and International Studies , said the SHIFT(3) '' is a further confirmation that the PLACE(3) is n't safe . '' ''
+
+Sentence: 8I assume that the Army corps feels better about going places that are just plain dangerous , '' HE(3) said .
+
+Sentence: 9The corps has largely avoided the criticism that has dogged the PROJECT(3) office .
+
+-----------------Context Labels-----------------
+No: 25
+Immediate: 23
+Some: 13
+Vague: 7
+
+
+=========================================================
+TASK: 2005_01_14_1641884.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.76
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.68
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.92
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 5.0
+	std dev: 0.82
+	max: 6
+	min: 4
+Sentence: 8
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 9
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.83
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.75
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.8
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 1
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 5
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 6
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 7
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 9
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Average Number of Questions asked: 2.07
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:        (0)
+how:   * (1)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:     (0)
+where:   (0)
+why:   * (1)
+
+Sentence 1:
+:         (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:   *  (1)
+
+Sentence 2:
+:             (0)
+how:   *      (1)
+what:  ****** (6)
+which:        (0)
+when:         (0)
+who:   **     (2)
+where:        (0)
+why:          (0)
+
+Sentence 3:
+:          (0)
+how:       (0)
+what:  **  (2)
+which: *   (1)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:   *   (1)
+
+Sentence 4:
+:         (0)
+how:   ** (2)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:      (0)
+
+Sentence 5:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which: *    (1)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:        (0)
+
+Sentence 6:
+:           (0)
+how:        (0)
+what:  ***  (3)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:        (0)
+
+Sentence 7:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 8:
+:        (0)
+how:   * (1)
+what:  * (1)
+which:   (0)
+when:  * (1)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 9:
+:          (0)
+how:   **  (2)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0In a CASE(1) INVOLVING(1) John Nettle , a 45-year-old former vice president at General Mills , a letter prepared by U.S. Foodservice 's auditor stated that General Mills OWED(1) THE(1) COMPANY(1) $ 13.44 million at the end of 2001 . ''
+
+Sentence: 1In truth and in fact , GENERAL(1) MILLS(1) owed U.S.F.(1) LESS(1) THAN(1) $ 2.5 million , '' THE(1) GOVERNMENT(1) charged in COURT(1) DOCUMENTS(1) .
+
+Sentence: 2Mr. Nettle is accused of signing the LETTER(3) despite the FALSE(3) INFORMATION(3) .
+
+Sentence: 3For 2002 , HE(3) signed a letter stating that General Mills owed U.S. Foodservice $ 36.64 million , although the amount was actually less than $ 1 million , according to the DOCUMENTS(3) . ''
+
+Sentence: 4As Nettle well knew , the $ 36.64 million figure was grossly overstated and General Mills did not owe that amount , '' the DOCUMENTS(3) state .
+
+Sentence: 5A lawyer for Mr. Nettle , William Michael , said his client '' was PRESSURED(3) into signing these letters and he is very sorry for what this has caused his former employer as well as his family . ''
+
+Sentence: 6HE(3) said that Mr. Nettle planned to plead guilty .
+
+Sentence: 7Two of the DEFENDANTS(3) have been charged with securities fraud and obstruction of a federal investigation .
+
+Sentence: 8Mark Bailin , who was president of Rymer International Seafood , and Peter Marion , president of Maritime Seafood Processors , are accused of buying U.S. Foodservice stock in 2000 , ahead of the company 's ANNOUNCEMENT(2) that it was being acquired by Royal Ahold .
+
+Sentence: 9THEY(3) made about $ 1.5 million in ILLEGAL(3) PROFITS(3) , according to court documents .
+
+-----------------Context Labels-----------------
+No: 13
+Immediate: 22
+Some: 19
+Vague: 8
+
+
+=========================================================
+TASK: 2005_01_05_1639693.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.65
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.83
+Worker 1: "AY1E1I3E6TC8G"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.42
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 2
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 3
+	mean: 1.67
+	std dev: 1.7
+	max: 4
+	min: 0
+Sentence: 4
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 8
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.59
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.54
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.84
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 4
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 5
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 6
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 7
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Average Number of Questions asked: 1.63
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:            (0)
+how:         (0)
+what:  ***** (5)
+which: *     (1)
+when:        (0)
+who:         (0)
+where:       (0)
+why:         (0)
+
+Sentence 1:
+:           (0)
+how:   *    (1)
+what:  *    (1)
+which:      (0)
+when:       (0)
+who:   **** (4)
+where:      (0)
+why:   **   (2)
+
+Sentence 2:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 3:
+:         (0)
+how:   ** (2)
+what:     (0)
+which: *  (1)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 4:
+:         (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 5:
+:         (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 6:
+:          (0)
+how:   *   (1)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *** (3)
+
+Sentence 7:
+:         (0)
+how:   *  (1)
+what:  *  (1)
+which: ** (2)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 8:
+:         (0)
+how:      (0)
+what:  ** (2)
+which: ** (2)
+when:     (0)
+who:   ** (2)
+where:    (0)
+why:   ** (2)
+
+Sentence 9:
+:          (0)
+how:       (0)
+what:  *   (1)
+which:     (0)
+when:      (0)
+who:   *** (3)
+where:     (0)
+why:       (0)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0IT(2) is also unusual in that it seeks to prevent Mr. Salinas Pliego , who owns a controlling stake in the COMPANY(2) , from acting as an officer or director of TV Azteca or any other public company .
+
+Sentence: 1If the S.E.C. is victorious , it would have try to find ways to restrict MR.(3) SALINAS(3) PLIEGO(3) from exercising control by voting his shares , perhaps by putting his stock in a trust , PEOPLE(3) CLOSE(3) to the agency say .
+
+Sentence: 2The ACTION(3) also highlights a trend of the S.E.C. 's trying to enforce United States securities laws against foreign companies whose stocks and bonds are listed on American markets . ''
+
+Sentence: 3GEOGRAPHIC(2) BOUNDARIES(2) will not serve to protect those who seek to defraud investors , '' said Spencer C. Barasch , associate district administrator at the S.E.C. '' When companies , domestic or foreign , avail themselves of our capital markets , they have the same responsibility to adhere to U.S. securities law . ''
+
+Sentence: 4TV(1) AZTECA(1) , whose depository SHARES(1) TRADE(1) on the New York Stock Exchange , is a unit of Azteca Holdings , which IS(1) CONTROLLED(1) BY(1) MR.(1) SALINAS(1) PLIEGO(1) .
+
+Sentence: 5TV Azteca is one of the FASTEST-GROWING(3) Spanish-language networks in the United States , reaching some 77 percent of Latino homes .
+
+Sentence: 6The S.E.C. also FILED(4) SUIT(4) against Pedro Padilla Longoria , the former chief executive of TV Azteca , and Luis J. Echarte Fernández , president and chief of Azteca America and chief financial officer of Grupo Salinas .
+
+Sentence: 7BOTH(3) MEN(3) are directors of TV Azteca .
+
+Sentence: 8Mr. Echarte Fernández paid a civil penalty of $ 200,000 to settle with the AGENCY(4) .
+
+Sentence: 9HE(3) neither admitted nor denied any wrongdoing .
+
+-----------------Context Labels-----------------
+No: 13
+Immediate: 13
+Some: 20
+Vague: 3
+
+
+=========================================================
+TASK: 2005_01_14_1641884.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "A15SL3YR88L2D1"
+	Correlation: 0.56
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.81
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.44
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 1
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 5.33
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 4
+	mean: 3.67
+	std dev: 1.7
+	max: 6
+	min: 2
+Sentence: 5
+	mean: 2.67
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 6
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 9
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+
+----------------QUESTIONS------------
+
+-----------Correlations between Workers---------
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "A2JXKG4G3440T1"
+	Correlation: 0.06
+Worker 1: "A15SL3YR88L2D1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.56
+Worker 1: "A2JXKG4G3440T1"
+Worker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.38
+
+---------------Means, Standard Deviations and Max/Min------------
+Sentence: 0
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 4
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 5
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 6
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 7
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Average Number of Questions asked: 1.57
+
+------------------Keyword Frequencies-----------------
+Sentence 0:
+:             (0)
+how:          (0)
+what:  ****** (6)
+which: *      (1)
+when:         (0)
+who:   *      (1)
+where:        (0)
+why:   *      (1)
+
+Sentence 1:
+:           (0)
+how:        (0)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:   ***  (3)
+where:      (0)
+why:        (0)
+
+Sentence 2:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which: *  (1)
+when:     (0)
+who:   *  (1)
+where:    (0)
+why:      (0)
+
+Sentence 3:
+:         (0)
+how:   ** (2)
+what:  *  (1)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 4:
+:      * (1)
+how:     (0)
+what:  * (1)
+which:   (0)
+when:    (0)
+who:     (0)
+where:   (0)
+why:     (0)
+
+Sentence 5:
+:         (0)
+how:   *  (1)
+what:  ** (2)
+which:    (0)
+when:     (0)
+who:      (0)
+where:    (0)
+why:      (0)
+
+Sentence 6:
+:          (0)
+how:       (0)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:       (0)
+
+Sentence 7:
+:          (0)
+how:   *   (1)
+what:  *** (3)
+which:     (0)
+when:      (0)
+who:       (0)
+where:     (0)
+why:   *   (1)
+
+Sentence 8:
+:           (0)
+how:   *    (1)
+what:  **** (4)
+which:      (0)
+when:       (0)
+who:        (0)
+where:      (0)
+why:        (0)
+
+Sentence 9:
+:        (0)
+how:   * (1)
+what:  * (1)
+which: * (1)
+when:    (0)
+who:   * (1)
+where:   (0)
+why:   * (1)
+
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence: 0Most of the EXECUTIVES(3) are expected to plead guilty , he said at a news conference , adding that none of the companies they worked for have been charged with wrongdoing .
+
+Sentence: 1The INVESTIGATION(3) is continuing , '' upstream and downstream , '' HE(3) said .
+
+Sentence: 2All of the EXECUTIVES(3) have also been named in a civil case brought by the Securities and Exchange Commission , which accuses them of aiding and abetting a financial fraud .
+
+Sentence: 3Promotional allowances are intended to be used to help sell a manufacturer 's goods to consumers , through discounts , displays or advertising , and they often add up to LARGE(2) AMOUNTS(2) OF(2) MONEY(2) .
+
+Sentence: 4U.S. Foodservice would pay the price of goods up front , as part of its costs , then book promotional allowances as ASSETS(1) IN(1) ITS(1) RECORDS(1) , according to COURT(1) DOCUMENTS(1) .
+
+Sentence: 5Exaggerating the PROMOTIONAL(1) ALLOWANCES(1) , sometimes by a factor of 30 or more , not only made U.S. Foodservice look like A(1) BETTER(1) BUSINESS(1) than it was , but also improved the financial appearance of its parent , ROYAL(1) AHOLD(1) .
+
+Sentence: 6Royal Ahold , a publicly traded company based in the Netherlands , revealed in February 2003 that it had OVERSTATED(2) earnings by at least $ 500 million over the previous two years .
+
+Sentence: 7The FIGURE(3) was later revised to $ 880 million .
+
+Sentence: 8Royal Ahold said much of the OVERSTATEMENT(3) came from promotional allowances recorded by U.S. Foodservice .
+
+Sentence: 9A HOST(2) OF(2) EXECUTIVES(2) , including the top management of Royal Ahold , resigned .
+
+-----------------Context Labels-----------------
+No: 12
+Immediate: 14
+Some: 17
+Vague: 4
+
+
+
+
+-----------------Confidence Interval of Sentence Lengths-----------------
+(mean, lower bound, upper bound) (286.714, 251.012, 322.417)
+min: 248
+max: 363
+
+-----------------OTHER DATA-----------------
+
+Overall Worker Correlation:0.622
+95% Confidence Interval of ambiguous word idfs: (4.053, 3.89, 4.216)
+95% Confidence Interval of unambiguous word idfs: (3.19, 3.087, 3.293)

@@ -231,9 +231,9 @@ Sentence: 7Vice President Dick Cheney will throw out the first pitch before toda
 
 -----------------Context Labels-----------------
 No: 13
-Vague: 10
+Immediate: 10
 Some: 43
-Immediate: 8
+Vague: 8
 
 
 =========================================================
@@ -513,14 +513,20 @@ Sentence: 9Tomorrow night 's GAME(4) , when MARTÃNEZ(4) starts , will be of part
 
 -----------------Context Labels-----------------
 No: 25
-Vague: 16
+Immediate: 16
 Some: 37
-Immediate: 5
+Vague: 5
 
 
 
 
 -----------------Confidence Interval of Sentence Lengths-----------------
-(mean, lower bound, upper bound) (185.0, 70.644157372111138, 299.35584262788888)
+(mean, lower bound, upper bound) (185.0, 70.644, 299.356)
 min: 176
 max: 194
+
+-----------------OTHER DATA-----------------
+
+Overall Worker Correlation:0.715
+95% Confidence Interval of ambiguous word idfs: (4.281, 4.0, 4.561)
+95% Confidence Interval of unambiguous word idfs: (3.228, 2.935, 3.521)
