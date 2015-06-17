@@ -151,6 +151,12 @@ class ExternalDict(object):
     WARNING: Overwrites any file by the same name.'''
     outFile = open(self.fname,"w") #Empties whatever was previously in the file
     for item in self.items():
-      outFile.write(str(item[0])+">x<"+str(item[1])+"\t")
+      try:
+        outFile.write( str(item[0])+">x<"+str(item[1])+"\t" )
+      except UnicodeEncodeError:
+        if type(item[0]) is unicode:
+          outFile.write( item[0].encode('utf-8')+">x<"+str(item[1])+"\t" )
+        else:
+          outFile.write( str(item[0])+">x<"+item[1].encode('utf-8')+"\t" )
     print self.fname+" written."
     outFile.close()
