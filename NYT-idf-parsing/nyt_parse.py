@@ -1,11 +1,9 @@
-import os, sys
+import os
 from sets import Set
-import xml.etree.ElementTree as ET
-sys.path.insert(0, os.path.abspath(os.path.join(sys.path[0], os.pardir)))       #Inserting parent directory into path to reach ExternalDict
 from ExternalDict import ExternalDict
+import xml.etree.ElementTree as ET
 
-
-outer_path = "/project/cis/nlp/data/corpora/nytimes/data"
+#outer_path = "/project/cis/nlp/data/corpora/nytimes/data"
 
 #------------------ Folder Navigation ------------------------------------------
 
@@ -45,6 +43,12 @@ def get_text(tree, root):
           text += paragraph.text+"\n"
         break
   return text
+  '''OLD VERSION
+  string = ''
+  for paragraph in root[1][1][1]:
+    string += (paragraph.text+"\n") 
+  return string
+  '''
 
 def is_not_number(s):
   try:
@@ -164,7 +168,7 @@ word_dict.save()
 count_dict.save()
  '''
     
-def main():
+def main(outer_path):
   count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
   word_dict = ExternalDict("word.dict")
   
@@ -172,23 +176,24 @@ def main():
   for year_folder in os.listdir(outer_path):                  #1987
     year_path = add2path(year_folder, outer_path)
     
-    for month_folder in get_immediate_folders(year_path):     #month (has .tzg files in here)
-      month_path = add2path(month_folder, year_path)
+    for folder1 in get_immediate_folders(year_path):          #01 (has .tzg files in here)
+      folder1_path = add2path(folder1, year_path)
       
-      for day_folder in get_immediate_folders(month_path):    #day
-        day_path = add2path(day_folder, month_path)
+      for folder2 in get_immediate_folders(folder1_path):     #01 again
+        folder2_path = add2path(folder2, folder1_path)
         #.xml files are here
-        for file in os.listdir(day_path):
-          file_path = add2path(file, day_path) 
+        for file in os.listdir(folder2_path):
+          file_path = add2path(file, folder2_path) 
           print file_path
           tree, root = xml_tree( file_path )
           tokens = tokenize( get_text(tree,root) )
           
           word_dict = add_new_words(tokens, word_dict)
           count_dict = update_count_dict(tokens, count_dict, word_dict)
-          
+    word_dict.save()
+    count_dict.save()
           
   word_dict.save()
   count_dict.save()
   
-#main()
+main("/project/cis/nlp/data/corpora/nytimes/data")
