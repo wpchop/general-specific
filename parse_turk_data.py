@@ -5,6 +5,8 @@
 # Authors:      Bridget O'Daniel, Wenli Zhao, Lily Wu
 # Created:     21/05/2015
 #-------------------------------------------------------------------------------
+import os, sys
+sys.path.insert( 0, sys.path[0]+'/TurkClasses' )                                #Allows script to reach TurkClasses folder
 from ast import (literal_eval)
 from Task import Task
 from Question import Question
