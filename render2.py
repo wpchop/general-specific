@@ -1,4 +1,4 @@
-from main import *
+from parse_turk_data import main
 from math import *
 import collections
 import itertools
