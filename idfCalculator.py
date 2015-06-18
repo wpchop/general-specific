@@ -15,7 +15,7 @@ class idfCalculator():
   def __init__(self):
     '''Creates an idfCalculator object that spits out idf calculations according
     to a count.dict ExternalDict file.'''
-    self.count = ExternalDict("count.dict")
+    self.count = ExternalDict("NYT/count.dict")
   
   def __getitem__(self, key): #idfCalc[key]
     '''Gets the value to match the given provided key.'''
