@@ -110,8 +110,8 @@ def update_num_docs(count_dict, num_new_docs):
 
 def main():
   docs = get_strings( gather_data() )                     #Docs is a list of all sentences (strings)
-  count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
-  word_dict = ExternalDict("word.dict")
+  count_dict = ExternalDict("NYT/count.dict")             #count_dict special key: "totNumDocs":total number of docs accounted for
+  word_dict = ExternalDict("NYT/word.dict")
   
   word_dict = add_new_words(docs, word_dict)
   count_dict = update_count_dict(docs, count_dict, word_dict)

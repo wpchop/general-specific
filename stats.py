@@ -1,7 +1,8 @@
-from parse_turk_data import main
 import scipy
 import numpy
+import matplotlib.pyplot as pl
 import scipy.stats
+from parse_turk_data import main as ptdmain
 from ExternalDict import ExternalDict
 from idfCalculator import idfCalculator
 
@@ -99,10 +100,21 @@ def means_and_devs_qs(freqlist):
     meansandDevs.append((i,round(mean,2), round(stdDev,2)))
   return meansandDevs
 
-def find_amb_words(sentence):
-  """Returns map that maps integer keys to a tuple (word, frequency) pairs.
-  Size of map is equal to number of words in the sentence that are the most
-  ambiguous"""
+
+def find_max_amb_words(sentence, freqs):
+  index_freqs = {}
+  sent_list = sentence.get_sent().split()
+  freq_list = []
+  for pair in freqs.values():
+    freq_list.append(pair[1])
+  maximum = max(freq_list)
+  for i in freqs:
+    if freqs[i][1] == maximum:
+      index_freqs[i] = (sent_list[i],maximum)
+
+  return index_freqs
+
+def find_all_amb_phrases(sentence):
   questions = sentence.get_questions()
   index_freqs = {}
   sent_list = sentence.get_sent().split()
@@ -113,18 +125,18 @@ def find_amb_words(sentence):
     high = question.get_high()
     for i in range(low, high+1):
       freqs[i]+=1
-  
-  maximum = max(freqs)
-  for i in range(len(freqs)):
-    if freqs[i] == maximum:
-      index_freqs[i] = (sent_list[i],maximum)
 
+  for i in range(len(freqs)):
+    if freqs[i]!=0:
+      index_freqs[i] = (sent_list[i],freqs[i])
+    
   return index_freqs
 
 def find_context_labels(sentence):           #sentence is a sentence object
   labels = [0]*4
   for question in sentence.get_questions():
-    labels[int(question.get_context()[0])]+=1
+    if "NA" not in question.get_context():
+      labels[int(question.get_context()[0])]+=1
   return labels
   
 def add_context_labels(list1, list2):       #adds elements of two lists
@@ -142,14 +154,18 @@ def mean_confidence_interval(data, confidence=0.95):        #http://stackoverflo
     h = se * scipy.stats.t._ppf((1+confidence)/2., n-1)
     return round(m, 3), round(m-h, 3), round(m+h, 3)
 
-def cap_words(sentence, amb_phrases):         #(sentence = list of words in sent, amb_phrases = {index of word: (string of word, #times asked about)}
+def cap_words(sent, amb_phrases):         #(sent = sentence object, amb_phrases = {index of word: (string of word, #times asked about)}
+  sentence = sent.get_sent().split()
   for i in amb_phrases:
-    sentence[i] = sentence[i].upper() + "(" + str(amb_phrases[i][1]) + ")"
+    sentence[i] = sentence[i] + "(" + str(amb_phrases[i][1]) + ")"
   return " ".join(sentence)
-  
+
+
 #------------------------------------------------------------MAIN------------------------------------------
-input_fname, tasks = main()
+input_fname, tasks = ptdmain()
 info = []
+out = open(str(input_fname[0:input_fname.index(".")])+"_amb_phrases.txt","w") 
+out_scales = open(str(input_fname[0:input_fname.index(".")])+"_scales.txt","w") 
 task_lengths = []
 amb_words = []                           #list of integers corresponding to ambiguity rating of a word
 amb_words_idfs = []                      #list of idf corresponding to idf of ambiguous words in amb_words
@@ -168,7 +184,8 @@ for key in tasks:
   scale_mins = []
   q_maxes = []
   q_mins = []
-  amb_phrases_per_sent = []		#list of maps that map to tuples (index of list = sent#, key = word index, tuple = "word", freq)
+  amb_phrases_per_sent = []		#list of maps that map to tuples (index of list = sent#, key = word index, value = ("word",freq)
+  max_ambs = []         #list of maps that map to tuples {index = sent #, key = word index in sentence, tuple = "word", freq
   context_labels = [0]*4 
   context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate"}
   task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
@@ -189,7 +206,8 @@ for key in tasks:
     kwordsbySent.append(find_keyword_freqmap(sentence))
     scale_maxes.append(max(nums))
     scale_mins.append(min(nums))
-    amb_phrases_per_sent.append(find_amb_words(sentence))
+    amb_phrases_per_sent.append(find_all_amb_phrases(sentence))
+    max_ambs.append(find_max_amb_words(sentence, find_all_amb_phrases(sentence)))
     next_label = find_context_labels(sentence)
     context_labels = add_context_labels(context_labels, next_label)
     """
@@ -252,7 +270,19 @@ for key in tasks:
 
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
-    info.append("\n\nSentence: " + str(i) + cap_words(task.get_sentences()[i].get_sent().split(" "), amb_phrases_per_sent[i]))
+    info.append("\n\nSentence " + str(i)+": " + cap_words(task.get_sentences()[i], amb_phrases_per_sent[i]))
+    keys = max_ambs[i].keys()
+    for key in keys:
+      info.append("\n\tindex: " + str(key) + "\tword: " + max_ambs[i][key][0] + "\tfreq: " + str(max_ambs[i][key][1]))
+      
+    sent = task.get_sentences()[i]
+    avg_scale = sum(extract_scale_nums(sent.get_scales()))*1.0/len(sent.get_scales())
+    out.write("Sentence "+ str(i) + ": ")
+    out.write(cap_words(sent, amb_phrases_per_sent[i]))
+    out_scales.write(str(avg_scale)+"\n")
+    out.write("\n\n")
+  info.append("\n\n\n")
+    
       
   info.append("\n\n-----------------Context Labels-----------------")
   for i, contextfreq in enumerate(context_labels):
@@ -282,7 +312,7 @@ for line in info:
   outFile.write(line)
 
 outFile.close()
-
+out.close()
 
 
 

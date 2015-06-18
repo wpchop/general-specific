@@ -5,7 +5,8 @@
 # Authors:      Bridget O'Daniel, Wenli Zhao, Lily Wu
 # Created:     21/05/2015
 #-------------------------------------------------------------------------------
-
+import os, sys
+sys.path.insert( 0, sys.path[0]+'/TurkClasses' )                                #Allows script to reach TurkClasses folder
 from ast import (literal_eval)
 from Task import Task
 from Question import Question
@@ -48,7 +49,7 @@ def convertContext(context):
 def get_input_file_lines(fname):
     """Returns a list of the lines from the given input file name, leaving off
     the first line of the file."""
-    inputFile = open(fname, "r")
+    inputFile = open("data/"+fname, "r")
     inputFile.readline()                            #Ignore first line of input file
     inputlines = inputFile.readlines()              #Read the rest of the lines!
     inputFile.close()
@@ -83,7 +84,7 @@ def read_results_file(fname):
     pre: fname--string that is a valid file name.
     post: Returns meta (a list of metadata strings) and result_lines (a list of
     lines in the file)"""
-    inFile = open(fname, "r")
+    inFile = open("data/"+fname, "r")
     meta = inFile.readline().strip().split()
     #taskID = meta[29]
     result_lines=inFile.readlines()
