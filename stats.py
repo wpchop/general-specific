@@ -236,7 +236,7 @@ for key in tasks:
 
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
-    info.append("\n\nSentence: " + str(i) + cap_words(task.get_sentences()[i], amb_phrases_per_sent[i]))
+    info.append("\n\nSentence " + str(i)+": " + cap_words(task.get_sentences()[i], amb_phrases_per_sent[i]))
     keys = max_ambs[i].keys()
     for key in keys:
       info.append("\n\tindex: " + str(key) + "\tword: " + max_ambs[i][key][0] + "\tfreq: " + str(max_ambs[i][key][1]))
