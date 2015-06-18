@@ -231,7 +231,7 @@ for key in tasks:
     info.append("\nSentence: " + str(element[0]) + "\n\tmean: " + str(element[1]) + "\n\tstd dev: " + str(element[2]))
     info.append("\n\tmax: " + str(scale_maxes[i]) + "\n\tmin: " + str(scale_mins[i]))
     scalemeans.append(element[1])
-  print "average scale: " + str(round(numpy.mean(scalemeans),2))
+  #print "average scale: " + str(round(numpy.mean(scalemeans),2))
 
   info.append("\n\n----------------QUESTIONS------------\n")
   info.append("\n-----------Correlations between Workers---------\n")
@@ -245,7 +245,7 @@ for key in tasks:
     info.append("\n\tmax: " + str(q_maxes[i]) + "\n\tmin: " + str(q_mins[i]))
     qnumsmeans.append(element[1])
   info.append("\nAverage Number of Questions asked: " + str(round(numpy.mean(qnumsmeans),2)))
-  print "average questions asked: " + str(round(numpy.mean(qnumsmeans),2))
+  #print "average questions asked: " + str(round(numpy.mean(qnumsmeans),2))
   
   info.append("\n\n------------------Keyword Frequencies-----------------")
   info.append(print_keyword_freqs(kwordsbySent))
@@ -268,14 +268,11 @@ info.append("\n\n-----------------OTHER DATA-----------------")
 info.append("\n\n" + "Overall Worker Correlation:" + str(round(numpy.mean(all_corrs), 3)) + "\n")
 info.append("95% Confidence Interval of ambiguous word idfs: " + str(mean_confidence_interval(amb_phrase_idfs)))
 info.append("\n95% Confidence Interval of unambiguous word idfs: " + str(mean_confidence_interval(unamb_words_idfs)))
-print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
-print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
-print "average worker correlation: " + str(numpy.mean(all_corrs))
+#print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
+#print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
+#print "average worker correlation: " + str(numpy.mean(all_corrs))
 
-#print amb_words
-#print amb_words_idfs
-
-print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
+#print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
 
 #PRINTING THINGS
 
