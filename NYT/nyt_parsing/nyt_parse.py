@@ -1,0 +1,182 @@
+import os
+from sets import Set
+from ExternalDict import ExternalDict
+import xml.etree.ElementTree as ET
+
+#outer_path = "/project/cis/nlp/data/corpora/nytimes/data"
+
+#------------------ Folder Navigation ------------------------------------------
+
+def get_immediate_folders(a_dir):
+  '''Returns a list of all the subfolders within the current one, as a list of 
+  strings.'''
+  names = []
+  for name in os.listdir(a_dir):
+    if os.path.isdir(os.path.join(a_dir, name)):
+      names.append(name)
+  return names
+
+
+def add2path(folder, path):
+  '''Given two strings, the folder name and the current path, adds the folder to
+  the path, returning the combined string.'''
+  return path+"/"+folder
+
+
+#------------------ Parsing XML Docs -------------------------------------------
+#Body xmlPath: /nitf/body/body.content/block[@class="full_text]
+
+def xml_tree(filename):
+  '''Takes in a .xml filename (extension included) and returns the xml tree's 
+  root and tree as a tuple (tree, root).'''
+  tree = ET.parse(filename)
+  return ( tree, tree.getroot() )
+
+def get_text(tree, root):
+  '''Given an xml tree and the root at the highest node, returns the body of the
+  article as a string. Enjoy.'''
+  text = ""
+  for body in root.iter("body.content"):
+    for cls in body:
+      if cls.get("class") == 'full_text':
+        for paragraph in cls:
+          text += paragraph.text+"\n"
+        break
+  return text
+  '''OLD VERSION
+  string = ''
+  for paragraph in root[1][1][1]:
+    string += (paragraph.text+"\n") 
+  return string
+  '''
+
+def is_not_number(s):
+  try:
+    float(s)
+    return False
+  except ValueError:
+    return True
+
+def tokenize(string):
+  '''Given a string, tokenizes it and returns a list of tokens.'''
+  noPunct = ""
+  last_char = "q"
+  for char in string:
+    if char == '-':
+      char = ' '
+    if not char.isalnum() and not char.isspace():
+      pass
+    elif char.isspace() and last_char.isspace():
+      pass
+    else:
+      noPunct += char
+      last_char = char
+  noPunct = noPunct.lower().split()
+  tokens = filter(is_not_number, noPunct)
+  return tokens
+
+
+#--------------------- Word Dictionary -----------------------------------------
+
+def find_new_words(doc, word_dict):
+  '''Adds any new words in the doc into the word_dictionary with unique ids.
+  pre: doc is a list of tokens and word_dict is an ExternalDict'''
+  words = Set(doc)  #gets all words with no duplicates as a set
+  new = []
+  for word in words:
+    if word not in word_dict:
+      new.append(word)
+  return new
+
+
+def add_new_words(doc, word_dict):
+  '''Adds all words in doc but not yet in the word_dict to word_dict and returns it.'''
+  new = find_new_words(doc, word_dict)
+  word_dict.add_list(new)
+  return word_dict
+
+
+#--------------------- Update Count Dict ---------------------------------------
+
+def __update_count_dict(doc, count_dict, word_dict):
+  '''Takes in a tokenized document and two dictionaries. Updates the first dictionary,
+  associating each word's ID with the number of documents that contains it.
+  pre: docs is a list of tokens, count_dict and word_dict are ExternalDicts,
+  {wordID:int} and {"word":wordID}, respectively.
+  WARNING: All words in docs MUST be in word_dict. Use add_new_words() before 
+  calling this function.
+  post: Returns a dictionary {wordID:int}'''
+  words = Set(doc)                        #Removes duplicate words
+  for word in words:                      #For each word in the doc,
+    if word_dict[word] in count_dict:       #If it's been seen in another doc, add 1
+      count_dict[ word_dict[word] ] += 1
+    else:                                   #If it's not been seen, add its ID as a key
+      count_dict[ word_dict[word] ] = 1
+  return count_dict
+  
+  
+def update_count_dict(doc, count_dict, word_dict):
+  '''Updates the count_dict to reflect the new document.
+  pre: doc is a list of tokens, count_dict and word_dict 
+  are ExternalDicts, {wordID:int} and {"word":wordID}, respectively.
+  WARNING: All words in docs MUST be in word_dict. Use add_new_words() before 
+  calling this function.
+  post: Returns an ExternalDict count_dict.'''
+  count_dict = update_num_docs(count_dict, 1)
+  return __update_count_dict(doc, count_dict, word_dict)
+  
+  
+#--------------------- Total Document Calculations -----------------------------
+
+def get_count_tot_docs(count_dict):
+  '''The count_dict has a special string key "totNumDocs" that is associated with the number of docs the dictionary has analyzed.
+  Returns the int value of this key. If it is a blank count_dict, returns 0.'''
+  if "totNumDocs" in count_dict:
+    return count_dict["totNumDocs"]
+  return 0
+  
+
+def update_num_docs(count_dict, num_new_docs):
+  '''Updates the special key "totNumDocs" with the new documents being analyzed.
+  pre: count_dict is a dictionary {wordID:int} and num_new_docs is int.
+  post: returns the updated count_dict.'''
+  if "totNumDocs" in count_dict:
+    count_dict["totNumDocs"] += num_new_docs
+  else:
+    count_dict["totNumDocs"] = num_new_docs
+  return count_dict
+  
+  
+#------------------ MAIN -------------------------------------------
+#/nitf/body/body.content/block[@class="full_text"]
+    
+def main(outer_path):
+  count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
+  word_dict = ExternalDict("word.dict")
+  
+  
+  for year_folder in os.listdir(outer_path):                  #1987
+    year_path = add2path(year_folder, outer_path)
+    
+    for folder1 in get_immediate_folders(year_path):          #01 (has .tzg files in here)
+      folder1_path = add2path(folder1, year_path)
+      
+      for folder2 in get_immediate_folders(folder1_path):     #01 again
+        folder2_path = add2path(folder2, folder1_path)
+        #.xml files are here
+        for file in os.listdir(folder2_path):
+          file_path = add2path(file, folder2_path) 
+          print file_path
+          tree, root = xml_tree( file_path )
+          tokens = tokenize( get_text(tree,root) )
+          
+          word_dict = add_new_words(tokens, word_dict)
+          count_dict = update_count_dict(tokens, count_dict, word_dict)
+          
+    word_dict.save()
+    count_dict.save()
+          
+  word_dict.save()
+  count_dict.save()
+  
+main("/project/cis/nlp/data/corpora/nytimes/data")
