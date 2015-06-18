@@ -19,19 +19,20 @@ def merge_dicts(*dict_args):
     return result
 
 
-class ExternalDict(object):
+class ExternalDict:
   '''Creates an ExternalDict object to handle a constant dictionary needed for the 
   creation of files to be read by the GenSpec classifier.'''
   
   STARTING_VALUE = 1                                                            #Starting value for assignment of unique IDs
   
-  def __init__(self, fname):
-    '''Creates an ExternalDict object. Reads from a file "fname" if it exists, 
-    otherwise the dictionary starts off empty.
-    pre: fname is a string containing a filename. If a file exists by that name, it
+  def __init__(self, path):
+    '''Creates an ExternalDict object. Reads from a file at the provided path if it exists, 
+    otherwise the dictionary starts off empty, but can be saved at that location.
+    pre: path is a string representing a path to a file. If a file exists by that name, it
     must be in the form of an ExternalDict file.
-    ED form: "key>x<value\t" per entry in file -> key:value pair'''
-    self.fname = fname
+    ED form: "key>x<value\\t" per entry in file -> key:value pair'''
+    self.path = path
+    self.fname = os.path.basename(os.path.normpath( path ))
     self.dict = {}                  #Default
     self.upload()
     
@@ -80,7 +81,7 @@ class ExternalDict(object):
 #-------------Reading File
   def is_external_dict_exist(self):
     '''Checks if a file for the External Dict exists and returns True or False.'''
-    return os.path.isfile(self.fname)
+    return os.path.isfile(self.path)
 
 
   def upload(self):
@@ -98,7 +99,7 @@ class ExternalDict(object):
     object's dictionary. Merges with current key-value pairs in the ED, but overwites
     with newest information if the same key is found.'''
     ed = {}
-    dictFile = open(self.fname, "r")
+    dictFile = open(self.path, "r")
     lines = dictFile.readlines()
     items = lines[0].strip().split("\t")
     for item in items:
@@ -149,7 +150,7 @@ class ExternalDict(object):
     post: Outputs a file with the name of self.fname where the key:value pairs are 
     listed as follows: key:vakue\key:value...
     WARNING: Overwrites any file by the same name.'''
-    outFile = open(self.fname,"w") #Empties whatever was previously in the file
+    outFile = open(self.path,"w") #Empties whatever was previously in the file
     for item in self.items():
       try:
         outFile.write( str(item[0])+">x<"+str(item[1])+"\t" )
