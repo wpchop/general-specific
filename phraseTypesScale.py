@@ -18,7 +18,7 @@ def parse_tree(root):
 				ts = sent.findall('tokens')
 				for token in ts:
 					token_list = token.findall('token')
-					l = map(get_text_of_word, token_list)
+					#l = map(get_text_of_word, token_list)
 					for i in range(len(token_list)):
 						t = token_list[i]
 						if t.find("POS").text in pos_dict.keys():
