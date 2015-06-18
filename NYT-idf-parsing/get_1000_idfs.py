@@ -41,29 +41,39 @@ def match_ids(word_dict, lst):
       new_tups.append( (word, tup[1]) )
   return new_tups
 
+def find_longest_word(tups):
+  '''Given the list of tups, compares the length of tup[0] for each tuple, returning
+  the max length found (int).'''
+  lst = sorted(tups, key= lambda tup:len(tup[0]), reverse=True)
+  return len(lst[0][0])
+
+def calc_spaces(s, mx):
+  '''Given the string to print and the length of the longest word to output, will 
+  return a string with the desired number of spaces for even output.'''
+  return " "*((mx - len(s)) + 1)
+
 def output_tups(tups, filename):
   '''Given a list of tuples, outputs them into a text file named <filename>.
   WARNING: Will overwrite files of the same name.'''
   outFile = open(filename,"w")
-  num_tups_digits = len(str(len(tups)))                                         #Number of digits in the length of tups: If 1000 tups, it equals 4.
+  num_tups_digits = len(str(len(tups)))                                            #Number of digits in the length of tups: If 1000 tups, it equals 4.
+  mx = find_longest_word(tups)                                                     #Max word length
   for i, tup in enumerate(tups):
-    s = " "*( num_tups_digits - (len(str(i))-1) )                               #s = correct number of spaces for formatting
-    outFile.write( str(i+1)+'.'+s+tup[0]+':\t\t'+str(tup[1])+'\n' )                    #1. the:    0.03234
+    s = " "*( num_tups_digits - len(str(i+1)) )                                    #s = correct number of spaces for formatting
+    outFile.write( str(i+1)+'.'+s+tup[0]+calc_spaces(tup[0], mx)+"{0:.5f}".format(tup[1])+'\n' )                    #1. the:    0.03234
   print filename+" written."
   outFile.close()
 
 def main():
   words, idfs = get_dicts()
   sort = sort_dict_by_value(idfs)
-  low_idfs = sublist(sort,0,1000)
+  low_idfs = sublist(sort,0,1001)
   noIDs = match_ids(words, low_idfs)
   output_tups(noIDs, "low_nyt_idfs.txt")
 
 main()
 
 '''
-w = ExternalDict("w.txt")
-w.add_list(['a','b','c'])
-lst = [(1, .2), (2, .1), (3, .6)]
-print match_ids(w, lst)
+lst = [('a', 0), ('bid', 1), ('ec', 2)]
+print find_longest_word(lst)
 '''

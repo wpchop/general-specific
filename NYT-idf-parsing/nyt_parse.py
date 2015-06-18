@@ -1,7 +1,5 @@
 import os
 from sets import Set
-#import sys, os
-#sys.path.insert( 0, os.path.abspath(os.path.join(sys.path[0], os.pardir)) )
 from ExternalDict import ExternalDict
 import xml.etree.ElementTree as ET
 
@@ -45,6 +43,12 @@ def get_text(tree, root):
           text += paragraph.text+"\n"
         break
   return text
+  '''OLD VERSION
+  string = ''
+  for paragraph in root[1][1][1]:
+    string += (paragraph.text+"\n") 
+  return string
+  '''
 
 def is_not_number(s):
   try:
@@ -54,7 +58,7 @@ def is_not_number(s):
     return True
 
 def tokenize(string):
-  '''Given a string, deletes all the punctuation in it.'''
+  '''Given a string, tokenizes it and returns a list of tokens.'''
   noPunct = ""
   last_char = "q"
   for char in string:
@@ -145,24 +149,6 @@ def update_num_docs(count_dict, num_new_docs):
   
 #------------------ MAIN -------------------------------------------
 #/nitf/body/body.content/block[@class="full_text"]
-
-
-'''CLOUD9 TESTING
-count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
-word_dict = ExternalDict("word.dict")
-  
-for folder in get_immediate_folders(os.getcwd()):
-  path = add2path(folder, os.getcwd())
-  for file in os.listdir(path):
-    tree, root = xml_tree( add2path(file, path) )
-    tokens = tokenize( get_text(tree,root) )
-    
-    word_dict = add_new_words(tokens, word_dict)
-    count_dict = update_count_dict(tokens, count_dict, word_dict)
-word_dict.save()
-count_dict.save()
-'''
-
     
 def main(outer_path):
   count_dict = ExternalDict("count.dict")                 #count_dict special key: "totNumDocs":total number of docs accounted for
@@ -186,10 +172,11 @@ def main(outer_path):
           
           word_dict = add_new_words(tokens, word_dict)
           count_dict = update_count_dict(tokens, count_dict, word_dict)
+          
     word_dict.save()
     count_dict.save()
           
   word_dict.save()
   count_dict.save()
   
-#main("/project/cis/nlp/data/corpora/nytimes/data")
+main("/project/cis/nlp/data/corpora/nytimes/data")
