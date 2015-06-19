@@ -16,6 +16,8 @@ class idfCalculator():
     '''Creates an idfCalculator object that spits out idf calculations according
     to a count.dict ExternalDict file.'''
     self.count = ExternalDict("NYT/count.dict")
+    self.tot_docs = self.count["totNumDocs"]
+    del self.count['totNumDocs']
   
   def __getitem__(self, key): #idfCalc[key]
     '''Gets the value to match the given provided key.'''
@@ -29,7 +31,7 @@ class idfCalculator():
     
   def get_tot_docs(self):
     '''Returns the total number of documents the idf takes into account.'''
-    return self.count["totNumDocs"]
+    return self.tot_docs
     
   def get_idf_dict(self):
     '''Returns a dictionary {wordID:idf}, as it currently stands.'''
