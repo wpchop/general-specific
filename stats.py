@@ -169,7 +169,7 @@ out_scales = open(str(input_fname[0:input_fname.index(".")])+"_scales.txt","w")
 task_lengths = []
 amb_words = []                           #list of integers corresponding to ambiguity rating of a word
 amb_words_idfs = []                      #list of idf corresponding to idf of ambiguous words in amb_words
-word_dict = ExternalDict("word.dict")
+#word_dict = ExternalDict("NYT/word.dict")
 idf_calc = idfCalculator()
 all_corrs = []
 amb_phrase_idfs = []
@@ -218,15 +218,17 @@ for key in tasks:
       low = question.get_low()
       high = question.get_high()
       for i in range(low, high+1):
+        word = sentlist[i]
+        word = word.lower()
         amb_words.append(float(context_value_map[question.get_context()[0]]))
-        amb_words_idfs.append(idf_calc.idf(word_dict[sentlist[i].lower()]))
+        amb_words_idfs.append(idf_calc.idf(word))
         word_seen[i] = True
     for i, word in enumerate(sentlist):
       word = word.lower()
       if word_seen[i]:
-        amb_phrase_idfs.append(idf_calc.idf(word_dict[word]))
+        amb_phrase_idfs.append(idf_calc.idf(word))
       else:
-        unamb_words_idfs.append(idf_calc.idf(word_dict[word]))
+        unamb_words_idfs.append(idf_calc.idf(word))
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
 
@@ -302,8 +304,9 @@ info.append("\n95% Confidence Interval of unambiguous word idfs: " + str(mean_co
 #print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
 #print "average worker correlation: " + str(numpy.mean(all_corrs))
 
-#print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
-
+print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
+print idf_calc.idf("lkjl")
+print idf_calc.idf("the")
 #PRINTING THINGS
 
 outFile = open(input_fname[0:input_fname.index(".")] + "_output-stats.txt","w")
