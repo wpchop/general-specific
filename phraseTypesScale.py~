@@ -112,7 +112,17 @@ def get_amb_words_dict(root, sents):
 					for j in range(low, high+1):
 						token = tokens[j]
 						if token.find("POS").text in pos_dict.keys():
-							pos_dict[token.find("POS").text].append(token.find("word").text)	
+							pos_dict[token.find("POS").text].append(token.find("word").text)
+				'''for t in s.findall("tokens"):
+					token_list = t.findall("token")
+					for q in quests:
+						low = q.get_low()
+						high = q.get_high()
+						print high
+						for j in range(low, high+1):
+							token = token_list[j]
+							if token.find("POS").text in pos_dict.keys():
+								pos_dict[token.find("POS").text].append(token.find("word").text)	'''			
 				dicts.append(pos_dict)
 		
 	return (dicts)
