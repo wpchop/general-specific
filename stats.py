@@ -2,9 +2,9 @@ import scipy
 import numpy
 import matplotlib.pyplot as pl
 import scipy.stats
-from parse_turk_data import main as ptdmain
 from ExternalDict import ExternalDict
 from idfCalculator import idfCalculator
+from gather import ask_user_for_tasks as gather
 
 
 def extract_scale_nums(scales):
@@ -160,10 +160,10 @@ def cap_words(sent, amb_phrases):         #(sent = sentence object, amb_phrases 
   return " ".join(sentence)
 
 #------------------------------------------------------------MAIN------------------------------------------
-input_fname, tasks = ptdmain()
+tasks = gather()
 info = []
-out = open(str(input_fname[0:input_fname.index(".")])+"_amb_phrases.txt","w") 
-out_scales = open(str(input_fname[0:input_fname.index(".")])+"_scales.txt","w") 
+out = open("amb_phrases.txt","w") 
+out_scales = open("scales.txt","w") 
 task_lengths = []
 
 for key in tasks:
@@ -220,7 +220,7 @@ for key in tasks:
   for i, element in enumerate(meanandDevs):
     info.append("\nSentence: " + str(element[0]) + "\n\tmean: " + str(element[1]) + "\n\tstd dev: " + str(element[2]))
     info.append("\n\tmax: " + str(scale_maxes[i]) + "\n\tmin: " + str(scale_mins[i]))
-
+  '''
   info.append("\n\n----------------QUESTIONS------------\n")
   info.append("\n-----------Correlations between Workers---------\n")
   for corr in num_questions_corrs:
@@ -233,7 +233,7 @@ for key in tasks:
   
   info.append("\n\n------------------Keyword Frequencies-----------------")
   info.append(print_keyword_freqs(kwordsbySent))
-
+  '''
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
     info.append("\n\nSentence " + str(i)+": " + cap_words(task.get_sentences()[i], amb_phrases_per_sent[i]))
@@ -262,7 +262,7 @@ info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths
 
 #PRINTING THINGS
 
-outFile = open(input_fname[0:input_fname.index(".")] + "_output-stats.txt","w")
+outFile = open("output-stats.txt","w")
 
 for line in info:
   outFile.write(line)
