@@ -10,7 +10,7 @@ from ExternalDict import ExternalDict
 from math import log
 
 
-class idfCalculator():
+class idfCalculator(object):
   
   def __init__(self):
     '''Creates an idfCalculator object that spits out idf calculations according

@@ -11,15 +11,6 @@
 import numpy as np
 from gather import ask_user_for_tasks as gather
 
-'''
-1. Get tasks
-2. For each Sentence
-    -pull scores
-    -calc stdDev
-    -Get context labels
-3. Print it out yo
-'''
-
 def is_number(s):
   try:
     float(s)
