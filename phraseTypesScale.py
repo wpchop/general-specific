@@ -99,7 +99,7 @@ def get_tasks(num):
 def write_corr_file(all_dicts, scales, fname):
 	'''writes the file that has correlations between number of words of each POS and specificity scale
 	@param [{POS:[words]}], [int], "name of output file"'''
-	outFile = open(fname+"_corr1.txt","w")
+	outFile = open('output/'+fname+"_corr1.txt","w")
 	for t in all_dicts[0]:
 		corr = get_corr(get_freqs(t,all_dicts), scales)
 		outFile.write(t + "\t" + str(corr)+ "\n")

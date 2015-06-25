@@ -267,7 +267,7 @@ def write_output(outstr, f_name):
   '''Creates an output file containing the provided string outstr. The file will be
   named with the provided f_name. 
   WARNING: Will overwrite another file of the same name.'''
-  outFile = open(f_name,"w")
+  outFile = open('output/'+f_name,"w")
   outFile.write(outstr)
   outFile.close()
   

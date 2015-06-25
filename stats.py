@@ -162,8 +162,8 @@ def cap_words(sent, amb_phrases):         #(sent = sentence object, amb_phrases 
 #------------------------------------------------------------MAIN------------------------------------------
 tasks = gather()
 info = []
-out = open("amb_phrases.txt","w") 
-out_scales = open("scales.txt","w") 
+out = open("output/amb_phrases.txt","w") 
+out_scales = open("output/scales.txt","w") 
 task_lengths = []
 
 for key in tasks:
@@ -262,7 +262,7 @@ info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths
 
 #PRINTING THINGS
 
-outFile = open("output-stats.txt","w")
+outFile = open("output/output-stats.txt","w")
 
 for line in info:
   outFile.write(line)

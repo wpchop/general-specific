@@ -187,7 +187,7 @@ def main():
     meta, resultlines = read_results_file(result_fname)                         #Get the list of metadata and the lines from the .result file
     categories = make_category_dict(meta)                                       #A category dictionary parsed from the metadata
     tasks = add_questions_to_sentences(resultlines, categories, tasks)          #Add Questions to the proper Sentences
-    #write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
+    #write_output('output/'+input_fname,tasks)                                                         #Output to an output file "output.txt"
     return (input_fname, tasks)
 
 #main()
