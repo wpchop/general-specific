@@ -2,46 +2,48 @@ import numpy
 import xml.etree.ElementTree as ET
 from parse_turk_data import main
 from sets import Set
-'''check if avg_scale is in token list.find("word").text rather than checking first token.
-if so, take tokens from 2 after it'''
 
-'''order of turk task input file = order of xml input'''
+#IMPORTANT NOTE: order of turk task input file = order of xml input
 
-def get_text_of_word(t):
-	return t.find("word").text
+'''This script parses an xml tree created by StanfordCoreNLP. It also takes in the corresponding mTurk .input and .results files to match Sentence and Question objects with the tokens in the xml files. 
+
+This script was written with the intention of finding the correlation between the number of words asked about for each POS with the average scale.
+'''
 	
 def parse_tree(root):
+	'''@param root of an xml tree 
+	@return a dictionary {POS:[all words in sentence of this POS]}'''
 	dicts = []
 	for doc in root:
 		sentences = doc.findall('sentences')
 		for sent in sentences:
 			sent_list = sent.findall('sentence')
 			for i in range(len(sent_list)):
-				pos_dict = {"CC":[], "CD":[], "DT":[], "EX":[], "FW":[], "IN":[], "JJ":[], "JJR":[], "JJS":[], "LS":[], "MD":[], "NN":[], "NNS":[], "NNP":[], "NNPS":[], "PDT":[], "POS":[], "PRP":[], "PRP$":[], "RB":[], "RBR":[], "RBS":[], "RP":[], "SYM":[], "TO":[], "UH":[], "VB":[], "VBD":[], "VBG":[], "VBP":[], "VBZ":[], "WDT":[], "WP":[], "WP$":[], "WRB":[]}
+				pos_dict = {"CC":[], "CD":[], "DT":[], "EX":[], "FW":[], "IN":[], "JJ":[], "JJR":[], "JJS":[], "LS":[], "MD":[], "NN":[], "NNS":[], "NNP":[], "NNPS":[], "PDT":[], "POS":[], "PRP":[], "PRP$":[], "RB":[], "RBR":[], "RBS":[], "RP":[], "SYM":[], "TO":[], "UH":[], "VB":[], "VBD":[], "VBG":[], "VBN": [], "VBP":[], "VBZ":[], "WDT":[], "WP":[], "WP$":[], "WRB":[]}
 				sent = sent_list[i]
 				ts = sent.findall('tokens')
 				for token in ts:
 					token_list = token.findall('token')
-					#l = map(get_text_of_word, token_list)
 					for i in range(len(token_list)):
 						t = token_list[i]
 						if t.find("POS").text in pos_dict.keys():
 							pos_dict[t.find('POS').text].append(t.find("word").text)
 				dicts.append(pos_dict)
-					
-		
-	return (dicts)
+	return dicts
 
-def get_type(t, sentence):
-	'''gives the number of phrases marked ambiguous in given sentence
+'''def get_type(t, sentence):
+	gives the number of phrases marked ambiguous in given sentence
 	@param type = string ("noun", "proper", etc.), sentence = [int]
 	@return [int]
-	'''
+	
 	types = {"noun":2, "proper":3, "event":4, "pronoun": 5, "verb":6, "adj":7, "adv":8, "preposition":9, "article":10, "conjunction":11}
-	return sentence[types[t]]
+	return sentence[types[t]]'''
 	
 def get_corr(l1, l2):
-	if l1 == [0.0]*len(l1):
+	'''gets the correlation between 2 lists as long as neither of them are only 0s.
+	@param 2 lists
+	@return correlation coefficient (float)'''
+	if l1 == [0.0]*len(l1) or l2 == [0.0]*len(l1):
 		return " NA"
 	return numpy.corrcoef(l1,l2)[0][1]
 	
@@ -54,7 +56,10 @@ def get_corr(l1, l2):
 			type_freqs.append(get_type(t,sent)/len(sent))
 	return get_corr(type_freqs, scales)'''
 
-def get_freqs(t, dicts):	#t is POS, dicts = list of dictionaries
+def get_freqs(t, dicts):	
+	'''Given a POS t and a list of dictionaries, this function finds the number of words that of POS t for each dictionary
+	@param t is POS, dicts = list of dictionaries (each dictionary represents a sentence)
+	@return [int] - list of frequencies of words that are POS t in each dictionary. index = index of dict in dicts (ie. index of sentence)'''
   freqs = []
   for d in dicts:
   	if t in d:
@@ -62,7 +67,9 @@ def get_freqs(t, dicts):	#t is POS, dicts = list of dictionaries
   return freqs
   
 def get_tasks(num):
-	'''returns tasks and sentence objects. Order of sentences correspond to order of input files'''
+	'''@param number of tasks one plans on entering.
+	@return [tasks] and [[sentences of each task]] objects. 
+	Order of sentences corresponds to order of input files'''
 	all_tasks = []
 	sents = []	#list of lists where each list corresponds to a task
 	for i in range(num):
@@ -89,6 +96,8 @@ def get_tasks(num):
 
 
 def write_corr_file(all_dicts, scales, fname):
+	'''writes the file that has correlations between number of words of each POS and specificity scale
+	@param [{POS:[words]}], [int], "name of output file"'''
 	outFile = open(fname+"_corr1.txt","w")
 	for t in all_dicts[0]:
 		corr = get_corr(get_freqs(t,all_dicts), scales)
@@ -96,13 +105,16 @@ def write_corr_file(all_dicts, scales, fname):
 	outFile.close()
 
 def get_amb_words_dict(root, sents):
+	''' given a tree and list of sentences, this function gives a dictionary that stores the words that are of each POS
+	@param root of tree, [Sentence object]
+	@return [{POS:[words in sentence]}]; index of list of dicts = sentence number'''
 	dicts = []
-		
 	for doc in root:
 		for sent in doc.findall("sentences"):
 			for i in range(len(sent.findall("sentence"))):
 				s = sent.findall("sentence")[i]
-				pos_dict = {"CC":[], "CD":[], "DT":[], "EX":[], "FW":[], "IN":[], "JJ":[], "JJR":[], "JJS":[], "LS":[], "MD":[], "NN":[], "NNS":[], "NNP":[], "NNPS":[], "PDT":[], "POS":[], "PRP":[], "PRP$":[], "RB":[], "RBR":[], "RBS":[], "RP":[], "SYM":[], "TO":[], "UH":[], "VB":[], "VBD":[], "VBG":[], "VBP":[], "VBZ":[], "WDT":[], "WP":[], "WP$":[], "WRB":[]}
+				pos_dict = {"C": [], "DT": [], "EX": [], "FW": [], "PREP": [], "ADJ": [], "NN": [], "NNP": [], "PR": [], "ADV": [], "PART": [], "VB": [], "SYM": []}
+				mapping = {"CC": "C", "CD": "SYM", "DT": "DT", "EX": "EX", "FW": "FW", "IN": "PREP", "JJ": "ADJ", "JJR": "ADJ", "JJS": "ADJ", "NN": "NN", "NNS": "NN", "NNP": "NNP", "NNPS": "NNP", "PDT": "DT", "PRP": "PR", "PRP$": "PR", "RB": "ADV", "RBR": "ADV", "RBS": "ADV", "RP": "PART", "SYM": "SYM", "TO": "C", "VB": "VB", "VBD": "VB", "VBG":"VB", "VBN": "VB", "VBP":"VB", "VBZ":"VB", "WDT": "DT", "WP$": "PR", "WRB": "ADV"}
 				quests = sents[i].get_questions()
 				tokens = s.findall("tokens")[0].findall("token")
 				
@@ -112,22 +124,11 @@ def get_amb_words_dict(root, sents):
 					for j in range(low, high+1):
 						token = tokens[j]
 						if token.find("POS").text in pos_dict.keys():
-							pos_dict[token.find("POS").text].append(token.find("word").text)
-				'''for t in s.findall("tokens"):
-					token_list = t.findall("token")
-					for q in quests:
-						low = q.get_low()
-						high = q.get_high()
-						print high
-						for j in range(low, high+1):
-							token = token_list[j]
-							if token.find("POS").text in pos_dict.keys():
-								pos_dict[token.find("POS").text].append(token.find("word").text)	'''			
+							pos_dict[mapping[token.find("POS").text]].append(token.find("word").text)	
 				dicts.append(pos_dict)
-		
-	return (dicts)
+	return dicts
 
-outFile = open("ambTypesScales.txt","w")\
+outFile = open("ambTypesScales.txt","w")
 
 tasks, sents = get_tasks(2)
 
@@ -138,9 +139,9 @@ scales = []			#[float]
 
 while True:
 	fname = raw_input("Enter xml file name (press enter when done): ")
-	scale_fname = raw_input("Enter file with scales: ")
+	scale_fname = raw_input("Enter file with scales (press enter when done): ")
 	
-	if fname == "" or scale_fname == "":
+	if fname == "" or scale_fname == "":		#user hits ENTER for both prompts, signalling end of list of files
 		break
 	else:
 		scales += map(float, open(scale_fname, "r").readlines())
@@ -151,9 +152,11 @@ while True:
 for i in range(len(roots)):
 	all_dicts += (parse_tree(roots[i]))
 	amb_phrases_dicts += (get_amb_words_dict(roots[i], sents[i]))
-	amb_phrases_dicts
 
 write_corr_file(amb_phrases_dicts, scales, "amb")
 write_corr_file(all_dicts, scales, "all")
 
+
+'''StanfordCoreNLP POS:
+#pos_dict = {"CC":[], "CD":[], "DT":[], "EX":[], "FW":[], "IN":[], "JJ":[], "JJR":[], "JJS":[], "LS":[], "MD":[], "NN":[], "NNS":[], "NNP":[], "NNPS":[], "PDT":[], "POS":[], "PRP":[], "PRP$":[], "RB":[], "RBR":[], "RBS":[], "RP":[], "SYM":[], "TO":[], "UH":[], "VB":[], "VBD":[], "VBG":[], "VBP":[], "VBZ":[], "WDT":[], "WP":[], "WP$":[], "WRB":[]}'''
 

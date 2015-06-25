@@ -19,7 +19,8 @@ def parse_tree(root):
 		for sent in sentences:
 			sent_list = sent.findall('sentence')
 			for i in range(len(sent_list)):
-				pos_dict = {"CC":[], "CD":[], "DT":[], "EX":[], "FW":[], "IN":[], "JJ":[], "JJR":[], "JJS":[], "LS":[], "MD":[], "NN":[], "NNS":[], "NNP":[], "NNPS":[], "PDT":[], "POS":[], "PRP":[], "PRP$":[], "RB":[], "RBR":[], "RBS":[], "RP":[], "SYM":[], "TO":[], "UH":[], "VB":[], "VBD":[], "VBG":[], "VBN": [], "VBP":[], "VBZ":[], "WDT":[], "WP":[], "WP$":[], "WRB":[]}
+				pos_dict = {"C": [], "DT": [], "EX": [], "FW": [], "PREP": [], "ADJ": [], "NN": [], "NNP": [], "PR": [], "ADV": [], "PART": [], "VB": [], "SYM": []}
+				mapping = {"CC": "C", "CD": "SYM", "DT": "DT", "EX": "EX", "FW": "FW", "IN": "PREP", "JJ": "ADJ", "JJR": "ADJ", "JJS": "ADJ", "NN": "NN", "NNS": "NN", "NNP": "NNP", "NNPS": "NNP", "PDT": "DT", "PRP": "PR", "PRP$": "PR", "RB": "ADV", "RBR": "ADV", "RBS": "ADV", "RP": "PART", "SYM": "SYM", "TO": "C", "VB": "VB", "VBD": "VB", "VBG":"VB", "VBN": "VB", "VBP":"VB", "VBZ":"VB", "WDT": "DT", "WP$": "PR", "WRB": "ADV"}
 				sent = sent_list[i]
 				ts = sent.findall('tokens')
 				for token in ts:
