@@ -10,14 +10,14 @@ from ExternalDict import ExternalDict
 from math import log
 
 
-class idfCalculator():
+class idfCalculator(object):
   
   def __init__(self):
     '''Creates an idfCalculator object that spits out idf calculations according
     to a count.dict ExternalDict file.'''
     self.count = ExternalDict("NYT/count.dict")
     self.tot_docs = self.count["totNumDocs"]
-    del self.count['totNumDocs']
+    del self.count.dict['totNumDocs']
   
   def __getitem__(self, key): #idfCalc[key]
     '''Gets the value to match the given provided key.'''
