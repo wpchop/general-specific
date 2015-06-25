@@ -6,10 +6,10 @@ For use when current working directory is the CoreNLP folder:
 Note: Feel free to remove annotators if you don't want them. May be necessary to do for very large files.
 
 1. When you have one file to run
-    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref -file <FILE NAME HERE>
+    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref,entitymentions -file <FILE NAME HERE>
 
 2. When you have multiple files to run
-    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref -filelist <FILE CONTAINING LIST OF FILES>
+    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref,entitymentions -filelist <FILE CONTAINING LIST OF FILES>
 The filelist file must contain one filename per line.
 
 3. If you don't want to load the whole directory
