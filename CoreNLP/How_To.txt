@@ -1,0 +1,23 @@
+Here I have included some notes on using CoreNLP in a simplified, understandable way.
+
+
+For use when current working directory is the CoreNLP folder:
+-------------------------------------------------------------
+Note: Feel free to remove annotators if you don't want them. May be necessary to do for very large files.
+
+1. When you have one file to run
+    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref -file <FILE NAME HERE>
+
+2. When you have multiple files to run
+    java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref -filelist <FILE CONTAINING LIST OF FILES>
+The filelist file must contain one filename per line.
+
+3. If you don't want to load the whole directory
+    java -cp stanford-corenlp-3.5.2.jar:stanford-corenlp-3.5.2-models.jar:xom.jar:joda-time.jar:jollyday.jar:ejml-0.23.jar -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -file <FILE NAME HERE>
+To do it with a filelist, replace with -filelist <FILE CONTAINING LIST OF FILES>
+
+Additional Help:
+* Use -replaceExtension to have the output files named like this: test.txt --> test.xml, instead of test.txt --> test.txt.xml
+* Use -outputDirectory <DIRECTORY> to put the output file in a child folder by that name. Creates it if it doesn't yet exist.
+* If you want to put your input txt files into a folder, in the command simply add "<DIRECTORY>/" instead of just the filename after -file. You can use a full path if the files are elsewhere.
+   -Note: If using a filelist, paths can be used as well.
