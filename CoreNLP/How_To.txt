@@ -1,6 +1,4 @@
 Here I have included some notes on using CoreNLP in a simplified, understandable way.
-
-
 For use when current working directory is the CoreNLP folder:
 -------------------------------------------------------------
 Note: Feel free to remove annotators if you don't want them. May be necessary to do for very large files.
@@ -21,3 +19,14 @@ Additional Help:
 * Use -outputDirectory <DIRECTORY> to put the output file in a child folder by that name. Creates it if it doesn't yet exist.
 * If you want to put your input txt files into a folder, in the command simply add "<DIRECTORY>/" instead of just the filename after -file. You can use a full path if the files are elsewhere.
    -Note: If using a filelist, paths can be used as well.
+   
+   
+Configuration files:
+--------------------
+* Configuration files have the extension .properties
+* Use -props <FILE> to indicate the config file on the command line
+* Must have a line that indicates the annotators to use:
+    * annotators = tokenize,ssplit,post,lemma,ner,parse,dcoref,entitymentions
+* From the "Annotator options" list, you may place an option on each line, for example:
+    * ssplit.newlineIsSentenceBreak = "two"
+        * This specifies that a sentence will only be recognized as such when there are two newline characters after it.
