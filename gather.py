@@ -1,6 +1,7 @@
 from ExternalDict import merge_dicts
 from parse_turk_data import main as m
 from parse_ani_data import main as am
+from parse_turk_data import read_input_file as readm
   
 #---------------------------- Data Collection ----------------------------------
 
@@ -10,66 +11,75 @@ def gather_data():
   post: Returns a dictionary containing all data. Key value pairs can be as follows:
       "fname" : [(rating, "sentence"), ...]    <--Ani's data files
      "taskID" : Task                           <--mTurk result files'''
-  c = {0:ask_user_for_tasks, 1:ask_user_for_ani_data}                              #If new data format, add something here
-  data = {}
-  while True:
-    choice = user_infile_type()
-    data = merge_dicts(c[choice](), data)
-    cont = raw_input("Are there more data files to include? y/n : ")
-    if 'y' not in cont.lower(): break
-  return data
+  files = read_input_file()
+  mturk_files = [item for item in files if (not is_string(item))]
+  ani_files = filter(is_string, files)
+  return merge_dicts( collect_tasks(mturk_files), collect_ani_data(ani_files) )
 
 
 #------------Different Data File Inputs------------------------
-def user_infile_type():
-  '''Handles user input for the choice of data to parse. Returns an int representing
-  the choice.
-  0: mTurk result files
-  1: Ani and Annie's annotated data from wsj/asp/nyt'''
-  choice = -400
-  while choice not in range(2):
-    choice = int(raw_input('''\nWhich of the following data files would you like to input?
-  0: mTurk result files
-  1: Ani and Annie's annotated data from wsj/asp/nyt
-Enter the appropriate integer: '''))
-  return choice
+def is_string(item):
+  '''Returns True if the given item is a string, False otherwise.'''
+  return True if type(item) is str else False
+
+def read_input_file():
+    '''Uses a text file "input.txt" that lists all desired input files. 
+    * The mTurk files should be listed on one line in the following format:
+        mturk:\t<file>\t<file> 
+      * where <file> is the name of BOTH the .input and .results file, listed here 
+        without the extension, ex: week3
+    * The Ani data files should be as follows:
+        ani:\tnyt.txt\twsj.txt
+    Returns the list of tuples and strings, where each tuple is of the form 
+    ("file.input", "file.results")'''
+    fname_list = []
+    with open('data/input.txt', 'r') as inFile:
+      for line in inFile:
+        items = line.strip().split('\t')[1:]
+        if line[:5] == 'mturk':
+          for item in items:
+            fname_list.append( (item+'.input', item+'.results') )
+        if line[:3] == 'ani':
+          for item in items:
+            fname_list.append( item )
+    return fname_list
   
 #---------------Ani's Data Files ------------------------
-def ask_user_for_ani_data():
-  '''Handles user input for the collection of data from Ani and Annie's annotated
-  data from newspapers.
+def collect_ani_data(ani_files):
+  '''Takes in a list of strings representing filenames.
   post: Returns a dictionary containing the data such that "fname":[(rating, "sentence")]'''
   data_dict = {}
-  print ""
-  while True:
-    data_tup = am()                                                 #(fname, [tups])
+  for string in ani_files:
+    data_tup = am(string)                                           #(fname, [tups])
     data_dict[data_tup[0]] = data_tup[1]                            #"fname":[(rating, "sentence")]
-    cont = raw_input("Are there more 'Ani's data' files to include? y/n : ")
-    if 'y' not in cont.lower(): break
   return data_dict
 
 #---------------mTurk Result Files ------------------------
-def ask_user_for_tasks():
-  '''Handles user input for the collection of all data from all tasks. Loops through
-  task acception until user indicates they are finished.
+def collect_tasks(mturk_files=[]):
+  '''Takes in a list of tuples such that (file.input, file.results). If not
+  provided, uses an empty list and tries to read from file again.
   post: Returns a dictionary containing all tasks collected.'''
   task_dict = {}
-  print ""
-  while True:
-    task_dict = add_tasks(task_dict)
-    cont = raw_input("Are there more mTurk result files to include? y/n : ")
-    if 'y' not in cont.lower(): break
+  if mturk_files != []:
+    for tup in mturk_files:
+      task_dict = add_tasks(tup, task_dict)
+      
+  else:
+    fname_list = readm()
+    if fname_list != []:
+      for tup in fname_list:
+        task_dict = add_tasks(tup, task_dict)
+        
   return task_dict
 
-
-def add_tasks(task_dict):
+def add_tasks(tup, task_dict):
   '''Adds tasks from an mTurk output to the provided dictionary.
-  pre: task_dict is a dictionary of tasks.
-  post: Returns a new dictionary with the tasks from the asked for files.'''
-  more_tasks = m()[1]
+  pre: tup is a tuple such that (file.input, file.results), task_dict is a 
+  dictionary of tasks.
+  post: Returns a new dictionary with the tasks from the files.'''
+  more_tasks = m(tup[0], tup[1])
   new_dict = merge_dicts(task_dict, more_tasks)
   return new_dict
-
 
 #---------------------------- Feature Selection --------------------------------
 
@@ -111,5 +121,3 @@ def main():
   data_dict = gather_data()                                               #Get dictionary of ALL DATA  
   feature_choice = user_feature_selection()                               #Which set of features to use
   return (file_type, feature_choice, data_dict)
-
-

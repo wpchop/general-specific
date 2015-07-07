@@ -1,0 +1,2 @@
+mturk:	week2	week3	week5
+ani: nyt.txt
