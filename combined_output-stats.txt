@@ -1,0 +1,4106 @@
+=========================================================
+TASK: 2005_01_05_1639693.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.45
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.87
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.45
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 4.0
+	std dev: 1.41
+	max: 5
+	min: 2
+Sentence: 2
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: According to the lawsuit(1/1) , Mr.(1/1) Salinas(1/1) Pliego(1/1) failed to inform shareholders about a(2/2) complex(3/3) deal(3/3) between Unefon , TV Azteca 's phone unit , and a(1/1) company(1/1) formed by Mr. Salinas Pliego and an associate , Moises Saba .Sent 0: 
+	# Q's: 0 %: 77.5
+	# Q's: 1 %: 15.0
+	# Q's: 2 %: 2.5
+	# Q's: 3 %: 5.0
+
+
+Sentence 1: That(1/1) company , called Codisco , bought Unefon(2/2) debt(1/1) at a(2/2) deep(2/2) discount(2/2) .Sent 1: 
+	# Q's: 0 %: 57.14
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 28.57
+
+
+Sentence 2: Four(3/3) months(3/3) later(3/3) , Mr. Salinas Pliego reaped more than $ 109 million in suspected(1/1) ill-gotten(2/2) profits(2/2) by selling the Unefon debt back , at full(2/2) price(2/2) , to TV Azteca .Sent 2: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 3.13
+	# Q's: 2 %: 12.5
+	# Q's: 3 %: 9.38
+
+
+Sentence 3: According to the S.E.C. , Mr.(1/1) Salinas(1/1) Pliego(1/1) not only failed to disclose the(3/3) transaction(3/3) to his board , as the law requires for any related-party transaction , but he also misrepresented(3/3) the(3/3) nature(3/3) of(3/3) the(3/3) transaction(3/3) to his board , the press and the S.E.C. '' After the resignation of TV Azteca 's U.S. legal counsel and a Dec. 24 , 2003 , New York Times article concerning the matter , Mr.(2/2) Echarte(2/2) sent an e-mail to Mr. Salinas Pliego and Mr. Padilla stating , ` The damage is done and the situation that we did n't want to explain openly is now in the hands of the press , '' ' according to the S.E.C. press release .Sent 3: 
+	# Q's: 0 %: 89.17
+	# Q's: 1 %: 2.5
+	# Q's: 2 %: 1.67
+	# Q's: 3 %: 6.67
+
+
+Sentence 4: Stephen M. Cutler , director of enforcement at the S.E.C. , said : '' Salinas(2/2) took from the(1/1) company(2/2) a(1/1) valuable(1/1) corporate(2/2) opportunity(2/2) and over a period of many(2/2) months(2/2) concealed that(1/1) transaction(2/2) in violation(1/1) of(1/1) the(1/1) U.S.(1/1) securities(1/1) laws(1/1) .Sent 4: 
+	# Q's: 0 %: 58.54
+	# Q's: 1 %: 24.39
+	# Q's: 2 %: 17.07
+
+
+Sentence 5: The federal securities laws are designed to ensure full(1/1) and(1/1) fair(1/1) disclosure(1/1) about related party(1/1) transactions . ''Sent 5: 
+	# Q's: 0 %: 72.22
+	# Q's: 1 %: 27.78
+
+
+Sentence 6: Mexico 's main securities regulator , the Comisión Nacional Bancaria y de Valores , has been conducting its own investigation of the(1/1) Codisco-Unefon(3/3) affair(3/3) and has now determined that Mexican(1/1) securities(1/1) laws(1/1) were(1/1) broken(1/1) , a(1/1) top(1/1) official(1/1) said Tuesday .Sent 6: 
+	# Q's: 0 %: 73.17
+	# Q's: 1 %: 21.95
+	# Q's: 3 %: 4.88
+
+Correlation between Scale and Percent of Sentence not asked about: -0.420255297715
+
+-----------------Context Labels-----------------
+No: 0.340425531915
+Immediate: 0.255319148936
+Some: 0.297872340426
+Vague: 0.106382978723
+
+------------------Overlap-----------------------
+proper: 12	equal: 15	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643393.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.85
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.93
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.91
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 1
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 5
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 6
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 8
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 9
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The people of California knew exactly what(1/1) I(1/1) stood(2/2) for(1/1) and said to me , ` Barbara , go and be a truth(1/1) teller(1/1) , '' ' she said in an interview after the hearings(3/3) .Sent 0: 
+	# Q's: 0 %: 80.56
+	# Q's: 1 %: 13.89
+	# Q's: 2 %: 2.78
+	# Q's: 3 %: 2.78
+
+
+Sentence 1: The exchanges between the(1/1) two(1/1) accomplished(1/1) women(2/2) -- '' she 's a very good(1/1) debater and I 'm a pretty good debater , and that 's interesting , '' the senator(1/1) said -- marked some of the most compelling(1/1) moments during hearings(1/1) that had a certain(1/1) outcome(2/2) , since Ms. Rice 's confirmation(2/2) was never(1/1) in doubt .Sent 1: 
+	# Q's: 0 %: 79.31
+	# Q's: 1 %: 15.52
+	# Q's: 2 %: 5.17
+
+
+Sentence 2: Even so , the publicity that their(3/3) sharp(1/1) exchanges attracted may have helped persuade the Democrats to demand on Wednesday a debate on the nomination(2/2) on the Senate floor as well , which would delay the confirmation(1/1) vote(1/1) until next week .Sent 2: 
+	# Q's: 0 %: 88.1
+	# Q's: 1 %: 7.14
+	# Q's: 2 %: 2.38
+	# Q's: 3 %: 2.38
+
+
+Sentence 3: Republicans privately accused her(3/3) of grandstanding(1/1) and playing to the party(1/1) 's left wing , but conceded(1/1) that that was her prerogative(1/1) .Sent 3: 
+	# Q's: 0 %: 78.26
+	# Q's: 1 %: 17.39
+	# Q's: 3 %: 4.35
+
+
+Sentence 4: Supporters of Ms. Rice said Ms. Boxer had inflicted(1/1) no damage on the(1/1) nominee(1/1) , who on Tuesday cautioned(1/1) the senator about '' impugning my integrity . ''Sent 4: 
+	# Q's: 0 %: 85.71
+	# Q's: 1 %: 14.29
+
+
+Sentence 5: Democratic colleagues said they had no doubt about the(1/1) Californian(3/3) 's sincerity(2/2) . ''Sent 5: 
+	# Q's: 0 %: 78.57
+	# Q's: 1 %: 7.14
+	# Q's: 2 %: 7.14
+	# Q's: 3 %: 7.14
+
+
+Sentence 6: I do n't(1/1) always agree(1/1) with her , '' said Senator Charles E. Schumer of New York , who has known Ms.(1/1) Boxer(1/1) since she was elected to the House in 1982 . ''Sent 6: 
+	# Q's: 0 %: 88.24
+	# Q's: 1 %: 11.76
+
+
+Sentence 7: But(2/2) she(2/2) is wholly genuine(1/1) .Sent 7: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 16.67
+	# Q's: 2 %: 33.33
+
+
+Sentence 8: She(2/2) really(1/1) believes what(1/1) she says .Sent 8: 
+	# Q's: 0 %: 57.14
+	# Q's: 1 %: 28.57
+	# Q's: 2 %: 14.29
+
+
+Sentence 9: She(2/2) feels it(2/2) strongly(1/1) .Sent 9: 
+	# Q's: 0 %: 40.0
+	# Q's: 1 %: 20.0
+	# Q's: 2 %: 40.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.615480545055
+
+-----------------Context Labels-----------------
+No: 0.160714285714
+Immediate: 0.339285714286
+Some: 0.428571428571
+Vague: 0.0714285714286
+
+------------------Overlap-----------------------
+proper: 4	equal: 18	intersect: 1	
+
+
+=========================================================
+TASK: 2005_01_19_1643276.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.77
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.65
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.25
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 4
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 5
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 6
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 7
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 2.67
+	std dev: 2.49
+	max: 6
+	min: 0
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Insurgents(1/1) on Tuesday released a Syrian Catholic archbishop they had snatched(1/1) from the streets(1/1) of(1/1) Mosul(1/1) the day before , but a few hours later a new hostage drama opened when eight Chinese construction workers were(1/1) shown(1/1) forlornly staring at a video camera with masked men pointing guns at their heads .Sent 0: 
+	# Q's: 0 %: 86.54
+	# Q's: 1 %: 13.46
+
+
+Sentence 1: Also , the Iraqi interior minister issued a bleak forecast , saying that unless(1/1) enough(2/2) people(2/2) vote(1/1) in(1/1) the(1/1) elections(2/2) on(1/1) Jan.(1/1) 30(1/1) ,(1/1) the(2/2) country(2/2) would(2/2) tear(3/5) itself(3/5) apart(3/5) . ''Sent 1: 
+	# Q's: 0 %: 46.88
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 18.75
+	# Q's: 5 %: 9.38
+
+
+Sentence 2: If there are not(1/1) good(3/3) elections(2/2) , we wo n't have a constitution , and there will be chaos(1/1) , and we will have a civil(1/1) war(1/1) , '' the minister(1/1) , Falah Hassan al-Naqib , said at a news conference in the heavily fortified Interior Ministry in Baghdad .Sent 2: 
+	# Q's: 0 %: 86.0
+	# Q's: 1 %: 10.0
+	# Q's: 2 %: 2.0
+	# Q's: 3 %: 2.0
+
+
+Sentence 3: Gunfire(1/1) rattled behind him(3/3) nearly the whole time he(1/1) spoke(2/2) .Sent 3: 
+	# Q's: 0 %: 63.64
+	# Q's: 1 %: 18.18
+	# Q's: 2 %: 9.09
+	# Q's: 3 %: 9.09
+
+
+Sentence 4: Mr.(1/1) Naqib(1/1) did(1/1) not(1/1) specify(1/1) how much voter turnout would qualify as a good election(2/2) .Sent 4: 
+	# Q's: 0 %: 62.5
+	# Q's: 1 %: 31.25
+	# Q's: 2 %: 6.25
+
+
+Sentence 5: John D. Negroponte , the American ambassador to Iraq , said he was confident that '' elections(1/1) can and will be conducted(1/1) successfully(1/1) , '' but he acknowledged that there was no end in sight to the insurgency(3/3) and that American officials still did not know how big(1/1) it was .Sent 5: 
+	# Q's: 0 %: 90.2
+	# Q's: 1 %: 7.84
+	# Q's: 3 %: 1.96
+
+
+Sentence 6: Among American and Iraqi officials , estimates of the number(1/1) of(1/1) insurgents(3/3) have fluctuated wildly , from the thousands , as the Pentagon has said , to the hundreds of thousands , as many Iraqi officials say .Sent 6: 
+	# Q's: 0 %: 92.11
+	# Q's: 1 %: 5.26
+	# Q's: 3 %: 2.63
+
+
+Sentence 7: Right now , there are around 425 attacks(3/5) a week in Iraq , according to American officials , nearly the same rate as six months ago .Sent 7: 
+	# Q's: 0 %: 96.3
+	# Q's: 5 %: 3.7
+
+
+Sentence 8: The newly(2/2) released(3/3) archbishop(1/1) , Basile Georges Casmoussa , was in a jovial(2/2) mood(1/1) as he met with well-wishers at his Eastern Rite Catholic church in Mosul , a crime-ridden city in northern Iraq that contains one of Iraq 's larger(1/1) Christian communities .Sent 8: 
+	# Q's: 0 %: 86.36
+	# Q's: 1 %: 6.82
+	# Q's: 2 %: 4.55
+	# Q's: 3 %: 2.27
+
+
+Sentence 9: Christians(1/1) make up about 3 percent of Iraq 's total(1/1) population(1/1) .Sent 9: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 25.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.69534281278
+
+-----------------Context Labels-----------------
+No: 0.448979591837
+Immediate: 0.224489795918
+Some: 0.163265306122
+Vague: 0.163265306122
+
+------------------Overlap-----------------------
+proper: 19	equal: 21	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_19_1643276.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.69
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.71
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.71
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 2
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 3
+	mean: 4.0
+	std dev: 1.41
+	max: 5
+	min: 2
+Sentence: 4
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 5
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 6
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 7
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 1.33
+	std dev: 1.25
+	max: 3
+	min: 0
+Sentence: 9
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Certain religious and political groups -- Iraqis , but helped by others(1/1) -- are trying to fragment(2/3) this(2/2) country(2/2) , '' he(3/3) said . ''Sent 0: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 4.0
+	# Q's: 2 %: 8.0
+	# Q's: 3 %: 8.0
+
+
+Sentence 1: It 's treason if you do n't(1/1) vote(2/2) because it will arouse(1/1) a(1/1) civil(2/3) war(2/3) . ''Sent 1: 
+	# Q's: 0 %: 64.71
+	# Q's: 1 %: 17.65
+	# Q's: 2 %: 5.88
+	# Q's: 3 %: 11.76
+
+
+Sentence 2: American and Iraqi officials are desperately(1/1) trying(2/2) to(1/1) draw(1/1) Sunni Arabs , who are a fifth of the population(1/1) but who are thought to make(1/1) up(1/1) the(1/1) bulk(1/1) of the(1/1) resistance(3/3) , into the electoral process .Sent 2: 
+	# Q's: 0 %: 70.27
+	# Q's: 1 %: 24.32
+	# Q's: 2 %: 2.7
+	# Q's: 3 %: 2.7
+
+
+Sentence 3: Many Sunni political parties(1/1) are boycotting the(1/1) vote(3/3) , calling it illegitimate(2/2) .Sent 3: 
+	# Q's: 0 %: 69.23
+	# Q's: 1 %: 15.38
+	# Q's: 2 %: 7.69
+	# Q's: 3 %: 7.69
+
+
+Sentence 4: But according to an Iraqi cable television station , at least one(1/1) group(1/1) of Sunni tribes in Tikrit announced Tuesday that it would take(2/2) part(2/2) in the elections(2/2) .Sent 4: 
+	# Q's: 0 %: 82.76
+	# Q's: 1 %: 6.9
+	# Q's: 2 %: 10.34
+
+
+Sentence 5: Officials from the International Organization for Migration announced Tuesday that more than 18,000 Iraqi expatriates in 14(1/1) countries(1/1) registered Monday to vote in Iraq 's election(1/1) .Sent 5: 
+	# Q's: 0 %: 88.89
+	# Q's: 1 %: 11.11
+
+
+Sentence 6: In the United States , 3,270 Iraqis registered(3/3) .Sent 6: 
+	# Q's: 0 %: 88.89
+	# Q's: 3 %: 11.11
+
+
+Sentence 7: Monday was the(1/1) first(1/1) day(1/1) to(1/1) register(3/3) , and the process will run through Sunday .Sent 7: 
+	# Q's: 0 %: 68.75
+	# Q's: 1 %: 25.0
+	# Q's: 3 %: 6.25
+
+
+Sentence 8: In Baghdad on Tuesday , an American soldier was killed by a bomb(1/1) blast , and at least one member of the Supreme Council for the Islamic Revolution in Iraq , a leading Shiite political party , was killed by a suicide bombing.The familiar(2/2) residue of charred car parts and spilled motor oil littered the streets in front of the party 's headquarters . ''Sent 8: 
+	# Q's: 0 %: 96.92
+	# Q's: 1 %: 1.54
+	# Q's: 2 %: 1.54
+
+
+Sentence 9: The(1/1) car(2/2) tried(1/1) to(1/1) burst(1/1) into the(1/1) building(3/3) but the brave(1/1) guards(1/1) faced(2/2) it , '' said Reza Jawad Taki , a party(1/1) officer .Sent 9: 
+	# Q's: 0 %: 56.0
+	# Q's: 1 %: 32.0
+	# Q's: 2 %: 8.0
+	# Q's: 3 %: 4.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.682280313766
+
+-----------------Context Labels-----------------
+No: 0.314814814815
+Immediate: 0.333333333333
+Some: 0.296296296296
+Vague: 0.0555555555556
+
+------------------Overlap-----------------------
+proper: 15	equal: 19	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_25_1644798.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.53
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.74
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.49
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 1.41
+	max: 5
+	min: 2
+Sentence: 1
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 4
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 5
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.67
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 9
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: In an(1/1) interview(1/1) yesterday , Peter Mondavi Jr. said the(1/1) breach(3/3) between his(1/1) father(1/1) and his uncle had(1/1) been(1/1) closing(2/2) slowly(1/1) in recent(1/1) years(1/1) .Sent 0: 
+	# Q's: 0 %: 52.0
+	# Q's: 1 %: 40.0
+	# Q's: 2 %: 4.0
+	# Q's: 3 %: 4.0
+
+
+Sentence 1: He(3/3) said the one-time joint winemaking venture(1/1) was meant in(1/1) part(1/1) to show family solidarity(1/1) in the light of his(1/1) uncle(1/1) 's(1/1) recent(2/2) reverses(3/3) .Sent 1: 
+	# Q's: 0 %: 60.0
+	# Q's: 1 %: 28.0
+	# Q's: 2 %: 4.0
+	# Q's: 3 %: 8.0
+
+
+Sentence 2: He(3/3) also said that Krug(1/1) , which is entirely family owned and run by his father , his brother Mark and himself , is just completing a $ 20 million renovation(1/1) and expansion , all of it financed internally .Sent 2: 
+	# Q's: 0 %: 92.5
+	# Q's: 1 %: 5.0
+	# Q's: 3 %: 2.5
+
+
+Sentence 3: There was never(1/1) any(1/1) thought(1/1) of a public(1/1) offering(1/1) to(1/1) raise(2/2) cash(3/3) , he(1/1) said , a pointed reference to Robert Mondavi 's public(1/1) issue(2/2) in the 1990 's and that(1/1) winery(1/1) 's subsequent and ultimately(1/1) unsuccessful(1/1) struggle to satisfy stockholder expectations .Sent 3: 
+	# Q's: 0 %: 65.12
+	# Q's: 1 %: 27.91
+	# Q's: 2 %: 4.65
+	# Q's: 3 %: 2.33
+
+
+Sentence 4: With over 850 acres of vineyards , the Krug winery -- which has no connections with Krug Champagne in France , is one(1/1) of(1/1) the(1/1) largest(2/2) land(1/1) owners(1/1) in the Napa Valley .Sent 4: 
+	# Q's: 0 %: 81.82
+	# Q's: 1 %: 15.15
+	# Q's: 2 %: 3.03
+
+
+Sentence 5: Its(3/3) business is divided into two parts , one producing inexpensive(1/1) wines under the CK Mondavi label , the other concentrating on high-end(1/1) wines .Sent 5: 
+	# Q's: 0 %: 88.0
+	# Q's: 1 %: 8.0
+	# Q's: 3 %: 4.0
+
+
+Sentence 6: Peter(1/1) Mondavi(1/1) Jr.(1/1) said he and his cousin , Tim , Robert 's younger son , would make the(2/2) wine(2/2) , each contributing half a barrel from their cellars .Sent 6: 
+	# Q's: 0 %: 83.33
+	# Q's: 1 %: 10.0
+	# Q's: 2 %: 6.67
+
+
+Sentence 7: Tim Mondavi was his father 's chief winemaker before the(1/1) sale(3/3) .Sent 7: 
+	# Q's: 0 %: 83.33
+	# Q's: 1 %: 8.33
+	# Q's: 3 %: 8.33
+
+
+Sentence 8: Both(2/2) branches(2/2) of(2/2) the(2/2) family(3/3) were represented at a dinner in New York last night given by Wine Enthusiast Magazine to honor Mel(1/1) Dick(1/1) , a prominent distributor .Sent 8: 
+	# Q's: 0 %: 75.86
+	# Q's: 1 %: 6.9
+	# Q's: 2 %: 13.79
+	# Q's: 3 %: 3.45
+
+
+Sentence 9: Tim(1/1) Mondavi(1/1) , standing with his cousin Peter at the(1/1) dinner(1/1) , said of his(1/1) family(2/2) 's(2/2) problems(3/3) : '' We did n't want it to happen , but it happened .Sent 9: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 15.63
+	# Q's: 2 %: 6.25
+	# Q's: 3 %: 3.13
+
+Correlation between Scale and Percent of Sentence not asked about: -0.662432276271
+
+-----------------Context Labels-----------------
+No: 0.301886792453
+Immediate: 0.301886792453
+Some: 0.377358490566
+Vague: 0.0188679245283
+
+------------------Overlap-----------------------
+proper: 17	equal: 13	intersect: 1	
+
+
+=========================================================
+TASK: 2005_01_19_1643276.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.7
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.8
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.72
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 2
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 3
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 4
+	mean: 5.33
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 5
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 8
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 9
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Recounting his abduction(1/1) , the(1/1) archbishop(1/1) said he was coming home from work on Monday evening , just around dusk , when a car suddenly blocked the road in front of him and gunmen(1/1) jumped out .Sent 0: 
+	# Q's: 0 %: 89.19
+	# Q's: 1 %: 10.81
+
+
+Sentence 1: Insurgents(1/2) grabbed(1/1) the 66-year-old archbishop and stuffed(1/1) him in the trunk(1/1) . ''Sent 1: 
+	# Q's: 0 %: 69.23
+	# Q's: 1 %: 23.08
+	# Q's: 2 %: 7.69
+
+
+Sentence 2: I thought these(1/1) were the(1/1) last(1/1) minutes(1/1) of(1/1) my(1/1) life(1/1) , '' he(2/2) said .Sent 2: 
+	# Q's: 0 %: 46.67
+	# Q's: 1 %: 46.67
+	# Q's: 2 %: 6.67
+
+
+Sentence 3: He(3/3) said the insurgents kept(1/1) asking(1/1) the(1/1) same(1/1) question(1/1) : Are you an American spy ? ''Sent 3: 
+	# Q's: 0 %: 64.71
+	# Q's: 1 %: 29.41
+	# Q's: 3 %: 5.88
+
+
+Sentence 4: I told them(2/2) , you(1/1) do not know me , '' he(3/3) said . ''Sent 4: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 6.67
+	# Q's: 2 %: 6.67
+	# Q's: 3 %: 6.67
+
+
+Sentence 5: We(3/3) are Christians , and we believe the Americans are occupiers(1/1) . ''Sent 5: 
+	# Q's: 0 %: 84.62
+	# Q's: 1 %: 7.69
+	# Q's: 3 %: 7.69
+
+
+Sentence 6: The archbishop(1/1) was released(2/2) Tuesday morning .Sent 6: 
+	# Q's: 0 %: 71.43
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 14.29
+
+
+Sentence 7: The eight Chinese workers are still missing(2/2) , and the only clue to their whereabouts is a hazy video(1/1) shot in front of a(1/1) brick(1/1) wall(1/1) and broadcast Tuesday on several Arab television channels .Sent 7: 
+	# Q's: 0 %: 85.71
+	# Q's: 1 %: 11.43
+	# Q's: 2 %: 2.86
+
+
+Sentence 8: The(1/1) insurgents(1/1) said in a statement that the(2/2) Chinese(2/2) men(2/2) were working for the American military and demanded that the Chinese government , which has stayed relatively(1/1) quiet on the issue of Iraq , declare its opinion of the occupation(1/1) .Sent 8: 
+	# Q's: 0 %: 82.93
+	# Q's: 1 %: 9.76
+	# Q's: 2 %: 7.32
+
+
+Sentence 9: Mr. Naqib , the interior minister , talking about insurgent attacks , said that from the(1/1) beginning(2/2) there has been a conspiracy to undermine(2/2) the rebuilding of Iraq , and that it may only(1/1) get(2/3) worse(3/4) . ''Sent 9: 
+	# Q's: 0 %: 84.21
+	# Q's: 1 %: 5.26
+	# Q's: 2 %: 5.26
+	# Q's: 3 %: 2.63
+	# Q's: 4 %: 2.63
+
+Correlation between Scale and Percent of Sentence not asked about: -0.626498497956
+
+-----------------Context Labels-----------------
+No: 0.222222222222
+Immediate: 0.333333333333
+Some: 0.355555555556
+Vague: 0.0888888888889
+
+------------------Overlap-----------------------
+proper: 7	equal: 16	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641845.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.67
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.82
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.79
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 2
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 3
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 4
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 5
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 8
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 9
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: In a major shift within the much-criticized(2/2) $ 18.4 billion program to rebuild(1/1) Iraq 's physical infrastructure , the office that the Pentagon formed to oversee the effort will begin handing(1/1) its(2/2) responsibilities(2/2) over(1/1) to the United States Army Corps of Engineers over the next several months .Sent 0: 
+	# Q's: 0 %: 87.5
+	# Q's: 1 %: 6.25
+	# Q's: 2 %: 6.25
+
+
+Sentence 1: Charles Hess , the director of the agency , the Project and Contracting Office , said in a telephone interview from Baghdad that the(1/1) change(2/2) was a(1/1) natural(2/2) evolution(2/2) .Sent 1: 
+	# Q's: 0 %: 83.33
+	# Q's: 1 %: 6.67
+	# Q's: 2 %: 10.0
+
+
+Sentence 2: He(2/2) denied that the(1/1) move(2/2) was a response to Iraqi and American criticism that the reconstruction(2/2) effort(2/2) had focused too much on large(2/2) projects(2/2) , started up too slowly and failed to anticipate attacks by insurgents .Sent 2: 
+	# Q's: 0 %: 81.08
+	# Q's: 1 %: 2.7
+	# Q's: 2 %: 16.22
+
+
+Sentence 3: As the United States tries to lay(1/1) the(1/1) groundwork(1/1) for a functioning Iraqi government before elections on Jan. 30 , some(1/1) criticisms(1/1) of the reconstruction program have carried a particular sting : a major goal of the reconstruction , from power plants and sewage-treatment plants to roads and fire stations , was to persuade(1/1) ordinary(1/1) Iraqis(1/1) of(1/1) the(1/1) good(1/1) will(1/1) and(1/1) competence(1/1) of(1/1) the(1/1) post-Saddam(1/1) Hussein(1/1) authorities(1/1) .Sent 3: 
+	# Q's: 0 %: 72.06
+	# Q's: 1 %: 27.94
+
+
+Sentence 4: While the Army(1/1) corps(1/1) has increased(1/1) electricity(1/1) output(1/1) and both(2/2) agencies(2/2) have put in place other , smaller-scale(2/2) projects(2/2) , most major(2/2) efforts(2/2) have faced major(2/2) delays(2/2) .Sent 4: 
+	# Q's: 0 %: 53.57
+	# Q's: 1 %: 17.86
+	# Q's: 2 %: 28.57
+
+
+Sentence 5: Insurgent attacks have hit both the(1/1) projects(3/3) and the workers , prompting some(3/3) large(3/3) companies(3/3) to pull out of Iraq , sending(1/1) security(1/1) costs(1/1) skyrocketing(1/1) and forcing the elimination or scaling down of dozens(2/2) of(2/2) projects(2/2) .Sent 5: 
+	# Q's: 0 %: 67.57
+	# Q's: 1 %: 13.51
+	# Q's: 2 %: 8.11
+	# Q's: 3 %: 10.81
+
+
+Sentence 6: Mr.(1/1) Hess(1/1) defended the reconstruction(2/2) program(1/1) as successful(1/1) , given the hard(2/2) realities(2/2) of Iraq , and said the gradual shift of responsibility to(1/1) the(1/1) Army(1/1) corps(1/1) , with its history of managing construction project in conflict zones , had(1/1) long(2/2) been(2/2) envisioned(2/2) .Sent 6: 
+	# Q's: 0 %: 65.91
+	# Q's: 1 %: 20.45
+	# Q's: 2 %: 13.64
+
+
+Sentence 7: But Rick Barton , co-director of the post-conflict reconstruction program at the Center for Strategic and International Studies , said the(2/2) shift(3/3) '' is a(1/1) further(1/1) confirmation(1/1) that(1/1) the(2/2) place(3/3) is(2/2) n't(2/2) safe(2/2) . '' ''Sent 7: 
+	# Q's: 0 %: 69.44
+	# Q's: 1 %: 11.11
+	# Q's: 2 %: 13.89
+	# Q's: 3 %: 5.56
+
+
+Sentence 8: I(1/1) assume(1/1) that the Army corps feels better about going(1/1) places(2/2) that(1/1) are(1/1) just(1/1) plain(1/1) dangerous(1/1) , '' he(3/3) said .Sent 8: 
+	# Q's: 0 %: 52.38
+	# Q's: 1 %: 38.1
+	# Q's: 2 %: 4.76
+	# Q's: 3 %: 4.76
+
+
+Sentence 9: The(1/1) corps(2/2) has largely avoided the(1/1) criticism(2/2) that has dogged the(1/1) project(3/3) office(2/2) .Sent 9: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 21.43
+	# Q's: 2 %: 21.43
+	# Q's: 3 %: 7.14
+
+Correlation between Scale and Percent of Sentence not asked about: -0.634565405565
+
+-----------------Context Labels-----------------
+No: 0.367647058824
+Immediate: 0.338235294118
+Some: 0.191176470588
+Vague: 0.102941176471
+
+------------------Overlap-----------------------
+proper: 20	equal: 18	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643450.30
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.0
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.59
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.74
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 4
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 6
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 7
+	mean: 3.0
+	std dev: 1.41
+	max: 4
+	min: 1
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The(1/1) video(2/2) showed the(2/2) men(3/3) , still alive , posed in front of a black banner emblazoned with the name of an Islamic terrorist group , Ansar al Sunna , that has claimed responsibility for many of the most brutal attacks of the(1/1) war(3/3) in the past year .Sent 0: 
+	# Q's: 0 %: 87.76
+	# Q's: 1 %: 4.08
+	# Q's: 2 %: 4.08
+	# Q's: 3 %: 4.08
+
+
+Sentence 1: They(3/3) were then shown(1/1) crouching before a stone wall , blindfolded , as their executioner approached from off camera and killed(2/2) them with pistol shots to the back of the head .Sent 1: 
+	# Q's: 0 %: 90.63
+	# Q's: 1 %: 3.13
+	# Q's: 2 %: 3.13
+	# Q's: 3 %: 3.13
+
+
+Sentence 2: Earlier(3/3) , the men(2/2) confessed(1/1) that they had been sent to the northern cities of Mosul and Erbil on an American contract to install computer communications for the elections(2/2) .Sent 2: 
+	# Q's: 0 %: 86.67
+	# Q's: 1 %: 3.33
+	# Q's: 2 %: 6.67
+	# Q's: 3 %: 3.33
+
+
+Sentence 3: At least 11 other(1/1) people(1/1) were killed(3/4) on Wednesday .Sent 3: 
+	# Q's: 0 %: 70.0
+	# Q's: 1 %: 20.0
+	# Q's: 4 %: 10.0
+
+
+Sentence 4: Gunmen(1/1) who attacked(2/2) the Baghdad offices of a major Kurdish party , the Patriotic Union of Kurdistan , killed one party(1/1) member(1/1) and wouned(1/1) others(1/1) , party officials said .Sent 4: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 16.67
+	# Q's: 2 %: 3.33
+
+
+Sentence 5: Also(2/2) in Baghdad , another car bomb aimed(1/1) at an American convoy missed(1/1) its target but killed four Iraqi bystanders .Sent 5: 
+	# Q's: 0 %: 85.71
+	# Q's: 1 %: 9.52
+	# Q's: 2 %: 4.76
+
+
+Sentence 6: In Hilla , 60 miles south of Baghdad , an Iraqi policeman was killed in a car bombing(1/1) , according to a(1/1) Polish military spokesman .Sent 6: 
+	# Q's: 0 %: 92.31
+	# Q's: 1 %: 7.69
+
+
+Sentence 7: Much(1/1) of the remaining(3/3) violence(2/2) was in northern Iraq , in Erbil , Dohuk , Kirkuk and Mosul .Sent 7: 
+	# Q's: 0 %: 84.21
+	# Q's: 1 %: 5.26
+	# Q's: 2 %: 5.26
+	# Q's: 3 %: 5.26
+
+Correlation between Scale and Percent of Sentence not asked about: -0.654338875953
+
+-----------------Context Labels-----------------
+No: 0.239130434783
+Immediate: 0.347826086957
+Some: 0.413043478261
+Vague: 0.0
+
+------------------Overlap-----------------------
+proper: 5	equal: 23	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_28_1645501.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.34
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.66
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.56
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 1
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 2
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 3
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 6
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 8
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 3.0
+	std dev: 1.41
+	max: 4
+	min: 1
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: '' WHAT stresses me most , '' the chief executive of Novartis(1/1) , Daniel L. Vasella , said , '' is that we are getting new regulations(3/3) from abroad(1/1) without any consultation(2/2) . ''Sent 0: 
+	# Q's: 0 %: 88.24
+	# Q's: 1 %: 5.88
+	# Q's: 2 %: 2.94
+	# Q's: 3 %: 2.94
+
+
+Sentence 1: This(3/3) has been the World Economic Forum that the United States government largely passed(3/3) by(3/3) .Sent 1: 
+	# Q's: 0 %: 81.25
+	# Q's: 3 %: 18.75
+
+
+Sentence 2: In a world that both respects and fears American power , there is worry(1/1) that the United States does not care what others think(1/1) .Sent 2: 
+	# Q's: 0 %: 92.0
+	# Q's: 1 %: 8.0
+
+
+Sentence 3: Or(1/1) , as Tony Blair , the prime minister of Britain , put it in a speech to the forum(2/2) , '' If America wants the rest of the world to be part of the agenda(1/1) it has set , it must be part of their agenda , too . ''Sent 3: 
+	# Q's: 0 %: 94.12
+	# Q's: 1 %: 3.92
+	# Q's: 2 %: 1.96
+
+
+Sentence 4: He(3/3) added(2/2) , '' What people(2/2) want is not for America to concede(2/2) , but for America to engage(1/1) . ''Sent 4: 
+	# Q's: 0 %: 76.19
+	# Q's: 1 %: 4.76
+	# Q's: 2 %: 14.29
+	# Q's: 3 %: 4.76
+
+
+Sentence 5: It is a fair(1/1) bet that Mr. Blair has given(1/1) little(2/2) thought(1/1) to Section 404 of the Sarbanes-Oxley(1/1) Act(1/1) or to the(1/1) way(1/1) the Securities and Exchange Commission can adjust(1/1) accounting(1/1) rules(2/2) , which is what concerns(1/1) Mr. Vasella .Sent 5: 
+	# Q's: 0 %: 70.0
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 5.0
+
+
+Sentence 6: Mr.(1/1) Blair(1/1) was more(1/1) concerned(1/1) with global(1/1) warming(1/1) and(1/1) world(1/1) poverty(1/1) .Sent 6: 
+	# Q's: 0 %: 25.0
+	# Q's: 1 %: 75.0
+
+
+Sentence 7: The twin American deficits(2/2) figured into concerns(1/1) that the United States would do(1/1) as(1/1) it(1/1) pleases(1/1) regardless of the possible impact on the world economy . ''Sent 7: 
+	# Q's: 0 %: 77.78
+	# Q's: 1 %: 18.52
+	# Q's: 2 %: 3.7
+
+
+Sentence 8: I do n't see the budget(1/1) deficit(3/3) being dealt(1/1) with(2/2) , '' said Jacob Frenkel , the former head of Israel 's central bank and now a vice chairman of the American International Group , a large insurance company . ''Sent 8: 
+	# Q's: 0 %: 90.24
+	# Q's: 1 %: 4.88
+	# Q's: 2 %: 2.44
+	# Q's: 3 %: 2.44
+
+
+Sentence 9: I(2/2) am concerned with the U.S. current-account(1/1) deficit(1/1) , not because it can not be dealt with but because of the(1/1) way(1/1) it is not being dealt with . ''Sent 9: 
+	# Q's: 0 %: 83.33
+	# Q's: 1 %: 13.33
+	# Q's: 2 %: 3.33
+
+Correlation between Scale and Percent of Sentence not asked about: -0.558004485839
+
+-----------------Context Labels-----------------
+No: 0.425925925926
+Immediate: 0.351851851852
+Some: 0.037037037037
+Vague: 0.185185185185
+
+------------------Overlap-----------------------
+proper: 5	equal: 20	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_19_1643276.30
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.64
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.22
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.63
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 2.33
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 4
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 6
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 3.33
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 8
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: [ In a suicide(1/1) car-bombing(2/2) early Wednesday , Reuters(2/2) reported , two people were killed near the Australian Embassy in Baghdad .Sent 0: 
+	# Q's: 0 %: 86.36
+	# Q's: 1 %: 4.55
+	# Q's: 2 %: 9.09
+
+
+Sentence 1: A(2/2) few(2/2) minutes(2/2) later(2/2) , a second suicide car-bombing(1/1) killed six people near a police building in the north-central area of the(1/1) city(3/3) , Agence France-Presse reported . ]Sent 1: 
+	# Q's: 0 %: 75.86
+	# Q's: 1 %: 6.9
+	# Q's: 2 %: 13.79
+	# Q's: 3 %: 3.45
+
+
+Sentence 2: Elsewhere(1/1) , an American soldier(1/1) was(1/1) killed(2/2) in western(1/1) Iraq(1/1) , the(1/1) military(2/2) said Tuesday .Sent 2: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 37.5
+	# Q's: 2 %: 12.5
+
+
+Sentence 3: Also on Tuesday , news(1/1) agencies(1/1) reported that gunmen recently(1/1) killed three political candidates(1/1) in different parts of the(2/2) country(3/3) , and the government announced that it was closing the borders during the election , except for Muslim pilgrims returning from Saudi Arabia .Sent 3: 
+	# Q's: 0 %: 86.36
+	# Q's: 1 %: 9.09
+	# Q's: 2 %: 2.27
+	# Q's: 3 %: 2.27
+
+
+Sentence 4: -------------------- 3 Britons on Trial in Abuse Case ( By The New York Times ) , LONDON , Jan. 16 -- The British Army opened(1/1) court-martial(1/1) proceedings against three soldiers accused of abusing(2/2) Iraqi prisoners who were thought to have(1/1) stolen(3/3) from a British base near Basra in May 2003 .Sent 4: 
+	# Q's: 0 %: 90.2
+	# Q's: 1 %: 5.88
+	# Q's: 2 %: 1.96
+	# Q's: 3 %: 1.96
+
+
+Sentence 5: The(1/1) court(1/1) , at a British military base in Osnabrück , Germany , was shown photographs taken(1/1) by five British soldiers of Iraqis , often naked , forced(1/1) to simulate sexual acts and being beaten or mistreated .Sent 5: 
+	# Q's: 0 %: 89.47
+	# Q's: 1 %: 10.53
+
+
+Sentence 6: British news reports(1/1) likened(1/1) the(1/1) incidents(3/3) to abuse by American soldiers at Abu Ghraib prison in Baghdad .Sent 6: 
+	# Q's: 0 %: 77.78
+	# Q's: 1 %: 16.67
+	# Q's: 3 %: 5.56
+
+
+Sentence 7: One of the soldiers(2/2) on(1/1) trial(2/2) , Lance Cpl. Darren Larkin , admitted assaulting(1/1) an unidentified man at the(1/1) base(3/3) .Sent 7: 
+	# Q's: 0 %: 71.43
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 9.52
+	# Q's: 3 %: 4.76
+
+
+Sentence 8: The two other(2/2) soldiers(1/1) , Cpl. Daniel Kenyon and Lance Cpl. Mark Cooley , denied all the(1/1) charges(3/3) .Sent 8: 
+	# Q's: 0 %: 78.95
+	# Q's: 1 %: 10.53
+	# Q's: 2 %: 5.26
+	# Q's: 3 %: 5.26
+
+Correlation between Scale and Percent of Sentence not asked about: -0.551237886147
+
+-----------------Context Labels-----------------
+No: 0.411764705882
+Immediate: 0.392156862745
+Some: 0.156862745098
+Vague: 0.0392156862745
+
+------------------Overlap-----------------------
+proper: 16	equal: 11	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643450.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.76
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.45
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.67
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 8
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 9
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Insurgents detonated five powerful(2/2) truck and car bombs across Baghdad on Wednesday , killing 26 people , at least 9 of them members of Iraq 's fledgling(2/2) security forces .Sent 0: 
+	# Q's: 0 %: 93.33
+	# Q's: 2 %: 6.67
+
+
+Sentence 1: The(1/1) attacks(3/3) came as Iraq 's interim prime minister , Ayad Allawi , said he would reveal plans next week for an accelerated buildup of those(2/2) forces(2/2) to prepare for an eventual American withdrawal .Sent 1: 
+	# Q's: 0 %: 88.57
+	# Q's: 1 %: 2.86
+	# Q's: 2 %: 5.71
+	# Q's: 3 %: 2.86
+
+
+Sentence 2: Responding to political(2/2) pressures(3/3) within Iraq ahead of the Jan. 30 elections and mounting(1/1) questions(1/1) in Washington about the prospects for an American pullout , Dr. Allawi said he had been talking with the United States commanders in Baghdad about ways(1/1) to accelerate the '' training , equipping and deploying '' of Iraqi security forces .Sent 2: 
+	# Q's: 0 %: 91.07
+	# Q's: 1 %: 5.36
+	# Q's: 2 %: 1.79
+	# Q's: 3 %: 1.79
+
+
+Sentence 3: He(2/2) added(1/1) that '' this(3/3) in turn will accelerate the drawdown and gradual withdrawal of the multinational(1/1) forces(1/1) in Iraq . ''Sent 3: 
+	# Q's: 0 %: 77.27
+	# Q's: 1 %: 13.64
+	# Q's: 2 %: 4.55
+	# Q's: 3 %: 4.55
+
+
+Sentence 4: Those(2/2) forces(2/2) are made up of about 150,000 troops from the United States and upward of 25,000 from other(2/2) nations(1/1) .Sent 4: 
+	# Q's: 0 %: 80.95
+	# Q's: 1 %: 4.76
+	# Q's: 2 %: 14.29
+
+
+Sentence 5: But Dr. Allawi raised the tantalizing(1/1) prospect of an eventual American withdrawal(1/1) while giving little(1/1) away(1/1) , insisting that a pullout(1/1) could(1/1) not(1/1) be tied to a fixed timetable , but rather to the Iraqi forces ' progress toward standing(1/1) on(1/1) their(1/1) own(1/1) .Sent 5: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 25.0
+
+
+Sentence 6: That(2/2) formula(2/2) is similar(2/2) to what(1/1) President Bush and other(1/1) senior(1/1) administration(1/1) officials(1/1) have spoken(1/1) about .Sent 6: 
+	# Q's: 0 %: 47.06
+	# Q's: 1 %: 35.29
+	# Q's: 2 %: 17.65
+
+
+Sentence 7: Some(2/2) American(1/1) military(1/1) commanders(1/1) have said privately that with this(2/2) approach(2/2) and considering the demoralization , desertion and unwillingness to fight common among Iraqi forces trained so far , American troops could be tied(2/2) down(2/2) for years , unless elections or other political developments bring the war(1/1) to an unexpected end . ''Sent 7: 
+	# Q's: 0 %: 83.02
+	# Q's: 1 %: 7.55
+	# Q's: 2 %: 9.43
+
+
+Sentence 8: I will be explaining this carefully(1/1) planned(1/1) process(2/2) -- what I call a ` conditions based ' rather than a ` calendar based ' gradual withdrawal(2/2) program(1/1) , in more detail next week , '' Dr. Allawi told reporters at a(2/2) ceremony(2/2) at Baghdad airport .Sent 8: 
+	# Q's: 0 %: 84.78
+	# Q's: 1 %: 6.52
+	# Q's: 2 %: 8.7
+
+
+Sentence 9: He(3/3) was there(2/2) to accept the first of three C-130 military transport planes that Iraq is to receive as part of the American-financed buildup(1/1) of Iraqi forces .Sent 9: 
+	# Q's: 0 %: 89.29
+	# Q's: 1 %: 3.57
+	# Q's: 2 %: 3.57
+	# Q's: 3 %: 3.57
+
+Correlation between Scale and Percent of Sentence not asked about: -0.558623981101
+
+-----------------Context Labels-----------------
+No: 0.403225806452
+Immediate: 0.451612903226
+Some: 0.0967741935484
+Vague: 0.0483870967742
+
+------------------Overlap-----------------------
+proper: 15	equal: 16	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_30_1645866.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.67
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.65
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.81
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 1
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 2
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 4
+	mean: 4.67
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 5
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 7
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 9
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Nye himself once told me(1/1) Defense Secretary Donald Rumsfeld 's response to the(2/2) concept : '' I do n't know what ` soft power ' is . ''Sent 0: 
+	# Q's: 0 %: 92.86
+	# Q's: 1 %: 3.57
+	# Q's: 2 %: 3.57
+
+
+Sentence 1: President Bush 's chintzy(1/1) initial response(2/2) to the(1/1) tsunami(1/1) implies that he does n't know quite what it(3/3) is either .Sent 1: 
+	# Q's: 0 %: 76.19
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 4.76
+	# Q's: 3 %: 4.76
+
+
+Sentence 2: The problem(1/1) with the hard-soft(1/1) dichotomy(2/2) itself is that it fails to take account of the soft-power potential(2/2) of military helicopters and aircraft carriers .Sent 2: 
+	# Q's: 0 %: 84.0
+	# Q's: 1 %: 8.0
+	# Q's: 2 %: 8.0
+
+
+Sentence 3: We(1/1) live in an era not only of globalized information but also(1/1) of the nearly $ 450 billion defense budget .Sent 3: 
+	# Q's: 0 %: 90.48
+	# Q's: 1 %: 9.52
+
+
+Sentence 4: The United States military is now an instrument(1/1) of absolutely everything -- warfare , diplomacy , social policy , humanitarianism .Sent 4: 
+	# Q's: 0 %: 95.24
+	# Q's: 1 %: 4.76
+
+
+Sentence 5: It(1/1) just depends how(1/1) we deploy it(2/2) .Sent 5: 
+	# Q's: 0 %: 62.5
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 12.5
+
+
+Sentence 6: The critical attributes that make the U.S.S.(2/2) Abraham(2/2) Lincoln(2/2) an instrument of persuasion rather than of coercion are , first , that it is being put to nonlethal use(1/1) and , second and no less important , that it is advancing(2/2) humanitarian(1/1) ends(2/2) -- that it is not directly serving American self-interest . ''Sent 6: 
+	# Q's: 0 %: 87.04
+	# Q's: 1 %: 3.7
+	# Q's: 2 %: 9.26
+
+
+Sentence 7: This(3/3) was an act of God , '' the Jakarta Post reporter quotes an American serviceman . ''Sent 7: 
+	# Q's: 0 %: 94.44
+	# Q's: 3 %: 5.56
+
+
+Sentence 8: We(2/2) are here and happy to help(2/2) . ''Sent 8: 
+	# Q's: 0 %: 77.78
+	# Q's: 2 %: 22.22
+
+
+Sentence 9: Soft power , in short , need(2/2) not(1/1) be(1/1) squishy(1/1) soft(2/2) .Sent 9: 
+	# Q's: 0 %: 58.33
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 16.67
+
+Correlation between Scale and Percent of Sentence not asked about: -0.506248207728
+
+-----------------Context Labels-----------------
+No: 0.275
+Immediate: 0.275
+Some: 0.4
+Vague: 0.05
+
+------------------Overlap-----------------------
+proper: 5	equal: 13	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643393.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.92
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.98
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.87
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 1
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 4
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 5
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 6
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 9
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: While some Democrats are still struggling to find their(1/1) voices(2/2) after November 's election losses(2/2) , Senator Barbara Boxer of California is not(1/1) among them .Sent 0: 
+	# Q's: 0 %: 84.62
+	# Q's: 1 %: 7.69
+	# Q's: 2 %: 7.69
+
+
+Sentence 1: Her full-throated and combative questioning(1/1) of Condoleezza(1/1) Rice(1/1) during two days of hearings on her nomination to be secretary of state was a vivid illustration of the aggressive(1/1) posture that Ms. Boxer , a 64-year-old liberal from Marin County , near San Francisco , brought back to Washington after rolling up a(1/1) big(1/1) margin(1/1) of victory in her re-election to a third term .Sent 1: 
+	# Q's: 0 %: 89.06
+	# Q's: 1 %: 10.94
+
+
+Sentence 2: Before casting one of two Democratic votes against Ms. Rice on the Foreign Relations Committee -- the other was John Kerry 's -- Ms. Boxer explained bluntly why(2/2) she had been so persistent in pressing(1/1) the(1/1) national(1/1) security(1/1) adviser(1/1) on what Ms. Boxer portrayed as the administration 's misleading(3/3) and(3/3) misguided(3/3) rationale(2/2) for the war in Iraq . ''Sent 2: 
+	# Q's: 0 %: 83.05
+	# Q's: 1 %: 8.47
+	# Q's: 2 %: 3.39
+	# Q's: 3 %: 5.08
+
+
+Sentence 3: The fact is we 've lost(1/1) so many(2/2) lives(1/1) over it(3/3) , '' she(2/2) said . ''Sent 3: 
+	# Q's: 0 %: 70.59
+	# Q's: 1 %: 11.76
+	# Q's: 2 %: 11.76
+	# Q's: 3 %: 5.88
+
+
+Sentence 4: So if we(1/1) do get a little testy(1/1) on the(1/1) point(2/2) , and I admit to be so , it 's because it(3/3) continues day in and day out , and 25 percent of the(2/2) dead(3/3) are from California .Sent 4: 
+	# Q's: 0 %: 82.5
+	# Q's: 1 %: 7.5
+	# Q's: 2 %: 5.0
+	# Q's: 3 %: 5.0
+
+
+Sentence 5: We(2/2) can not forget(2/2) .Sent 5: 
+	# Q's: 0 %: 60.0
+	# Q's: 2 %: 40.0
+
+
+Sentence 6: We(2/2) can not forget that(3/3) . ''Sent 6: 
+	# Q's: 0 %: 71.43
+	# Q's: 2 %: 14.29
+	# Q's: 3 %: 14.29
+
+
+Sentence 7: Her(3/3) jousting(2/2) with Ms. Rice made her the most outspoken foe(1/1) in the hearings(3/3) .Sent 7: 
+	# Q's: 0 %: 73.33
+	# Q's: 1 %: 6.67
+	# Q's: 2 %: 6.67
+	# Q's: 3 %: 13.33
+
+
+Sentence 8: And it(3/3) came after Ms. Boxer earlier this month joined a handful(1/1) of House Democrats in forcing(1/1) a debate on the legitimacy of the presidential electoral votes from Ohio ; she was the only senator to vote to challenge(1/1) Ohio 's votes .Sent 8: 
+	# Q's: 0 %: 90.7
+	# Q's: 1 %: 6.98
+	# Q's: 3 %: 2.33
+
+
+Sentence 9: It is clear(1/1) that she(3/3) is interpreting her easy win in November , when she accumulated the third-largest number of votes in the nation , behind only the presidential contenders , as a mandate(1/1) of her own . ''Sent 9: 
+	# Q's: 0 %: 92.31
+	# Q's: 1 %: 5.13
+	# Q's: 3 %: 2.56
+
+Correlation between Scale and Percent of Sentence not asked about: -0.518616993045
+
+-----------------Context Labels-----------------
+No: 0.31746031746
+Immediate: 0.428571428571
+Some: 0.206349206349
+Vague: 0.047619047619
+
+------------------Overlap-----------------------
+proper: 8	equal: 30	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_28_1645448.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.89
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.75
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.63
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 3
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 4
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 5
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 6
+	mean: 3.0
+	std dev: 1.41
+	max: 4
+	min: 1
+Sentence: 7
+	mean: 3.33
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 8
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 9
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Awash in cash(1/1) and practically debt(1/1) free(1/1) , Royal(1/1) Philips(1/1) Electronics(1/1) said Thursday that it would buy back up to 750 million euros ( $ 978 million ) of its own stock this year and search(1/1) for(1/1) acquisition(1/1) targets(1/1) even as a(1/1) previous(2/2) purchase(1/1) put a(1/1) dent(2/2) in its fourth-quarter earnings .Sent 0: 
+	# Q's: 0 %: 71.15
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 3.85
+
+
+Sentence 1: Philips , the Dutch health care and technology concern , said a 16.7 percent decline in its fourth-quarter profit , to 498 million euros , was a result of a significant(2/2) write-down(1/1) of its stake in MedQuist , a medical transcription company that is the subject of class-action lawsuits and investigations by securities regulators .Sent 1: 
+	# Q's: 0 %: 96.36
+	# Q's: 1 %: 1.82
+	# Q's: 2 %: 1.82
+
+
+Sentence 2: Philips(2/2) 's fourth-quarter sales rose 2 percent , to 9.18 billion euros , compared with the same period a year earlier .Sent 2: 
+	# Q's: 0 %: 95.45
+	# Q's: 2 %: 4.55
+
+
+Sentence 3: Both its(3/3) sales and net profit results(2/2) exceeded many analysts ' expectations(2/2) .Sent 3: 
+	# Q's: 0 %: 76.92
+	# Q's: 2 %: 15.38
+	# Q's: 3 %: 7.69
+
+
+Sentence 4: Philips(1/1) had announced the MedQuist(1/1) write-down of 576 million euros last November , and it was one of only a(1/1) few(1/1) negative(1/1) notes(1/1) in otherwise upbeat(2/2) annual results .Sent 4: 
+	# Q's: 0 %: 75.86
+	# Q's: 1 %: 20.69
+	# Q's: 2 %: 3.45
+
+
+Sentence 5: For the year , net profits at Philips(1/1) rose more than 300 percent to 2.84 billion euros ( $ 3.7 billion ) compared with 695 million euros the year before .Sent 5: 
+	# Q's: 0 %: 96.77
+	# Q's: 1 %: 3.23
+
+
+Sentence 6: Operating(2/2) profit(3/3) was 1.6 billion euros compared with 488 million euros in 2003 .Sent 6: 
+	# Q's: 0 %: 85.71
+	# Q's: 2 %: 7.14
+	# Q's: 3 %: 7.14
+
+
+Sentence 7: Sales(3/3) increased(1/1) 4.5 percent , to 30.3 billion euros .Sent 7: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 10.0
+	# Q's: 3 %: 10.0
+
+
+Sentence 8: The results(3/3) for Philips(1/1) and its plan to buy back(1/1) shares drove its share price up 4.45 percent , to 19.50 euros .Sent 8: 
+	# Q's: 0 %: 86.96
+	# Q's: 1 %: 8.7
+	# Q's: 3 %: 4.35
+
+
+Sentence 9: Jan Hommen , the chief financial officer , said that Philips(1/1) believed(1/1) its stock was undervalued(2/3) . ''Sent 9: 
+	# Q's: 0 %: 83.33
+	# Q's: 1 %: 11.11
+	# Q's: 3 %: 5.56
+
+Correlation between Scale and Percent of Sentence not asked about: -0.531349975318
+
+-----------------Context Labels-----------------
+No: 0.466666666667
+Immediate: 0.311111111111
+Some: 0.2
+Vague: 0.0222222222222
+
+------------------Overlap-----------------------
+proper: 4	equal: 18	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_30_1645866.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.68
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.43
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.72
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 1
+	mean: 4.0
+	std dev: 1.63
+	max: 6
+	min: 2
+Sentence: 2
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 7
+	mean: 2.67
+	std dev: 1.25
+	max: 4
+	min: 1
+Sentence: 8
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 9
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: In his 2002 book , '' The Paradox of American Power , '' Joseph S. Nye Jr. , the scholar(1/1) and former Pentagon official , famously(2/2) distinguishes(2/2) between '' hard '' and '' soft '' power .Sent 0: 
+	# Q's: 0 %: 91.89
+	# Q's: 1 %: 2.7
+	# Q's: 2 %: 5.41
+
+
+Sentence 1: The(1/1) first(3/3) is the power to coerce(1/1) , largely through military might ; the(1/1) second(3/3) , the power to co-opt through such '' intangible '' factors as culture , values and institutions ( the media , churches , schools and so forth ) .Sent 1: 
+	# Q's: 0 %: 88.64
+	# Q's: 1 %: 6.82
+	# Q's: 3 %: 4.55
+
+
+Sentence 2: In an era of globalized(1/1) information(1/1) , Nye observes , the power to persuade has become almost as important as the power to compel , and he criticizes American policy makers for their single-minded focus(1/1) on brute(1/1) force(1/1) .Sent 2: 
+	# Q's: 0 %: 87.18
+	# Q's: 1 %: 12.82
+
+
+Sentence 3: Where , in this(1/1) taxonomy(3/3) , do we put the images we saw in recent weeks of United States Navy helicopter pilots aboard the aircraft carrier Abraham Lincoln ferrying supplies(1/1) to victims of the tsunami in the Indonesian province of Aceh ?Sent 3: 
+	# Q's: 0 %: 92.86
+	# Q's: 1 %: 4.76
+	# Q's: 3 %: 2.38
+
+
+Sentence 4: Is that(2/2) hard power(1/1) with a human face ?Sent 4: 
+	# Q's: 0 %: 77.78
+	# Q's: 1 %: 11.11
+	# Q's: 2 %: 11.11
+
+
+Sentence 5: Soft(1/1) power(1/1) in a flak jacket ?Sent 5: 
+	# Q's: 0 %: 71.43
+	# Q's: 1 %: 28.57
+
+
+Sentence 6: Whatever it(2/2) is , it produces(1/1) an inherently attractive(2/2) narrative .Sent 6: 
+	# Q's: 0 %: 72.73
+	# Q's: 1 %: 9.09
+	# Q's: 2 %: 18.18
+
+
+Sentence 7: I(1/1) arrived in Indonesia 11 days after the(1/1) disaster(3/3) hit , and in that day 's Jakarta Post , the capital 's chief English-language daily , I read a long and reverent(1/1) profile of the(1/1) American(1/1) pilots(1/1) bearing the headline , '' U.S.S. Abraham Lincoln Enjoys Aceh Humanitarian Mission . ''Sent 7: 
+	# Q's: 0 %: 86.27
+	# Q's: 1 %: 11.76
+	# Q's: 3 %: 1.96
+
+
+Sentence 8: As the Bush administration tries to blunt the(1/1) hostility(1/1) fostered(1/1) by four years of swaggering belligerence(2/2) , it should think about reconfiguring Nye 's parlor-game-cum-political-theory(3/3) to its own(1/1) purposes(2/2) .Sent 8: 
+	# Q's: 0 %: 76.67
+	# Q's: 1 %: 13.33
+	# Q's: 2 %: 6.67
+	# Q's: 3 %: 3.33
+
+
+Sentence 9: We(1/1) know all too well that this(1/1) administration(2/2) does not do soft(2/2) .Sent 9: 
+	# Q's: 0 %: 69.23
+	# Q's: 1 %: 15.38
+	# Q's: 2 %: 15.38
+
+Correlation between Scale and Percent of Sentence not asked about: -0.526184179771
+
+-----------------Context Labels-----------------
+No: 0.326530612245
+Immediate: 0.326530612245
+Some: 0.285714285714
+Vague: 0.0612244897959
+
+------------------Overlap-----------------------
+proper: 9	equal: 15	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_30_1645866.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.4
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.73
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.08
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 4.67
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 2
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 4
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 5
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 6
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 7
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 8
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 9
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: And this(2/2) hard-jacketed form(1/1) of persuasion may actually be more(1/1) effective(2/2) than the classic(1/1) instruments(3/3) of soft power , at least as they are embodied(1/1) in popular culture .Sent 0: 
+	# Q's: 0 %: 75.86
+	# Q's: 1 %: 13.79
+	# Q's: 2 %: 6.9
+	# Q's: 3 %: 3.45
+
+
+Sentence 1: Nye(2/2) argues that , whatever its(1/1) flaws(1/1) , our(2/2) culture(1/1) projects(1/1) the core values of '' democracy , personal freedom , upward mobility and openness . ''Sent 1: 
+	# Q's: 0 %: 77.78
+	# Q's: 1 %: 14.81
+	# Q's: 2 %: 7.41
+
+
+Sentence 2: Well , maybe that(2/2) 's the(1/1) subtext of '' The Day After Tomorrow '' and '' The Apprentice , '' but you could make at least as good a case that our coarse(1/1) entertainment products(1/1) have proved(1/1) even more frighteningly hegemonic than our military .Sent 2: 
+	# Q's: 0 %: 88.89
+	# Q's: 1 %: 8.89
+	# Q's: 2 %: 2.22
+
+
+Sentence 3: Of(1/1) course(1/1) we(2/2) should(1/1) have exchange programs and American libraries abroad(1/1) and all the other(1/1) tools(1/1) of public diplomacy .Sent 3: 
+	# Q's: 0 %: 65.0
+	# Q's: 1 %: 30.0
+	# Q's: 2 %: 5.0
+
+
+Sentence 4: But it(1/1) will not(1/1) be(1/1) easy(1/1) for even the best expressions of American culture to escape the overwhelming suspicion(3/4) that now dogs all things American .Sent 4: 
+	# Q's: 0 %: 80.77
+	# Q's: 1 %: 15.38
+	# Q's: 4 %: 3.85
+
+
+Sentence 5: The same(3/3) is true , naturally(1/1) , of humanitarian helicopter missions(1/1) .Sent 5: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 16.67
+	# Q's: 3 %: 8.33
+
+
+Sentence 6: But at least these(2/2) are acts , with an unambiguously positive(1/1) outcome(1/1) .Sent 6: 
+	# Q's: 0 %: 76.92
+	# Q's: 1 %: 15.38
+	# Q's: 2 %: 7.69
+
+
+Sentence 7: And the use of our(1/1) immense hard(1/1) power(1/1) for soft(1/1) purposes(2/2) has the additional benefit of humanizing the fierce image inevitably projected by that power : the same military that shocks and awes can also save and heal .Sent 7: 
+	# Q's: 0 %: 87.18
+	# Q's: 1 %: 10.26
+	# Q's: 2 %: 2.56
+
+
+Sentence 8: This(3/3) is n't true for only(1/1) our Armed Forces .Sent 8: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 10.0
+	# Q's: 3 %: 10.0
+
+
+Sentence 9: Consider the example(3/3) of Singapore , a tiny country with a small(1/1) but professional military .Sent 9: 
+	# Q's: 0 %: 87.5
+	# Q's: 1 %: 6.25
+	# Q's: 3 %: 6.25
+
+Correlation between Scale and Percent of Sentence not asked about: -0.499292211545
+
+-----------------Context Labels-----------------
+No: 0.309090909091
+Immediate: 0.290909090909
+Some: 0.290909090909
+Vague: 0.109090909091
+
+------------------Overlap-----------------------
+proper: 5	equal: 21	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643450.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.9
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.77
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.89
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 1
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 4
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 5
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 6
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 7
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 8
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: In a car bomb attack(1/1) on an Iraqi military garrison on the site of Baghdad 's old Muthana inner-city airfield and another attack at a checkpoint on the perimeter of the heavily secured Baghdad International Airport , two Iraqi soldiers and two security guards were killed(1/1) .Sent 0: 
+	# Q's: 0 %: 95.74
+	# Q's: 1 %: 4.26
+
+
+Sentence 1: The(2/2) first(1/1) attack(2/2) , shortly after 7 a.m. , involved a truck packed with explosives that approached concrete barriers guarding the Australian Embassy compound in southern Baghdad .Sent 1: 
+	# Q's: 0 %: 89.29
+	# Q's: 1 %: 3.57
+	# Q's: 2 %: 7.14
+
+
+Sentence 2: The American(1/1) command(1/1) said two Iraqis were(1/1) killed(3/4) .Sent 2: 
+	# Q's: 0 %: 55.56
+	# Q's: 1 %: 33.33
+	# Q's: 4 %: 11.11
+
+
+Sentence 3: A spokesman for the American command , Lt. Col. James Hutton of the First Cavalry Division , said that none of the(1/1) bombers(2/2) Wednesday had reached their intended(1/1) targets(3/3) . ''Sent 3: 
+	# Q's: 0 %: 87.1
+	# Q's: 1 %: 6.45
+	# Q's: 2 %: 3.23
+	# Q's: 3 %: 3.23
+
+
+Sentence 4: While any loss of life(1/1) is tragic , it(2/2) could have been a lot worse(2/2) , '' he(1/1) said .Sent 4: 
+	# Q's: 0 %: 80.0
+	# Q's: 1 %: 10.0
+	# Q's: 2 %: 10.0
+
+
+Sentence 5: Nevertheless , at the worst(1/1) of the bombing sites(2/2) there were deep craters , pools of blood , scattered human remains and shattered buildings .Sent 5: 
+	# Q's: 0 %: 92.0
+	# Q's: 1 %: 4.0
+	# Q's: 2 %: 4.0
+
+
+Sentence 6: Near the Rafidain bank in the Etifiyah neighborhood of north-central Baghdad , where a bomb(2/2) went off as policemen lined up for their salaries , a crumpled child 's bicycle lay near the center of the blast ; people(1/1) there said a boy had been killed .Sent 6: 
+	# Q's: 0 %: 95.74
+	# Q's: 1 %: 2.13
+	# Q's: 2 %: 2.13
+
+
+Sentence 7: The new United States-trained Iraqi Army , National Guard and police force have had hundreds(1/1) of men killed(3/3) in the past year .Sent 7: 
+	# Q's: 0 %: 91.3
+	# Q's: 1 %: 4.35
+	# Q's: 3 %: 4.35
+
+
+Sentence 8: Now , American election plans depend on these(1/1) forces(2/2) protecting(2/2) more than 5,500 polling places .Sent 8: 
+	# Q's: 0 %: 81.25
+	# Q's: 1 %: 6.25
+	# Q's: 2 %: 12.5
+
+
+Sentence 9: The insurgents ' threats(2/2) to(1/1) Iraqis seen as working for or alongside the Americans were demonstrated on Wednesday in a video posted on an Islamic militant Web site of the killing(1/1) of two Iraqi telecommunications technicians .Sent 9: 
+	# Q's: 0 %: 91.89
+	# Q's: 1 %: 5.41
+	# Q's: 2 %: 2.7
+
+Correlation between Scale and Percent of Sentence not asked about: -0.51325901039
+
+-----------------Context Labels-----------------
+No: 0.365853658537
+Immediate: 0.317073170732
+Some: 0.243902439024
+Vague: 0.0731707317073
+
+------------------Overlap-----------------------
+proper: 7	equal: 15	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641884.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.24
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.13
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.62
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.33
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 1
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 2
+	mean: 3.67
+	std dev: 0.94
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 9
+	mean: 4.33
+	std dev: 0.94
+	max: 5
+	min: 3
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Nine(1/1) current(1/1) and(1/1) former(1/1) sales(1/1) executives(1/1) from an(1/1) assortment(2/2) of(2/2) food(2/2) companies(2/2) were charged(1/1) yesterday with participating in a scheme that created a(1/1) huge(3/4) accounting(3/4) fraud(3/4) at U.S. Foodservice , which has been under investigation in the United States and in the Netherlands for the last two years .Sent 0: 
+	# Q's: 0 %: 67.35
+	# Q's: 1 %: 18.37
+	# Q's: 2 %: 8.16
+	# Q's: 4 %: 6.12
+
+
+Sentence 1: The(2/2) executives(3/3) were arraigned in Federal District Court in Manhattan on conspiracy(3/3) charges(3/3) and released(1/1) .Sent 1: 
+	# Q's: 0 %: 68.75
+	# Q's: 1 %: 6.25
+	# Q's: 2 %: 6.25
+	# Q's: 3 %: 18.75
+
+
+Sentence 2: They(3/3) worked for companies that sold products like sugar , eggs , seafood and cake mix to U.S. Foodservice , which in turn supplied restaurants , corporate dining rooms and other(1/1) institutions(1/1) .Sent 2: 
+	# Q's: 0 %: 90.91
+	# Q's: 1 %: 6.06
+	# Q's: 3 %: 3.03
+
+
+Sentence 3: All the executives(2/2) are accused of approving documents that claimed U.S. Foodservice , a unit of Royal Ahold , was owed millions(2/2) of(2/2) dollars(2/2) more(1/1) in promotional(1/1) allowances(1/1) -- a type of rebate offered by manufacturers to stores and distributors -- than(1/1) was(1/1) actually(1/1) the(1/1) case(1/1) .Sent 3: 
+	# Q's: 0 %: 74.47
+	# Q's: 1 %: 17.02
+	# Q's: 2 %: 8.51
+
+
+Sentence 4: The(2/2) scheme(3/3) had the effect of inflating(3/3) U.S.(3/4) Foodservice(3/4) 's(3/4) profits(3/4) , prosecutors(1/1) say .Sent 4: 
+	# Q's: 0 %: 46.67
+	# Q's: 1 %: 6.67
+	# Q's: 2 %: 6.67
+	# Q's: 3 %: 13.33
+	# Q's: 4 %: 26.67
+
+
+Sentence 5: The(2/2) letters(3/3) were(1/1) issued(2/2) by a former U.S. Foodservice chief marketing officer , Mark P. Kaiser , according to court(1/1) documents(1/1) .Sent 5: 
+	# Q's: 0 %: 72.73
+	# Q's: 1 %: 13.64
+	# Q's: 2 %: 9.09
+	# Q's: 3 %: 4.55
+
+
+Sentence 6: Mr.(2/2) Kaiser(2/2) is awaiting(1/1) trial(1/1) on(1/1) conspiracy(3/3) and(3/3) fraud(3/3) charges(3/3) , along with Michael J. Resnick , the former(1/1) chief(1/1) financial(1/1) officer(1/1) .Sent 6: 
+	# Q's: 0 %: 43.48
+	# Q's: 1 %: 30.43
+	# Q's: 2 %: 8.7
+	# Q's: 3 %: 17.39
+
+
+Sentence 7: Two other former U.S. Foodservice executives , Timothy J. Lee and William F. Carter , pleaded(1/1) guilty(1/1) to similar(3/3) charges(3/3) last summer .Sent 7: 
+	# Q's: 0 %: 82.61
+	# Q's: 1 %: 8.7
+	# Q's: 3 %: 8.7
+
+
+Sentence 8: All(1/1) the(1/1) defendants(2/2) charged(1/1) yesterday signed audit letters containing false(2/2) information(2/2) at the(1/1) request(1/1) of Mr.(1/1) Kaiser(1/1) , the(1/1) documents(2/2) state . ''Sent 8: 
+	# Q's: 0 %: 47.83
+	# Q's: 1 %: 34.78
+	# Q's: 2 %: 17.39
+
+
+Sentence 9: Their(3/3) motivation(1/1) was to maintain a(1/1) very(2/2) important(2/2) business(2/2) relationship(2/2) , '' the acting United States attorney for Manhattan , David N. Kelley , said .Sent 9: 
+	# Q's: 0 %: 73.08
+	# Q's: 1 %: 7.69
+	# Q's: 2 %: 15.38
+	# Q's: 3 %: 3.85
+
+Correlation between Scale and Percent of Sentence not asked about: -0.516050131962
+
+-----------------Context Labels-----------------
+No: 0.349206349206
+Immediate: 0.365079365079
+Some: 0.15873015873
+Vague: 0.126984126984
+
+------------------Overlap-----------------------
+proper: 22	equal: 23	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641845.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.88
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.48
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.6
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 3
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 4
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 5
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 7
+	mean: 3.67
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 8
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 9
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The(2/2) corps(3/3) has had a(1/1) much(3/3) lower(3/3) profile(3/3) and has enjoyed some(1/1) construction(3/4) successes(2/2) in Iraq .Sent 0: 
+	# Q's: 0 %: 47.06
+	# Q's: 1 %: 11.76
+	# Q's: 2 %: 11.76
+	# Q's: 3 %: 23.53
+	# Q's: 4 %: 5.88
+
+
+Sentence 1: Its(3/3) electrical(3/3) projects(3/3) have added more than 1,800 megawatts to the Iraqi grid , roughly the equivalent of two large power plants .Sent 1: 
+	# Q's: 0 %: 86.96
+	# Q's: 3 %: 13.04
+
+
+Sentence 2: But major corps(1/1) projects , like huge(1/1) waterway(1/1) projects(1/1) in the United States , have(1/1) also(1/1) been(1/1) criticized(1/1) as grandiose(1/1) and unresponsive to local(2/2) needs(2/2) .Sent 2: 
+	# Q's: 0 %: 57.69
+	# Q's: 1 %: 34.62
+	# Q's: 2 %: 7.69
+
+
+Sentence 3: And it was the Army corps that awarded(1/1) Halliburton(1/1) an(1/1) early(1/1) no-bid(1/1) contract(1/1) worth billions of dollars for work on Iraq 's oil fields , which opened(1/1) the(1/1) company(1/1) to(1/1) lashing(3/3) criticism(3/3) .Sent 3: 
+	# Q's: 0 %: 63.64
+	# Q's: 1 %: 30.3
+	# Q's: 3 %: 6.06
+
+
+Sentence 4: Whether the(1/1) corps(2/2) will fare(2/2) better(2/2) than the(2/2) project(2/2) office(2/2) is open to question , Mr.(2/2) Barton(2/2) said .Sent 4: 
+	# Q's: 0 %: 52.63
+	# Q's: 1 %: 5.26
+	# Q's: 2 %: 42.11
+
+
+Sentence 5: Success(2/2) in(1/1) Iraq(1/1) means engaging(2/2) the(1/1) local(1/1) populace(1/1) , he(3/3) said , and '' that has(1/1) n't(1/1) been(1/1) their(2/2) strength(2/2) even(1/1) domestically(1/1) . ''Sent 5: 
+	# Q's: 0 %: 37.5
+	# Q's: 1 %: 41.67
+	# Q's: 2 %: 16.67
+	# Q's: 3 %: 4.17
+
+
+Sentence 6: Brig. Gen. Thomas Bostick , commander of the Army corps in the Persian Gulf region , said that because the(1/1) two(3/3) organizations(3/3) had(1/1) been(1/1) working(1/1) hand-in-glove(1/1) from the(1/1) start(1/1) , he did not regard the(3/3) switch(3/3) as a substantial change .Sent 6: 
+	# Q's: 0 %: 73.17
+	# Q's: 1 %: 17.07
+	# Q's: 3 %: 9.76
+
+
+Sentence 7: Rather(1/1) , he(3/3) said , the(2/2) project(2/2) office(2/2) , with its emphasis on planning , will slim(1/1) down(1/1) as more contracts moved into construction . ''Sent 7: 
+	# Q's: 0 %: 73.08
+	# Q's: 1 %: 11.54
+	# Q's: 2 %: 11.54
+	# Q's: 3 %: 3.85
+
+
+Sentence 8: I see this(3/3) as a(1/1) natural(1/1) progression(1/1) , '' General(2/2) Bostick(2/2) said . ''Sent 8: 
+	# Q's: 0 %: 57.14
+	# Q's: 1 %: 21.43
+	# Q's: 2 %: 14.29
+	# Q's: 3 %: 7.14
+
+
+Sentence 9: To say it(3/3) 's going to change , and is going to change as a result of negative(1/1) perception(1/1) , is(2/2) not(2/2) correct(2/2) . ''Sent 9: 
+	# Q's: 0 %: 76.0
+	# Q's: 1 %: 8.0
+	# Q's: 2 %: 12.0
+	# Q's: 3 %: 4.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.522329730896
+
+-----------------Context Labels-----------------
+No: 0.285714285714
+Immediate: 0.271428571429
+Some: 0.328571428571
+Vague: 0.114285714286
+
+------------------Overlap-----------------------
+proper: 22	equal: 29	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643450.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.15
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.65
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.38
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.67
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 3
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 4
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 5
+	mean: 1.67
+	std dev: 0.94
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.0
+	std dev: 0.0
+	max: 2
+	min: 2
+Sentence: 7
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 8
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 2.67
+	std dev: 1.25
+	max: 4
+	min: 1
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The(1/1) aircraft(3/3) was the first large(1/1) plane acquired by the new Iraqi Air Force , which was one of the most powerful(1/1) in the Middle East before it was decimated by bombing attacks in the 1991 Persian Gulf war .Sent 0: 
+	# Q's: 0 %: 90.0
+	# Q's: 1 %: 7.5
+	# Q's: 3 %: 2.5
+
+
+Sentence 1: Dr. Allawi 's remarks(3/3) were made on a day(1/1) when attacks underlined , once again , how insurgents have turned wide(2/2) areas(1/1) of the country , including Baghdad , into what is effectively enemy territory , with an ability(1/1) to strike almost at will , and to shake off the losses inflicted by American troops .Sent 1: 
+	# Q's: 0 %: 91.07
+	# Q's: 1 %: 5.36
+	# Q's: 2 %: 1.79
+	# Q's: 3 %: 1.79
+
+
+Sentence 2: The(1/2) attacks(3/4) in Baghdad on Wednesday were aimed(1/1) at the approaches to the Australian Embassy and four(1/1) Iraqi security targets , including a police station , an army garrison and a bank where policemen were lining up to receive their monthly pay .Sent 2: 
+	# Q's: 0 %: 90.7
+	# Q's: 1 %: 4.65
+	# Q's: 2 %: 2.33
+	# Q's: 4 %: 2.33
+
+
+Sentence 3: The(1/1) attacks(3/4) , four of them within 90 minutes in the morning rush(1/1) hour(1/1) , rattled windows and doors miles(2/2) away(1/1) .Sent 3: 
+	# Q's: 0 %: 72.73
+	# Q's: 1 %: 18.18
+	# Q's: 2 %: 4.55
+	# Q's: 4 %: 4.55
+
+
+Sentence 4: Spread across a wide(1/1) area(1/1) of the city(3/3) , they wounded(1/1) dozens of people , most of them Iraqi civilians , in addition to those killed , and served as a reminder of the insurgents ' power to spread mayhem across the capital only 11 days before the elections(2/2) .Sent 4: 
+	# Q's: 0 %: 90.0
+	# Q's: 1 %: 6.0
+	# Q's: 2 %: 2.0
+	# Q's: 3 %: 2.0
+
+
+Sentence 5: American commanders have sought to prepare(2/2) public(1/1) opinion(1/1) in Iraq and abroad for one of the bloodiest chapters in the war(1/1) so far , saying the escalation(1/1) of violence promised by the insurgents can be diminished to a(1/1) degree(1/1) , but not prevented , by an increasing(1/1) tempo(1/1) of American military raids on insurgent groups .Sent 5: 
+	# Q's: 0 %: 83.93
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 1.79
+
+
+Sentence 6: The American hope is that the voting , for a national assembly and provincial councils , will help turn(1/1) the(1/1) tide(2/2) by drawing a strong turnout among more than 14 million eligible voters , despite the threat of attacks by Sunni insurgents on polling stations , candidates and voters , and a boycott(1/1) of the election being urged by powerful figures in regions where Iraq 's Sunni minority population predominates .Sent 6: 
+	# Q's: 0 %: 94.37
+	# Q's: 1 %: 4.23
+	# Q's: 2 %: 1.41
+
+
+Sentence 7: In almost any foreseeable outcome of the(1/1) election(3/3) , the Sunnis face the prospect(1/1) , for the first(1/1) time(1/1) in centuries(1/1) , of ceding political power in Baghdad to the country 's 60 percent Shiite majority .Sent 7: 
+	# Q's: 0 %: 83.78
+	# Q's: 1 %: 13.51
+	# Q's: 3 %: 2.7
+
+
+Sentence 8: Wednesday 's deadliest(3/3) attack(3/3) occurred near a police station and Al Alahi hospital in the Alwiyah district of eastern Baghdad .Sent 8: 
+	# Q's: 0 %: 90.48
+	# Q's: 3 %: 9.52
+
+
+Sentence 9: The(1/1) American(1/1) command(1/1) said a suicide(1/1) car(1/1) bomber(2/2) killed(2/2) 18 people , including 5 Iraqi policemen , and that 15 other people had been wounded .Sent 9: 
+	# Q's: 0 %: 73.08
+	# Q's: 1 %: 19.23
+	# Q's: 2 %: 7.69
+
+Correlation between Scale and Percent of Sentence not asked about: -0.536747087797
+
+-----------------Context Labels-----------------
+No: 0.406779661017
+Immediate: 0.135593220339
+Some: 0.35593220339
+Vague: 0.101694915254
+
+------------------Overlap-----------------------
+proper: 16	equal: 21	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_25_1644798.0
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.92
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.69
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.77
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 1
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 4
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 5
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 7
+	mean: 3.67
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 8
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 9
+	mean: 4.0
+	std dev: 1.41
+	max: 5
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Just weeks after losing(2/2) his world-famous(2/2) winery(1/1) , Robert Mondavi is going back into the wine business , briefly(1/1) , with a surprising(3/3) partner -- his brother Peter .Sent 0: 
+	# Q's: 0 %: 82.76
+	# Q's: 1 %: 6.9
+	# Q's: 2 %: 6.9
+	# Q's: 3 %: 3.45
+
+
+Sentence 1: It(2/2) will be a small(1/1) venture(1/1) .Sent 1: 
+	# Q's: 0 %: 57.14
+	# Q's: 1 %: 28.57
+	# Q's: 2 %: 14.29
+
+
+Sentence 2: But it(1/1) will be the first public collaboration(1/1) of the(1/1) two(3/3) nonagenarians(2/2) since a legendary(2/2) dispute(2/2) some 40 years ago that prompted Robert to split with his family and start his own business .Sent 2: 
+	# Q's: 0 %: 79.41
+	# Q's: 1 %: 8.82
+	# Q's: 2 %: 8.82
+	# Q's: 3 %: 2.94
+
+
+Sentence 3: Together , Robert , 92 , and Peter , 90 , will(1/1) produce(1/1) a(1/1) small barrel of wine -- 60 magnums to be exact -- to be sold next summer at the Napa Valley Auction , the California wine world 's premier social event .Sent 3: 
+	# Q's: 0 %: 93.33
+	# Q's: 1 %: 6.67
+
+
+Sentence 4: The lighthearted venture(2/2) , arranged by the brothers(1/1) ' winemaking sons , is heavy with symbolism(3/3) , coming as it does so soon after the implosion of the Robert Mondavi Winery and its subsequent sale to Constellation Brands late last year for about $ 1 billion .Sent 4: 
+	# Q's: 0 %: 93.62
+	# Q's: 1 %: 2.13
+	# Q's: 2 %: 2.13
+	# Q's: 3 %: 2.13
+
+
+Sentence 5: It(2/2) represents a formal healing of a breach(3/3) that kept the(1/1) two(2/2) branches(1/1) of the(1/1) renowned(1/1) wine(1/1) family(2/2) apart for almost half a century and it represents , too , a recognition that while the two factions may have stood for different(1/1) ways(1/1) of(1/1) winemaking(1/1) , they were in the long run , not(1/1) as(1/1) far(1/1) apart(1/1) as they once had thought .Sent 5: 
+	# Q's: 0 %: 73.02
+	# Q's: 1 %: 20.63
+	# Q's: 2 %: 4.76
+	# Q's: 3 %: 1.59
+
+
+Sentence 6: For the first time since(1/1) his(1/1) teenage(1/1) years(1/1) , Robert Mondavi has no formal(2/2) connection(3/3) to a winery .Sent 6: 
+	# Q's: 0 %: 68.42
+	# Q's: 1 %: 21.05
+	# Q's: 2 %: 5.26
+	# Q's: 3 %: 5.26
+
+
+Sentence 7: For his(2/2) brother(1/1) it(2/2) is a vindication(2/2) of(1/1) sorts(1/1) of his quieter(2/2) style(1/1) of running a major winery , in this case , the Charles Krug Winery , just up the road from the Robert Mondavi Winery in the Napa Valley .Sent 7: 
+	# Q's: 0 %: 80.95
+	# Q's: 1 %: 9.52
+	# Q's: 2 %: 9.52
+
+
+Sentence 8: The Mondavi brothers ' father , Cesare , a grape shipper in the Central Valley , bought Charles(1/1) Krug(1/1) in 1943 for his sons to run(1/1) .Sent 8: 
+	# Q's: 0 %: 88.89
+	# Q's: 1 %: 11.11
+
+
+Sentence 9: The(2/2) sons(3/3) bickered(1/1) over how(1/1) to(1/1) run(1/1) the(2/2) business(2/2) , culminating in the 1965 altercation(1/1) .Sent 9: 
+	# Q's: 0 %: 43.75
+	# Q's: 1 %: 31.25
+	# Q's: 2 %: 18.75
+	# Q's: 3 %: 6.25
+
+Correlation between Scale and Percent of Sentence not asked about: -0.546293572908
+
+-----------------Context Labels-----------------
+No: 0.435483870968
+Immediate: 0.354838709677
+Some: 0.0967741935484
+Vague: 0.112903225806
+
+------------------Overlap-----------------------
+proper: 13	equal: 19	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641845.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.93
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.83
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.87
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+Sentence: 3
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 5
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 8
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 9
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The contracting(2/2) office(2/2) and the(1/1) projects(2/2) it finances employ about 155 government workers in Baghdad and the United States , about 250 contractors in Iraq and just over 100,000 Iraqis who work on the(1/1) construction(1/1) itself .Sent 0: 
+	# Q's: 0 %: 83.78
+	# Q's: 1 %: 8.11
+	# Q's: 2 %: 8.11
+
+
+Sentence 1: The(1/1) contracting(2/2) office(2/2) said that 1,550 projects(1/1) were currently under way , and that $ 2.4 billion had been spent , out of $ 13.95 billion committed(1/1) specifically to reconstruction(2/2) .Sent 1: 
+	# Q's: 0 %: 80.65
+	# Q's: 1 %: 9.68
+	# Q's: 2 %: 9.68
+
+
+Sentence 2: ( Some(1/1) of the original(1/1) $ 18.4 billion allocated(2/2) by(1/1) Congress(1/1) has gone to the training of Iraqi security forces and other(2/2) projects(1/1) unrelated(1/1) to construction . )Sent 2: 
+	# Q's: 0 %: 71.43
+	# Q's: 1 %: 21.43
+	# Q's: 2 %: 7.14
+
+
+Sentence 3: The planned(2/2) changes(3/3) have not been disclosed publicly , but they have been discussed in staff(1/1) meetings since at least September .Sent 3: 
+	# Q's: 0 %: 86.36
+	# Q's: 1 %: 4.55
+	# Q's: 2 %: 4.55
+	# Q's: 3 %: 4.55
+
+
+Sentence 4: Two former officials at the project(2/2) office(2/2) said that uncertainty over exactly who would be in charge of various(2/2) projects(2/2) had caused morale(1/1) problems(2/2) among some members of a staff that is already coping with work(1/1) in an extremely dangerous(2/2) place(3/3) far from home(2/2) .Sent 4: 
+	# Q's: 0 %: 77.78
+	# Q's: 1 %: 4.44
+	# Q's: 2 %: 15.56
+	# Q's: 3 %: 2.22
+
+
+Sentence 5: But one of the former(1/1) officials(1/1) said that by preventing(1/1) the project(1/1) office(1/1) from becoming a permanent government(1/1) institution , there was also a positive(2/2) slant(1/1) to the(1/1) shift(3/3) . ''Sent 5: 
+	# Q's: 0 %: 67.74
+	# Q's: 1 %: 25.81
+	# Q's: 2 %: 3.23
+	# Q's: 3 %: 3.23
+
+
+Sentence 6: This(1/1) bureaucracy(2/2) had n't settled(1/1) in(1/1) , '' the former(2/2) official(2/2) said . ''Sent 6: 
+	# Q's: 0 %: 57.14
+	# Q's: 1 %: 21.43
+	# Q's: 2 %: 21.43
+
+
+Sentence 7: Everything(2/2) was n't static .Sent 7: 
+	# Q's: 0 %: 80.0
+	# Q's: 2 %: 20.0
+
+
+Sentence 8: In some(2/2) ways(1/1) that(3/4) was(1/1) a(1/1) benefit(1/1) . ''Sent 8: 
+	# Q's: 0 %: 33.33
+	# Q's: 1 %: 44.44
+	# Q's: 2 %: 11.11
+	# Q's: 4 %: 11.11
+
+
+Sentence 9: Even(1/1) with(1/1) the(2/2) changes(3/3) ,(1/1) it is unlikely that the project(2/2) office(2/2) will vanish entirely over the next year , because some(2/2) projects(2/2) are still in the planning stages and because moving the dozens of government(1/1) employees(1/1) into new jobs will be a major task in itself .Sent 9: 
+	# Q's: 0 %: 77.08
+	# Q's: 1 %: 10.42
+	# Q's: 2 %: 10.42
+	# Q's: 3 %: 2.08
+
+Correlation between Scale and Percent of Sentence not asked about: -0.547882506666
+
+-----------------Context Labels-----------------
+No: 0.184615384615
+Immediate: 0.184615384615
+Some: 0.553846153846
+Vague: 0.0769230769231
+
+------------------Overlap-----------------------
+proper: 21	equal: 15	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641884.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.76
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.68
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.92
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 1.0
+	std dev: 0.0
+	max: 1
+	min: 1
+Sentence: 1
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 5.0
+	std dev: 0.82
+	max: 6
+	min: 4
+Sentence: 8
+	mean: 1.0
+	std dev: 0.82
+	max: 2
+	min: 0
+Sentence: 9
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: In a case(1/1) involving(1/1) John Nettle , a 45-year-old former vice president at General Mills , a letter prepared by U.S. Foodservice 's auditor stated that General Mills owed(1/1) the(1/1) company(1/1) $ 13.44 million at the end of 2001 . ''Sent 0: 
+	# Q's: 0 %: 87.8
+	# Q's: 1 %: 12.2
+
+
+Sentence 1: In truth and in fact , General(1/1) Mills(1/1) owed U.S.F.(1/1) less(1/1) than(1/1) $ 2.5 million , '' the(1/1) government(1/1) charged in court(1/1) documents(1/1) .Sent 1: 
+	# Q's: 0 %: 62.5
+	# Q's: 1 %: 37.5
+
+
+Sentence 2: Mr.(2/2) Nettle(2/2) is accused(1/1) of signing the(2/2) letter(3/3) despite the false(3/3) information(3/3) .Sent 2: 
+	# Q's: 0 %: 46.15
+	# Q's: 1 %: 7.69
+	# Q's: 2 %: 23.08
+	# Q's: 3 %: 23.08
+
+
+Sentence 3: For 2002 , he(3/3) signed a letter stating that General Mills owed(1/1) U.S.(1/1) Foodservice(1/1) $ 36.64 million , although the amount was actually less than $ 1 million , according to the(2/2) documents(3/3) . ''Sent 3: 
+	# Q's: 0 %: 82.86
+	# Q's: 1 %: 8.57
+	# Q's: 2 %: 2.86
+	# Q's: 3 %: 5.71
+
+
+Sentence 4: As Nettle(2/2) well knew , the $ 36.64 million figure was grossly(2/2) overstated(2/2) and General Mills did not owe that amount , '' the(2/2) documents(3/3) state .Sent 4: 
+	# Q's: 0 %: 81.48
+	# Q's: 2 %: 14.81
+	# Q's: 3 %: 3.7
+
+
+Sentence 5: A lawyer for Mr.(2/2) Nettle(2/2) , William Michael , said his client '' was(2/2) pressured(3/3) into signing these(2/2) letters(2/2) and he is very sorry for what(2/2) this(2/2) has(2/2) caused(2/2) his(1/1) former(1/1) employer(1/1) as well as his family . ''Sent 5: 
+	# Q's: 0 %: 66.67
+	# Q's: 1 %: 7.69
+	# Q's: 2 %: 23.08
+	# Q's: 3 %: 2.56
+
+
+Sentence 6: He(3/3) said that Mr.(2/2) Nettle(2/2) planned to plead(2/2) guilty(2/2) .Sent 6: 
+	# Q's: 0 %: 50.0
+	# Q's: 2 %: 40.0
+	# Q's: 3 %: 10.0
+
+
+Sentence 7: Two(1/1) of(1/1) the(1/1) defendants(3/3) have been charged with securities(1/1) fraud(1/1) and(1/1) obstruction(2/2) of(2/2) a(2/2) federal(2/2) investigation(2/2) .Sent 7: 
+	# Q's: 0 %: 29.41
+	# Q's: 1 %: 35.29
+	# Q's: 2 %: 29.41
+	# Q's: 3 %: 5.88
+
+
+Sentence 8: Mark Bailin , who was president of Rymer International Seafood , and Peter Marion , president of Maritime Seafood Processors , are accused of buying U.S. Foodservice stock in 2000 , ahead(1/1) of(1/1) the(1/1) company(1/1) 's(1/1) announcement(2/2) that it was being acquired by Royal(1/1) Ahold(1/1) .Sent 8: 
+	# Q's: 0 %: 82.61
+	# Q's: 1 %: 15.22
+	# Q's: 2 %: 2.17
+
+
+Sentence 9: They(3/3) made about $ 1.5 million in illegal(3/3) profits(3/3) , according to court documents .Sent 9: 
+	# Q's: 0 %: 80.0
+	# Q's: 3 %: 20.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.552099948396
+
+-----------------Context Labels-----------------
+No: 0.209677419355
+Immediate: 0.354838709677
+Some: 0.306451612903
+Vague: 0.129032258065
+
+------------------Overlap-----------------------
+proper: 12	equal: 28	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_28_1645501.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.88
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.67
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.71
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.0
+	max: 4
+	min: 4
+Sentence: 1
+	mean: 2.67
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 2
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 3
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 4
+	mean: 3.0
+	std dev: 1.41
+	max: 4
+	min: 1
+Sentence: 5
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 6
+	mean: 5.0
+	std dev: 0.0
+	max: 5
+	min: 5
+Sentence: 7
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 8
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 9
+	mean: 3.0
+	std dev: 0.82
+	max: 4
+	min: 2
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The explanation(1/1) for less American government participation(2/2) than in past years -- that this(2/2) forum(2/2) came at an awkward(1/1) time just before the State of the Union address -- makes(1/1) some(1/1) sense(2/2) .Sent 0: 
+	# Q's: 0 %: 75.76
+	# Q's: 1 %: 12.12
+	# Q's: 2 %: 12.12
+
+
+Sentence 1: And there were Americans here(3/3) , like John A. Thain , the chief executive of the New York Stock Exchange , who gently suggested that the current-account deficit(2/2) would decline if(1/1) Europe grew faster(1/1) .Sent 1: 
+	# Q's: 0 %: 88.57
+	# Q's: 1 %: 5.71
+	# Q's: 2 %: 2.86
+	# Q's: 3 %: 2.86
+
+
+Sentence 2: Some(2/2) Americans are listening(2/2) .Sent 2: 
+	# Q's: 0 %: 60.0
+	# Q's: 2 %: 40.0
+
+
+Sentence 3: William H. Donaldson , the chairman of the S.E.C. , gave a speech in London this week that dealt with some of the(2/2) concerns(2/2) , indicating the commission may delay enforcing rules(1/1) against foreign companies that trade in the United States and may make it easier for foreign companies already registered in the United States to withdraw(1/1) .Sent 3: 
+	# Q's: 0 %: 93.1
+	# Q's: 1 %: 3.45
+	# Q's: 2 %: 3.45
+
+
+Sentence 4: The(1/1) rule(1/1) that has both American and foreign companies complaining is Section(1/1) 404(1/1) , which requires extensive reviews of internal controls in companies to assure they are effective(1/1) -- and says outside auditors must certify(1/1) the controls . ''Sent 4: 
+	# Q's: 0 %: 84.62
+	# Q's: 1 %: 15.38
+
+
+Sentence 5: It(3/3) was an enormous(1/1) , expensive(1/1) exercise , '' Mr. Vasella said in an interview . ''Sent 5: 
+	# Q's: 0 %: 82.35
+	# Q's: 1 %: 11.76
+	# Q's: 3 %: 5.88
+
+
+Sentence 6: It(3/3) raised the question , for my(1/1) employees , ` Is the(1/1) trust(3/3) broken(1/1) ? 'Sent 6: 
+	# Q's: 0 %: 68.75
+	# Q's: 1 %: 18.75
+	# Q's: 3 %: 12.5
+
+
+Sentence 7: because(1/1) you(2/2) control everything(1/1) . ''Sent 7: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 33.33
+	# Q's: 2 %: 16.67
+
+
+Sentence 8: Novartis(1/1) has complied(2/2) with the(1/1) rule(2/2) .Sent 8: 
+	# Q's: 0 %: 42.86
+	# Q's: 1 %: 28.57
+	# Q's: 2 %: 28.57
+
+
+Sentence 9: The chief executive of PricewaterhouseCoopers , Samuel A. DiPiazza Jr. , estimated that 10 percent of large(1/1) American companies would fail to comply(3/3) this year , either because they could not complete the work(1/1) on time or because material problems(1/1) were found .Sent 9: 
+	# Q's: 0 %: 90.7
+	# Q's: 1 %: 6.98
+	# Q's: 3 %: 2.33
+
+Correlation between Scale and Percent of Sentence not asked about: -0.562357983504
+
+-----------------Context Labels-----------------
+No: 0.241379310345
+Immediate: 0.224137931034
+Some: 0.431034482759
+Vague: 0.103448275862
+
+------------------Overlap-----------------------
+proper: 7	equal: 20	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_05_1639693.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.65
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.83
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.42
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 1
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 2
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 3
+	mean: 1.67
+	std dev: 1.7
+	max: 4
+	min: 0
+Sentence: 4
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 5
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 6
+	mean: 2.67
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 7
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 8
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 9
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: It(2/2) is also unusual in that it(1/1) seeks(1/1) to(1/1) prevent(1/1) Mr. Salinas Pliego , who owns a controlling stake in the(1/1) company(2/2) , from acting as an officer or director of TV Azteca or any other public company .Sent 0: 
+	# Q's: 0 %: 82.05
+	# Q's: 1 %: 12.82
+	# Q's: 2 %: 5.13
+
+
+Sentence 1: If the(1/1) S.E.C.(1/1) is victorious , it would have try to find ways to restrict(2/2) Mr.(2/3) Salinas(2/3) Pliego(2/3) from(1/1) exercising(1/1) control(1/1) by voting his shares , perhaps by putting his stock in a trust , people(3/3) close(3/3) to(2/2) the(2/2) agency(2/2) say .Sent 1: 
+	# Q's: 0 %: 66.67
+	# Q's: 1 %: 11.9
+	# Q's: 2 %: 9.52
+	# Q's: 3 %: 11.9
+
+
+Sentence 2: The(2/2) action(3/3) also highlights a(1/1) trend(1/1) of the S.E.C. 's trying to enforce United States securities laws against foreign companies whose stocks and bonds are listed on American markets . ''Sent 2: 
+	# Q's: 0 %: 87.1
+	# Q's: 1 %: 6.45
+	# Q's: 2 %: 3.23
+	# Q's: 3 %: 3.23
+
+
+Sentence 3: Geographic(2/2) boundaries(2/2) will(1/1) not(1/1) serve(1/1) to(1/1) protect(1/1) those(1/1) who(1/1) seek(1/1) to(1/1) defraud(1/1) investors(1/1) , '' said Spencer C. Barasch , associate district administrator at the(1/1) S.E.C.(1/1) '' When companies , domestic or foreign , avail themselves of our capital markets , they have the same responsibility to adhere to U.S. securities law . ''Sent 3: 
+	# Q's: 0 %: 72.22
+	# Q's: 1 %: 24.07
+	# Q's: 2 %: 3.7
+
+
+Sentence 4: TV(1/1) Azteca(1/1) , whose depository shares(1/1) trade(1/1) on the New York Stock Exchange , is a unit of Azteca Holdings , which is(1/1) controlled(1/1) by(1/1) Mr.(1/1) Salinas(1/1) Pliego(1/1) .Sent 4: 
+	# Q's: 0 %: 65.52
+	# Q's: 1 %: 34.48
+
+
+Sentence 5: TV Azteca is one of the(1/1) fastest-growing(3/3) Spanish-language(1/1) networks(1/1) in the United States , reaching some 77 percent of Latino homes .Sent 5: 
+	# Q's: 0 %: 81.82
+	# Q's: 1 %: 13.64
+	# Q's: 3 %: 4.55
+
+
+Sentence 6: The S.E.C. also filed(3/4) suit(3/4) against Pedro Padilla Longoria , the former chief executive of TV Azteca , and Luis J. Echarte Fernández , president and chief of Azteca America and chief financial officer of Grupo(1/1) Salinas(1/1) .Sent 6: 
+	# Q's: 0 %: 89.47
+	# Q's: 1 %: 5.26
+	# Q's: 4 %: 5.26
+
+
+Sentence 7: Both(3/3) men(3/3) are directors(1/1) of(1/1) TV(2/2) Azteca(2/2) .Sent 7: 
+	# Q's: 0 %: 25.0
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 25.0
+	# Q's: 3 %: 25.0
+
+
+Sentence 8: Mr.(2/2) Echarte(2/2) Fernández(2/2) paid a civil(1/1) penalty(1/1) of $ 200,000 to settle(2/2) with(1/1) the(2/3) agency(3/4) .Sent 8: 
+	# Q's: 0 %: 43.75
+	# Q's: 1 %: 18.75
+	# Q's: 2 %: 25.0
+	# Q's: 3 %: 6.25
+	# Q's: 4 %: 6.25
+
+
+Sentence 9: He(3/3) neither admitted nor denied any wrongdoing(1/1) .Sent 9: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 12.5
+	# Q's: 3 %: 12.5
+
+Correlation between Scale and Percent of Sentence not asked about: -0.54542263966
+
+-----------------Context Labels-----------------
+No: 0.265306122449
+Immediate: 0.265306122449
+Some: 0.408163265306
+Vague: 0.0612244897959
+
+------------------Overlap-----------------------
+proper: 20	equal: 18	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_28_1645448.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.79
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.75
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.51
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 1
+	mean: 3.0
+	std dev: 0.0
+	max: 3
+	min: 3
+Sentence: 2
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 3
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 3.33
+	std dev: 0.94
+	max: 4
+	min: 2
+Sentence: 5
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 6
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 7
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: The value(1/1) of the share(3/3) price(2/2) could(1/1) be(1/1) higher(2/2) , '' Mr. Hommen said in an interview(1/1) .Sent 0: 
+	# Q's: 0 %: 61.11
+	# Q's: 1 %: 22.22
+	# Q's: 2 %: 11.11
+	# Q's: 3 %: 5.56
+
+
+Sentence 1: The stock(1/1) buyback(1/1) '' seems like a good investment in our own company(3/3) , '' he(2/2) said , adding , '' It 's a better(2/2) way to use our cash than letting it sit in a 1 or 2 percent account '' generating interest .Sent 1: 
+	# Q's: 0 %: 88.89
+	# Q's: 1 %: 4.44
+	# Q's: 2 %: 4.44
+	# Q's: 3 %: 2.22
+
+
+Sentence 2: Gerard J. Kleisterlee , the chief executive , said in an interview that Philips would allocate a bigger(3/3) chunk of its budget to increasing the company 's name and brand(1/1) recognition(1/1) in the United States this year .Sent 2: 
+	# Q's: 0 %: 92.11
+	# Q's: 1 %: 5.26
+	# Q's: 3 %: 2.63
+
+
+Sentence 3: The company(3/3) did not release performance figures for its long-suffering(2/2) consumer electronics business in the United States , but indicated(1/1) that things(1/1) were improving .Sent 3: 
+	# Q's: 0 %: 84.0
+	# Q's: 1 %: 8.0
+	# Q's: 2 %: 4.0
+	# Q's: 3 %: 4.0
+
+
+Sentence 4: An official(1/1) of Philips once(1/1) threatened(1/1) to stop selling consumer electronics in the United States altogether if the company could not make a profit . ''Sent 4: 
+	# Q's: 0 %: 88.46
+	# Q's: 1 %: 11.54
+
+
+Sentence 5: We(1/1) are n't considering closing it(3/3) , so you can draw your own(1/1) conclusions(2/2) , '' Mr.(1/1) Kleisterlee(1/1) said in an interview . ''Sent 5: 
+	# Q's: 0 %: 75.0
+	# Q's: 1 %: 16.67
+	# Q's: 2 %: 4.17
+	# Q's: 3 %: 4.17
+
+
+Sentence 6: We(2/2) are comfortable(1/1) with where(1/1) we are . ''Sent 6: 
+	# Q's: 0 %: 66.67
+	# Q's: 1 %: 22.22
+	# Q's: 2 %: 11.11
+
+
+Sentence 7: Philips said it was guardedly(1/1) optimistic(3/3) about the coming(1/1) year(1/1) , but remained concerned(2/2) about the fragility of world economies .Sent 7: 
+	# Q's: 0 %: 76.19
+	# Q's: 1 %: 14.29
+	# Q's: 2 %: 4.76
+	# Q's: 3 %: 4.76
+
+Correlation between Scale and Percent of Sentence not asked about: -0.544926133575
+
+-----------------Context Labels-----------------
+No: 0.36170212766
+Immediate: 0.382978723404
+Some: 0.170212765957
+Vague: 0.0851063829787
+
+------------------Overlap-----------------------
+proper: 4	equal: 21	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_14_1641884.10
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.56
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.81
+Worker 1: "A15SL3YR88L2D1"
+Wrange(len(l)orker 2: "AY1E1I3E6TC8G"
+	Correlation: 0.44
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 1
+	mean: 5.33
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 2
+	mean: 3.33
+	std dev: 0.47
+	max: 4
+	min: 3
+Sentence: 3
+	mean: 5.33
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 4
+	mean: 3.67
+	std dev: 1.7
+	max: 6
+	min: 2
+Sentence: 5
+	mean: 2.67
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 6
+	mean: 0.67
+	std dev: 0.47
+	max: 1
+	min: 0
+Sentence: 7
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 8
+	mean: 3.33
+	std dev: 1.25
+	max: 5
+	min: 2
+Sentence: 9
+	mean: 4.67
+	std dev: 0.47
+	max: 5
+	min: 4
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: Most of the(2/2) executives(3/3) are expected to plead(1/1) guilty(2/2) , he(1/1) said at a news conference , adding that none(1/1) of(1/1) the(1/1) companies(1/1) they worked for have been charged(1/1) with wrongdoing(1/1) .Sent 0: 
+	# Q's: 0 %: 65.63
+	# Q's: 1 %: 25.0
+	# Q's: 2 %: 6.25
+	# Q's: 3 %: 3.13
+
+
+Sentence 1: The(2/2) investigation(3/3) is(1/1) continuing , '' upstream(1/1) and(1/1) downstream(1/1) , '' he(3/3) said .Sent 1: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 28.57
+	# Q's: 2 %: 7.14
+	# Q's: 3 %: 14.29
+
+
+Sentence 2: All(1/1) of(1/1) the(2/2) executives(3/3) have also been named in a civil case brought by the Securities and Exchange Commission , which accuses them of aiding and abetting a(1/1) financial(2/2) fraud(2/2) .Sent 2: 
+	# Q's: 0 %: 77.42
+	# Q's: 1 %: 9.68
+	# Q's: 2 %: 9.68
+	# Q's: 3 %: 3.23
+
+
+Sentence 3: Promotional(1/1) allowances(1/1) are intended to be used to help sell a manufacturer 's goods to consumers , through discounts , displays or advertising , and they often add up to large(2/2) amounts(2/2) of(2/2) money(2/2) .Sent 3: 
+	# Q's: 0 %: 82.86
+	# Q's: 1 %: 5.71
+	# Q's: 2 %: 11.43
+
+
+Sentence 4: U.S. Foodservice would pay the price of goods up front , as part of its costs , then book promotional allowances as assets(1/1) in(1/1) its(1/1) records(1/1) , according to court(1/1) documents(1/1) .Sent 4: 
+	# Q's: 0 %: 81.25
+	# Q's: 1 %: 18.75
+
+
+Sentence 5: Exaggerating the promotional(1/1) allowances(1/1) , sometimes by a factor of 30 or more , not only made U.S. Foodservice look like a(1/1) better(1/1) business(1/1) than it was , but also improved the financial appearance of its parent , Royal(1/1) Ahold(1/1) .Sent 5: 
+	# Q's: 0 %: 82.93
+	# Q's: 1 %: 17.07
+
+
+Sentence 6: Royal Ahold , a(1/1) publicly(1/1) traded(1/1) company(1/1) based in the Netherlands , revealed in February 2003 that it had overstated(2/2) earnings(1/1) by at least $ 500 million over the previous two years .Sent 6: 
+	# Q's: 0 %: 81.82
+	# Q's: 1 %: 15.15
+	# Q's: 2 %: 3.03
+
+
+Sentence 7: The(2/2) figure(3/3) was later(1/1) revised(1/1) to $ 880 million .Sent 7: 
+	# Q's: 0 %: 60.0
+	# Q's: 1 %: 20.0
+	# Q's: 2 %: 10.0
+	# Q's: 3 %: 10.0
+
+
+Sentence 8: Royal(1/1) Ahold(1/1) said much(1/1) of the(1/1) overstatement(3/3) came from promotional allowances recorded by U.S. Foodservice .Sent 8: 
+	# Q's: 0 %: 68.75
+	# Q's: 1 %: 25.0
+	# Q's: 3 %: 6.25
+
+
+Sentence 9: A(1/1) host(2/2) of(2/2) executives(2/2) , including the top(1/1) management(1/1) of Royal(1/1) Ahold(1/1) , resigned(1/1) .Sent 9: 
+	# Q's: 0 %: 40.0
+	# Q's: 1 %: 40.0
+	# Q's: 2 %: 20.0
+
+Correlation between Scale and Percent of Sentence not asked about: -0.544607239408
+
+-----------------Context Labels-----------------
+No: 0.255319148936
+Immediate: 0.297872340426
+Some: 0.36170212766
+Vague: 0.0851063829787
+
+------------------Overlap-----------------------
+proper: 16	equal: 7	intersect: 0	
+
+
+=========================================================
+TASK: 2005_01_20_1643393.20
+
+----------------SCALES--------------
+
+-------------Correlations between Workers--------------
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A2JXKG4G3440T1"
+	Correlation: 0.81
+Worker 1: "AY1E1I3E6TC8G"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.64
+Worker 1: "A2JXKG4G3440T1"
+Wrange(len(l)orker 2: "A15SL3YR88L2D1"
+	Correlation: 0.81
+
+---------------Means, Standard Deviations, and Max/Min------------
+Sentence: 0
+	mean: 5.67
+	std dev: 0.47
+	max: 6
+	min: 5
+Sentence: 1
+	mean: 2.0
+	std dev: 0.82
+	max: 3
+	min: 1
+Sentence: 2
+	mean: 1.33
+	std dev: 0.47
+	max: 2
+	min: 1
+Sentence: 3
+	mean: 4.33
+	std dev: 0.47
+	max: 5
+	min: 4
+Sentence: 4
+	mean: 4.0
+	std dev: 0.82
+	max: 5
+	min: 3
+Sentence: 5
+	mean: 5.33
+	std dev: 0.94
+	max: 6
+	min: 4
+Sentence: 6
+	mean: 2.33
+	std dev: 0.47
+	max: 3
+	min: 2
+Sentence: 7
+	mean: 3.33
+	std dev: 1.7
+	max: 5
+	min: 1
+Sentence: 8
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+Sentence: 9
+	mean: 6.0
+	std dev: 0.0
+	max: 6
+	min: 6
+
+------------------Most Ambiguous Phrases...----------
+
+Sentence 0: She(1/1) is not(1/1) posturing(2/2) . ''Sent 0: 
+	# Q's: 0 %: 50.0
+	# Q's: 1 %: 33.33
+	# Q's: 2 %: 16.67
+
+
+Sentence 1: Ms. Boxer has been source of political frustration for California(1/1) Republicans(1/1) , who have been unable to defeat(1/1) her despite her liberal voting record(1/1) and her prominent(1/1) role(1/1) as a legislative leader on protecting abortion rights .Sent 1: 
+	# Q's: 0 %: 83.78
+	# Q's: 1 %: 16.22
+
+
+Sentence 2: She(3/3) rolled up a 20 percentage point win in November over the Republican challenger , Bill Jones , and accumulated just under seven million votes , the highest total ever for a senator . ''Sent 2: 
+	# Q's: 0 %: 97.14
+	# Q's: 3 %: 2.86
+
+
+Sentence 3: She(2/2) said on election(1/1) night(1/1) that she was not going to be afraid to stand(1/1) alone(2/2) , '' said David Sandretti , her chief spokesman .Sent 3: 
+	# Q's: 0 %: 80.77
+	# Q's: 1 %: 11.54
+	# Q's: 2 %: 7.69
+
+
+Sentence 4: Jack Pitney , a political science professor at Claremont McKenna College and a former Republican operative in Washington , said : '' She(2/2) has always(1/1) portrayed herself as a fighter(1/1) and this(1/1) is part of her personality .Sent 4: 
+	# Q's: 0 %: 89.47
+	# Q's: 1 %: 7.89
+	# Q's: 2 %: 2.63
+
+
+Sentence 5: This aggressive critic(1/1) of the powers(1/1) that(1/1) be(1/1) is the role for which she(1/1) was born . ''Sent 5: 
+	# Q's: 0 %: 72.22
+	# Q's: 1 %: 27.78
+
+
+Sentence 6: Ms. Boxer 's split(1/1) with Dianne Feinstein , her fellow Democratic senator from California , on Ms. Rice 's suitability to be secretary of state was stark : Ms. Feinstein introduced the nominee to the committee(1/1) in laudatory(1/1) terms(1/1) . ''Sent 6: 
+	# Q's: 0 %: 90.24
+	# Q's: 1 %: 9.76
+
+
+Sentence 7: The people of California elected two(1/1) separate(2/2) senators(2/2) , '' Ms.(1/1) Boxer(1/1) said . ''Sent 7: 
+	# Q's: 0 %: 66.67
+	# Q's: 1 %: 20.0
+	# Q's: 2 %: 13.33
+
+
+Sentence 8: We(2/2) are not joined(1/1) at(1/1) the(1/1) hip(1/1) .Sent 8: 
+	# Q's: 0 %: 37.5
+	# Q's: 1 %: 50.0
+	# Q's: 2 %: 12.5
+
+
+Sentence 9: We(2/2) do n't always agree . ''Sent 9: 
+	# Q's: 0 %: 85.71
+	# Q's: 2 %: 14.29
+
+Correlation between Scale and Percent of Sentence not asked about: -0.54920672987
+
+-----------------Context Labels-----------------
+No: 0.138888888889
+Immediate: 0.361111111111
+Some: 0.388888888889
+Vague: 0.111111111111
+
+------------------Overlap-----------------------
+proper: 4	equal: 7	intersect: 0	
+
+
+
+
+-----------------Confidence Interval of Sentence Lengths-----------------
+(mean, lower bound, upper bound) (279.429, 260.578, 298.279)
+min: 206
+max: 422
+
+----------------Correlation between Worker and Other Workers per Task-------------------
+Task 2005_01_20_1643393.10:
+	"AY1E1I3E6TC8G":	0.90862072664
+	"A2JXKG4G3440T1":	0.89133762325
+	"A15SL3YR88L2D1":	0.958372715007
+
+Task 2005_01_20_1643450.10:
+	"AY1E1I3E6TC8G":	0.478870959035
+	"A2JXKG4G3440T1":	0.317628419308
+	"A15SL3YR88L2D1":	0.633605975062
+
+Task 2005_01_25_1644798.10:
+	"A15SL3YR88L2D1":	0.733495784417
+	"A2JXKG4G3440T1":	0.545462725144
+	"AY1E1I3E6TC8G":	0.720544039888
+
+Task 2005_01_19_1643276.10:
+	"A2JXKG4G3440T1":	0.809835109719
+	"A15SL3YR88L2D1":	0.749288814166
+	"AY1E1I3E6TC8G":	0.824259389678
+
+Task 2005_01_28_1645501.0:
+	"A2JXKG4G3440T1":	0.497416003374
+	"A15SL3YR88L2D1":	0.476165258022
+	"AY1E1I3E6TC8G":	0.729288045699
+
+Task 2005_01_19_1643276.30:
+	"A15SL3YR88L2D1":	0.501485887377
+	"A2JXKG4G3440T1":	0.801702519546
+	"AY1E1I3E6TC8G":	0.524934929455
+
+Task 2005_01_20_1643450.0:
+	"A2JXKG4G3440T1":	0.680882906649
+	"A15SL3YR88L2D1":	0.832584173311
+	"AY1E1I3E6TC8G":	0.61541611719
+
+Task 2005_01_30_1645866.20:
+	"A2JXKG4G3440T1":	0.80314042867
+	"AY1E1I3E6TC8G":	0.247127241925
+	"A15SL3YR88L2D1":	0.548703261169
+
+Task 2005_01_20_1643450.20:
+	"A2JXKG4G3440T1":	0.85394786333
+	"A15SL3YR88L2D1":	0.950410453164
+	"AY1E1I3E6TC8G":	0.84667290034
+
+Task 2005_01_14_1641884.0:
+	"A15SL3YR88L2D1":	0.217865300104
+	"A2JXKG4G3440T1":	0.586798819949
+	"AY1E1I3E6TC8G":	0.541634491516
+
+Task 2005_01_14_1641845.10:
+	"A2JXKG4G3440T1":	0.713714403348
+	"AY1E1I3E6TC8G":	0.857757479503
+	"A15SL3YR88L2D1":	0.545414368862
+
+Task 2005_01_25_1644798.0:
+	"A2JXKG4G3440T1":	0.858535711899
+	"AY1E1I3E6TC8G":	0.911473157987
+	"A15SL3YR88L2D1":	0.749895256741
+
+Task 2005_01_14_1641884.20:
+	"A2JXKG4G3440T1":	0.740037709405
+	"AY1E1I3E6TC8G":	0.923931361246
+	"A15SL3YR88L2D1":	0.871548677302
+
+Task 2005_01_28_1645501.10:
+	"A15SL3YR88L2D1":	0.842514275525
+	"A2JXKG4G3440T1":	0.856523343598
+	"AY1E1I3E6TC8G":	0.717314302115
+
+Task 2005_01_05_1639693.10:
+	"A2JXKG4G3440T1":	0.886090429922
+	"AY1E1I3E6TC8G":	0.549388411672
+	"A15SL3YR88L2D1":	0.697341196547
+
+Task 2005_01_05_1639693.20:
+	"A2JXKG4G3440T1":	0.786148552374
+	"A15SL3YR88L2D1":	0.463089651282
+	"AY1E1I3E6TC8G":	0.729692514503
+
+Task 2005_01_19_1643276.20:
+	"A2JXKG4G3440T1":	0.760596906729
+	"AY1E1I3E6TC8G":	0.758585440497
+	"A15SL3YR88L2D1":	0.77454392365
+
+Task 2005_01_14_1641845.0:
+	"AY1E1I3E6TC8G":	0.78751729266
+	"A15SL3YR88L2D1":	0.75894663844
+	"A2JXKG4G3440T1":	0.881482554707
+
+Task 2005_01_20_1643393.0:
+	"A2JXKG4G3440T1":	0.985527456653
+	"A15SL3YR88L2D1":	0.898552577154
+	"AY1E1I3E6TC8G":	0.949676213453
+
+Task 2005_01_28_1645448.0:
+	"A15SL3YR88L2D1":	0.906077348066
+	"A2JXKG4G3440T1":	0.805262716873
+	"AY1E1I3E6TC8G":	0.7104830453
+
+Task 2005_01_20_1643450.30:
+	"A15SL3YR88L2D1":	0.313112145543
+	"A2JXKG4G3440T1":	0.42244262609
+	"AY1E1I3E6TC8G":	0.942832753785
+
+Task 2005_01_30_1645866.10:
+	"AY1E1I3E6TC8G":	0.693741203164
+	"A2JXKG4G3440T1":	0.830604908903
+	"A15SL3YR88L2D1":	0.814697078918
+
+Task 2005_01_19_1643276.0:
+	"A2JXKG4G3440T1":	0.902033589327
+	"A15SL3YR88L2D1":	0.543991307084
+	"AY1E1I3E6TC8G":	0.461554527064
+
+Task 2005_01_14_1641845.20:
+	"A2JXKG4G3440T1":	0.921965415044
+	"A15SL3YR88L2D1":	0.944444444444
+	"AY1E1I3E6TC8G":	0.864677161901
+
+Task 2005_01_30_1645866.0:
+	"A15SL3YR88L2D1":	0.623903813262
+	"A2JXKG4G3440T1":	0.825398336536
+	"AY1E1I3E6TC8G":	0.646335505764
+
+Task 2005_01_28_1645448.10:
+	"A2JXKG4G3440T1":	0.885818451773
+	"A15SL3YR88L2D1":	0.704862704498
+	"AY1E1I3E6TC8G":	0.663601516331
+
+Task 2005_01_14_1641884.10:
+	"A2JXKG4G3440T1":	0.818044315564
+	"A15SL3YR88L2D1":	0.516796564314
+	"AY1E1I3E6TC8G":	0.709922350554
+
+Task 2005_01_20_1643393.20:
+	"AY1E1I3E6TC8G":	0.753410574957
+	"A2JXKG4G3440T1":	0.891772740495
+	"A15SL3YR88L2D1":	0.753492870556
+
+---------Average Standard Deviation of Specificity Scales per Task---------------
+Task 2005_01_05_1639693.20:	0.804285714286
+Task 2005_01_20_1643393.10:	0.329
+Task 2005_01_19_1643276.0:	0.695
+Task 2005_01_19_1643276.20:	0.72
+Task 2005_01_25_1644798.10:	0.804
+Task 2005_01_19_1643276.10:	0.7
+Task 2005_01_14_1641845.0:	0.548
+Task 2005_01_20_1643450.30:	0.73375
+Task 2005_01_28_1645501.0:	0.693
+Task 2005_01_19_1643276.30:	0.784444444444
+Task 2005_01_20_1643450.0:	0.505
+Task 2005_01_30_1645866.10:	0.552
+Task 2005_01_20_1643393.0:	0.27
+Task 2005_01_28_1645448.0:	0.663
+Task 2005_01_30_1645866.0:	0.687
+Task 2005_01_30_1645866.20:	0.493
+Task 2005_01_20_1643450.20:	0.505
+Task 2005_01_14_1641884.0:	0.698
+Task 2005_01_14_1641845.10:	0.649
+Task 2005_01_20_1643450.10:	0.63
+Task 2005_01_25_1644798.0:	0.622
+Task 2005_01_14_1641845.20:	0.516
+Task 2005_01_14_1641884.20:	0.528
+Task 2005_01_28_1645501.10:	0.411
+Task 2005_01_05_1639693.10:	0.8
+Task 2005_01_28_1645448.10:	0.47
+Task 2005_01_14_1641884.10:	0.911
+Task 2005_01_20_1643393.20:	0.616
+
+-----------------OTHER DATA-----------------
+
+Overall Worker Correlation:0.659
+95% Confidence Interval of ambiguous word idfs: (3.317, 3.164, 3.47)
+95% Confidence Interval of unambiguous word idfs: (4.329, 4.201, 4.457)
+Average Scale per Task Correlation between Workers: 
+	"AY1E1I3E6TC8G" "A2JXKG4G3440T1" :0.699497486196
+	"AY1E1I3E6TC8G" "A15SL3YR88L2D1" :0.659955289033
+	"A2JXKG4G3440T1" "A15SL3YR88L2D1" :0.799594758571
+Worker Correlation with Average of other Workers: 
+	"AY1E1I3E6TC8G": 0.723093481189
+	"A2JXKG4G3440T1": 0.78998073322
+	"A15SL3YR88L2D1": 0.723616567357
+Percentage of No Labels and Avg Scale per task correlation: -0.448055677752
+Percentage of Immediate Labels and Avg Scale per task correlation: 0.0826404314631
+Percentage of Some Labels and Avg Scale per task correlation: 0.177975104145
+Correlation between Worker Correlation and Task Generality: 0.185748468578

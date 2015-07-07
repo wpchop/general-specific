@@ -2,22 +2,20 @@ import scipy
 import numpy
 import matplotlib.pyplot as pl
 import scipy.stats
-<<<<<<< HEAD
-=======
-from parse_turk_data import main as ptdmain
->>>>>>> 00cd030a06f364e2b761629f08c0de5473fb1fff
+from gather import ask_user_for_tasks as get_tasks
 from ExternalDict import ExternalDict
 from idfCalculator import idfCalculator
+from sets import Set
 
 
-def extract_scale_nums(scales):
+def extract_scale_nums(scales):          #scales: list of scales from a sentence
   nums = []
   for scale in scales:
     if scale[0] !="NA":
       nums.append(int(scale[0]))
   return nums
 
-def has_keyword(phrase, keyword):
+def has_keyword(phrase, keyword):                          #not used
   return phrase.lower().find(keyword.lower())!=-1
 
 def find_keyword(phrase, keywords):
@@ -103,12 +101,7 @@ def means_and_devs_qs(freqlist):
     meansandDevs.append((i,round(mean,2), round(stdDev,2)))
   return meansandDevs
 
-<<<<<<< HEAD
-def find_amb_words(sentence):
-  """Returns map that maps integer keys to a tuple (word, frequency) pairs.
-  Size of map is equal to number of words in the sentence that are the most
-  ambiguous"""
-=======
+
 def find_max_amb_words(sentence, freqs):
   index_freqs = {}
   sent_list = sentence.get_sent().split()
@@ -123,22 +116,18 @@ def find_max_amb_words(sentence, freqs):
   return index_freqs
 
 def find_all_amb_phrases(sentence):
->>>>>>> 00cd030a06f364e2b761629f08c0de5473fb1fff
   questions = sentence.get_questions()
   index_freqs = {}
   sent_list = sentence.get_sent().split()
   freqs = [0 for i in range(len(sent_list))]
-
   for question in questions:
     low = question.get_low()
     high = question.get_high()
     for i in range(low, high+1):
       freqs[i]+=1
-
   for i in range(len(freqs)):
     if freqs[i]!=0:
       index_freqs[i] = (sent_list[i],freqs[i])
-    
   return index_freqs
 
 def find_context_labels(sentence):           #sentence is a sentence object
@@ -163,40 +152,241 @@ def mean_confidence_interval(data, confidence=0.95):        #http://stackoverflo
     h = se * scipy.stats.t._ppf((1+confidence)/2., n-1)
     return round(m, 3), round(m-h, 3), round(m+h, 3)
 
-def cap_words(sent, amb_phrases):         #(sent = sentence object, amb_phrases = {index of word: (string of word, #times asked about)}
+def add_qfreqs(sent, qmap, amb_phrases):         #(sent = sentence object, amb_phrases = {index of word: (string of word, #times asked about)}
   sentence = sent.get_sent().split()
   for i in amb_phrases:
-    sentence[i] = sentence[i] + "(" + str(amb_phrases[i][1]) + ")"
+    sentence[i] = sentence[i] + "(" + str(qmap[i]) + "/" + str(amb_phrases[i][1]) + ")"
   return " ".join(sentence)
-<<<<<<< HEAD
+
+def print_overlap(q1, q2, sent):                    # q1, q2 = questions, sent = list; prints sentences with overlaps annotated as () and [] brackets
+  q1sym = '('
+  q2sym = '['
+  low = min([q1.get_low(), q2.get_low()])
+  midlow = max([q1.get_low(), q2.get_low()])
+  hi = max([q1.get_high(), q2.get_high()])
+  midhigh = min([q1.get_high(), q2.get_high()])
+  #for i in range(low, hi+1):
+  #short_sent = 
+  tups = [(q1.get_low(),"("), (q1.get_high()+1,")"), (q2.get_low(),"["), (q2.get_high()+1,"]")]
+  tups = sorted(tups, key = lambda tup: tup[0], reverse=True)
+  '''for i in [q1, q2]:
+    tups.append((i.get_low(), i))
+    tups.append((i.get_high(), i))
+  tups = sorted(tups, key = lambda tup: tup[0], reverse=True)'''
+  for tup in tups:
+    sent.insert(tup[0], tup[1])
+  return " ".join(sent)
+      
+def get_overlaps(sentence):                 #gets number of overlaps of each type for a sentence
+  questions = sentence.get_questions()
+  overlaps = {"equal":0, "intersect":0, "proper":0}
+  for i in range(len(questions)):
+    for j in range(i+1, len(questions)):
+      q1 = questions[i]
+      q2 = questions[j]
+      if q1.get_low() == q2.get_low() and q1.get_high() == q2.get_high():
+        overlaps["equal"]+=1
+      elif (q1.get_low()>q2.get_high()) or (q1.get_high()<q2.get_low()):
+        pass
+      elif q1.get_low() in range(q2.get_low(), q2.get_high()+1) and q1.get_high() in range(q2.get_low(), q2.get_high()+1):
+        overlaps["proper"]+=1
+        out_overlaps.write(print_overlap(q1, q2, sentence.get_sent().split()) + "\n")
+      elif q2.get_low() in range(q1.get_low(), q1.get_high()+1) and q2.get_high() in range(q1.get_low(), q1.get_high()+1):
+        overlaps["proper"]+=1
+        out_overlaps.write(print_overlap(q1, q2, sentence.get_sent().split()) + "\n")
+      else:
+        overlaps["intersect"]+=1
+  return overlaps
   
-#------------------------------------------------------------MAIN------------------------------------------
-input_fname, tasks = main()
-=======
+def make_qword_worker_map(sentence):                     #makes map: {index of ambiguous word:[workerIDs]}
+  qmap = {}
+  for question in sentence.get_questions():
+    for i in range(question.get_low(), question.get_high()+1):
+      if i in qmap:
+        qmap[i].append(question.get_ID())
+      else:
+        qmap[i] = [question.get_ID()]
+  return qmap
+  
+def num_unique_worker(qmap):                         #qmap: {index of ambiguous words:[workerIDs]};  returns map of {index:number of unique workerIDs}
+  newmap = {}
+  for key in qmap:
+    newmap[key] = len(Set(qmap[key]))
+  return newmap
+  
+def num_questions(qmap):                             #takes in qmap {index of ambword:[workerIDs]}; returns map of {index:number of questions}
+  newmap = {}
+  for key in qmap:
+    newmap[key] = len(qmap[key])
+  return newmap
+
+def make_qword_prop_map(qmap, sentlength):              #takes in map {index of ambword:# questions} and sent length: #; returns map of {#Qs asked about word: proportion of sentence} 
+  prop_map = {}
+  for qfreq in qmap.values():
+    if qfreq in prop_map:
+      prop_map[qfreq] += 1.0/sentlength
+    else:
+      prop_map[qfreq] = 1.0/sentlength
+  prop_map[0] = float(sentlength - len(qmap))/sentlength
+  return prop_map
+  
+def int_scale(scale):                                   #returns scale as int
+  return int(scale[0])
+  
+def worker_correlation_plot_helper(all_scales_w1, all_scales_w2):         
+  """returns worker scales and frequency of each scale pair"""
+  pairwise_worker_scales_counter = {}                                     #map of tuple to frequency {(w_1 scale, w_2 scale): count}
+  w1_scales = all_scales_w1
+  w2_scales = all_scales_w2
+  sizes = []
+  w1_new_scales = []
+  w2_new_scales = []
+  for k in range(len(w1_scales)):
+    if (w1_scales[k], w2_scales[k]) in pairwise_worker_scales_counter:
+      pairwise_worker_scales_counter[(w1_scales[k], w2_scales[k])]+= 1
+    else:
+      pairwise_worker_scales_counter[(w1_scales[k], w2_scales[k])] = 1
+  for k, item in enumerate(pairwise_worker_scales_counter.items()):
+    sizes.append(item[1]*5)
+    w1_new_scales.append(item[0][0])
+    w2_new_scales.append(item[0][1])
+  return w1_scales, w2_scales, sizes
+  
+def get_other_workers_avg(other_workers, all_scales_per_worker):                   #other_workers is list of Workers, all_scales_per_worker is map{wID:all_scales}
+  other_worker_scales = []
+  other_worker_avgs = []
+  for i in range(len(other_workers)):
+    other_worker_scales.append(all_scales_per_worker[other_workers[i].get_ID()])
+  for i in range(len(other_worker_scales[0])):
+    total = 0.0
+    for j in other_worker_scales:
+      total+= j[i]
+    other_worker_avgs.append(total/len(other_worker_scales))
+  return other_worker_avgs
+
+def count_differences(scales, differences):                                   #scales is list of scales for a sentence, differences is list of occurences of differences in scales
+  for i in range(len(scales)):
+    for j in range(i+1, len(scales)):
+      differences[abs(scales[j]-scales[i])]+=1
+  return differences
+
+def count_scales(scales, labels):                                             #scales is a list of scales for all sentence(or tasks), labels is list of numbers we want to divide scales by
+  count = [0]*(len(labels)-1)
+  for i in range(len(scales)):
+    scale = scales[i]
+    for j in range(len(labels) - 1):
+      if scale == labels[-1]:
+        count[-1] += 1
+        break
+      if scale < labels[j+1] and scale >=labels[j]:
+        count[j] += 1
+        break
+  return count
+
+def count_list(l):
+  '''Counts the frequency of values in l, where l is a list of ints. 
+  Returns a list of ints such that the counts are stored at the index.
+  Ex: If 12 occured in l 3 times, the returned list would store 3 at
+  the index 12.'''
+  count = [0]*(max(l)+1)
+  for i in range(len(l)):
+    count[l[i]] += 1
+  return count
+  
+def write_bar_labels(labels):                                                 #labels is list of numbers. write_bar_labels returns list of strings of length len(labels)-1
+  string_labels = []
+  for i in range(len(labels)-1):
+    string_labels.append(str(labels[i]) + "-" + str(labels[i+1]))
+  return string_labels
+  
+  
+#----------------------------------------PLOTTING FUNCTIONS--------------------------------------------
+def plot_corr(title, x_label, y_label, l1, l2, sizes = []):
+  pl.title(title)
+  pl.xlabel(x_label)
+  pl.ylabel(y_label)
+  if sizes != []:
+    pl.scatter(l1, l2, s=sizes)
+  else:
+    pl.scatter(l1, l2)
+  pl.show()
+
+def make_barchart(title, x_label, y_label, l, bar_labels, x_labels, bins=0):             #l is list of lists to graph, bar_labels are labels corresponding to each list in l, x_labels is x_axis label
+  if bins ==0:
+    bins = len(l[0])
+  fig, ax = pl.subplots()
+  index = numpy.arange(bins)
+  bar_width = 0.8/len(l)
+  opacity = 0.4
+  rects = []
+  colors = ['g','b','c']
+  for i,lst in enumerate(l):
+    if bar_labels == []:
+      rect = pl.bar(index + bar_width*i, lst, bar_width, alpha=opacity, color=colors[i%3])
+    else:
+      print lst
+      rect = pl.bar(index + bar_width*i, lst, bar_width, alpha=opacity, color=colors[i%3], label=bar_labels[i])
+    rects.append(rect)
+  pl.xlabel(x_label)
+  pl.ylabel(y_label)
+  pl.title(title)
+  pl.xticks(index + bar_width*0.5, x_labels)
+  pl.legend(loc='upper left')
+  pl.tight_layout()
+
+  y_min, y_max = pl.ylim()
+  pl.ylim(y_min, y_max*1.2)
+  
+  for i, rect in enumerate(rects):
+    total = sum(l[i])
+    for bar in rect:
+      height = bar.get_height()
+      if height!=0:
+        if len(l) > 1:
+          ax.text(bar.get_x()+bar.get_width()/2.0, height/2, '%.2f'%(100.0*int(height)/total)+"%", ha='center', va='bottom', rotation='vertical')
+        else:
+          ax.text(bar.get_x()+bar.get_width()/2.0, height + y_max/150.0, '%.2f'%(100.0*int(height)/total)+"%", ha='center', va='bottom')
+  pl.show()
+  
+def make_histogram(title, x_label, y_label, l, bins=7):
+  opacity = 0.4
+  pl.xlabel(x_label)
+  pl.ylabel(y_label)
+  pl.title(title)
+  pl.hist(l, bins, alpha=opacity)
+  pl.show()
 
 #------------------------------------------------------------MAIN------------------------------------------
-input_fname, tasks = ptdmain()
->>>>>>> 00cd030a06f364e2b761629f08c0de5473fb1fff
+tasks = get_tasks()
 info = []
-out = open(str(input_fname[0:input_fname.index(".")])+"_amb_phrases.txt","w") 
-out_scales = open(str(input_fname[0:input_fname.index(".")])+"_scales.txt","w") 
+out = open("combined_amb_phrases.txt","w") 
+out_scales = open("combined_scales.txt","w") 
+out_overlaps = open("combined_overlaps.txt", "w")
 task_lengths = []
-<<<<<<< HEAD
 amb_words = []                           #list of integers corresponding to ambiguity rating of a word
 amb_words_idfs = []                      #list of idf corresponding to idf of ambiguous words in amb_words
-word_dict = ExternalDict("word.dict")
+word_dict = ExternalDict("NYT/word.dict")
 idf_calc = idfCalculator()
 all_corrs = []
 amb_phrase_idfs = []
 unamb_words_idfs = []
-=======
->>>>>>> 00cd030a06f364e2b761629f08c0de5473fb1fff
+avg_scales_per_worker = {}              #{worker ID: [avg scales per task]}
+mean_scales = []                        #mean scales by setence
+mean_scales_by_task = []                #list of scales by task
+percent_specific = []
+context_percentage_map = {"No": [], "Immediate": [], "Some": [], "Vague": []}
+worker_corrs = []                       #average worker correlation per task
+all_scales_per_worker = {}             #{worker ID: [list of all scales by sentence]}
+differences = [0]*7                       #list of frequencies for differences in scale of each sentence; index: difference in scale, item:number of occurrences
+worker_scale_comparison_per_task = {}                #{task ID: [(worker ID, correlation between 1 worker scale and avg of other workers' scales)]
+avg_std_dev_per_task = []                            #[(task ID, avg std dev of sentences)] 
 
 for key in tasks:
   task = tasks[key]
-  meanandDevs = []
+  meanandDevs = []      #tuple of (sentence#, mean, std deviation) by sentence
   kwordsbySent = []			#list of maps (index of list = sent#, key = keyword (e.g. "what", "how"), value = frequency)
   qnumsbySent = []			#list of maps (index of list = sent#, key = workerID, value = number of questions asked)
+  scale_means = []      #list of scale means per sentence
   scale_maxes = []
   scale_mins = []
   q_maxes = []
@@ -204,16 +394,25 @@ for key in tasks:
   amb_phrases_per_sent = []		#list of maps that map to tuples (index of list = sent#, key = word index, value = ("word",freq)
   max_ambs = []         #list of maps that map to tuples {index = sent #, key = word index in sentence, tuple = "word", freq
   context_labels = [0]*4 
-  context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate"}
+  context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate"}            
   task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
-  context_value_map = {"0": 3, "1": 0, "2": 1, "3": 2}
+  context_value_map = {"0": 3, "1": 0, "2": 1, "3": 2}                   #trying to find correlation of idfs, "No" is least, "immediate" is most
+  overlaps = []                                                          #list of maps (index of list = sent#, key = type of overlap, value = frequency)
+  qword_worker_maps = []                                                 #list of maps; index of list = sent#  map: {index of word:[workerIDs]}
+  qword_worker_count = []                                                #list of maps: index of list = sent#, map: {index of word: number of unique workers asking about the word}
+  qword_q_count = []                                                     #list of maps: index of list = sent#, map: {index of word: number of questions about the word}
+  qword_q_proportions = []                                               #list of maps: index of list = sent#, map: {# of questions about a word:proportion of that # in sent}
+  worker_scale_comparison = []                                           #list of tuples: (worker ID, corr)
   
-
-  for sentence in task.get_sentences():
+  for i, sentence in enumerate(task.get_sentences()):
+    sentlist = sentence.get_sent().split(" ")
     nums = extract_scale_nums(sentence.get_scales())
+    differences = count_differences(nums, differences)
     if len(nums) != len(sentence.get_scales()):
       pass							#if someone doesn't rate a sentence, skip the sentence
     mean = numpy.mean(nums)
+    scale_means.append(mean)
+    mean_scales.append(mean)
     stdDev = numpy.std(nums)
     meanandDevs.append((sentence.get_num(),round(mean,2), round(stdDev,2)))
     qnums = find_quest_nums(sentence, task.get_workers())
@@ -227,30 +426,65 @@ for key in tasks:
     max_ambs.append(find_max_amb_words(sentence, find_all_amb_phrases(sentence)))
     next_label = find_context_labels(sentence)
     context_labels = add_context_labels(context_labels, next_label)
-<<<<<<< HEAD
-    """
-    For calculating correlation of labels and idf """
-    sentlist = sentence.get_sent().split(" ")
-    word_seen = [False]*len(sentlist)
+    overlaps.append(get_overlaps(sentence))
+    qword_worker_maps.append(make_qword_worker_map(sentence))
+    qword_worker_count.append(num_unique_worker(qword_worker_maps[i]))
+    qword_q_count_map = num_questions(qword_worker_maps[i])
+    qword_q_count.append(qword_q_count_map)
+    another_qmap = make_qword_prop_map(qword_q_count_map, len(sentlist))                #this is to store a qword_q_proportion: see above
+    qword_q_proportions.append(another_qmap)
+    percent_specific.append(another_qmap[0])
+    word_seen = [False]*len(sentlist)                                                   #start for calculating IDF correlations
     for question in sentence.get_questions():
       low = question.get_low()
       high = question.get_high()
       for i in range(low, high+1):
+        word = sentlist[i]
+        word = word.lower()
         amb_words.append(float(context_value_map[question.get_context()[0]]))
-        amb_words_idfs.append(idf_calc.idf(word_dict[sentlist[i].lower()]))
+        amb_words_idfs.append(idf_calc.idf(word))
         word_seen[i] = True
     for i, word in enumerate(sentlist):
       word = word.lower()
       if word_seen[i]:
-        amb_phrase_idfs.append(idf_calc.idf(word_dict[word]))
+        if word in word_dict:
+          amb_phrase_idfs.append(idf_calc.idf(word_dict[word]))
+        else:
+          amb_phrase_idfs.append(idf_calc.idf(word))
       else:
-        unamb_words_idfs.append(idf_calc.idf(word_dict[word]))
-=======
+        if word in word_dict:
+          unamb_words_idfs.append(idf_calc.idf(word_dict[word]))
+        else:
+          unamb_words_idfs.append(idf_calc.idf(word))
 
->>>>>>> 00cd030a06f364e2b761629f08c0de5473fb1fff
+  avg_std_dev_per_task.append((key, sum([tup[2] for tup in meanandDevs]) / len(meanandDevs)))
+
   workers = task.get_workers()
   scale_corrs = get_scale_corrs(workers)
-
+  task_corrs = []
+  for tup in scale_corrs:
+    task_corrs.append(tup[2])
+  worker_corrs.append(numpy.mean(task_corrs))
+  mean_scales_by_task.append(numpy.mean(scale_means))
+  task_scales_per_worker = {}                                               #{worker ID: [scale per sentence]}
+  for worker in workers:
+    wID = worker.get_ID()
+    avg_scale = 1.0*sum(map(int_scale, worker.get_scales()))/len(worker.get_scales())
+    if wID not in avg_scales_per_worker:
+      avg_scales_per_worker[wID] = [avg_scale]
+      all_scales_per_worker[wID] = map(int_scale, worker.get_scales())
+    else:
+      avg_scales_per_worker[wID].append(avg_scale)
+      all_scales_per_worker[wID]+= map(int_scale, worker.get_scales())
+    task_scales_per_worker[wID] = map(int_scale, worker.get_scales())
+    
+  for i in range(len(workers)):
+    w1 = workers[i].get_ID()
+    other_workers = workers[0:i] + workers[i+1:]
+    other_worker_avgs = get_other_workers_avg(other_workers, task_scales_per_worker)
+    worker_scale_comparison.append((w1, numpy.corrcoef(map(int_scale, workers[i].get_scales()), other_worker_avgs)[0][1]))
+  worker_scale_comparison_per_task[key] = worker_scale_comparison
+  
   num_questions_map = make_worker_to_freq_list_map(qnumsbySent)
   num_questions_corrs = get_corr_list(num_questions_map)
 
@@ -261,7 +495,7 @@ for key in tasks:
   info.append("\n\n----------------SCALES--------------\n")
   info.append("\n-------------Correlations between Workers--------------\n")
   for corr in scale_corrs:
-    info.append("Worker 1: " + corr[0] + "\nWorker 2: " + corr[1] + "\n\tCorrelation: " + str(round(corr[2],2)) + "\n")
+    info.append("Worker 1: " + corr[0] + "\nWrange(len(l)orker 2: " + corr[1] + "\n\tCorrelation: " + str(round(corr[2],2)) + "\n")
     all_corrs.append(corr[2])
   
   info.append("\n---------------Means, Standard Deviations, and Max/Min------------")
@@ -271,7 +505,7 @@ for key in tasks:
     info.append("\n\tmax: " + str(scale_maxes[i]) + "\n\tmin: " + str(scale_mins[i]))
     scalemeans.append(element[1])
   #print "average scale: " + str(round(numpy.mean(scalemeans),2))
-
+  """
   info.append("\n\n----------------QUESTIONS------------\n")
   info.append("\n-----------Correlations between Workers---------\n")
   for corr in num_questions_corrs:
@@ -287,62 +521,117 @@ for key in tasks:
   #print "average questions asked: " + str(round(numpy.mean(qnumsmeans),2))
   
   info.append("\n\n------------------Keyword Frequencies-----------------")
-  info.append(print_keyword_freqs(kwordsbySent))
-
+  info.append(print_keyword_freqs(kwordsbySent))"""
   info.append("\n\n------------------Most Ambiguous Phrases...----------")
   for i in range(len(amb_phrases_per_sent)):
-    info.append("\n\nSentence " + str(i)+": " + cap_words(task.get_sentences()[i], amb_phrases_per_sent[i]))
-    keys = max_ambs[i].keys()
-    for key in keys:
-      info.append("\n\tindex: " + str(key) + "\tword: " + max_ambs[i][key][0] + "\tfreq: " + str(max_ambs[i][key][1]))
-      
+    info.append("\n\nSentence " + str(i)+": " + add_qfreqs(task.get_sentences()[i], qword_worker_count[i], amb_phrases_per_sent[i]))
+    
+    #for amb_phrases file
     sent = task.get_sentences()[i]
     avg_scale = sum(extract_scale_nums(sent.get_scales()))*1.0/len(sent.get_scales())
     out.write("Sentence "+ str(i) + ": ")
-    out.write(cap_words(sent, amb_phrases_per_sent[i]))
+    out.write(add_qfreqs(sent, qword_worker_count[i], amb_phrases_per_sent[i]))
     out_scales.write(str(avg_scale)+"\n")
     out.write("\n\n")
-  info.append("\n\n\n")
-    
-      
+    info.append("Sent " + str(i) + ": \n")
+    for key in qword_q_proportions[i]:
+      info.append("\t# Q's: " + str(key) + " %: " + str(round(qword_q_proportions[i][key], 4)*100) + "\n")
+  info.append("\nCorrelation between Scale and Percent of Sentence not asked about: " + str(numpy.corrcoef(mean_scales, percent_specific)[0][1]))    
+  
   info.append("\n\n-----------------Context Labels-----------------")
   for i, contextfreq in enumerate(context_labels):
-    info.append("\n" + context_map[i] + ": " + str(contextfreq))
-  info.append("\n\n\n")
+    info.append("\n" + context_map[i] + ": " + str(1.0*contextfreq/sum(map(int,context_labels))))
+    context_percentage_map[context_map[i]].append(1.0*contextfreq/sum(map(int,context_labels)))
   
+  info.append("\n\n------------------Overlap-----------------------\n")
+  sums = {"equal":0, "intersect":0, "proper":0}
+  for overlap in overlaps:
+    for key in sums.keys():
+      sums[key]+=overlap[key]
+  
+  for key in sums:
+    info.append(key+": "+str(sums[key])+"\t")
+  
+  info.append("\n\n\n")
   
 info.append("\n\n-----------------Confidence Interval of Sentence Lengths-----------------")
 info.append("\n(mean, lower bound, upper bound) " + str(mean_confidence_interval(task_lengths)))
 info.append("\nmin: " + str(min(task_lengths))+ "\nmax: " + str(max(task_lengths)))
 
+info.append("\n\n----------------Correlation between Worker and Other Workers per Task-------------------")
+for key in worker_scale_comparison_per_task:
+  info.append("\nTask " + key + ":\n")
+  avgs = []
+  for tup in worker_scale_comparison_per_task[key]:
+    avgs.append(tup[1])
+    info.append("\t" + tup[0] + ":\t" + str(tup[1]) + "\n")
+
+info.append("\n---------Average Standard Deviation of Specificity Scales per Task---------------")
+for tup in avg_std_dev_per_task:
+  info.append("\nTask " + tup[0] + ":\t" + str(tup[1]))
+  
+
+
 info.append("\n\n-----------------OTHER DATA-----------------")
 info.append("\n\n" + "Overall Worker Correlation:" + str(round(numpy.mean(all_corrs), 3)) + "\n")
 info.append("95% Confidence Interval of ambiguous word idfs: " + str(mean_confidence_interval(amb_phrase_idfs)))
 info.append("\n95% Confidence Interval of unambiguous word idfs: " + str(mean_confidence_interval(unamb_words_idfs)))
-#print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
-#print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
-#print "average worker correlation: " + str(numpy.mean(all_corrs))
+info.append("\nAverage Scale per Task Correlation between Workers: ") 
+for i in range(len(workers)):
+  for j in range(i+1, len(workers)):
+    w1 = workers[i].get_ID()
+    w2 = workers[j].get_ID()
+    info.append( "\n\t" + w1 + " " + w2 + " :" + str(numpy.corrcoef(avg_scales_per_worker[w1], avg_scales_per_worker[w2])[0][1]))
+info.append("\nWorker Correlation with Average of other Workers: ")
+for i in range(len(workers)):
+  w1 = workers[i].get_ID()
+  other_workers = workers[0:i] + workers[i+1:]
+  other_worker_avgs = get_other_workers_avg(other_workers, all_scales_per_worker)
+  info.append("\n\t" + w1 + ": " + str(numpy.corrcoef(all_scales_per_worker[w1], other_worker_avgs)[0][1]))
+info.append("\nPercentage of No Labels and Avg Scale per task correlation: " +  str(numpy.corrcoef(context_percentage_map["No"], mean_scales_by_task)[0][1]))
+info.append("\nPercentage of Immediate Labels and Avg Scale per task correlation: " +  str(numpy.corrcoef(context_percentage_map["Immediate"], mean_scales_by_task)[0][1]))
+info.append("\nPercentage of Some Labels and Avg Scale per task correlation: " +  str(numpy.corrcoef(context_percentage_map["Some"], mean_scales_by_task)[0][1]))
+info.append("\nCorrelation between Worker Correlation and Task Generality: " + str(numpy.corrcoef(mean_scales_by_task, worker_corrs)[0][1]))
+
+print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
+print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
+print "average worker correlation: " + str(numpy.mean(all_corrs))
 
 #print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
 
 #PRINTING THINGS
 
-outFile = open(input_fname[0:input_fname.index(".")] + "_output-stats.txt","w")
+outFile = open("combined_output-stats.txt","w")
 
 for line in info:
   outFile.write(line)
 
 outFile.close()
 out.close()
+out_overlaps.close()
 
+#-------------------------------------------------PLOTTING THINGS--------------------------------------------------------------
+wIDs = avg_scales_per_worker.keys()
+"""
+for i in range(len(avg_scales_per_worker)):
+  for j in range(i+1, len(avg_scales_per_worker)):
+    w1_new_scales, w2_new_scales, sizes = worker_correlation_plot_helper(all_scales_per_worker[wIDs[i]], all_scales_per_worker[wIDs[j]])
+    plot_corr("Worker Scales", wIDs[i], wIDs[j], w1_new_scales, w2_new_scales, sizes)
+"""
+counted_worker_scales = []
+bar_labels = []
+for k in range(len(avg_scales_per_worker)):
+  counted_worker_scales.append(count_list(all_scales_per_worker[wIDs[k]]))
+  bar_labels.append(wIDs[k])
+make_barchart("Worker Specificity Rating Frequency", "Scales", "Frequency", counted_worker_scales, bar_labels, range(7), 7)
 
-
-
-
-
-
-
-
+plot_corr("Average Correlation between Workers vs. Mean Scale per Task", "Mean Scales", "Correlation", mean_scales_by_task, worker_corrs)
+plot_corr("Percent of Sentence Specificity vs. Mean Scale per Sentence", "Mean Scales", "% Specific", mean_scales, percent_specific)
+by_task_labels = numpy.arange(0, 6, .5)[:-1]
+by_sent_labels = range(7)
+make_barchart("Average Specificity Scales of Task", "Average Scale", "Frequency", [count_scales(mean_scales_by_task, by_task_labels)], [], write_bar_labels(by_task_labels), 10)
+make_barchart("Average Specificity Scales of Sentences", "Average Scale", "Frequency", [count_scales(mean_scales, by_sent_labels)], [], write_bar_labels(by_sent_labels), 6)
+make_barchart("Frequency of Differences between Specificity Scales", "Differences between Scales", "Frequency", [differences], [], range(len(differences)), 7)
 
 
 

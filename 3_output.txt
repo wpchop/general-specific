@@ -25,23 +25,23 @@ The news release issued by Taser quoted directly from the study but did not list
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	the study
 	BODY	What study?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	Taser
 	BODY	What is Taser?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "A15SL3YR88L2D1"
 	TXT	quoted directly
 	BODY	What quote?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	study
 	BODY	What is the study?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A2JXKG4G3440T1"
 	TXT	Taser
 	BODY	What is Taser?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	the four authors
 	BODY	Who are the authors?
@@ -53,11 +53,11 @@ The news release issued by Taser quoted directly from the study but did not list
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	The news release
 	BODY	Why did Taser issue a news release?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #3 "AY1E1I3E6TC8G"
 	TXT	the study
 	BODY	What is the study about?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('4', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
 
 
@@ -66,11 +66,11 @@ The release also said that the study was published in a prestigious peer-reviewe
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	release
 	BODY	What release?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	study
 	BODY	Study of what?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	release
 	BODY	What was the release?
@@ -82,19 +82,19 @@ The release also said that the study was published in a prestigious peer-reviewe
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	The release
 	BODY	Why was the release issued?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	The release
 	BODY	Who was the release issued by?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	the study
 	BODY	What is the study about?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #3 "AY1E1I3E6TC8G"
 	TXT	also said
 	BODY	Was the release wrong?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 --Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
 
 
@@ -103,11 +103,11 @@ But the study is scheduled to appear instead in a supplement to the journal , no
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	the study
 	BODY	What study?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	journal
 	BODY	What journal?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	study
 	BODY	What is the study?
@@ -115,7 +115,7 @@ But the study is scheduled to appear instead in a supplement to the journal , no
 	---Question #1 "A2JXKG4G3440T1"
 	TXT	journal
 	BODY	Which journal?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	the study
 	BODY	Which study?
@@ -127,7 +127,7 @@ But the study is scheduled to appear instead in a supplement to the journal , no
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	the journal
 	BODY	Which journal?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
 
 
@@ -136,7 +136,7 @@ Studies in both the journal and the supplement are peer reviewed , according to 
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	journal
 	BODY	What journal?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	journal and the supplement
 	BODY	What is the journal?
@@ -144,11 +144,11 @@ Studies in both the journal and the supplement are peer reviewed , according to 
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	Studies in both the journal and the supplement are peer reviewed
 	BODY	Why was this called into question?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	the journal
 	BODY	Which journal?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	the supplement
 	BODY	What is the supplement called?
@@ -165,7 +165,7 @@ In a peer-reviewed journal , qualified outside researchers evaluate the findings
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	the findings
 	BODY	The findings of what?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 --Specificity scale: ('6', '"A15SL3YR88L2D1"')('6', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')
 
 
@@ -207,7 +207,7 @@ Just two days earlier , the stock plunged $ 5.95 , or nearly 30 percent , to $ 1
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	company
 	BODY	Who is the company?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	the company
 	BODY	Which company?
@@ -219,7 +219,7 @@ Just two days earlier , the stock plunged $ 5.95 , or nearly 30 percent , to $ 1
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	Just two days earlier
 	BODY	Two days earlier than what?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('1', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
 
 
@@ -232,7 +232,7 @@ The news release and the stock market response are the latest episodes in a runn
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	stock market response
 	BODY	How did they respond?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	news release
 	BODY	What is the news release?
@@ -240,7 +240,7 @@ The news release and the stock market response are the latest episodes in a runn
 	---Question #1 "A2JXKG4G3440T1"
 	TXT	stock market response
 	BODY	What's the stock market response?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	The news release
 	BODY	What news release?
@@ -248,7 +248,7 @@ The news release and the stock market response are the latest episodes in a runn
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	the stock market response
 	BODY	What was the stock market response?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	running debate over the safety of Taser 's pistol-like stun guns
 	BODY	What about the guns is unsafe?
@@ -269,11 +269,11 @@ Most of Taser 's nearly $ 70 million in annual revenue comes from sales to polic
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	Most of Taser 's nearly $ 70 million in annual revenue
 	BODY	What do they sell? Tasers?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	Most of Taser 's nearly $ 70 million in annual revenue
 	BODY	Where does the rest come from?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('0', '"A15SL3YR88L2D1"')('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
 
 
@@ -316,7 +316,7 @@ The total wounded since the war began is 15,955 .
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	war began
 	BODY	Which war?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	wounded
 	BODY	How is wounded defined? (How severe must it be?)
@@ -324,23 +324,23 @@ The total wounded since the war began is 15,955 .
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	the war
 	BODY	What war?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	total wounded
 	BODY	Who was wounded? Does it could civilians as well?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	the war
 	BODY	Which war
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	the war
 	BODY	What war?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	began
 	BODY	When did it begin?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A3ATO99JLN0TWG"')('3', '"A15SL3YR88L2D1"')
 
 
@@ -358,11 +358,11 @@ The total wounded in 2004 was 7,989 .
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	total wounded
 	BODY	Total wounded from what?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	total wounded
 	BODY	Who was wounded?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	The total wounded
 	BODY	What was the conflict?
@@ -370,11 +370,11 @@ The total wounded in 2004 was 7,989 .
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	The total wounded
 	BODY	Where were they wounded?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	total wounded
 	BODY	Wounded from what?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A3ATO99JLN0TWG"')('5', '"A15SL3YR88L2D1"')
 
 
@@ -387,11 +387,11 @@ In 2005 , the single bloodiest month for American soldiers and marines was Janua
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	the single bloodiest month
 	BODY	Of all time or of a particular conflict?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	In 2005 , the single bloodiest month for American soldiers and marines was January , when 107 were killed and nearly 500 were wounded
 	BODY	What conflict is this referring to?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	were wounded
 	BODY	How is wounded defined?
@@ -399,11 +399,11 @@ In 2005 , the single bloodiest month for American soldiers and marines was Janua
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	the single bloodiest month
 	BODY	Where did the deaths take place?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	107 were killed and nearly 500 were wounded
 	BODY	Where were they killed and wounded
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 --Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('2', '"A3ATO99JLN0TWG"')('1', '"A15SL3YR88L2D1"')
 
 
@@ -412,7 +412,7 @@ At the time , American forces were conducting numerous operations to secure the 
 	---Question #0 "A2JXKG4G3440T1"
 	TXT	At the time
 	BODY	At which time?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A2JXKG4G3440T1"
 	TXT	country
 	BODY	Which country is this?
@@ -420,7 +420,7 @@ At the time , American forces were conducting numerous operations to secure the 
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	At the time
 	BODY	During what time period before Jan. 30?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	numerous operations
 	BODY	What kind of operations?
@@ -432,7 +432,7 @@ At the time , American forces were conducting numerous operations to secure the 
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	At the time
 	BODY	When?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A3ATO99JLN0TWG"
 	TXT	conducting numerous
 	BODY	What operations?
@@ -444,7 +444,7 @@ At the time , American forces were conducting numerous operations to secure the 
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	At the time
 	BODY	When?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A15SL3YR88L2D1"
 	TXT	numerous operations
 	BODY	What operations?
@@ -465,7 +465,7 @@ The second worst month was October , when 96 Americans were killed and 603 wound
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	second worst
 	BODY	Worst in what way?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	month was October
 	BODY	In what year?
@@ -477,11 +477,11 @@ The second worst month was October , when 96 Americans were killed and 603 wound
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	The second worst
 	BODY	What was the first?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #1 "A3ATO99JLN0TWG"
 	TXT	worst month
 	BODY	Worst for what?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #0 "A15SL3YR88L2D1"
 	TXT	killed and 603 wounded
 	BODY	Killed/wounded for what?
@@ -498,7 +498,7 @@ More than half of all 2005 American military deaths , 427 , were caused by homem
 	---Question #0 "AY1E1I3E6TC8G"
 	TXT	homemade bombs
 	BODY	Who made them?
-	IN CONTEXT	Immediate
+	IN CONTEXT	Vague
 	---Question #0 "A3ATO99JLN0TWG"
 	TXT	More than half
 	BODY	What were the others?
@@ -519,7 +519,7 @@ American commanders have said that roadside bombs , the leading cause of death i
 	---Question #1 "AY1E1I3E6TC8G"
 	TXT	the leading cause of death in Iraq
 	BODY	For whom?
-	IN CONTEXT	Vague
+	IN CONTEXT	Immediate
 	---Question #2 "AY1E1I3E6TC8G"
 	TXT	have grown larger and more sophisticated
 	BODY	How so?

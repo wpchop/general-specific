@@ -17,7 +17,7 @@ class idfCalculator():
     to a count.dict ExternalDict file.'''
     self.count = ExternalDict("NYT/count.dict")
     self.tot_docs = self.count["totNumDocs"]
-    del self.count['totNumDocs']
+    #del self.count['totNumDocs']
   
   def __getitem__(self, key): #idfCalc[key]
     '''Gets the value to match the given provided key.'''
