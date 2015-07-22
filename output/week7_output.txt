@@ -1,0 +1,1728 @@
+
+==================TASK==================
+2005_02_07_1648087.0
+
+
+---SENTENCE 0---
+The Bush administration sought Sunday to allay concerns that a Shiite religious state could emerge in Iraq as a result of last weekend 's elections .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	allay
+	BODY	How?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	concerns
+	BODY	Why are there concerns?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	allay
+	BODY	How did they allay the concerns?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	elections
+	BODY	What was the outcome?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	concerns
+	BODY	Why is this concerning?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	elections
+	BODY	Elections for what?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	Sunday
+	BODY	Why Sunday?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	allay
+	BODY	How?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+Speaking on television news programs on Sunday , Vice President Dick Cheney and Defense Secretary Donald H. Rumsfeld said that Iraq 's most influential Shiite cleric , Grand Ayatollah Ali al-Sistani , opposed direct cleric involvement in daily governing , and that most Iraqis rejected an Iranian-style theocracy . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	governing
+	BODY	What is daily governing?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	most
+	BODY	How many?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	opposed
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	daily governing
+	BODY	What does this entail?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	Iranian-style theocracy
+	BODY	What is it?
+	IN CONTEXT	No
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('1', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+We have a great deal of confidence in where they 're headed , '' Mr. Cheney said on '' Fox News Sunday . '' ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	We
+	BODY	Who is we?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	great
+	BODY	How much?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	they
+	BODY	Who is they?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	where
+	BODY	Where are they headed?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	headed
+	BODY	For what?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+I do n't think , at this stage , that there 's anything like justification for hand-wringing or concern on the part of Americans that somehow they 're going to produce a result we wo n't like . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	at this stage
+	BODY	At this stage of what?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	hand-wringing or concern
+	BODY	Concern for what?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	they
+	BODY	Who is they?
+	IN CONTEXT	Vague
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	we
+	BODY	Who is we?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	result
+	BODY	Result of what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	What is this stage?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	stage
+	BODY	Stage for what?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+He added , '' The Iraqis have watched the Iranians operate for years and create a religious theocracy that has been a dismal failure , from the standpoint of the rights of individuals . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	years
+	BODY	How many years?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	dismal failure
+	BODY	Why is it a failure?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	rights
+	BODY	What rights are lacking?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	failure
+	BODY	How?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+In his interview , Mr. Cheney also elaborated , for the first time , on the meaning of President Bush 's challenge to the Iranian people to rise up against their ruling clerics .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	elaborated
+	BODY	What did he say?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	challenge
+	BODY	How did he challenge them?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	challenge
+	BODY	Why did he make this challenge?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	challenge
+	BODY	Why did he challenge them?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+In the State of the Union address , Mr. Bush said , '' As you stand for your own liberty , America stands with you . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	you
+	BODY	Who is you?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	you
+	BODY	Who is being referred to?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	stands with
+	BODY	Metaphorically or with defenses?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	you
+	BODY	Who is he addressing?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	America
+	BODY	How?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+Pressed to say what , exactly , the United States would do , Mr. Cheney said he and Mr. Bush '' wanted to encourage the efforts that we 've seen previously in Iran to promote freedom and democracy . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the efforts
+	BODY	What efforts?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	seen previously
+	BODY	When were they seen?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	would do
+	BODY	Do for what?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the efforts
+	BODY	What efforts have they seen?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	would do
+	BODY	About what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	do
+	BODY	Do for what?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	encourage
+	BODY	How?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	efforts
+	BODY	Efforts for what?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+The statement , he said , was intended '' to encourage the reformers , if you will , inside Iran to work to build a true democracy , one that does n't vest enormous power , as this one does , in the unelected mullahs , who , we believe , are a threat to peace and stability in the region . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	a threat
+	BODY	Why are they a threat?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	The statement
+	BODY	Which statement?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	the region
+	BODY	What region?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	,
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	The statement
+	BODY	What statement?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	a threat
+	BODY	Why are they believed to be a threat?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The
+	BODY	Which statement?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	Which one?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	threat
+	BODY	How?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Where?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+Both Mr. Cheney and Mr. Rumsfeld addressed Iran 's nuclear ambitions , with Mr. Rumsfeld saying in a CBS News interview that he thought Iran '' could be some period of years off '' from actually building a nuclear weapon .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	some period
+	BODY	How long of a period?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	some period of years off
+	BODY	How long is that?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	period
+	BODY	How long?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	years off
+	BODY	Why?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_30_1646048.0
+
+
+---SENTENCE 0---
+DIANA COSTALES , a collector of vintage clothing , loves to describe a find at an estate sale shortly after she moved to Albuquerque seven years ago : five women 's suits from the 1940 's -- '' some very dressy , some pretty casual , '' she said . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	dressy
+	BODY	How dressy? 
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	casual
+	BODY	How casual?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	pretty
+	BODY	What does ""pretty"" casual entail?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('0', '"A2JXKG4G3440T1"')('1', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+But what was so amazing about them was they were all perfect , hanging in dry-cleaner bags , '' Ms. Costales added . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	them
+	BODY	What are they?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	perfect
+	BODY	What's perfect about them?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	them
+	BODY	What does them refer to?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	them
+	BODY	What is them?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	perfect
+	BODY	Perfect how?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+There was n't a button missing , not a thread pulled , not a stain .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	was n't
+	BODY	On what?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	missing
+	BODY	Missing from what?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	missing
+	BODY	From what?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+It was like time forgot them . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	them
+	BODY	Forgot what?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	like
+	BODY	Why?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	them
+	BODY	Who is them?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	them
+	BODY	What does ""them"" refer to?
+	IN CONTEXT	Vague
+--Specificity scale: ('6', '"A15SL3YR88L2D1"')('6', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+Hard to forget , however , was the price : just $ 2 apiece . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Hard
+	BODY	Why was it hard to forget?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	apiece
+	BODY	Apiece for what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the price
+	BODY	Of what?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+Half of it 's the hunt , and the other half 's finding that really great deal , '' said Ms. Costales , a stay-at-home mother and manager of investment property .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	of
+	BODY	Half of what?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+These days , the growing popularity of collecting and wearing vintage clothing has made those $ 2 deals harder to come by , as shoppers become as knowledgeable about top designers as retailers and wholesalers . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	those
+	BODY	Which deals?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	those $ 2 deals
+	BODY	Which $2 deals?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the growing popularity
+	BODY	Why is it more popular?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('2', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+Some vintage shop owners , if they 're going to the same estate sales , wo n't share information because you , the shopper , are their competition , '' said Ms. Costales , who gave the $ 2 suits to her older sister .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	competition
+	BODY	Why are the shoppers competition?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the $ 2 suits
+	BODY	Which $2 suits?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	information
+	BODY	What kind of information?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the $ 2 suits
+	BODY	What $2 suits?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('2', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+The business of vintage clothing has changed considerably since the late 1960 's , when small shops popped up to accommodate young buyers looking for fashion alternatives , said Doris Raymond , the owner of The Way We Wore , a store in Los Angeles .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	changed
+	BODY	How?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	has changed
+	BODY	How has it changed?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	alternatives
+	BODY	Alternatives to what?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('2', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+When she opened her first store , in 1981 in San Francisco , most people who wore vintage clothes bought them at thrift shops , which often received donations from estates .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	she
+	BODY	Who is she?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	opened
+	BODY	Who is she?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	store
+	BODY	What kind of store?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	she
+	BODY	Who is she?
+	IN CONTEXT	Vague
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_02_07_1648087.10
+
+
+---SENTENCE 0---
+Both men said there was still time to use diplomacy to disarm Iran , though Mr. Cheney said that if the current talks broke down , the administration would seek sanctions at the United Nations Security Council .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Both men
+	BODY	Which men?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the administration
+	BODY	Which administration?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Both men
+	BODY	Which men?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	time
+	BODY	How much time?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	use
+	BODY	How?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	disarm
+	BODY	Why do they want to do this?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Both
+	BODY	Who was the other?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	disarm
+	BODY	Why does Iran need to be disarmed?
+	IN CONTEXT	Vague
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+It was Iraq , however , and the delicate question of who will emerge in control of the country , that dominated the comments of both men .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the comments
+	BODY	Which comments?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	both men
+	BODY	Which men?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	It
+	BODY	What was Iraq?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	What were the comments?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	both men
+	BODY	Who are the men?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	both men
+	BODY	What men?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the comments
+	BODY	What comments?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+As Shiite religious parties prepare to take power in the new national assembly , senior Shiite clerics are debating how much of the Islamic faith should be enshrined in Iraq 's new constitution , which the assembly will write .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	how much
+	BODY	How much are they considering?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	new constitution
+	BODY	Why is there a new constitution?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	prepare to take power
+	BODY	Why do they believe they'll takeover?
+	IN CONTEXT	Immediate
+--Specificity scale: ('0', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+A constitution based on Koranic law would sharply depart from the transitional law that the Americans enacted .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	enacted
+	BODY	Where was it enacted?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	depart
+	BODY	How?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Koranic law
+	BODY	What do these say?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	transitional law
+	BODY	What are they?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	Americans
+	BODY	Why did the Americans enact the law?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	A constitution
+	BODY	For what country?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	depart
+	BODY	In what ways?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+In one of four appearances on television news programs on Sunday , Mr. Rumsfeld echoed Mr. Cheney 's cautionary words . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	words
+	BODY	What are his words?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	words
+	BODY	What were they?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	programs
+	BODY	Which programs?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	words
+	BODY	What words?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The Shia in Iraq are Iraqis , '' Mr. Rumsfeld said on the NBC News program '' Meet the Press . '' ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Meet
+	BODY	Why?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+They 're not Iranians .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('6', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+And the idea that they 're going to end up with a government like Iran , with a handful of mullahs controlling much of the country , I think , is unlikely . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	unlikely
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	they
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	unlikely
+	BODY	Why is this unlikely?
+	IN CONTEXT	Immediate
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+But he warned that it would be '' a terrible mistake '' if the new assembly adopted a constitution that denied '' half of their population , women , the opportunity to participate fully . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the new assembly
+	BODY	Which assembly?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	population
+	BODY	Which population?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	mistake
+	BODY	Why is it a mistake?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	participate
+	BODY	Participate in what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the new assembly
+	BODY	What new assembly?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	a constitution
+	BODY	For what nation?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+Administration officials acknowledged that they would have much less influence over a transitional Iraqi government selected by the newly elected assembly , but were relying in part on Ayatollah Sistani 's stature to steer Iraq clear of a government led by clerics . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Administration officials
+	BODY	Which officials?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	stature
+	BODY	What is his stature?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	less
+	BODY	How much?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	newly
+	BODY	When were they elected?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	stature
+	BODY	What is it?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	clear
+	BODY	Why should they steer clear of a government led by clerics?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	less influence
+	BODY	How much influence do they have now?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Ayatollah Sistani
+	BODY	Why is he so important to the Americans?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('1', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_02_07_1648087.30
+
+
+---SENTENCE 0---
+When asked about the American plans to train and advise Iraqi forces , Mr. Rumsfeld said on '' Meet the Press , '' '' The important thing to do is to see that we do not create a dependency , that we encourage them to take over that responsibility . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	a dependency
+	BODY	A dependency on what?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	that responsibility
+	BODY	Which responsibility?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	train and advise
+	BODY	Why are they training/advisin them?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	important
+	BODY	Why is this more important?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	that
+	BODY	Which responsibility?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+Mr. Cheney reiterated -- but this time with more definitiveness and humor in his voice -- his determination never to seek the Republican nomination for president .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	this time
+	BODY	What happened last time?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	never
+	BODY	Why not?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this time
+	BODY	How did he say it before?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	never to seek
+	BODY	Why?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+Pressed on the issue by the host of '' Fox News Sunday , '' Chris Wallace , Mr. Cheney said , '' I do n't know whether you want me to take a Sherman . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the issue
+	BODY	What is the issue?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the issue
+	BODY	What issue?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a Sherman
+	BODY	A what?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which issue?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	take
+	BODY	Take for what?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	Sherman
+	BODY	What is a Sherman?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+The reference was to the Civil War general William Tecumseh Sherman , who declared , '' If nominated , I will not run ; if elected , I will not serve . '' ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The reference
+	BODY	Which reference?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The reference
+	BODY	What reference?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	elected
+	BODY	As what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The
+	BODY	Which reference?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	nominated
+	BODY	Nominated for what?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+That 'd be good , '' Mr. Wallace said .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	That
+	BODY	What is that?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	good
+	BODY	Why would it be good?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	That
+	BODY	What would be good?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	good
+	BODY	Good for what?
+	IN CONTEXT	Immediate
+--Specificity scale: ('6', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('6', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+Mr. Cheney then took an abbreviated Sherman , and added , '' Not only no , but hell , no . '' ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	no
+	BODY	No to what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	an abbreviated Sherman
+	BODY	What is a Sherman?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	no
+	BODY	What is he refusing?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	abbreviated Sherman
+	BODY	What is that?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	no
+	BODY	No to what?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+I 've got my plans laid out , '' he said , describing rivers he has not yet fished and time he wants to spend with his grandchildren . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	I
+	BODY	Who is speaking?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	laid out
+	BODY	For when?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	plans
+	BODY	Plans for what?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+I 'm going to serve this president for the next four years , and then I 'm out of here . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	here
+	BODY	Where?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	to serve
+	BODY	How?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	this president
+	BODY	Which president?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	I
+	BODY	Who is speaking?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	out of here
+	BODY	Where will he go?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	I
+	BODY	Who is ""I"" referring to?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	out
+	BODY	Why?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_29_1645701.40
+
+
+---SENTENCE 0---
+It is difficult to understand why we would use U.S. tax dollars to fund the further development of foreign helicopter technology , '' he said .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	difficult
+	BODY	Why is it difficult?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is ""he""?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the further development
+	BODY	Why is funding this on the table?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+Mr. Young said that two-thirds of the work on the new helicopters would take place in the United States , with the rest split between Italy and Britain .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which new helicopters?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the new helicopters
+	BODY	What are they for?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the new helicopters
+	BODY	What new helicopters?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+AgustaWestland is a subsidiary of the Italian firm , Finmeccanica .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Finmeccanica
+	BODY	What does it do?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	firm
+	BODY	What kind of firm?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	AgustaWestland
+	BODY	What do they do?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+Several crucial components of the craft , including the transmission and rotor blades , will be built overseas .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which craft?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	overseas
+	BODY	Where?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	overseas
+	BODY	Where overseas?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	overseas
+	BODY	Where?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+Lockheed itself will serve as a systems-integrator for the craft , and provide all the technical components and computers to connect it to the rest of the world .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which craft?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which components?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The helicopter chosen by the Pentagon , called the US 101 , is a variation of one already in use by the British Royal Navy ; it has been purchased by several other European countries and it is used to ferry the Pope .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	variation
+	BODY	How are they different?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	chosen
+	BODY	Chosen for what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	chosen
+	BODY	For what purpose?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	variation
+	BODY	What variations does it have?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+What swayed the Pentagon to Lockheed , Mr. Young said , was the fact that the US 101 has a larger cabin , can carry a heavier payload and could be put into service faster than Sikorsky 's offering , the VH-92 .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Lockheed
+	BODY	What is Lockheed?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	US 101
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	service
+	BODY	Service for what?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	larger
+	BODY	How much larger?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	heavier
+	BODY	How much heavier?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	faster
+	BODY	How much faster?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the US 101
+	BODY	What type of vehicle is this?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+The US 101 uses three engines , while the VH-92 has two .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	US 101
+	BODY	What is this?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The US 101
+	BODY	What kind of vehicle is this?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	while
+	BODY	Why are they being compared?
+	IN CONTEXT	Vague
+--Specificity scale: ('1', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+To some extent , the details of all the security measures incorporated in the helicopter fleet are so sensitive that it is impossible for outsiders to analyze each company 's offerings against the Pentagon 's requirements , said Loren B. Thompson , a military industry analyst at the Lexington Institute , a northern Virginia research group that monitors government spending . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which helicopter fleet?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	requirements
+	BODY	What are the requirements?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	some
+	BODY	How much of an extent?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	outsiders
+	BODY	Outsiders of what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	each company
+	BODY	What companies are involved?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	To some extent
+	BODY	To what extent?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+The government will never release to the public a list of the requirements for this craft , '' Mr. Thompson said . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	Which craft?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	this craft
+	BODY	What is this craft?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the requirements
+	BODY	What requirements?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	never
+	BODY	Why not?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	this craft
+	BODY	What craft?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_01_29_1645701.50
+
+
+---SENTENCE 0---
+We 'll all be in the dark .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	We
+	BODY	Who is we?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	in the dark
+	BODY	On what topic?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	in the dark
+	BODY	For what?
+	IN CONTEXT	Some
+--Specificity scale: ('6', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('6', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+We wo n't know much because it is all classified . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	know much
+	BODY	Know much about what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	We
+	BODY	Who is we?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	classified
+	BODY	Why is classified?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('6', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+This is the second big blow to Sikorsky .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	This
+	BODY	What is this?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the second
+	BODY	What is the first?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	This
+	BODY	What is this?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	second
+	BODY	What was the first?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	This
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	second
+	BODY	What was the first?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+Last year , it lost a $ 39 billion Pentagon contract when the Comanche helicopter program was cancelled . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	it
+	BODY	Who is it?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	cancelled
+	BODY	Why was it cancelled?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	cancelled
+	BODY	Why was it cancelled?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+Sikorsky and our All-American supplier team are disappointed with this outcome , '' said Stephen N. Finger , Sikorsky 's president . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	this outcome
+	BODY	What is this outcome?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	this outcome
+	BODY	What outcome?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	All-American
+	BODY	Why is this important?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	disappointed
+	BODY	Why are they disappointed?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	Which outcome?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+We 're honored to have flown U.S. presidents for nearly half a century . ''
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	We
+	BODY	Who is we?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	We
+	BODY	Who is ""we""?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+Sikorsky is perhaps best known as maker of the Black Hawk helicopter , a military war horse that is in heavy use in Iraq .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	use
+	BODY	What is it being used for?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+The VH-92 offering being designed by Sikorsky is a variant of its new S-92 midsized helicopter that the company is making with international partners .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	offering
+	BODY	What are they offering it for?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	variant
+	BODY	How is it different?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	international partners
+	BODY	Which international partners?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	variant
+	BODY	How is it different?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	partners
+	BODY	Who are they?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+The fact that the VH-92 could trace its lineage to a foreign design caused some on the Lockheed side to claim that Sikorsky was not playing fair by calling its craft all-American .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	side
+	BODY	Side of what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	craft
+	BODY	What kind of craft?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	VH-92
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	playing
+	BODY	Playing fair for what?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+At the Sikorsky plant in Stratford , the Pentagon decision was greeted glumly .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the Pentagon decision
+	BODY	What was the decision?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the Pentagon decision
+	BODY	What did they decide on?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	decision
+	BODY	What was the decision?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	glumly
+	BODY	Why glumly?
+	IN CONTEXT	Immediate
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_02_07_1648087.20
+
+
+---SENTENCE 0---
+If you 're looking for guidance in terms of what the relationship is likely to be between the religious faith , Islam , and the secular side of the house , the government , you really need to look at the top cleric , Sistani , '' Mr. Cheney said . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the government
+	BODY	The government of what?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the top cleric
+	BODY	Top cleric of what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	look at
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the government
+	BODY	Whose government?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Sistani
+	BODY	Why does he set a good example?
+	IN CONTEXT	Immediate
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+He also has been very clear , from the very beginning , that he did not want to play a direct role and does n't believe clerics should play a direct role in the day-to-day operations of government . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	beginning
+	BODY	Beginning of what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	beginning
+	BODY	Beginning of what?
+	IN CONTEXT	Immediate
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	does n't believe
+	BODY	Why not?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	day-to-day operations
+	BODY	What do these entail?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a direct role
+	BODY	In what?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+As officials here monitor the election returns , Mr. Rumsfeld declined to set any schedule for withdrawing the 150,000 American troops .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	here
+	BODY	Where is here?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the election
+	BODY	Which election?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	withdrawing
+	BODY	Withdraw from where?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	declined
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	withdrawing
+	BODY	From what?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	here
+	BODY	Where is here?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the election
+	BODY	What election?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+He said any exit strategy would be based on conditions on the ground -- including the size of the insurgency , Syrian and Iranian help in combating it , and whether Iraqi '' fence sitters '' joined the political process -- rather than a specific date .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	exit strategy
+	BODY	Exit strategy for what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	exit
+	BODY	Exiting what?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	What is the process?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which insurgency?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	exit strategy
+	BODY	Who is exiting?
+	IN CONTEXT	Vague
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+Mr. Rumsfeld also spelled out in greater detail than before the abilities of the 136,000 Iraqi police and military personnel that the Pentagon has said are trained and equipped .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	greater
+	BODY	How much greater?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	greater
+	BODY	How much greater?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	abilities
+	BODY	What are the abilities?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	greater detail
+	BODY	What details did he give?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+Until recently , defense officials had given scant details on the abilities of individual Iraqi units .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	recently
+	BODY	How recently?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Until
+	BODY	Why until recently?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	recently
+	BODY	How recent?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Until recently
+	BODY	Why has this changed?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the abilities
+	BODY	What have they said about them?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+Last week , Gen. Richard B. Myers , chairman of the Joint Chiefs of Staff , said 40,000 of those Iraqi forces were able to handle the most challenging missions .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the most challenging missions
+	BODY	What are the most challenging missions?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	those Iraqi forces
+	BODY	Which Iraqi forces?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	those
+	BODY	Which forces?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	most
+	BODY	How challenging?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	missions
+	BODY	What are the missions?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	most challenging
+	BODY	How challenging is that?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	those Iraqi forces
+	BODY	What Iraqi forces?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+But Mr. Rumsfeld said Sunday that that did not mean the remaining security forces were ill-prepared . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	that
+	BODY	What is that?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the remaining security forces
+	BODY	Remaining forces of what?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	ill-prepared
+	BODY	Ill-prepared for what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	that
+	BODY	What is ""that"" referring to?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	remaining
+	BODY	How many are remaining?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	that
+	BODY	What is that referring to?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the remaining security forces
+	BODY	What happened to the rest?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	ill-prepared
+	BODY	For what?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+Some of them are trained to be policemen , and now a policeman is not a counterterrorism , or a police commando , '' he said on CNN 's '' Late Edition . '' ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	them
+	BODY	Whom?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	them
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Some of them
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+There are about 7 or 8 or 10 different categories that are being trained to do very different things . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	categories
+	BODY	What are the categories?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	things
+	BODY	What things?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	categories
+	BODY	Of what?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	things
+	BODY	Such as?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	are being trained
+	BODY	Who is being trained?
+	IN CONTEXT	Vague
+--Specificity scale: ('6', '"A2JXKG4G3440T1"')('6', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+

@@ -1,0 +1,1987 @@
+
+==================TASK==================
+2005_01_05_1639693.20
+
+
+---SENTENCE 0---
+According to the lawsuit , Mr. Salinas Pliego failed to inform shareholders about a complex deal between Unefon , TV Azteca 's phone unit , and a company formed by Mr. Salinas Pliego and an associate , Moises Saba .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	lawsuit
+	BODY	Which lawsuit?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	complex deal
+	BODY	What was the deal?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	a company
+	BODY	What is the company?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Salinas Pliego
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	a complex deal
+	BODY	What was the deal?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	a complex deal
+	BODY	What did this deal involve?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+That company , called Codisco , bought Unefon debt at a deep discount .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	That
+	BODY	What does that refer to?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	a deep discount
+	BODY	How much of a discount?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Unefon
+	BODY	What is Unefon?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	debt
+	BODY	How much?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	a deep discount
+	BODY	Why was it discounted?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Unefon
+	BODY	What does this company do?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+Four months later , Mr. Salinas Pliego reaped more than $ 109 million in suspected ill-gotten profits by selling the Unefon debt back , at full price , to TV Azteca .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Four months later
+	BODY	Four months after what?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	ill-gotten profits
+	BODY	Why was it ill-gotten?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	full price
+	BODY	What was the full price?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Four months later
+	BODY	Four months after when?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	full price
+	BODY	How much is full price?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	suspected ill-gotten profits
+	BODY	Why were they ill-gotten?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Four months later
+	BODY	Four months after what?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+According to the S.E.C. , Mr. Salinas Pliego not only failed to disclose the transaction to his board , as the law requires for any related-party transaction , but he also misrepresented the nature of the transaction to his board , the press and the S.E.C. '' After the resignation of TV Azteca 's U.S. legal counsel and a Dec. 24 , 2003 , New York Times article concerning the matter , Mr. Echarte sent an e-mail to Mr. Salinas Pliego and Mr. Padilla stating , ` The damage is done and the situation that we did n't want to explain openly is now in the hands of the press , '' ' according to the S.E.C. press release .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the transaction
+	BODY	What was the transaction?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	misrepresented the nature of the transaction
+	BODY	How did he misrepresent the nature?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Salinas Pliego
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the transaction
+	BODY	What transaction?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	Mr. Echarte
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	misrepresented
+	BODY	How did he misrepresent it?
+	IN CONTEXT	Some
+	---Question #4 "A15SL3YR88L2D1"
+	TXT	the nature of the transaction
+	BODY	What was the nature?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the transaction
+	BODY	Which transaction?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	misrepresented the nature of the transaction
+	BODY	How was it misrepresented?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	Mr. Echarte
+	BODY	Who is he?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('1', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+Stephen M. Cutler , director of enforcement at the S.E.C. , said : '' Salinas took from the company a valuable corporate opportunity and over a period of many months concealed that transaction in violation of the U.S. securities laws .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Salinas
+	BODY	Who is Salinas?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	company
+	BODY	What company?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	many months
+	BODY	How many months?
+	IN CONTEXT	No
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	transaction
+	BODY	What was the transaction?
+	IN CONTEXT	Vague
+	---Question #4 "A2JXKG4G3440T1"
+	TXT	corporate opportunity
+	BODY	What is the corporate opportunity
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Salinas
+	BODY	Who is Salinas?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the company
+	BODY	What company?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	that transaction
+	BODY	What transaction?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	a valuable corporate opportunity
+	BODY	What was it?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	violation of the U.S. securities laws
+	BODY	What are the consequences?
+	IN CONTEXT	Immediate
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	many months
+	BODY	How many months?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The federal securities laws are designed to ensure full and fair disclosure about related party transactions . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	party
+	BODY	Who are the parties?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	full and fair disclosure
+	BODY	What does full and fair disclosure involve?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('6', '"A15SL3YR88L2D1"')('6', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+Mexico 's main securities regulator , the Comisión Nacional Bancaria y de Valores , has been conducting its own investigation of the Codisco-Unefon affair and has now determined that Mexican securities laws were broken , a top official said Tuesday .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Codisco-Unefon affair
+	BODY	What is the affair?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	Mexican securities laws were broken
+	BODY	Which laws were broken?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Codisco-Unefon affair
+	BODY	What affair?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the Codisco-Unefon affair
+	BODY	What happened?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a top official
+	BODY	Who?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_01_14_1641884.0
+
+
+---SENTENCE 0---
+Nine current and former sales executives from an assortment of food companies were charged yesterday with participating in a scheme that created a huge accounting fraud at U.S. Foodservice , which has been under investigation in the United States and in the Netherlands for the last two years .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	charged
+	BODY	Charged how much?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	an assortment of food companies
+	BODY	Which companies/foods?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	a huge accounting fraud
+	BODY	What happened?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	assortment of food companies
+	BODY	Which companies were these?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	huge accounting fraud
+	BODY	How big was the fraud?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Nine current and former sales executives
+	BODY	Who are they?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	huge accounting fraud
+	BODY	How much did it involve?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	huge accounting fraud
+	BODY	How was it achieved?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+The executives were arraigned in Federal District Court in Manhattan on conspiracy charges and released .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The executives
+	BODY	Who are they?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	conspiracy charges
+	BODY	What conspiracy?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	What are they executives of?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	conspiracy charges
+	BODY	What are they charged with?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	released
+	BODY	Why were they released?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	The executives
+	BODY	What executives?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	conspiracy charges
+	BODY	What did they comspire?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+They worked for companies that sold products like sugar , eggs , seafood and cake mix to U.S. Foodservice , which in turn supplied restaurants , corporate dining rooms and other institutions .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	other institutions
+	BODY	What types of institutions?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+All the executives are accused of approving documents that claimed U.S. Foodservice , a unit of Royal Ahold , was owed millions of dollars more in promotional allowances -- a type of rebate offered by manufacturers to stores and distributors -- than was actually the case .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	executives
+	BODY	Which executives?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	millions of dollars more
+	BODY	How much exactly?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	What are they executives of?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	than was actually the case
+	BODY	What was the actual case?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	promotional allowances
+	BODY	What is it offered for?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	millions of dollars
+	BODY	How many millions?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+The scheme had the effect of inflating U.S. Foodservice 's profits , prosecutors say .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The scheme
+	BODY	What scheme?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	By how much?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	prosecutors
+	BODY	Who are they?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	scheme
+	BODY	What was the scheme?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	How much were the profits inflated?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The scheme
+	BODY	What scheme?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	How so?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	U.S. Foodservice 's profits
+	BODY	How much?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The letters were issued by a former U.S. Foodservice chief marketing officer , Mark P. Kaiser , according to court documents .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The letters
+	BODY	What were the letters about?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	court documents
+	BODY	Which documents?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	letters
+	BODY	What do the letters say?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	issued
+	BODY	Why are the letters issued?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The letters
+	BODY	What letters?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	were issued
+	BODY	Why were they issued?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+Mr. Kaiser is awaiting trial on conspiracy and fraud charges , along with Michael J. Resnick , the former chief financial officer .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Kaiser
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	awaiting trial on conspiracy and fraud charges
+	BODY	What did he do?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	conspiracy and fraud charges
+	BODY	What is he charged with conspiracy and fraud
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	former chief financial officer
+	BODY	What is he the former chief financial officer of?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	conspiracy and fraud charges
+	BODY	Involving what company?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Mr. Kaiser
+	BODY	Who is this?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+Two other former U.S. Foodservice executives , Timothy J. Lee and William F. Carter , pleaded guilty to similar charges last summer .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	similar charges
+	BODY	Similar to what?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	similar charges
+	BODY	What are the similar charges?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	similar charges
+	BODY	Similar charges to what?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	pleaded guilty
+	BODY	What was the consequence?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+All the defendants charged yesterday signed audit letters containing false information at the request of Mr. Kaiser , the documents state . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	false information
+	BODY	What was the false information?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Mr. Kaiser
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the documents
+	BODY	What documents
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	defendants
+	BODY	Who are the defendants?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	charged
+	BODY	With what were they charged?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	documents
+	BODY	What documents?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	All the defendants
+	BODY	Who are these defendants?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	false information
+	BODY	What kind of false information?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the request
+	BODY	Why was it requested?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+Their motivation was to maintain a very important business relationship , '' the acting United States attorney for Manhattan , David N. Kelley , said .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Their
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Their
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	a very important business relationship
+	BODY	Who was the business relationship between?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Their motivation
+	BODY	Whose motivation?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	very important business relationship
+	BODY	Between themselves and who?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_01_14_1641845.10
+
+
+---SENTENCE 0---
+The corps has had a much lower profile and has enjoyed some construction successes in Iraq .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	corps
+	BODY	The corps of what?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	much lower profile
+	BODY	Lower profile than what?
+	IN CONTEXT	Immediate
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	some construction successes
+	BODY	What successes?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The corps
+	BODY	What corps?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a much lower profile
+	BODY	How have they achieved this?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	construction
+	BODY	Construction of what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	construction successes
+	BODY	How were they successful?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	much lower profile
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	construction
+	BODY	Construction of what?
+	IN CONTEXT	Immediate
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	The corps
+	BODY	Which corps?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+Its electrical projects have added more than 1,800 megawatts to the Iraqi grid , roughly the equivalent of two large power plants .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Its electrical projects
+	BODY	Whose electrical projects
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Its
+	BODY	What is ""it""?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	electrical projects
+	BODY	What did the projects involve?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	electrical projects
+	BODY	What do these entail?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Its
+	BODY	What is it?
+	IN CONTEXT	Vague
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+But major corps projects , like huge waterway projects in the United States , have also been criticized as grandiose and unresponsive to local needs .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	corps
+	BODY	Who is the corps?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	have also been criticized
+	BODY	Who has criticized the projects?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	local needs
+	BODY	What are the local needs?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	huge waterway projects
+	BODY	What did these involve?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	local needs
+	BODY	What are their needs?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	grandiose
+	BODY	How grandiose?
+	IN CONTEXT	Immediate
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+And it was the Army corps that awarded Halliburton an early no-bid contract worth billions of dollars for work on Iraq 's oil fields , which opened the company to lashing criticism .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	lashing criticism
+	BODY	What is the lashing criticism?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	awarded Halliburton an early no-bid contract
+	BODY	Why was this awarded?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	lashing criticism
+	BODY	Why was the company criticized?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	opened the company to lashing criticism
+	BODY	Why?
+	IN CONTEXT	Vague
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+Whether the corps will fare better than the project office is open to question , Mr. Barton said .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	corps
+	BODY	What is the corps
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	fare better
+	BODY	How did the project office fare?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the corps
+	BODY	What corps?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the project office
+	BODY	What did the project office do?
+	IN CONTEXT	Immediate
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	Mr. Barton
+	BODY	Who is this?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	fare better
+	BODY	Fare better for what?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Mr. Barton
+	BODY	Who is Mr. Barton?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the project office
+	BODY	Project office of what?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+Success in Iraq means engaging the local populace , he said , and '' that has n't been their strength even domestically . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	engaging
+	BODY	How will they engage the local populace?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	their
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	strength
+	BODY	What is their strength?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Success in Iraq
+	BODY	Doing what?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	has n't been their strength even domestically
+	BODY	How so?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Success
+	BODY	Success for what?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	engaging the local populace
+	BODY	Engaging them with what?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+Brig. Gen. Thomas Bostick , commander of the Army corps in the Persian Gulf region , said that because the two organizations had been working hand-in-glove from the start , he did not regard the switch as a substantial change .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	two organizations
+	BODY	What are the two organizations?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the start
+	BODY	From the start of what?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	the switch
+	BODY	The switch between what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the two organizations
+	BODY	Which organizations?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the switch
+	BODY	Why did they switch?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	had been working hand-in-glove
+	BODY	How so?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	two organizations
+	BODY	What organizations?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the switch
+	BODY	Switch for what?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+Rather , he said , the project office , with its emphasis on planning , will slim down as more contracts moved into construction . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	Rather
+	BODY	Rather than what?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	slim down
+	BODY	How will it slim down?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the project office
+	BODY	What do they do?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the project office
+	BODY	Project office of what?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+I see this as a natural progression , '' General Bostick said . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	this
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	this
+	BODY	What is ""this""?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a natural progression
+	BODY	Of what?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	General Bostick
+	BODY	Who is this?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	What is ""this""?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	General Bostick
+	BODY	Who is he?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+To say it 's going to change , and is going to change as a result of negative perception , is not correct . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	it
+	BODY	What is ""it""?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	negative perception
+	BODY	Why would it be negatively perceived?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	is not correct
+	BODY	Why not?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	it
+	BODY	What is it?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	is not correct
+	BODY	Why not?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('6', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_14_1641845.0
+
+
+---SENTENCE 0---
+In a major shift within the much-criticized $ 18.4 billion program to rebuild Iraq 's physical infrastructure , the office that the Pentagon formed to oversee the effort will begin handing its responsibilities over to the United States Army Corps of Engineers over the next several months .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	much-criticized
+	BODY	Why is the program criticized?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	handing its responsibilities over
+	BODY	Why is this shift occuring?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	rebuild
+	BODY	How?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	much-criticized
+	BODY	What is criticized about the program?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	its responsibilities
+	BODY	What are its responsibilities?
+	IN CONTEXT	No
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')('2', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 1---
+Charles Hess , the director of the agency , the Project and Contracting Office , said in a telephone interview from Baghdad that the change was a natural evolution .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the change
+	BODY	What change?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a natural evolution
+	BODY	Why is it an evolution?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	natural evolution
+	BODY	How?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	change
+	BODY	What change?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 2---
+He denied that the move was a response to Iraqi and American criticism that the reconstruction effort had focused too much on large projects , started up too slowly and failed to anticipate attacks by insurgents .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	large projects
+	BODY	What type of projects?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the move
+	BODY	What move?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	reconstruction effort
+	BODY	What reconstruction?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	move
+	BODY	What was the move?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	reconstruction effort
+	BODY	What was being reconstructed?
+	IN CONTEXT	Vague
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	large projects
+	BODY	What are the large projects?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 3---
+As the United States tries to lay the groundwork for a functioning Iraqi government before elections on Jan. 30 , some criticisms of the reconstruction program have carried a particular sting : a major goal of the reconstruction , from power plants and sewage-treatment plants to roads and fire stations , was to persuade ordinary Iraqis of the good will and competence of the post-Saddam Hussein authorities .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	persuade ordinary Iraqis of the good will and competence of the post-Saddam Hussein authorities
+	BODY	Why has this attempt failed?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	lay the groundwork
+	BODY	How?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	some criticisms
+	BODY	What were the criticisms
+	IN CONTEXT	No
+--Specificity scale: ('2', '"AY1E1I3E6TC8G"')('1', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 4---
+While the Army corps has increased electricity output and both agencies have put in place other , smaller-scale projects , most major efforts have faced major delays .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	major delays
+	BODY	Why?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	both agencies
+	BODY	Which agencies?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	smaller-scale projects
+	BODY	What projects?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	major efforts
+	BODY	What efforts?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Army corps
+	BODY	Who is the Army corps?
+	IN CONTEXT	Immediate
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	increased electricity output
+	BODY	How much has it increased?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	both agencies
+	BODY	Who are the agencies?
+	IN CONTEXT	Some
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	smaller-scale projects
+	BODY	Smaller-scale than what?
+	IN CONTEXT	Vague
+	---Question #4 "A2JXKG4G3440T1"
+	TXT	major efforts
+	BODY	What are the major efforts?
+	IN CONTEXT	No
+	---Question #5 "A2JXKG4G3440T1"
+	TXT	major delays
+	BODY	How long are the major delays?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 5---
+Insurgent attacks have hit both the projects and the workers , prompting some large companies to pull out of Iraq , sending security costs skyrocketing and forcing the elimination or scaling down of dozens of projects .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	some large companies
+	BODY	Which companies?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the projects
+	BODY	What projects?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	projects
+	BODY	What projects?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	some large companies
+	BODY	Which companies?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	dozens of projects
+	BODY	What projects?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	projects
+	BODY	What projects?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	some large companies
+	BODY	Which large companies?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	sending security costs skyrocketing
+	BODY	How much do the costs increase?
+	IN CONTEXT	No
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	dozens of projects
+	BODY	What are the projects?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 6---
+Mr. Hess defended the reconstruction program as successful , given the hard realities of Iraq , and said the gradual shift of responsibility to the Army corps , with its history of managing construction project in conflict zones , had long been envisioned .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	successful
+	BODY	Why do some believe it unsuccessful?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	to the Army corps
+	BODY	From what?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	long been envisioned
+	BODY	Why was this the goal?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Hess
+	BODY	Who is this?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	reconstruction
+	BODY	Reconstruction of what?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	hard realities
+	BODY	What are these hard realities?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	reconstruction program
+	BODY	What is the reconstruction program?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	hard realities
+	BODY	What are the hard realities?
+	IN CONTEXT	Immediate
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	had long been envisioned
+	BODY	How long had it been envisioned?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 7---
+But Rick Barton , co-director of the post-conflict reconstruction program at the Center for Strategic and International Studies , said the shift '' is a further confirmation that the place is n't safe . '' ''
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the shift
+	BODY	What shift?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a further confirmation that the place is n't safe
+	BODY	How so?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the shift
+	BODY	What shift?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the place
+	BODY	What place?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	shift
+	BODY	What shift?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	place
+	BODY	What place?
+	IN CONTEXT	Vague
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	is n't safe
+	BODY	Why isn't it safe?
+	IN CONTEXT	Immediate
+--Specificity scale: ('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 8---
+I assume that the Army corps feels better about going places that are just plain dangerous , '' he said .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	I assume
+	BODY	Why is this assumption made?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	going places that are just plain dangerous
+	BODY	Where are they talking about?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	places
+	BODY	What places?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')
+
+
+---SENTENCE 9---
+The corps has largely avoided the criticism that has dogged the project office .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The corps
+	BODY	What corps?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the criticism
+	BODY	What criticism do they face?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the project office
+	BODY	What is the aim of this group?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	project
+	BODY	What project?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	corps
+	BODY	What corps?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	criticism
+	BODY	What criticism?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	project office
+	BODY	What project office?
+	IN CONTEXT	Some
+--Specificity scale: ('6', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')
+
+
+==================TASK==================
+2005_01_14_1641884.20
+
+
+---SENTENCE 0---
+In a case involving John Nettle , a 45-year-old former vice president at General Mills , a letter prepared by U.S. Foodservice 's auditor stated that General Mills owed the company $ 13.44 million at the end of 2001 . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	case
+	BODY	What was the case?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	involving
+	BODY	How is he involved?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	owed the company
+	BODY	Why?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('1', '"AY1E1I3E6TC8G"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+In truth and in fact , General Mills owed U.S.F. less than $ 2.5 million , '' the government charged in court documents .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	less than
+	BODY	How much less than 2.5 million?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	court documents
+	BODY	Why are they at court?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the government
+	BODY	How is the government involved?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	General Mills
+	BODY	Who is this?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	U.S.F.
+	BODY	What is U.S.F.?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+Mr. Nettle is accused of signing the letter despite the false information .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	letter
+	BODY	What letter?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	false information
+	BODY	What false information
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	accused
+	BODY	Who accused him?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the letter
+	BODY	What letter?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Mr. Nettle
+	BODY	How is Mr. Nettle involved?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	false information
+	BODY	What false information is present?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Nettle
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the letter
+	BODY	What letter?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	false information
+	BODY	False information about what?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+For 2002 , he signed a letter stating that General Mills owed U.S. Foodservice $ 36.64 million , although the amount was actually less than $ 1 million , according to the documents . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	documents
+	BODY	What documents?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the documents
+	BODY	Which documents?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	owed U.S. Foodservice
+	BODY	Why?
+	IN CONTEXT	Immediate
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the documents
+	BODY	What documents?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+As Nettle well knew , the $ 36.64 million figure was grossly overstated and General Mills did not owe that amount , '' the documents state .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	grossly overstated
+	BODY	How much was it overstated?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	documents
+	BODY	What documents?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Nettle
+	BODY	Who is Nettle?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	grossly overstated
+	BODY	How much was it overstated?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the documents
+	BODY	Which documents?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Nettle
+	BODY	Who is Nettle?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the documents
+	BODY	What documents?
+	IN CONTEXT	Immediate
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+A lawyer for Mr. Nettle , William Michael , said his client '' was pressured into signing these letters and he is very sorry for what this has caused his former employer as well as his family . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	was pressured
+	BODY	Who was he pressured by?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	these letters
+	BODY	What are the letters?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	what this has caused
+	BODY	What has it caused?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Mr. Nettle
+	BODY	How was Mr. Nettle involved with the company?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	was pressured
+	BODY	By whom?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	his former employer
+	BODY	Which company is it?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Nettle
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	what this has caused
+	BODY	What was the result?
+	IN CONTEXT	Immediate
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	pressured
+	BODY	Pressured by whom?
+	IN CONTEXT	No
+	---Question #3 "A15SL3YR88L2D1"
+	TXT	these letters
+	BODY	What letters?
+	IN CONTEXT	Immediate
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+He said that Mr. Nettle planned to plead guilty .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	plead guilty
+	BODY	What is he pleading guilty for?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Mr. Nettle
+	BODY	What is he charged of?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Mr. Nettle
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	plead guilty
+	BODY	What is he charged for?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+Two of the defendants have been charged with securities fraud and obstruction of a federal investigation .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	defendants
+	BODY	Defendants of what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Two of the defendants
+	BODY	What are their names?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	obstruction of a federal investigation
+	BODY	How have they done this?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	defendants
+	BODY	Defenants for what?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	securities fraud and obstruction of a federal investigation
+	BODY	What did they do?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+Mark Bailin , who was president of Rymer International Seafood , and Peter Marion , president of Maritime Seafood Processors , are accused of buying U.S. Foodservice stock in 2000 , ahead of the company 's announcement that it was being acquired by Royal Ahold .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	announcement
+	BODY	When was the announcement?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	ahead of the company 's announcement
+	BODY	How did they hear about it?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Royal Ahold
+	BODY	What is Royal Ahold?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('0', '"AY1E1I3E6TC8G"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+They made about $ 1.5 million in illegal profits , according to court documents .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	illegal profits
+	BODY	How were the profits illegal?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	They
+	BODY	Who are ""they""?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	illegal profits
+	BODY	How were these profits illegal?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	illegal profits
+	BODY	What kind of illegal acts did they perform?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('3', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_05_1639693.10
+
+
+---SENTENCE 0---
+It is also unusual in that it seeks to prevent Mr. Salinas Pliego , who owns a controlling stake in the company , from acting as an officer or director of TV Azteca or any other public company .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	It
+	BODY	What is it?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	company
+	BODY	What company?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	It
+	BODY	What is ""it""?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the company
+	BODY	Which company?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	seeks to prevent
+	BODY	What did Mr. Pliego do?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	it
+	BODY	What is ""it""?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+If the S.E.C. is victorious , it would have try to find ways to restrict Mr. Salinas Pliego from exercising control by voting his shares , perhaps by putting his stock in a trust , people close to the agency say .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	people
+	BODY	Who are these people?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	close
+	BODY	How are they c lose to the agency?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the S.E.C.
+	BODY	What is this organization?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	restrict Mr. Salinas Pliego from exercising control
+	BODY	Why is he being restricted?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	people close to the agency
+	BODY	Who are these people?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	people close to the agency
+	BODY	Who are they?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	restrict Mr. Salinas Pliego
+	BODY	Why?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	Mr. Salinas Pliego
+	BODY	Who is he?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+The action also highlights a trend of the S.E.C. 's trying to enforce United States securities laws against foreign companies whose stocks and bonds are listed on American markets . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	action
+	BODY	What action?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The action
+	BODY	What action?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a trend
+	BODY	Why has this become a trend?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The action
+	BODY	What action?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+Geographic boundaries will not serve to protect those who seek to defraud investors , '' said Spencer C. Barasch , associate district administrator at the S.E.C. '' When companies , domestic or foreign , avail themselves of our capital markets , they have the same responsibility to adhere to U.S. securities law . ''
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Geographic boundaries
+	BODY	Which geographic boundaries?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the S.E.C.
+	BODY	How is this organization involved?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Geographic boundaries will not serve to protect those who seek to defraud investors
+	BODY	How have these boundries served as protection in the past?
+	IN CONTEXT	Immediate
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')('0', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+TV Azteca , whose depository shares trade on the New York Stock Exchange , is a unit of Azteca Holdings , which is controlled by Mr. Salinas Pliego .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	shares trade
+	BODY	How much trade?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	is controlled by Mr. Salinas Pliego
+	BODY	How is he involved?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	TV Azteca
+	BODY	What does this company do?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+TV Azteca is one of the fastest-growing Spanish-language networks in the United States , reaching some 77 percent of Latino homes .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	fastest-growing
+	BODY	How quickly is it growing?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the fastest-growing Spanish-language networks
+	BODY	What makes it popular?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	fastest-growing
+	BODY	How fast?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+The S.E.C. also filed suit against Pedro Padilla Longoria , the former chief executive of TV Azteca , and Luis J. Echarte Fernández , president and chief of Azteca America and chief financial officer of Grupo Salinas .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	filed suit
+	BODY	Why did they file suit?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Grupo Salinas
+	BODY	What does this group do?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	filed suit
+	BODY	Why are they being sued?
+	IN CONTEXT	Immediate
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	filed suit
+	BODY	Why?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	filed suit
+	BODY	How much?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+Both men are directors of TV Azteca .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Both men
+	BODY	Which men?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Both men
+	BODY	Who are these men?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	directors of TV Azteca
+	BODY	How is this information relevant?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Both men
+	BODY	Which men?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	TV Azteca
+	BODY	What is TV Azteca?
+	IN CONTEXT	Some
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('5', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+Mr. Echarte Fernández paid a civil penalty of $ 200,000 to settle with the agency .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	agency
+	BODY	Which agency?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	settle
+	BODY	Settle what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	settle with the agency
+	BODY	Why did the agency file agains him?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Mr. Echarte Fernández
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the agency
+	BODY	Which agency?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Echarte Fernández
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	civil penalty
+	BODY	Why is he paying a penalty fee?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the agency
+	BODY	What agency?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+He neither admitted nor denied any wrongdoing .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	wrongdoing
+	BODY	What was he accused of?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	He
+	BODY	Who is he?
+	IN CONTEXT	Vague
+--Specificity scale: ('6', '"A2JXKG4G3440T1"')('6', '"AY1E1I3E6TC8G"')('6', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_14_1641884.10
+
+
+---SENTENCE 0---
+Most of the executives are expected to plead guilty , he said at a news conference , adding that none of the companies they worked for have been charged with wrongdoing .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	The executives of what?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	guilty
+	BODY	Guilty for what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the executives
+	BODY	Which executives?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	plead guilty
+	BODY	For what?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	wrongdoing
+	BODY	Why would they be charged?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the executives
+	BODY	What executives?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	none of the companies
+	BODY	What companies are involved?
+	IN CONTEXT	Immediate
+	---Question #3 "AY1E1I3E6TC8G"
+	TXT	charged
+	BODY	What were they charged with?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+The investigation is continuing , '' upstream and downstream , '' he said .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	investigation
+	BODY	What is the investigation about
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The investigation is
+	BODY	What investigation?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The investigation
+	BODY	What investigation?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	upstream and downstream
+	BODY	What does this mean?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('6', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+All of the executives have also been named in a civil case brought by the Securities and Exchange Commission , which accuses them of aiding and abetting a financial fraud .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	Executives of what?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the executives
+	BODY	Who are they?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	a financial fraud
+	BODY	What financial fraud?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	All of the executives
+	BODY	Which executives?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	financial fraud
+	BODY	How were they involved?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+Promotional allowances are intended to be used to help sell a manufacturer 's goods to consumers , through discounts , displays or advertising , and they often add up to large amounts of money .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	large amounts of money
+	BODY	How much money?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	Promotional allowances
+	BODY	What are the allowances?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	large amounts of money
+	BODY	How much generally?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('6', '"A15SL3YR88L2D1"')('6', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+U.S. Foodservice would pay the price of goods up front , as part of its costs , then book promotional allowances as assets in its records , according to court documents .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	court documents
+	BODY	What court documents?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	assets in its records
+	BODY	Are they not supposed to?
+	IN CONTEXT	Immediate
+--Specificity scale: ('2', '"A2JXKG4G3440T1"')('6', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+Exaggerating the promotional allowances , sometimes by a factor of 30 or more , not only made U.S. Foodservice look like a better business than it was , but also improved the financial appearance of its parent , Royal Ahold .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	promotional allowances
+	BODY	What were the promotional allowances?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Royal Ahold
+	BODY	What is this?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	a better business
+	BODY	How so?
+	IN CONTEXT	Vague
+--Specificity scale: ('1', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+Royal Ahold , a publicly traded company based in the Netherlands , revealed in February 2003 that it had overstated earnings by at least $ 500 million over the previous two years .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	overstated
+	BODY	What was it originally?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	overstated earnings
+	BODY	What are the consequences of this?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	a publicly traded company
+	BODY	What is their business?
+	IN CONTEXT	Some
+--Specificity scale: ('0', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')('1', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+The figure was later revised to $ 880 million .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	figure
+	BODY	What was the original figure?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	later
+	BODY	How much later was it revised?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The figure
+	BODY	Figure of what?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The figure
+	BODY	What figure?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	revised
+	BODY	Why did it require revision?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+Royal Ahold said much of the overstatement came from promotional allowances recorded by U.S. Foodservice .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	overstatement
+	BODY	The overstatement of what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Royal Ahold
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	much
+	BODY	How much of an overstatement?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	overstatement
+	BODY	Overstatement of what?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the overstatement
+	BODY	What overstatement?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+A host of executives , including the top management of Royal Ahold , resigned .
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	host of executives
+	BODY	How many executives?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	top management
+	BODY	Who is the top management?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Royal Ahold
+	BODY	What is this?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	A host of executives
+	BODY	Which executives?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	resigned
+	BODY	Why did they resign?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A2JXKG4G3440T1"')('5', '"A15SL3YR88L2D1"')('5', '"AY1E1I3E6TC8G"')
+
