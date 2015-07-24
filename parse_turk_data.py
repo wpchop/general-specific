@@ -39,13 +39,6 @@ def deleteQuotes(string):
     Presumably quotation marks, but it'll happily cut off other things too."""
     return string[1:len(string)-1]
 
-'''
-def convertContext(context):
-  #Would convert 0/1/NA, etc to a string representing their meanings
-  if context == "0":
-    return
-'''
-
 def get_input_file_lines(fname):
     """Returns a list of the lines from the given input file name, leaving off
     the first line of the file."""
@@ -160,7 +153,7 @@ def write_output(input_fname, tasks):
     Task objects.
     WARNING: Will overwrite another file of the same name."""
     outFile = open(input_fname[0:-6]+"_output.txt","w")
-    context_map = {0: "No", 3: "Vague", 2: "Some", 1: "Immediate"}
+    context_map = {0: "No", 1: "Vague", 2: "Some", 3: "Immediate"}
     for key in tasks:
       outFile.write("\n==================TASK==================\n"+key+"\n\n")
       task = tasks[key]
@@ -178,16 +171,35 @@ def write_output(input_fname, tasks):
         outFile.write("\n\n")
     outFile.close()
 
+def read_input_file():
+    '''Uses a text file "input.txt" that lists all desired input files. The mTurk
+    files should be listed on one line in the following format:
+    mturk:\t<file>\t<file> 
+    where <file> is the name of BOTH the .input and .results file, listed here 
+    without the extension, ex: week3
+    Returns the list of tuples where each tuple is of the form 
+    ("file.input", "file.results")'''
+    fname_list = []
+    with open('data/input.txt', 'r') as inFile:
+      for line in inFile:
+        if line[:5] == 'mturk':
+          items = line.strip().split('\t')[1:]
+          for item in items:
+            fname_list.append( (item+'.input', item+'.results') )
+    return fname_list
 
-def main():
-    input_fname = raw_input("Enter the input file name: ")
-    result_fname = raw_input("Enter the result file name: ")
+
+def main(input_fname, result_fname):
+    '''Takes in two strings representing the .input file and the .results file,
+    respectively. Returns a dictionary of tasks.'''
     input_lines = get_input_file_lines(input_fname)                             #Get lines from .input file
     tasks = make_task_dict(input_lines)                                         #Make a dictionary containing the Tasks with Sentences in them
     meta, resultlines = read_results_file(result_fname)                         #Get the list of metadata and the lines from the .result file
     categories = make_category_dict(meta)                                       #A category dictionary parsed from the metadata
     tasks = add_questions_to_sentences(resultlines, categories, tasks)          #Add Questions to the proper Sentences
-    #write_output(input_fname,tasks)                                                         #Output to an output file "output.txt"
-    return (input_fname, tasks)
+    #write_output('output/'+input_fname,tasks)                                                         #Output to an output file "output.txt"
+    return tasks
 
-#main()
+#for tup in read_input_file():
+  #main( tup[0], tup[1] )
+

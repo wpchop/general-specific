@@ -8,10 +8,11 @@
 # Acknowledgements:
 #-------------------------------------------------------------------------------
 
+
 def get_input_lines(fname):
   '''Returns a list of the lines from the given input file name, leaving off
   the first line of the file.'''
-  inputFile = open(fname, "r")
+  inputFile = open("data/"+fname, "r")
   inputlines = inputFile.readlines()              #reads lines
   inputFile.close()
   return inputlines

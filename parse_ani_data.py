@@ -43,16 +43,9 @@ def parse_lines(lines):
   return map(parse_line, lines)
   
 
-def main():
+def main(fname):
   '''Handles everything. Returns (fname, [(rating, sentence),...]) where fname is 
   the file's name, rating is an int and sentence is a string.'''
-  fname = get_fname()
   lines = get_input_lines(fname)                  #Get input lines
   lst_tups = parse_lines(lines)                   #For each line get the tuple (rating, sentence)
   return (fname, lst_tups)                        #Return tuple (fname, [tups])
-  
-  
-  
-  
-  
-  

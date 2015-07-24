@@ -130,7 +130,7 @@ def get_amb_words_dict(root, sents):
 
 outFile = open("ambTypesScales.txt","w")
 
-tasks, sents = get_tasks()
+tasks, sents = get_tasks(2)
 
 roots = []
 all_dicts = []	#each dict corresponds to sent {POS:[words in sent]}

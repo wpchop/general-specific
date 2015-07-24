@@ -303,6 +303,7 @@ No: 0.160714285714
 Immediate: 0.339285714286
 Some: 0.428571428571
 Vague: 0.0714285714286
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 4	equal: 18	intersect: 1	
@@ -609,10 +610,11 @@ Sentence 9: Christians(1/1) make up about 3 percent of Iraq 's total(1/1) popula
 Correlation between Scale and Percent of Sentence not asked about: -0.773806162565
 
 -----------------Context Labels-----------------
-No: 0.448979591837
+No: 0.367346938776
 Immediate: 0.224489795918
 Some: 0.163265306122
 Vague: 0.163265306122
+No and 1st: 0.0816326530612
 
 ------------------Overlap-----------------------
 proper: 19	equal: 21	intersect: 0	
@@ -927,6 +929,7 @@ No: 0.301886792453
 Immediate: 0.301886792453
 Some: 0.377358490566
 Vague: 0.0188679245283
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 17	equal: 13	intersect: 1	
@@ -1238,6 +1241,7 @@ No: 0.222222222222
 Immediate: 0.333333333333
 Some: 0.355555555556
 Vague: 0.0888888888889
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 7	equal: 16	intersect: 0	
@@ -1543,10 +1547,11 @@ Sentence 9: I(2/2) am concerned with the U.S. current-account(1/1) deficit(1/1) 
 Correlation between Scale and Percent of Sentence not asked about: -0.519479235701
 
 -----------------Context Labels-----------------
-No: 0.425925925926
+No: 0.296296296296
 Immediate: 0.351851851852
 Some: 0.037037037037
 Vague: 0.185185185185
+No and 1st: 0.12962962963
 
 ------------------Overlap-----------------------
 proper: 5	equal: 20	intersect: 0	
@@ -1834,6 +1839,7 @@ No: 0.411764705882
 Immediate: 0.392156862745
 Some: 0.156862745098
 Vague: 0.0392156862745
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 16	equal: 11	intersect: 0	
@@ -2141,10 +2147,11 @@ Sentence 9: He(3/3) was there(2/2) to accept the first of three C-130 military t
 Correlation between Scale and Percent of Sentence not asked about: -0.526608904957
 
 -----------------Context Labels-----------------
-No: 0.403225806452
+No: 0.338709677419
 Immediate: 0.451612903226
 Some: 0.0967741935484
 Vague: 0.0483870967742
+No and 1st: 0.0645161290323
 
 ------------------Overlap-----------------------
 proper: 15	equal: 16	intersect: 0	
@@ -2454,6 +2461,7 @@ No: 0.266666666667
 Immediate: 0.288888888889
 Some: 0.444444444444
 Vague: 0.0
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 11	equal: 9	intersect: 0	
@@ -2761,10 +2769,11 @@ Sentence 9: But it(3/3) is full of symbolic value(1/1) and was seen as a critica
 Correlation between Scale and Percent of Sentence not asked about: -0.509981412366
 
 -----------------Context Labels-----------------
-No: 0.222222222222
+No: 0.133333333333
 Immediate: 0.466666666667
 Some: 0.244444444444
 Vague: 0.0666666666667
+No and 1st: 0.0888888888889
 
 ------------------Overlap-----------------------
 proper: 6	equal: 20	intersect: 0	
@@ -3075,6 +3084,7 @@ No: 0.309090909091
 Immediate: 0.290909090909
 Some: 0.290909090909
 Vague: 0.109090909091
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 5	equal: 21	intersect: 0	
@@ -3384,6 +3394,7 @@ No: 0.365853658537
 Immediate: 0.317073170732
 Some: 0.243902439024
 Vague: 0.0731707317073
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 7	equal: 15	intersect: 0	
@@ -3696,10 +3707,11 @@ Sentence 9: Their(3/3) motivation(1/1) was to maintain a(1/1) very(2/2) importan
 Correlation between Scale and Percent of Sentence not asked about: -0.50230202095
 
 -----------------Context Labels-----------------
-No: 0.349206349206
+No: 0.222222222222
 Immediate: 0.365079365079
 Some: 0.15873015873
 Vague: 0.126984126984
+No and 1st: 0.126984126984
 
 ------------------Overlap-----------------------
 proper: 22	equal: 23	intersect: 0	
@@ -4008,6 +4020,7 @@ No: 0.46
 Immediate: 0.28
 Some: 0.12
 Vague: 0.14
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 8	equal: 8	intersect: 0	
@@ -4322,6 +4335,7 @@ No: 0.285714285714
 Immediate: 0.271428571429
 Some: 0.328571428571
 Vague: 0.114285714286
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 22	equal: 29	intersect: 0	
@@ -4631,10 +4645,11 @@ Sentence 9: The(2/2) sons(3/3) bickered(1/1) over how(1/1) to(1/1) run(1/1) the(
 Correlation between Scale and Percent of Sentence not asked about: -0.5223386825
 
 -----------------Context Labels-----------------
-No: 0.435483870968
+No: 0.290322580645
 Immediate: 0.354838709677
 Some: 0.0967741935484
 Vague: 0.112903225806
+No and 1st: 0.145161290323
 
 ------------------Overlap-----------------------
 proper: 13	equal: 19	intersect: 0	
@@ -4940,6 +4955,7 @@ No: 0.292682926829
 Immediate: 0.317073170732
 Some: 0.365853658537
 Vague: 0.0243902439024
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 6	equal: 10	intersect: 0	
@@ -5250,6 +5266,7 @@ No: 0.209677419355
 Immediate: 0.354838709677
 Some: 0.306451612903
 Vague: 0.129032258065
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 12	equal: 28	intersect: 0	
@@ -5558,6 +5575,7 @@ No: 0.241379310345
 Immediate: 0.224137931034
 Some: 0.431034482759
 Vague: 0.103448275862
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 7	equal: 20	intersect: 0	
@@ -5871,6 +5889,7 @@ No: 0.265306122449
 Immediate: 0.265306122449
 Some: 0.408163265306
 Vague: 0.0612244897959
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 20	equal: 18	intersect: 0	
@@ -6185,6 +6204,7 @@ No: 0.333333333333
 Immediate: 0.433333333333
 Some: 0.183333333333
 Vague: 0.05
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 17	equal: 21	intersect: 0	
@@ -6418,6 +6438,7 @@ No: 0.340425531915
 Immediate: 0.255319148936
 Some: 0.297872340426
 Vague: 0.106382978723
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 12	equal: 15	intersect: 0	
@@ -6721,10 +6742,11 @@ Sentence 9: When she(2/2) opened(1/1) her first store(1/1) , in 1981 in San Fran
 Correlation between Scale and Percent of Sentence not asked about: -0.482455705023
 
 -----------------Context Labels-----------------
-No: 0.228571428571
+No: 0.142857142857
 Immediate: 0.4
 Some: 0.285714285714
 Vague: 0.0857142857143
+No and 1st: 0.0857142857143
 
 ------------------Overlap-----------------------
 proper: 2	equal: 11	intersect: 0	
@@ -7033,6 +7055,7 @@ No: 0.259259259259
 Immediate: 0.296296296296
 Some: 0.296296296296
 Vague: 0.148148148148
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 5	equal: 20	intersect: 0	
@@ -7345,6 +7368,7 @@ No: 0.314814814815
 Immediate: 0.333333333333
 Some: 0.296296296296
 Vague: 0.0555555555556
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 15	equal: 19	intersect: 0	
@@ -7653,10 +7677,11 @@ Sentence 9: The(1/1) corps(2/2) has largely avoided the(1/1) criticism(2/2) that
 Correlation between Scale and Percent of Sentence not asked about: -0.479146975619
 
 -----------------Context Labels-----------------
-No: 0.367647058824
+No: 0.294117647059
 Immediate: 0.338235294118
 Some: 0.191176470588
 Vague: 0.102941176471
+No and 1st: 0.0735294117647
 
 ------------------Overlap-----------------------
 proper: 20	equal: 18	intersect: 0	
@@ -7968,6 +7993,7 @@ No: 0.195652173913
 Immediate: 0.217391304348
 Some: 0.54347826087
 Vague: 0.0434782608696
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 15	equal: 13	intersect: 0	
@@ -8226,6 +8252,7 @@ No: 0.243902439024
 Immediate: 0.414634146341
 Some: 0.292682926829
 Vague: 0.0487804878049
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 10	equal: 8	intersect: 0	
@@ -8534,6 +8561,7 @@ No: 0.219512195122
 Immediate: 0.341463414634
 Some: 0.414634146341
 Vague: 0.0243902439024
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 7	equal: 16	intersect: 0	
@@ -8843,6 +8871,7 @@ No: 0.26
 Immediate: 0.22
 Some: 0.5
 Vague: 0.02
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 10	equal: 12	intersect: 0	
@@ -9150,10 +9179,11 @@ Sentence 9: It is clear(1/1) that she(3/3) is interpreting her easy win in Novem
 Correlation between Scale and Percent of Sentence not asked about: -0.482703505025
 
 -----------------Context Labels-----------------
-No: 0.31746031746
+No: 0.238095238095
 Immediate: 0.428571428571
 Some: 0.206349206349
 Vague: 0.047619047619
+No and 1st: 0.0793650793651
 
 ------------------Overlap-----------------------
 proper: 8	equal: 30	intersect: 0	
@@ -9457,10 +9487,11 @@ Sentence 9: Jan Hommen , the chief financial officer , said that Philips(1/1) be
 Correlation between Scale and Percent of Sentence not asked about: -0.489974046542
 
 -----------------Context Labels-----------------
-No: 0.466666666667
+No: 0.266666666667
 Immediate: 0.311111111111
 Some: 0.2
 Vague: 0.0222222222222
+No and 1st: 0.2
 
 ------------------Overlap-----------------------
 proper: 4	equal: 18	intersect: 0	
@@ -9771,10 +9802,11 @@ Sentence 9: Both Mr. Cheney and Mr. Rumsfeld addressed Iran 's nuclear ambitions
 Correlation between Scale and Percent of Sentence not asked about: -0.479896927139
 
 -----------------Context Labels-----------------
-No: 0.515625
+No: 0.390625
 Immediate: 0.34375
 Some: 0.125
 Vague: 0.015625
+No and 1st: 0.125
 
 ------------------Overlap-----------------------
 proper: 17	equal: 21	intersect: 0	
@@ -10035,6 +10067,7 @@ No: 0.239130434783
 Immediate: 0.347826086957
 Some: 0.413043478261
 Vague: 0.0
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 5	equal: 23	intersect: 0	
@@ -10341,6 +10374,7 @@ No: 0.275
 Immediate: 0.275
 Some: 0.4
 Vague: 0.05
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 5	equal: 13	intersect: 0	
@@ -10593,6 +10627,7 @@ No: 0.285714285714
 Immediate: 0.142857142857
 Some: 0.5
 Vague: 0.0714285714286
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 1	equal: 7	intersect: 0	
@@ -10905,6 +10940,7 @@ No: 0.406779661017
 Immediate: 0.135593220339
 Some: 0.35593220339
 Vague: 0.101694915254
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 16	equal: 21	intersect: 0	
@@ -11218,6 +11254,7 @@ No: 0.184615384615
 Immediate: 0.184615384615
 Some: 0.553846153846
 Vague: 0.0769230769231
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 21	equal: 15	intersect: 0	
@@ -11528,6 +11565,7 @@ No: 0.196721311475
 Immediate: 0.295081967213
 Some: 0.508196721311
 Vague: 0.0
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 17	equal: 21	intersect: 0	
@@ -11832,10 +11870,11 @@ Sentence 9: We(1/1) know all too well that this(1/1) administration(2/2) does no
 Correlation between Scale and Percent of Sentence not asked about: -0.474990637755
 
 -----------------Context Labels-----------------
-No: 0.326530612245
+No: 0.224489795918
 Immediate: 0.326530612245
 Some: 0.285714285714
 Vague: 0.0612244897959
+No and 1st: 0.102040816327
 
 ------------------Overlap-----------------------
 proper: 9	equal: 15	intersect: 0	
@@ -12097,6 +12136,7 @@ No: 0.36170212766
 Immediate: 0.382978723404
 Some: 0.170212765957
 Vague: 0.0851063829787
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 4	equal: 21	intersect: 0	
@@ -12408,6 +12448,7 @@ No: 0.255319148936
 Immediate: 0.297872340426
 Some: 0.36170212766
 Vague: 0.0851063829787
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 16	equal: 7	intersect: 0	
@@ -12712,6 +12753,7 @@ No: 0.138888888889
 Immediate: 0.361111111111
 Some: 0.388888888889
 Vague: 0.111111111111
+No and 1st: 0.0
 
 ------------------Overlap-----------------------
 proper: 4	equal: 7	intersect: 0	
@@ -13041,10 +13083,12 @@ Worker Correlation with Average of other Workers:
 	"AY1E1I3E6TC8G": 0.720041350831
 	"A2JXKG4G3440T1": 0.799121273997
 	"A15SL3YR88L2D1": 0.687990886284
-Percentage of No Labels and Avg Scale per task correlation: -0.320253335841
+Percentage of No Labels and Avg Scale per task correlation: -0.259468464448
 Percentage of Immediate Labels and Avg Scale per task correlation: -0.0339589855293
 Percentage of Some Labels and Avg Scale per task correlation: 0.215427138409
 Correlation between Worker Correlation and Task Generality: 0.172357634926
+Percentage of Question Word by Type: 
+
 
 Average Rating Specificity by Question type
 	none  : 0.56%  		4.444  			3.561
@@ -13057,10 +13101,12 @@ Average Rating Specificity by Question type
 	why   : 12.15% 		3.417  			3.721
 
 Percentage of Context Labels in Corpus: 
-	No       : 30.92%
+	No       : 27.63%
 	Immediate: 31.71%
 	Some     : 29.86%
 	Vague    : 7.51%
+	No and 1st: 3.29%
+
 
 Overlap Counts
 proper: 462
@@ -13068,7 +13114,6 @@ equal: 707
 intersect: 2
 noverlap: 1277
 total # of questions: 2157
-
 Question word proportions: 
  # Q's: 0	 Percentage of words: 9433.00
  # Q's: 1	 Percentage of words: 1309.00
@@ -13079,3 +13124,5 @@ Question word proportions:
 
 ambiguous words idfs: (3.216, 3.088, 3.345)
 unambiguous words idfs: (4.422, 4.316, 4.527)
+Number of Sentences: 408
+Number of Words: 10184

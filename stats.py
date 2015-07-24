@@ -135,11 +135,19 @@ def find_all_amb_phrases(sentence):
       index_freqs[i] = (sent_list[i],freqs[i])
   return index_freqs
 
-def find_context_labels(sentence):           #sentence is a sentence object
-  labels = [0]*4
-  for question in sentence.get_questions():
-    if "NA" not in question.get_context():
-      labels[int(question.get_context()[0])]+=1
+def find_context_labels(sentence, is_first_sent):           #sentence is a sentence object; is_first_sent is boolean
+  labels = [0]*5
+  if is_first_sent:
+    for question in sentence.get_questions():
+      if "NA" not in question.get_context():
+        if question.get_context()[0] == "0":
+          labels[4]+=1
+        else:
+          labels[int(question.get_context()[0])]+=1          
+  else:
+    for question in sentence.get_questions():
+      if "NA" not in question.get_context():
+        labels[int(question.get_context()[0])]+=1
   return labels
   
 def add_lists(*list_args):       #adds elements of lists of equal length at matching indices
@@ -444,21 +452,23 @@ mean_scales = []                        #mean scales by sentence
 num_qs = []                      #number of questions asked per sentence
 mean_scales_by_task = []                #list of scales by task
 percent_specific = []
-context_percentage_map = {"No": [], "Immediate": [], "Some": [], "Vague": []}
+context_percentage_map = {"No": [], "Immediate": [], "Some": [], "Vague": [], "No and 1st": []}
 worker_corrs = []                       #average worker correlation per task
 all_scales_per_worker = {}             #{worker ID: [list of all scales by sentence]}
 differences = [0]*7                       #list of frequencies for differences in scale of each sentence; index: difference in scale, item:number of occurrences
 worker_scale_comparison_per_task = {}                #{task ID: [(worker ID, correlation between 1 worker scale and avg of other workers' scales)]
 avg_std_dev_per_task = {}                            #{task ID : avg std dev of sentences} 
 avg_diff_per_task = {}                               #{task ID: avg difference scales of sentences}
-master_context_labels = [0]*4                        #list, index corresponds to type of context label, value corresponds to frequency
-context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate"}      
+master_context_labels = [0]*5                        #list, index corresponds to type of context label, value corresponds to frequency
+context_map = {0: "No", 3:"Vague", 2:"Some", 1:"Immediate", 4:"No and 1st"}      
 context_value_map = {"0": 3, "1": 0, "2": 1, "3": 2}                   #trying to find correlation of idfs, "No" is least, "immediate" is most      
 kwords_by_task = {}                                                    #map of maps: key is taskID, value is map {key = keyword (e.g. "what", "how"), value = frequency}
 amb_word_freqs = {}                                                    #map of ambiguous words: key is word, value is freq
 kwords_by_sent_all = []                                              #list of maps (index of list = sent#, key = keyword (e.g. "what", "how"), value = frequency)
 overlap_freqs = {"equal": 0, "proper": 0, "intersect": 0, "noverlap":0}            # key is type of overlap, value is frequency of overlap
 qword_q_count_total = {}                                       #{# of questions about a word: number of words asked about that many times}} 
+word_count = 0
+not_words = [",", ".", "\'", " ", "(", ")", ";", "''", "--", ":", "!", "?"]
 
 for key in tasks:
   task = tasks[key]
@@ -472,7 +482,7 @@ for key in tasks:
   q_mins = []
   amb_phrases_per_sent = []		      #list of maps that map to tuples (index of list = sent#, key = word index, value = ("word",freq)
   max_ambs = []                     #list of maps that map to tuples {index = sent #, key = word index in sentence, tuple = "word", freq
-  context_labels = [0]*4            #list that represents count of each type of context label, index corresponds to context_map
+  context_labels = [0]*5            #list that represents count of each type of context label, index corresponds to context_map
   task_lengths.append(sum(map(sent_length, task.get_sentences())))       #add sentence length of this task to list of task lengths
   overlaps = []                                                          #list of maps (index of list = sent#, key = type of overlap, value = frequency)
   qword_worker_maps = []                                                 #list of maps; index of list = sent#  map: {index of word:[workerIDs]}
@@ -503,7 +513,8 @@ for key in tasks:
     scale_mins.append(min(nums))
     amb_phrases_per_sent.append(find_all_amb_phrases(sentence))
     max_ambs.append(find_max_amb_words(sentence, find_all_amb_phrases(sentence)))
-    current_labels = find_context_labels(sentence)
+    is_first_sent = i == 0 and ".0" in key                                       #boolean value that is true when sentence is first in an article
+    current_labels = find_context_labels(sentence, is_first_sent)
     context_labels = add_lists(context_labels, current_labels)                              #updates context_labels by adding counts of current sentence
     current_overlaps = get_overlaps(sentence)
     overlaps.append(current_overlaps)
@@ -538,6 +549,8 @@ for key in tasks:
         word_seen[i] = True
     for i, word in enumerate(sentlist):
       word = word.lower()
+      if word not in not_words:
+        word_count +=1
       if word_seen[i]:
         if word in word_dict:
           amb_phrase_idfs.append(idf_calc.idf(word_dict[word]))
@@ -683,7 +696,7 @@ for tup in avg_worker_scale_comparison_per_task:
   info.append("\n" + tup[0] + "\t" + str(round(avg_std_dev_per_task[tup[0]], 3)) + "\t" + str(round(avg_diff_per_task[tup[0]], 3)) + "\t" +  str(round(tup[1], 3)))
 
 
-print "Average pairwise difference in scale: " + str(round(numpy.mean(avg_diff_per_task.values()), 3))
+
 
 info.append("\n\n-----------------OTHER DATA-----------------")
 info.append("\n\n" + "Overall Worker Correlation:" + str(round(numpy.mean(all_corrs), 3)) + "\n")
@@ -758,8 +771,12 @@ for item in qword_q_count_total.items():
 info.append("\n\nambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs)))
 info.append("\nunambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs)))
 
+info.append("\nNumber of Sentences: " + str(len(mean_scales)))
+info.append("\nNumber of Words: " + str(word_count))
+
 
 #PRINTING THINGS
+print "Average pairwise difference in scale: " +  str(mean_confidence_interval( avg_diff_per_task.values()))
 print "ambiguous words idfs: " + str(mean_confidence_interval(amb_phrase_idfs))
 print "unambiguous words idfs: " + str(mean_confidence_interval(unamb_words_idfs))
 print "average worker correlation: " + str(numpy.mean(all_corrs))
@@ -770,6 +787,7 @@ print "Question Number and Scale Correlation by Sentence: " + str(round(numpy.co
 #print "weird ambiguous word correlation: " + str(numpy.corrcoef(amb_words, amb_words_idfs)[1][0])
 
 print "NUMBER OF SENTENCES: " + str(len(mean_scales))
+print "Number of Words: " + str(word_count)
 
 outFile = open("output/combined_output-stats.txt","w")
 
@@ -786,7 +804,7 @@ wIDs = avg_scales_per_worker.keys()
 for i in range(len(avg_scales_per_worker)):
   for j in range(i+1, len(avg_scales_per_worker)):
     w1_new_scales, w2_new_scales, sizes = worker_correlation_plot_helper(all_scales_per_worker[wIDs[i]], all_scales_per_worker[wIDs[j]])
-    plot_corr("Annotator Ratings", wIDs[i], wIDs[j], w1_new_scales, w2_new_scales, sizes)"""
+    plot_corr("Annotator Ratings", wIDs[i], wIDs[j], w1_new_scales, w2_new_scales, sizes)
 
 counted_worker_scales = []
 bar_labels = []
@@ -839,7 +857,7 @@ make_barchart("Average Specificity Ratings of Sentences", "Average Rating", "Fre
 
 
 
-
+"""
 
 
 

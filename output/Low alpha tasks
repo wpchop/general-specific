@@ -1,0 +1,825 @@
+
+---SENTENCE 0---
+The aircraft was the first large plane acquired by the new Iraqi Air Force , which was one of the most powerful in the Middle East before it was decimated by bombing attacks in the 1991 Persian Gulf war .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	aircraft
+	BODY	Which aircraft?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	powerful
+	BODY	How is this measured?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The aircraft
+	BODY	Which aircraft?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	large
+	BODY	How large?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	aircraft
+	BODY	Which aircraft?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 1---
+Dr. Allawi 's remarks were made on a day when attacks underlined , once again , how insurgents have turned wide areas of the country , including Baghdad , into what is effectively enemy territory , with an ability to strike almost at will , and to shake off the losses inflicted by American troops .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	remarks
+	BODY	What remarks?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	day
+	BODY	Why is the day in particular important?
+	IN CONTEXT	Immediate
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	ability
+	BODY	How do they have this ability?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	remarks
+	BODY	What were his remarks?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	areas
+	BODY	What areas of the country?
+	IN CONTEXT	Immediate
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	wide
+	BODY	How wide?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	wide
+	BODY	How wide?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	remarks
+	BODY	What remarks?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('3', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 2---
+The attacks in Baghdad on Wednesday were aimed at the approaches to the Australian Embassy and four Iraqi security targets , including a police station , an army garrison and a bank where policemen were lining up to receive their monthly pay .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	attacks
+	BODY	How were they attacked?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	aimed
+	BODY	Why were they aimed for?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The attacks
+	BODY	What were the attacks?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	The attacks
+	BODY	Who was responsible?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	attacks
+	BODY	What attacks?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	four
+	BODY	What was the fourth one?
+	IN CONTEXT	No
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('1', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 3---
+The attacks , four of them within 90 minutes in the morning rush hour , rattled windows and doors miles away .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	attacks
+	BODY	What attacks?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	attacks
+	BODY	Why are there attacks?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The attacks
+	BODY	What were the attacks?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	miles away
+	BODY	How many miles away?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	attacks
+	BODY	What attacks?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	rush hour
+	BODY	When is morning rush hour?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	miles
+	BODY	How far?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 4---
+Spread across a wide area of the city , they wounded dozens of people , most of them Iraqi civilians , in addition to those killed , and served as a reminder of the insurgents ' power to spread mayhem across the capital only 11 days before the elections .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	city
+	BODY	Which city?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	elections
+	BODY	Why is the election date important?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	wide area
+	BODY	How wide of an area?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	city
+	BODY	What city?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	city
+	BODY	Which city?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	wounded
+	BODY	How?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	elections
+	BODY	What elections?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"AY1E1I3E6TC8G"')('1', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 5---
+American commanders have sought to prepare public opinion in Iraq and abroad for one of the bloodiest chapters in the war so far , saying the escalation of violence promised by the insurgents can be diminished to a degree , but not prevented , by an increasing tempo of American military raids on insurgent groups .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	prepare
+	BODY	How?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	prepare public opinion
+	BODY	How will they prepare public opinion?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	war
+	BODY	Which war?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	escalation
+	BODY	How has it escalated?
+	IN CONTEXT	Immediate
+	---Question #3 "A2JXKG4G3440T1"
+	TXT	a degree
+	BODY	What degree?
+	IN CONTEXT	No
+	---Question #4 "A2JXKG4G3440T1"
+	TXT	tempo
+	BODY	What is the tempo?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	increasing
+	BODY	By how much?
+	IN CONTEXT	No
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('3', '"A2JXKG4G3440T1"')('1', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 6---
+The American hope is that the voting , for a national assembly and provincial councils , will help turn the tide by drawing a strong turnout among more than 14 million eligible voters , despite the threat of attacks by Sunni insurgents on polling stations , candidates and voters , and a boycott of the election being urged by powerful figures in regions where Iraq 's Sunni minority population predominates .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	turn the tide
+	BODY	How will the election do this?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	tide
+	BODY	The tide of what?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	boycott
+	BODY	How?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('2', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 7---
+In almost any foreseeable outcome of the election , the Sunnis face the prospect , for the first time in centuries , of ceding political power in Baghdad to the country 's 60 percent Shiite majority .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	election
+	BODY	What election?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	centuries
+	BODY	When was the last time?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the election
+	BODY	Which election?
+	IN CONTEXT	Vague
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	election
+	BODY	What election?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	prospect
+	BODY	Why might this happen?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	first time
+	BODY	What's different about now?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"AY1E1I3E6TC8G"')('3', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 8---
+Wednesday 's deadliest attack occurred near a police station and Al Alahi hospital in the Alwiyah district of eastern Baghdad .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	attack
+	BODY	What kind of attack?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	deadliest
+	BODY	How many died?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	deadliest
+	BODY	Why was it the deadliest attack?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	attack
+	BODY	Who was attacked?
+	IN CONTEXT	No
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	deadliest
+	BODY	Why was it deadly?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	attack
+	BODY	Attack on whom?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"AY1E1I3E6TC8G"')('2', '"A2JXKG4G3440T1"')('4', '"A15SL3YR88L2D1"')
+
+
+---SENTENCE 9---
+The American command said a suicide car bomber killed 18 people , including 5 Iraqi policemen , and that 15 other people had been wounded .
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	bomber
+	BODY	Why did they attack?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	The American command
+	BODY	Who is the American command?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	suicide car bomber killed
+	BODY	Where?
+	IN CONTEXT	Some
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	killed
+	BODY	Where?
+	IN CONTEXT	Some
+--Specificity scale: ('1', '"AY1E1I3E6TC8G"')('4', '"A2JXKG4G3440T1"')('3', '"A15SL3YR88L2D1"')
+
+
+==================TASK==================
+2005_01_14_1641884.0
+
+
+---SENTENCE 0---
+Nine current and former sales executives from an assortment of food companies were charged yesterday with participating in a scheme that created a huge accounting fraud at U.S. Foodservice , which has been under investigation in the United States and in the Netherlands for the last two years .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	charged
+	BODY	Charged how much?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	an assortment of food companies
+	BODY	Which companies/foods?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	a huge accounting fraud
+	BODY	What happened?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	assortment of food companies
+	BODY	Which companies were these?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	huge accounting fraud
+	BODY	How big was the fraud?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Nine current and former sales executives
+	BODY	Who are they?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	huge accounting fraud
+	BODY	How much did it involve?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	huge accounting fraud
+	BODY	How was it achieved?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+The executives were arraigned in Federal District Court in Manhattan on conspiracy charges and released .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The executives
+	BODY	Who are they?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	conspiracy charges
+	BODY	What conspiracy?
+	IN CONTEXT	Immediate
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	What are they executives of?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	conspiracy charges
+	BODY	What are they charged with?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	released
+	BODY	Why were they released?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	The executives
+	BODY	What executives?
+	IN CONTEXT	Vague
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	conspiracy charges
+	BODY	What did they comspire?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+They worked for companies that sold products like sugar , eggs , seafood and cake mix to U.S. Foodservice , which in turn supplied restaurants , corporate dining rooms and other institutions .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	other institutions
+	BODY	What types of institutions?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	They
+	BODY	Who are they?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+All the executives are accused of approving documents that claimed U.S. Foodservice , a unit of Royal Ahold , was owed millions of dollars more in promotional allowances -- a type of rebate offered by manufacturers to stores and distributors -- than was actually the case .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	executives
+	BODY	Which executives?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	millions of dollars more
+	BODY	How much exactly?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	executives
+	BODY	What are they executives of?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	than was actually the case
+	BODY	What was the actual case?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	promotional allowances
+	BODY	What is it offered for?
+	IN CONTEXT	No
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	millions of dollars
+	BODY	How many millions?
+	IN CONTEXT	No
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+The scheme had the effect of inflating U.S. Foodservice 's profits , prosecutors say .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The scheme
+	BODY	What scheme?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	By how much?
+	IN CONTEXT	No
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	prosecutors
+	BODY	Who are they?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	scheme
+	BODY	What was the scheme?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	How much were the profits inflated?
+	IN CONTEXT	Immediate
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The scheme
+	BODY	What scheme?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	inflating U.S. Foodservice 's profits
+	BODY	How so?
+	IN CONTEXT	No
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	U.S. Foodservice 's profits
+	BODY	How much?
+	IN CONTEXT	Vague
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The letters were issued by a former U.S. Foodservice chief marketing officer , Mark P. Kaiser , according to court documents .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	The letters
+	BODY	What were the letters about?
+	IN CONTEXT	Immediate
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	court documents
+	BODY	Which documents?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	letters
+	BODY	What do the letters say?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	issued
+	BODY	Why are the letters issued?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The letters
+	BODY	What letters?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	were issued
+	BODY	Why were they issued?
+	IN CONTEXT	Immediate
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+Mr. Kaiser is awaiting trial on conspiracy and fraud charges , along with Michael J. Resnick , the former chief financial officer .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Mr. Kaiser
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	awaiting trial on conspiracy and fraud charges
+	BODY	What did he do?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	conspiracy and fraud charges
+	BODY	What is he charged with conspiracy and fraud
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	former chief financial officer
+	BODY	What is he the former chief financial officer of?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	conspiracy and fraud charges
+	BODY	Involving what company?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	Mr. Kaiser
+	BODY	Who is this?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+Two other former U.S. Foodservice executives , Timothy J. Lee and William F. Carter , pleaded guilty to similar charges last summer .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	similar charges
+	BODY	Similar to what?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	similar charges
+	BODY	What are the similar charges?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	similar charges
+	BODY	Similar charges to what?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	pleaded guilty
+	BODY	What was the consequence?
+	IN CONTEXT	No
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+All the defendants charged yesterday signed audit letters containing false information at the request of Mr. Kaiser , the documents state . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	false information
+	BODY	What was the false information?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	Mr. Kaiser
+	BODY	Who is he?
+	IN CONTEXT	Some
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	the documents
+	BODY	What documents
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	defendants
+	BODY	Who are the defendants?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	charged
+	BODY	With what were they charged?
+	IN CONTEXT	Some
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	documents
+	BODY	What documents?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	All the defendants
+	BODY	Who are these defendants?
+	IN CONTEXT	Immediate
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	false information
+	BODY	What kind of false information?
+	IN CONTEXT	Some
+	---Question #2 "AY1E1I3E6TC8G"
+	TXT	the request
+	BODY	Why was it requested?
+	IN CONTEXT	No
+--Specificity scale: ('5', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+Their motivation was to maintain a very important business relationship , '' the acting United States attorney for Manhattan , David N. Kelley , said .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Their
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	Their
+	BODY	Who are they?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	a very important business relationship
+	BODY	Who was the business relationship between?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	Their motivation
+	BODY	Whose motivation?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	very important business relationship
+	BODY	Between themselves and who?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+==================TASK==================
+2005_01_29_1645701.40
+
+
+---SENTENCE 0---
+It is difficult to understand why we would use U.S. tax dollars to fund the further development of foreign helicopter technology , '' he said .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	difficult
+	BODY	Why is it difficult?
+	IN CONTEXT	No
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	he
+	BODY	Who is ""he""?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	he
+	BODY	Who is he?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	the further development
+	BODY	Why is funding this on the table?
+	IN CONTEXT	Some
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('5', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 1---
+Mr. Young said that two-thirds of the work on the new helicopters would take place in the United States , with the rest split between Italy and Britain .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which new helicopters?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the new helicopters
+	BODY	What are they for?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the new helicopters
+	BODY	What new helicopters?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 2---
+AgustaWestland is a subsidiary of the Italian firm , Finmeccanica .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Finmeccanica
+	BODY	What does it do?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	firm
+	BODY	What kind of firm?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	AgustaWestland
+	BODY	What do they do?
+	IN CONTEXT	Some
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 3---
+Several crucial components of the craft , including the transmission and rotor blades , will be built overseas .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which craft?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	overseas
+	BODY	Where?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	overseas
+	BODY	Where overseas?
+	IN CONTEXT	Vague
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	overseas
+	BODY	Where?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 4---
+Lockheed itself will serve as a systems-integrator for the craft , and provide all the technical components and computers to connect it to the rest of the world .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which craft?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which components?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the craft
+	BODY	What craft?
+	IN CONTEXT	Some
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('3', '"A2JXKG4G3440T1"')('4', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 5---
+The helicopter chosen by the Pentagon , called the US 101 , is a variation of one already in use by the British Royal Navy ; it has been purchased by several other European countries and it is used to ferry the Pope .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	variation
+	BODY	How are they different?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	chosen
+	BODY	Chosen for what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	chosen
+	BODY	For what purpose?
+	IN CONTEXT	Some
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	variation
+	BODY	What variations does it have?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 6---
+What swayed the Pentagon to Lockheed , Mr. Young said , was the fact that the US 101 has a larger cabin , can carry a heavier payload and could be put into service faster than Sikorsky 's offering , the VH-92 .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	Lockheed
+	BODY	What is Lockheed?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	US 101
+	BODY	What is this?
+	IN CONTEXT	Vague
+	---Question #2 "A15SL3YR88L2D1"
+	TXT	service
+	BODY	Service for what?
+	IN CONTEXT	Some
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	larger
+	BODY	How much larger?
+	IN CONTEXT	No
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	heavier
+	BODY	How much heavier?
+	IN CONTEXT	No
+	---Question #2 "A2JXKG4G3440T1"
+	TXT	faster
+	BODY	How much faster?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	the US 101
+	BODY	What type of vehicle is this?
+	IN CONTEXT	Vague
+--Specificity scale: ('4', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('2', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 7---
+The US 101 uses three engines , while the VH-92 has two .
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	US 101
+	BODY	What is this?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	The US 101
+	BODY	What kind of vehicle is this?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	while
+	BODY	Why are they being compared?
+	IN CONTEXT	Vague
+--Specificity scale: ('1', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 8---
+To some extent , the details of all the security measures incorporated in the helicopter fleet are so sensitive that it is impossible for outsiders to analyze each company 's offerings against the Pentagon 's requirements , said Loren B. Thompson , a military industry analyst at the Lexington Institute , a northern Virginia research group that monitors government spending . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	the
+	BODY	Which helicopter fleet?
+	IN CONTEXT	Some
+	---Question #1 "A15SL3YR88L2D1"
+	TXT	requirements
+	BODY	What are the requirements?
+	IN CONTEXT	No
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	some
+	BODY	How much of an extent?
+	IN CONTEXT	Some
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	outsiders
+	BODY	Outsiders of what?
+	IN CONTEXT	Some
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	each company
+	BODY	What companies are involved?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	To some extent
+	BODY	To what extent?
+	IN CONTEXT	No
+--Specificity scale: ('2', '"A15SL3YR88L2D1"')('1', '"A2JXKG4G3440T1"')('3', '"AY1E1I3E6TC8G"')
+
+
+---SENTENCE 9---
+The government will never release to the public a list of the requirements for this craft , '' Mr. Thompson said . ''
+	---Question #0 "A15SL3YR88L2D1"
+	TXT	this
+	BODY	Which craft?
+	IN CONTEXT	Vague
+	---Question #0 "A2JXKG4G3440T1"
+	TXT	this craft
+	BODY	What is this craft?
+	IN CONTEXT	Vague
+	---Question #1 "A2JXKG4G3440T1"
+	TXT	the requirements
+	BODY	What requirements?
+	IN CONTEXT	No
+	---Question #0 "AY1E1I3E6TC8G"
+	TXT	never
+	BODY	Why not?
+	IN CONTEXT	Vague
+	---Question #1 "AY1E1I3E6TC8G"
+	TXT	this craft
+	BODY	What craft?
+	IN CONTEXT	Vague
+--Specificity scale: ('3', '"A15SL3YR88L2D1"')('4', '"A2JXKG4G3440T1"')('5', '"AY1E1I3E6TC8G"')
